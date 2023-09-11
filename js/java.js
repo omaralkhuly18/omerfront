@@ -108,22 +108,7 @@ function showSlide(images) {
 }
 
 // opnen and close list driver in responsive media 1555px to 912px.
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
 
-window.onclick = function(eveNt) {
-  if (!eveNt.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
 // opnen and close list driver in responsive media 1555px to 912px (length-contains-classList -remove).
 
 
