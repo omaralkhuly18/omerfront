@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/date-picker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/brands.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/solid.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/regular.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/fontawesome.css">
+    <title>Car-Detail</title>
+    <style>
+        .sub-head {
+            width: 100%;
+            position: relative;
+            height: 150px;
+            z-index: -1;
+        }
+
+        .bg-image {
+            height: 100%;
+            left: 0;
+            margin: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .blackish:before {
+            background: #00000057 none repeat scroll 0 0;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .container {
+            width: 90%;
+            margin-left: 5%;
+        }
+
+        .rows {
+            display: inline-block;
+            width: 100%;
+            margin-top: 3%;
+        }
+
+        a.theme-btnn {
+            float: right;
+            border-radius: 20%;
+            background-color: blueviolet;
+            padding: 1% 1% 1% 1%;
+            color: gainsboro;
+            margin-top: -6%;
+            width: 10%;
+            transition: 0.7s;
+        }
+
+        a.theme-btnn:hover {
+            background-color: #a15d3e;
+            color: #efdfdf;
+        }
+
+        p.viewrz {
+            color: #7e7878;
+        }
+
+        a.themee-bbt {
+            color: black;
+            transition: 0.8s;
+        }
+
+        a.themee-bbt:hover {
+            color: rgb(185, 29, 29);
+            text-decoration: underline;
+        }
+
+        i.fa.fa-eye {
+            color: black;
+        }
+
+        .fade3 {
+            animation-name: fade3;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade3 {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+
+        }
+
+        input:invalid+span::after {
+            content: "✖";
+            padding-left: 5px;
+        }
+
+        input:valid+span::after {
+            content: "✓";
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Topbar">
+        <div class="topBar">
+            <div class="Bar">
+                <ul class="list-top-par1">
+                    <li class="point-top-bar" id="display-none">
+                        <i class="fa-solid fa-house"></i>
+                    </li>
+
+                    <li class="point-top-bar">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </li>
+
+                    <li class="point-top-bar">
+                        <i class="fa-solid fa-headset"></i>
+                    </li>
+
+
+                    <li class="point-top-bar">
+                        <i class="fa-solid fa-lock"></i>
+                        <ul class="list11-topp-nav">
+                            <li class="pointtt-top-nav"><a class="linkthis" href="Loginuser.html">user </a></li>
+                            <li class="pointtt-top-nav"><a class="linkthis" href="Logindriver.html">driver</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="point-top-bar">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <ul class="list111-topp-nav">
+                            <li class="pointtt-top-nav"><a class="linkthis" href="Registeruser.html">user </a></li>
+                            <li class="pointtt-top-nav"><a class="linkthis" href="Registerdriver.html">driver</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="list-top-par2">
+
+                    <div class="list-bar1-widtHhigh">
+                        <li class="point1-top-bar">
+                            <i class="fa-solid fa-headset"></i>
+                            <a href="#" class="Support-Center">Support Center</a>
+                        </li>
+
+                        <li class="point1-top-bar">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <a href="#" class="Faq's">Faq's</a>
+                        </li>
+                    </div>
+                </ul>
+                <ul class="list-top-par3">
+                    <div class="list-bar2-widtHhigh">
+                        <li class="point2-top-bar">
+                            <a href="#" class="Login"><i class="fa-solid fa-lock"></i> Login</a>
+                            <ul class="list1-topp-nav">
+                                <li class="pointtt-top-nav"><a class="linkthis" href="Loginuser.html"> user</a></li>
+                                <li class="pointtt-top-nav"><a class="linkthis" href="Logindriver.html">driver</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="point2-top-bar">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <a href="#" class=" Register"> Register</a>
+                            <ul class="liist1-topp-nav">
+                                <li class="pointtt-ttop-nav"><a class="llinkthis" href="Registeruser.html">user </a>
+                                </li>
+                                <li class="pointtt-ttop-nav"><a class="llinkthis" href="Registerdriver.html">driver</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </div>
+                </ul>
+                <div class="button">
+                    <a href="#" class="button-plus">+Post</a>
+                </div>
+                <div class="button-1">
+                    <a href="#" class="buttonplus">+Post</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <header id="myHeader">
+        <div class="HEADER-IMG">
+            <div class="img-header">
+                <a href="index.html"><img src="img/Vector.png" alt="Img-Logo" class="img-logo"></a>
+            </div>
+
+            <div class="menu-1">
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <ul class="list-top-Nav">
+                            <li class="point-top-Nav">
+                                <a href="#" class="link-Nav" id="hover1-link">Home
+                                    <ul class="list1-top-nav">
+                                        <li class="point-top-nav"><a href="index after login.html">index after login</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+
+                            <li class="point1-top-Nav">
+                                <a href="#" class="link-Nav" id="hover1-link"> Cars
+                                    <i class="fa-solid fa-caret-down"></i></a>
+                                <ul class="list1-top-nav">
+                                    <li class="point-top-nav">
+                                        <a href="Models-Cars.html" class="link-nav">Models-Cars</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="car-profile.html" class="link-nav">Car Profile</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="car-detail.html" class="link-nav">Cars Detail</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="create-route-notification.html" class="link-nav">Route Notification</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="submit-car-intro.html" class="link-nav">Submit Car Introduction</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="submit-car-for-rent.html" class="link-nav">Submit Car For Rent</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="#" class="link-nav">Submit Car Route</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="point2-top-Nav">
+                                <a href="#" class="link-Nav">>Our-Business
+                                    <i class="fa-solid fa-caret-down"></i> </a>
+
+                                <ul class="list2-top-nav">
+                                    <li class="point-top-nav">
+                                        <a href="Rides.html" class="link-nav">Rides</a>
+                                    </li>
+    
+                                    <li class="point-top-nav">
+                                        <a href="Taxi.html" class="link-nav">Taxi</a>
+                                    </li>
+    
+                                    <li class="point-top-nav">
+                                        <a href="motor-bike.html" class="link-nav">motor-bike</a>
+                                    </li>
+    
+                                    <li class="point-top-nav">
+                                        <a href="Car-Rental.html" class="link-nav">Car-Rental</a>
+                                    </li>
+    
+                                    <li class="point-top-nav">
+                                        <a href="School-Rides.html" class="link-nav">School-Rides</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="point4-top-Nav">
+                                <a href="#" class="link-Nav"> Profiles
+                                    <i class="fa-solid fa-caret-down"></i></a>
+                                <ul class="list4-top-nav">
+                                    <li class="point-top-nav">
+                                        <a href="profile-driver.html" class="link-nav">profile-driver</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="profile-user.html" class="link-nav">Profile-user</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="point5-top-Nav">
+                                <a href="#" class="link-Nav">More Pages
+                                    <i class="fa-solid fa-caret-down"></i></a>
+                                <ul class="list5-top-nav">
+                                    <li class="point-top-nav">
+                                        <a href="Services.html" class="link-nav">Services</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="About-Us.html" class="link-nav">About-Us</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Contact-Us.html" class="link-nav">Contact-Us</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Blog.html" class="link-nav">Blog</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="News-Room.html" class="link-nav">News-Room</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Our-Values.html" class="link-nav">Our-Values</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Our-Effect.html" class="link-nav">Our-Effect</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <button class="onclick" onclick="openNav()">&#9776; </button>
+            </div>
+
+            <div class="menu-2">
+                <div class="menu1">
+                    <ul class="list-top-Nav">
+                        <li class="point1-top-Nav">
+                            <a href="#" class="link-Nav">Home</a>
+                            <ul class="list1-top-nav">
+                                <li class="point-top-nav"><a href="index after login.html">index after login</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="point1-top-Nav">
+                            <a href="#" class="link-Nav"> Cars
+                            </a>
+                            <ul class="list1-top-nav">
+                                <li class="point-top-nav">
+                                    <a href="Models-Cars.html" class="link-nav">Models-Cars</a>
+                                    <ul class="List2-top-nav">
+                                        <li class="Point-top-nav">
+                                            <a href="Models-Cars.html" class="Link-nav">Hyundai</a>
+
+                                        </li>
+
+                                        <li class="Point-top-nav">
+                                            <a href="Models-Cars.html" class="Link-nav">Cars</a>
+                                        </li>
+
+                                        <li class="Point-top-nav">
+                                            <a href="Models-Cars.html" class="Link-nav">Cars</a>
+                                        </li>
+
+                                        <li class="Point-top-nav">
+                                            <a href="Models-Cars.html" class="Link-nav">Cars</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="car-profile.html" class="link-nav">Car Profile</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="car-detail.html" class="link-nav">Cars Detail</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="create-route-notification.html" class="link-nav">Route Notification</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="submit-car-intro.html" class="link-nav">Submit Car Introduction</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="submit-car-for-rent.html" class="link-nav">Submit Car For Rent</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="#" class="link-nav">Submit Car Route</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="point2-top-Nav">
+                            <a href="#" class="link-Nav">Our-Business
+                            </a>
+
+                            <ul class="list2-top-nav">
+                                <li class="point-top-nav">
+                                    <a href="Rides.html" class="link-nav">Rides</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Taxi.html" class="link-nav">Taxi</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="motor-bike.html" class="link-nav">motor-bike</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Car-Rental.html" class="link-nav">Car-Rental</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="School-Rides.html" class="link-nav">School-Rides</a>
+                                </li>
+
+                            </ul>
+                            
+                        </li>
+
+                        <li class="point4-top-Nav">
+                            <a href="#" class="link-Nav"> Profiles
+                            </a>
+                            <ul class="list4-top-nav">
+                                <li class="point-top-nav">
+                                    <a href="profile-driver.html" class="link-nav">profile-driver</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="profile-user.html" class="link-nav">profile-user</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="point5-top-Nav">
+                            <a href="#" class="link-Nav">More Pages
+                            </a>
+                            <ul class="list5-top-nav">
+                                <li class="point-top-nav">
+                                    <a href="Services.html" class="link-nav">Services</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="About-Us.html" class="link-nav">About-Us</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Contact-Us.html" class="link-nav">Contact-Us</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Blog.html" class="link-nav">Blog</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="News-Room.html" class="link-nav">News-Room</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Our-Values.html" class="link-nav">Our-Values</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Our-Effect.html" class="link-nav">Our-Effect</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="whatsapp">
+                <div class="Whatsapp1">
+                    <span class="whatsapp2">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <span class="whatsapp3">Whatsapp now <em>01152148220</em></span>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <div class="sub-head blackish ">
+        <div class="bg-image" style="background-image: url(img/subhead-bg.jpg)"></div>
+        <div class="container">
+            <div class="rows">
+                <div class="col-md">
+                    <div class="cola-head">
+                        <div class="head-meta">
+                            <h4>Maria Grey</h4>
+                            <p>( Cambridge )</p>
+                        </div>
+                        <a href="#" title="" class="theme-btnn"><i class="fa fa-share-alt"></i>share profile</a>
+                        <div class="info-links">
+                            <a href="#" title="">how does this work</a>
+                            <a href="#" title="">submit your car</a>
+                            <span><i class="fa fa-phone"></i>call (012) 345 - 6789</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- subhead -->
+
+    <section class="deatilone">
+        <div class="detailtow">
+            <div class="deatalithree">
+                <div class="deatailfore">
+                    <div class="detail-sec">
+                        <div class="detail-head">
+                            <h1 class="h11">Citroen C5 2.0 HDI 110 EXCLUSIVE 5dr <span class="span2012">2012</span></h1>
+                            <div class="detalinn">
+                                <div class="deailnn">
+                                    <ul class="starsrating">
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                    </ul>
+                                    <a href="#" title="" class="themee-bbtn"><i class="fa-regular fa-heart"></i>save</a>
+                                    <a href="#" title="" class="themee-bbtn"><i class="fa fa-share-alt"></i>share</a>
+                                </div>
+                            </div>
+
+                            <div class="detalin">
+                                <div class="deailn">
+                                    <p class="viewrz">Property of <a href="#" class="themee-bbt">Andrew</a> from <a
+                                            href="" class="themee-bbt">01000 New York.</a></p>
+                                    <p class="viewrz display-flex"><i class="fa fa-eye"></i>125 people saw this.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <ul class="detail-caro ">
+                            <div class="owlstageouter ">
+                                <div class="mySlides fade3">
+                                    <li>
+                                        <img src="img/detailcaro-1.jpg" alt="">
+                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    </li>
+                                </div>
+                                <div class="mySlides fade3" style="display: none;">
+                                    <li>
+                                        <img src="img/detailcaro-2.jpg" alt="">
+                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    </li>
+                                </div>
+                                <div class="mySlides fade3" style="display: none;">
+                                    <li>
+                                        <img src="img/detailcaro-3.jpg" alt="">
+                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    </li>
+                                </div>
+                                <div class="mySlides fade3" style="display: none;">
+                                    <li>
+                                        <img src="img/detailcaro-1.jpg" alt="">
+                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    </li>
+                                </div>
+                                <div class="mySlides fade3" style="display: none;">
+                                    <li>
+                                        <img src="img/detailcaro-2.jpg" alt="">
+                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    </li>
+                                </div>
+                                <div class="mySlides fade3" style="display: none;">
+                                    <li>
+                                        <img src="img/detailcaro-3.jpg" alt="">
+                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    </li>
+                                </div>
+                            </div>
+
+                            <div class="sliderr-button">
+                                <div class="botton1" onclick="countroalSlide(1)">1</div>
+                                <div class="botton1" onclick="countroalSlide(2)">2</div>
+                                <div class="botton1" onclick="countroalSlide(3)">3</div>
+                                <div class="botton1" onclick="countroalSlide(4)">4</div>
+                                <div class="botton1" onclick="countroalSlide(5)">5</div>
+                                <div class="botton1" onclick="countroalSlide(6)">6</div>
+                            </div>
+                        </ul>
+
+
+                    </div>
+                    </ul>
+                    <div class="paragraph">
+                        <h5 class="little-title">Description:</h5>
+                        <p class="lttlE-Title">My car is very clean, so I would like to keep it that way!</p>
+                        <p class="littlE-Title">
+                            This car comes with Anti-Lock Brakes, Automatic Air Conditioning, Power-Assisted
+                            Steering,
+                            Driver, Passenger, Front Side And Side Air Bags, 16In Alloy Wheels, Cruise Control,
+                            Satellite
+                            Navigation, Trip Computer, Electric Door Mirrors, Immobiliser.
+                        </p>
+                        <p class="litlE-Title">
+                            I also have Front Fog Lights, Seats Split Rear, Front Electric Windows, Deadlocks, Audio
+                            Steering Wheel
+                            Mounted Controls, Front/Rear Head Restraints, Bluetooth Interface Telephone Equipment,
+                            Centre Rear Seat
+                            Belt.
+                        </p>
+                    </div>
+                    <div class="profile-list">
+                        <ul>
+                            <li class="complete"><i class="fa-regular fa-circle-check"></i>Name and email</li>
+                            <li class="complete"><i class="fa-regular fa-circle-check"></i>Profile picture</li>
+                            <li class="incomplete"><i class="fa fa-ban"></i>Training</li>
+                            <li class="incomplete"><i class="fa fa-ban"></i>Profession</li>
+                            <li class="incomplete"><i class="fa fa-ban"></i>Complete address</li>
+                            <li class="incomplete"><i class="fa fa-ban"></i>About me</li>
+                        </ul>
+                    </div>
+                    <div class="Characteristics">
+                        <h5 class="little-title">Characteristics:</h5>
+                        <ul class="featurez">
+                            <li class="list-this-page"><i>Model</i>
+                                <p class="pppm">Citroen C5 2.0 HDI 110 EXCLUSIVE 5dr</p>
+                            </li>
+                            <li class="list-this-page"><i>year</i>
+                                <p class="pppm">2012</p>
+                            </li>
+                            <li class="list-this-page"> <i>Fuel</i>
+                                <p class="pppm">Diesel</p>
+                            </li>
+                            <li class="list-this-page"><i>km</i>
+                                <p class="pppm">100.000 - 125.000</p>
+                            </li>
+                            <li class="list-this-page"><i>Fuel</i>
+                                <p class="pppm">Diesel</p>
+                            </li>
+                            <li class="list-this-page"><i>Registration number</i>
+                                <p class="pppm">5678FCD</p>
+                            </li>
+                            <li class="list-this-page"><i>Seats</i>
+                                <p class="pppm">5</p>
+                            </li>
+                            <li class="list-this-page"><i>Insurance</i>
+                                <p class="pppm">Best Boy Insurance</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="features-list">
+                        <h5 class="little-title">Features:</h5>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-circle-check"></i>abs</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Cruise control</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Audio remote control</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Alarm</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Electric door mirrors</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Bluetooth connection</li>
+                        </ul>
+                    </div>
+
+                    <div class="reviewers">
+                        <h5 class="little-title">reviews</h5>
+                        <ul class="reviewer">
+                            <li>
+                                <figure>
+                                    <img src="img/reviewer-1.jpg" alt="" style="border-radius: 100%;">
+                                </figure>
+                                <div class="activity-meta">
+                                    <p class="star-cars"> <a class="stars-cars" href="#" title="">Derrick H.</a> 02 Oct
+                                        2017</p>
+                                    <p>Very cozy and welcoming in Jessica’s car!</p>
+                                    <ul class="star-rating">
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="img/reviewer-2.jpg" alt="" style="border-radius: 100%;">
+                                </figure>
+                                <div class="activity-meta">
+                                    <p class="star-cars"><a class="stars-cars" href="#" title="">Mia J.</a> 28 Sept 2017
+                                    </p>
+                                    <p>Jessica is very outgoing and peaceful. I had such a great time on the
+                                        full ride with
+                                        here.
+                                        100% recommended!</p>
+                                    <ul class="star-rating">
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="img/reviewer-3.jpg" alt="" style="border-radius: 100%;">
+                                </figure>
+                                <div class="activity-meta">
+                                    <p class="star-cars"><a class="stars-cars" href="#" title="">Janet Y.</a> 24 Sept
+                                        2017</p>
+                                    <p>Jessica is punctual, which I really appreciate at someone, especially
+                                        when they are
+                                        getting
+                                        picked up. </p>
+                                    <ul class="star-rating">
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                        <li><i class="fa fa-star checked"></i></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dealtifife">
+                    <div class="dealtisex">
+                        <ul class="DATANTIME">
+
+                            <li>
+                                <input id="party" type="datetime-local" name="partydate" min="2000-06-01T08:30"
+                                max="2050-06-30T16:30" required />
+                                
+                                <span class="validity"></span>
+                            </li>
+
+                                 <li>
+                                     <input id="party" type="datetime-local" name="partydate" min="2000-06-01T08:30"
+                                         max="2050-06-30T16:30" required />
+             
+                                     <span class="validity"></span>
+                                 </li>
+                            </ul>
+
+                            <p class="pp21"> <span class="span21">$21 </span> Price Per Day</p>
+
+                            <a href="#" title="" class="theme">+ rent this car today</a>
+
+                            <p class="pp12">
+                                Have a great ride with our 100km / day. In case you need more you can always ask for extra.
+                                <i class="fa fa-info-circle"></i>
+                            </p>
+
+                    </div>
+
+                    <div class="point-promo">
+                        <p class="em-p">
+                            Rent this car and get <i class="em">100</i> Car East points. Use your points for promos &amp; discounts.
+                        </p>
+                    </div>
+
+                    <div class="owner-sec">
+                        <div class="owner-pic">
+                            <img class="img-s" src="img/owner.jpg" alt="">
+                            <i class="i-img"><img src="img/icon-1.png" alt=""></i>
+                            <span class="span-em">
+                                <em>Andrew</em>
+                                <i>Owner</i>
+                            </span>
+                        </div>
+                        <ul class="icons-fonte">
+                            <li class="icon-fonte">
+                                <i class="far fa-handshake"></i>
+                                <div class="owner-info">
+                                    <span>89%</span>
+                                    <p>acceptance rate</p>
+                                </div>
+                            </li>
+                            <li class="icon-fonte">
+                                <i class="fas fa-clock"></i>
+                                <div class="owner-info">
+                                    <span>60mins</span>
+                                    <p>replies within 1hr</p>
+                                </div>
+                            </li>
+                            <li class="icon-fonte">
+                                <i class="fas fa-calendar"></i>
+                                    <div class="owner-info">
+                                    <span>1 day ago</span>
+                                    <p>updated the calendar</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="owner-detail">
+                        <ul class="verificatio">
+                            <li><i class="fas fa-globe-europe"></i>Online on 4 Oct 2017 at 08:36</li>
+                            <li><i class="far fa-check-circle"></i>Account connected on Facebook</li>
+                            <li><i class="far fa-check-circle"></i>Phone number verified</li>
+                        </ul>
+                        <p>
+                            You will be able to see the phone number of the owner of the car, in the moment he accepts your request.
+                        </p>
+                        <a href="#" title="" class="theme-btn-long">send message</a>
+                    </div>
+
+                    <div class="owner-sec1">
+                        <div class="owner-pic">
+                            <img class="img-s" src="img/owner.jpg" alt="">
+                            <i class="i-img"><img src="img/icon-1.png" alt=""></i>
+                            <span class="span-em">
+                                <em>Andrew</em>
+                                <i>Owner</i>
+                            </span>
+                        </div>
+                        <ul class="icons-fonte">
+                            <li class="icon-fonte">
+                                <i class="far fa-handshake"></i>
+                                <div class="owner-info">
+                                    <span>89%</span>
+                                    <p>acceptance rate</p>
+                                </div>
+                            </li>
+                            <li class="icon-fonte">
+                                <i class="fas fa-clock"></i>
+                                <div class="owner-info">
+                                    <span>60mins</span>
+                                    <p>replies within 1hr</p>
+                                </div>
+                            </li>
+                            <li class="icon-fonte">
+                                <i class="fas fa-calendar"></i>
+                                    <div class="owner-info">
+                                    <span>1 day ago</span>
+                                    <p>updated the calendar</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="owner-detail">
+                        <ul class="verificatio">
+                            <li><i class="fas fa-globe-europe"></i>Online on 4 Oct 2017 at 08:36</li>
+                            <li><i class="far fa-check-circle"></i>Account connected on Facebook</li>
+                            <li><i class="far fa-check-circle"></i>Phone number verified</li>
+                        </ul>
+                        <p>
+                            You will be able to see the phone number of the owner of the car, in the moment he accepts your request.
+                        </p>
+                        <a href="#" title="" class="theme-btn-long">send message</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- section footer -->
+    <section class="footer-icon-car">
+        <div class="iconss-cars">
+            <div class="tool-number-services">
+                <div class="tool-number">
+                    <div class="number-one">
+                        <div class="img-icon-svg">
+                            <img src="img/placeholder-pin-svgrepo-com.svg" alt="placeholder" class="icon1-img-svg">
+                        </div>
+
+                        <div class="Tucson-Canada">
+                            <span class="span-footer">Tucson, AZ 80210: 501 Lane</span>
+                            <i class="i">Canada</i>
+                        </div>
+                    </div>
+
+                    <div class="number-one">
+                        <div class="img-icon-svg">
+                            <img src="img/placeholder-pin-svgrepo-com.svg" alt="placeholder" class="icon1-img-svg">
+                        </div>
+
+                        <div class="Tucson-Canada">
+                            <span class="span-footer">Tucson, AZ 80210: 501 Lane</span>
+                            <i class="i">Canada</i>
+                        </div>
+                    </div>
+
+                    <div class="number-one">
+                        <div class="img-icon-svg">
+                            <img src="img/placeholder-pin-svgrepo-com.svg" alt="placeholder" class="icon1-img-svg">
+                        </div>
+
+                        <div class="Tucson-Canada">
+                            <span class="span-footer">Tucson, AZ 80210: 501 Lane</span>
+                            <i class="i">Canada</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 90%; margin-left: 5%; color: rgba(230, 201, 201, 0.507);">
+        <footer>
+            <div class="footer-width">
+                <div class="footer-diplay">
+                    <div class="img-footer-position">
+                        <img src="img/footer-mockup.png" alt="" class="img-position">
+                    </div>
+                    <div class="footer-flex">
+                        <div class="container1">
+                            <div class="row1">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="widget">
+                                        <a href="index.html" title=""><img class="img-logo-footer"
+                                                src="img/logo-black.png" alt=""></a>
+                                        <p>
+                                            The trio took this simple idea and built it into the world’s leading
+                                            carpooling platform, connecting millions of people going the same way.
+                                        </p>
+                                        <ul class="social">
+                                            <li><a href="#" title="" class="facebook"><img
+                                                        src="img/facebook-svgrepo-com.svg" alt="" class="icon-face"></a>
+                                            </li>
+                                            <li><a href="#" title="" class="twitter"><img
+                                                        src="img/twitter-svgrepo-com.svg" alt="" class="icon-twi"></a>
+                                            </li>
+                                            <li><a href="#" title="" class="instagram"><img
+                                                        src="img/instagram-outline-svgrepo-com.svg" alt=""
+                                                        class="icon-insta"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-6">
+                                    <div class="widget">
+                                        <div class="widget-title">
+                                            <h4>useful links</h4>
+                                        </div>
+                                        <ul class="list-style">
+                                            <li><a href="#" title="">leasing</a></li>
+                                            <li><a href="#" title="">submit route</a></li>
+                                            <li><a href="#" title="">how does it work?</a></li>
+                                            <li><a href="#" title="">agent listings</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="widget">
+                                        <div class="widget-title">
+                                            <h4>weekly news letter</h4>
+                                        </div>
+                                        <div class="news-letter">
+                                            <p>We may send you information about related events, webinars, products and
+                                                services which we believe.</p>
+                                            <form method="post">
+                                                <input type="text" placeholder="Enter your email address">
+                                                <button type="submit"><img src="img/paper-plane-svgrepo-com.svg" alt=""
+                                                        class="icon-paper"></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-6">
+                                    <div class="widget">
+                                        <div class="widget-title">
+                                            <h4>download apps</h4>
+                                        </div>
+                                        <ul class="colla-apps">
+                                            <li><a href="#" title=""><img src="img/android-svgrepo-com.svg" alt=""
+                                                        class="icon-andr"> android</a></li>
+                                            <li><a href="#" title=""><img src="img/apple-svgrepo-com.svg" alt=""
+                                                        class="icon-apple"> iPhone</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row2">
+                                <div id="flex-privet">
+                                    <div class="col-lg-4 col-sm-6">
+                                        <div class="widget">
+                                            <a href="index.html" title=""><img class="img-logo-footer"
+                                                    src="img/logo-black.png" alt=""></a>
+                                            <p>
+                                                The trio took this simple idea and built it into the world’s leading
+                                                carpooling platform, connecting millions of people going the same way.
+                                            </p>
+                                            <div class="social">
+                                                <div class="social1"><a href="#" title="" class="facebook"><img
+                                                            src="img/facebook-svgrepo-com.svg" alt=""
+                                                            class="icon-face"></a></div>
+                                                <div class="social2"><a href="#" title="" class="twitter"><img
+                                                            src="img/twitter-svgrepo-com.svg" alt=""
+                                                            class="icon-twi"></a></div>
+                                                <div class="social3"><a href="#" title="" class="instagram"><img
+                                                            src="img/instagram-outline-svgrepo-com.svg" alt=""
+                                                            class="icon-insta"></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="widget">
+                                            <div class="widget-title">
+                                                <h4>useful links</h4>
+                                            </div>
+                                            <ul class="list-style">
+                                                <li><a href="#" title="">leasing</a></li>
+                                                <li><a href="#" title="">submit route</a></li>
+                                                <li><a href="#" title="">how does it work?</a></li>
+                                                <li><a href="#" title="">agent listings</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flexprivet">
+                                    <div class="col-lg-4 col-sm-6">
+                                        <div class="widget">
+                                            <div class="widget-title">
+                                                <h4>weekly news letter</h4>
+                                            </div>
+                                            <div class="news-letter">
+                                                <p>We may send you information about related events, webinars, products
+                                                    and services which we believe.</p>
+                                                <form method="post">
+                                                    <input type="text" placeholder="Enter your email address">
+                                                    <button type="submit"><img src="img/paper-plane-svgrepo-com.svg"
+                                                            alt="" class="icon-paper"></button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="widget">
+                                            <div class="widget-title">
+                                                <h4>download apps</h4>
+                                            </div>
+                                            <ul class="colla-apps">
+                                                <li><a href="#" title=""><img src="img/android-svgrepo-com.svg" alt=""
+                                                            class="icon-andr"> android</a></li>
+                                                <li><a href="#" title=""><img src="img/apple-svgrepo-com.svg" alt=""
+                                                            class="icon-apple"> iPhone</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottombar">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="copyright">© 2019. All rights reserved.</span>
+                                            <i><img src="img/credit-cards.png" alt=""></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- button go to top -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script>
+
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        };
+
+        let lastKnownScrollPosition = 0;
+        let ticking = false;
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function doSomething(scrollPos) {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+        document.addEventListener("scroll", (event) => {
+            lastKnownScrollPosition = window.scrollY;
+
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    doSomething(lastKnownScrollPosition);
+                    ticking = false;
+                });
+
+                ticking = true;
+            }
+        });
+
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            mybutton.style.transition = '3s';
+        }
+
+        let SlideIndex = 1;
+        ShowSlides(SlideIndex);
+
+        function plusSlides(imAge) {
+            ShowSlides(SlideIndex += imAge);
+        }
+
+        function countroalSlide(imAge) {
+            ShowSlides(SlideIndex = imAge);
+        }
+
+
+        function ShowSlides(imAge) {
+            let aMOvement;
+            let slIdes = document.getElementsByClassName("mySlides");
+            let dOts = document.getElementsByClassName("botton1");
+            if (imAge > slIdes.length) { SlideIndex = 1 }
+            if (imAge < 1) { SlideIndex = slIdes.length }
+            for (aMOvement = 0; aMOvement < slIdes.length; aMOvement++) {
+                slIdes[aMOvement].style.display = "none";
+            }
+            for (aMOvement = 0; aMOvement < dOts.length; aMOvement++) {
+                dOts[aMOvement].className = dOts[aMOvement].className.replace(" active", "");
+            }
+            slIdes[SlideIndex - 1].style.display = "block";
+            dOts[SlideIndex - 1].className += " active";
+        }
+
+    </script>
+
+    <script src="js/java.js"></script>
+    <script src="js/date-picker.js"></script>
+
+
+</body>
+
+</html>

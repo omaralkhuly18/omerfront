@@ -1,0 +1,50 @@
+.date-picker {
+    cursor: pointer;
+}
+
+.date-picker-table {
+    z-index: 99999 !important;
+    position: fixed;
+    background-color: White;
+    padding: 20px;
+    left: 16%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 2px;
+    box-shadow: 0 3px 6px 0px #757575;
+    margin: 0px !important;
+}
+
+.date-picker-table table {
+    width: 100% !important;
+}
+
+.date-picker-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width:375px) and (min-width:280px) {
+    .date-picker-table {
+        top: 159% !important;
+        left: 5vw !important;
+        width: 90vw;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .date-picker-table {
+        position: absolute;
+        top: 5vw ;
+        left: 5vw ;
+        width: 90vw;
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+    }
+
+
+}
