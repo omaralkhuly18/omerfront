@@ -107,9 +107,7 @@ function showSlide(images) {
   click[imageClients-1].className += " active";
 }
 
-// opnen and close list driver in responsive media 1555px to 912px.
 
-// opnen and close list driver in responsive media 1555px to 912px (length-contains-classList -remove).
 
 
 
