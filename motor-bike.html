@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/brands.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/solid.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/regular.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/fontawesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Montserrat+Alternates:ital,wght@1,300&family=Noto+Sans+Mahajani&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Bike</title>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+        }
+
+        .about-us-our {
+            width: 100%;
+            position: relative;
+        }
+
+        #aboutusour {
+            width: 95%;
+            margin-left: 2.5%;
+        }
+
+        .section-clintes-servies {
+            width: 95%;
+            margin-left: 2.5%;
+            /* background: linear-gradient(43.28deg, #3837e4 24.38%, #7280e0 70.46%); */
+            border-radius: 2.5rem;
+        }
+
+        .contener-clintes-servies {
+            width: 95%;
+            margin-left: 2.5%;
+        }
+
+        .contener-clintes-servies {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-servies {
+            width: 45%;
+        }
+
+        .servies-words {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2.5rem;
+            border: 2px solid blueviolet;
+        }
+
+        img.image-CLINTES {
+            width: 100%;
+            border-radius: 2.5rem;
+            border: 2px solid #ab99f4;
+            box-shadow: 4px 3px 35px 1px rgb(83 46 233);
+        }
+
+        .words-servies {
+            width: 100%;
+            padding: 3%;
+        }
+
+        h3.h3servies {
+            color: black;
+            font-size: 36px;
+            margin: 5% 0;
+        }
+
+        p.pservies {
+            color: blueviolet;
+            line-height: 25px;
+            font-size: 17px;
+            margin: 5% 0;
+        }
+
+        button.buttonofthething {
+            background: none;
+            border: none;
+            outline: none;
+            width: 25%;
+            height: 40px;
+            color: white;
+            font-size: 16px;
+        }
+
+        a.LINKOFTHETHING {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(105, 144, 228);
+            color: rgba(45, 46, 46);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 2.5rem;
+            transition: 2s;
+        }
+
+
+        a.LINKOFTHETHING:hover {
+            background-color: rgb(0 51 108);
+            color: rgb(179, 181, 211);
+            transform: translateY(-6px);
+        }
+
+        /* Section To Links From To  */
+        section#Bike {
+            width: 100%;
+            position: relative;
+            margin: 5% 0;
+        }
+
+        .section-clintes-bike {
+            width: 95%;
+            margin-left: 2.5%;
+            height: 100%;
+        }
+
+        .contener-clintes-servies-Bike {
+            width: 97%;
+            margin: 0 1.5% 4% 0;
+            height: auto;
+        }
+
+        .contener-clintes-servies-Bike::before {
+            background-image: url(./img/bike-servies.png);
+            background-attachment: initial;
+            background-size: cover;
+            background-position: top;
+            position: absolute;
+            top: 0;
+            left: 4%;
+            right: 0;
+            content: "";
+            width: 90.5%;
+            height: 29%;
+            border-radius: 2.5rem;
+        }
+
+        .servies-words-Bike {
+            position: relative;
+            width: 65%;
+            height: 65%;
+            padding: 3%;
+        }
+
+        .words-servies-Bike {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 6% 3%;
+        }
+
+        .flex-words-serivers-Bike {
+            width: 100%;
+            height: 50%;
+            background-color: #00000099;
+            padding: 3%;
+            border-radius: 2.5rem;
+        }
+
+        h3.h3servies-Bike {
+            color: wheat;
+            font-size: 45px;
+            width: 55%;
+        }
+
+        p.pservies-Bike {
+            font-size: 25px;
+            color: #DFD7BF;
+            margin: 3% 0;
+        }
+
+        p.Slogan {
+            display: flex;
+            margin-top: 15%;
+            width: 50%;
+            font-size: 34px;
+            color: white;
+            font-family: 'Cairo', sans-serif;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 800;
+        }
+
+        span.Emspicail {
+            color: red;
+            display: flex;
+            margin-right: 3%;
+        }
+
+        /*  */
+
+        .cells-servies-bike {
+            height: 350px;
+            background: linear-gradient(43.28deg, #3837e4 24.38%, #7280e0 70.46%);
+            border-radius: 2.5rem;
+            width: 95%;
+            margin: 2% 2.5%;
+            padding: 1%;
+        }
+
+        .cell-responciv-bike {
+            padding: 1%;
+        }
+
+        .cell-responsive-bike {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .cellbike {
+            width: 31%;
+            height: 100%;
+        }
+
+        .img-cell-bike {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid blue;
+            border-radius: 2.5rem;
+            background-color: #00a8f3;
+        }
+
+        .gridess {
+            width: 30% !important;
+            height: 135px !important;
+        }
+
+        img.special-width.gridess {
+            width: 70% !important;
+            height: 200px !important;
+        }
+
+        .bike-cell-bike {
+            height: 50%;
+            border-radius: 2.5rem;
+        }
+
+        .words-bike-cells {
+            margin: 3% 0;
+            display: flex;
+            width: 95%;
+            justify-content: center;
+        }
+
+        .wordbike-cell {
+            width: 70%;
+            text-align: center;
+        }
+
+        h4.h4celbike {
+            font-size: 30px;
+            color: #739ed1;
+        }
+
+        p.pcelbike {
+            line-height: 25px;
+            font-size: 17px;
+            color: #fdfdfc;
+            margin-top: 1%;
+        }
+
+        /*  */
+
+        .section-bike-rental {
+            width: 95%;
+            margin-left: 2.5%;
+            background-color: #b7b7dd;
+            border-radius: 2.5rem;
+        }
+
+        .contener-bike-rental {
+            display: flex;
+            width: 97%;
+            margin-left: 1.5%;
+            justify-content: space-between;
+            padding: 1%;
+        }
+
+        .img-bike-rental {
+            width: 45%;
+        }
+
+        img.image-bike-rental {
+            width: 100%;
+            border-radius: 2.5rem;
+        }
+
+        .servies-words-bike {
+            width: 50%;
+            border: solid 2px blueviolet;
+            border-radius: 2.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .words-bike-servies {
+            padding: 4%;
+        }
+
+        h3.h3serviesbike {
+            color: #0c3f9f;
+            font-size: 35px;
+            margin: 4% 0;
+        }
+
+        p.pserviesbike {
+            margin: 4% 0;
+            line-height: 25px !important;
+            font-size: 17px;
+            font-weight: 700;
+            color: #4516cf;
+        }
+
+        button.buttonofthebike {
+            background: none;
+            border: none;
+            outline: none;
+            width: 35%;
+            height: 40px;
+            color: white;
+            font-size: 16px;
+        }
+
+        a.LINKOFTHEBIKE {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(105, 144, 228);
+            color: rgba(45, 46, 46);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 2.5rem;
+            transition: 2s;
+        }
+
+
+        a.LINKOFTHEBIKE:hover {
+            background-color: rgb(0 51 108);
+            color: rgb(179, 181, 211);
+            transform: translateY(-6px);
+        }
+
+        .details-Bike {
+            background: linear-gradient(43.28deg, #9da2e4 24.38%, #7280e0 70.46%);
+            border-radius: 2.5rem;
+            width: 95%;
+            margin: 2% 2.5%;
+            padding: 2% 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .data-Bike,
+        .features-Bike {
+            width: 45%;
+        }
+
+        .features-Bike {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .Bike-servies {
+            width: 25%;
+        }
+
+        .image-qwe-20 {
+            display: block;
+            width: 100%;
+        }
+
+        .qwer-image-bike {
+            width: 100%;
+            font-size: 85px;
+        }
+
+        .qwer-left-image-bike,
+        .qwer-right-image-bike{
+            width: 100%;
+            font-size: 85px;
+            color: #376ed3 !important;
+        }
+
+        .Bike-servies span {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #b7b7dd;
+        }
+
+        .items-start h2 {
+            width: 80%;
+        }
+
+        .items-start img {
+            width: 25%;
+        }
+
+        .items-start span {
+            margin-left: -4%;
+            color: blueviolet;
+            font-size: 40px;
+        }
+
+        .items-start p {
+            font-size: 17px;
+            color: aliceblue;
+        }
+
+        .section-2-bike-rental {
+            width: 97%;
+            margin: 3% 1.5%;
+            position: relative;
+        }
+
+        .contener-2-bike-rental {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .servies-words-3 {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2.5rem;
+            border: 2px solid blueviolet;
+        }
+
+        .height-3-this {
+            height: auto;
+            border: none;
+        }
+
+        .words-3-servies {
+            width: 100%;
+            padding: 3%;
+        }
+
+        h3.h3-faster-servies {
+            color: black;
+            font-size: 36px;
+            margin: 5% 0;
+        }
+
+        p.faster-pservies {
+            color: blueviolet;
+            line-height: 25px;
+            font-size: 17px;
+            margin: 5% 0;
+        }
+
+        /* Section To Links From To / */
+    </style>
+</head>
+
+<body>
+    <!--  header Topbar  -->
+    <div class="Topbar">
+        <div class="topBar">
+            <div class="Bar">
+                <ul class="list-top-par1">
+                    <li class="point-top-bar" id="display-none">
+                        <i class="fa-solid fa-house"></i>
+                    </li>
+
+                    <li class="point-top-bar">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </li>
+
+                    <li class="point-top-bar">
+                        <i class="fa-solid fa-headset"></i>
+                    </li>
+
+                    <li class="point-top-bar">
+                        <i class="fa-solid fa-lock"></i>
+                        <ul class="list11-topp-nav">
+                            <li class="pointtt-top-nav"><a class="linkthis" href="Loginuser.html">user </a></li>
+                            <li class="pointtt-top-nav"><a class="linkthis" href="Logindriver.html">driver</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="point-top-bar">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <ul class="list111-topp-nav">
+                            <li class="pointtt-top-nav"><a class="linkthis" href="Registeruser.html">user </a></li>
+                            <li class="pointtt-top-nav"><a class="linkthis" href="Registerdriver.html">driver</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="list-top-par2">
+
+                    <div class="list-bar1-widtHhigh">
+                        <li class="point1-top-bar">
+                            <i class="fa-solid fa-headset"></i>
+                            <a href="#" class="Support-Center">Support Center</a>
+                        </li>
+
+                        <li class="point1-top-bar">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <a href="#" class="Faq's">Faq's</a>
+                        </li>
+                    </div>
+                </ul>
+                <ul class="list-top-par3">
+                    <div class="list-bar2-widtHhigh">
+                        <li class="point2-top-bar">
+                            <a href="#" class="Login"><i class="fa-solid fa-lock"></i> Login</a>
+                            <ul class="list1-topp-nav">
+                                <li class="pointtt-top-nav"><a class="linkthis" href="Loginuser.html"> user</a></li>
+                                <li class="pointtt-top-nav"><a class="linkthis" href="Logindriver.html">driver</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="point2-top-bar">
+
+                            <a href="#" class=" Register"><i class="fa-solid fa-circle-check"></i> Register</a>
+                            <ul class="liist1-topp-nav">
+                                <li class="pointtt-ttop-nav"><a class="llinkthis" href="Registeruser.html">user </a>
+                                </li>
+                                <li class="pointtt-ttop-nav"><a class="llinkthis" href="Registerdriver.html">driver</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                </ul>
+
+                <div class="button">
+                    <a href="#" class="button-plus">+Post</a>
+                </div>
+                <div class="button-1">
+                    <a href="#" class="buttonplus">+Post</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--  header Topbar  /-->
+
+
+    <!-- header myHeader -->
+    <header id="myHeader">
+        <div class="HEADER-IMG">
+            <div class="img-header">
+                <a href="index.html"><img src="img/Vector.png" alt="Img-Logo" class="img-logo"></a>
+            </div>
+
+            <div class="menu-1">
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <ul class="list-top-Nav">
+                            <li class="point-top-Nav">
+                                <a href="#" class="link-Nav" id="hover1-link">Home
+                                    <ul class="list1-top-nav">
+                                        <li class="point-top-nav"><a href="index after login.html">index after login</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+
+                            <li class="point1-top-Nav">
+                                <a href="#" class="link-Nav" id="hover1-link"> Cars
+                                    <i class="fa-solid fa-caret-down"></i></a>
+                                <ul class="list1-top-nav">
+                                    <li class="point-top-nav">
+                                        <a href="Models-Cars.html" class="link-nav">Models-Cars</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="car-profile.html" class="link-nav">Car Profile</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="car-detail.html" class="link-nav">Cars Detail</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="create-route-notification.html" class="link-nav">Route Notification</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="submit-car-intro.html" class="link-nav">Submit Car Introduction</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="submit-car-for-rent.html" class="link-nav">Submit Car For Rent</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="point2-top-Nav">
+                                <a href="#" class="link-Nav">>Our-Business
+                                    <i class="fa-solid fa-caret-down"></i> </a>
+
+                                <ul class="list2-top-nav">
+                                    <li class="point-top-nav">
+                                        <a href="Rides.html" class="link-nav">Rides</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Taxi.html" class="link-nav">Taxi</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="motor-bike.html" class="link-nav">motor-bike</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Car-Rental.html" class="link-nav">Car-Rental</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="School-Rides.html" class="link-nav">School-Rides</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="point4-top-Nav">
+                                <a href="#" class="link-Nav"> Profiles
+                                    <i class="fa-solid fa-caret-down"></i></a>
+                                <ul class="list4-top-nav">
+                                    <li class="point-top-nav">
+                                        <a href="profile-driver.html" class="link-nav">profile-driver</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="profile-user.html" class="link-nav">Profile-user</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="point5-top-Nav">
+                                <a href="#" class="link-Nav">More Pages
+                                    <i class="fa-solid fa-caret-down"></i></a>
+                                <ul class="list5-top-nav">
+                                    <li class="point-top-nav">
+                                        <a href="Services.html" class="link-nav">Services</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="About-Us.html" class="link-nav">About-Us</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Contact-Us.html" class="link-nav">Contact-Us</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Blog.html" class="link-nav">Blog</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Our-Values.html" class="link-nav">Our-Values</a>
+                                    </li>
+
+                                    <li class="point-top-nav">
+                                        <a href="Our-Effect.html" class="link-nav">Our-Effect</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <button class="onclick" onclick="openNav()">&#9776; </button>
+            </div>
+
+            <div class="menu-2">
+                <div class="menu1">
+                    <ul class="list-top-Nav">
+                        <li class="point1-top-Nav">
+                            <a href="#" class="link-Nav">Home</a>
+                            <ul class="list1-top-nav">
+                                <li class="point-top-nav"><a href="index after login.html">index after login</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="point1-top-Nav">
+                            <a href="#" class="link-Nav"> Cars
+                            </a>
+                            <ul class="list1-top-nav">
+                                <li class="point-top-nav">
+                                    <a href="Models-Cars.html" class="link-nav">Models-Cars</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="car-profile.html" class="link-nav">Car Profile</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="car-detail.html" class="link-nav">Cars Detail</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="create-route-notification.html" class="link-nav">Route Notification</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="submit-car-intro.html" class="link-nav">Submit Car Introduction</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="submit-car-for-rent.html" class="link-nav">Submit Car For Rent</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="point2-top-Nav">
+                            <a href="#" class="link-Nav">Our-Business
+                            </a>
+
+                            <ul class="list2-top-nav">
+                                <li class="point-top-nav">
+                                    <a href="Rides.html" class="link-nav">Rides</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Taxi.html" class="link-nav">Taxi</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="motor-bike.html" class="link-nav">motor-bike</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Car-Rental.html" class="link-nav">Car-Rental</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="School-Rides.html" class="link-nav">School-Rides</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li class="point4-top-Nav">
+                            <a href="#" class="link-Nav"> Profiles
+                            </a>
+                            <ul class="list4-top-nav">
+                                <li class="point-top-nav">
+                                    <a href="profile-driver.html" class="link-nav">profile-driver</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="profile-user.html" class="link-nav">profile-user</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="point5-top-Nav">
+                            <a href="#" class="link-Nav">More Pages
+                            </a>
+                            <ul class="list5-top-nav">
+                                <li class="point-top-nav">
+                                    <a href="Services.html" class="link-nav">Services</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="About-Us.html" class="link-nav">About-Us</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Contact-Us.html" class="link-nav">Contact-Us</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Blog.html" class="link-nav">Blog</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Our-Values.html" class="link-nav">Our-Values</a>
+                                </li>
+
+                                <li class="point-top-nav">
+                                    <a href="Our-Effect.html" class="link-nav">Our-Effect</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="whatsapp">
+                <div class="Whatsapp1">
+                    <span class="whatsapp2">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <span class="whatsapp3">Whatsapp now <em>01152148220</em></span>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <!-- header myHeader /-->
+
+    <section class="about-us-our">
+        <div id="aboutusour">
+            <div class="aboutcarcarry">
+
+                <section id="Bike">
+
+                    <div class="section-clintes-bike">
+
+                        <div class="contener-clintes-servies-Bike">
+
+                            <div class="servies-words-Bike">
+
+                                <div class="words-servies-Bike">
+
+                                    <div class="flex-words-serivers-Bike">
+                                        <h3 class="h3servies-Bike">
+                                            Dubai's most affordable ride.
+                                        </h3>
+
+                                        <p class="pservies-Bike">
+                                            TAXIS AND HAIL RIDES ON THE SLogan
+                                        </p>
+
+                                        <p class="Slogan">
+                                            <span class="Emspicail">'</span>
+                                            S-Logan.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <section class="cells-servies-bike">
+                            <div class="cell-responciv-bike">
+
+                                <div class="cell-responsive-bike">
+
+                                    <div class="cellbike">
+                                        <div class="img-cell-bike "><img src="img/bike-servirs.png" alt="icon"
+                                                class="bike-cell-bike special-width  gridess">
+                                        </div>
+                                        <div class="words-bike-cells">
+                                            <div class="wordbike-cell">
+                                                <h4 class="h4celbike">Choose your ride</h4>
+                                                <p class="pcelbike">Select from a wide range of options and get your
+                                                    ride
+                                                    within minutes, or schedule one for later.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cellbike">
+                                        <div class="img-cell-bike"><img src="img/icon_5_dd8d59ffbf.png" alt="icon"
+                                                class="bike-cell special-width  gridess">
+                                        </div>
+                                        <div class="words-bike-cells">
+                                            <div class="wordbike-cell">
+                                                <h4 class="h4celbike">Track your ride</h4>
+                                                <p class="pcelbike">Track your ride in real time from the moment a
+                                                    Captain
+                                                    is
+                                                    assigned until you arrive at your destination.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cellbike">
+                                        <div class="img-cell-bike"><img src="img/Payment-card.png" alt="icon"
+                                                class="bike-cell  gridess">
+                                        </div>
+                                        <div class="words-bike-cells">
+                                            <div class="wordbike-cell">
+                                                <h4 class="h4celbike">Pay securely</h4>
+                                                <p class="pcelbike">Card, Careem Pay, Apple Pay or cash; you can pay
+                                                    securely
+                                                    on Careem.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+
+                        <div class="section-bike-rental">
+
+                            <div class="contener-bike-rental">
+
+                                <div class="img-bike-rental"><img src="img/bike-faster.png" alt=""
+                                        class="image-bike-rental">
+                                </div>
+
+                                <div class="servies-words-bike">
+
+                                    <div class="words-bike-servies">
+                                        <h3 class="h3serviesbike">It's fast.</h3>
+                                        <h3 class="h3serviesbike">It's affordable.</h3>
+                                        <p class="pserviesbike">S-Logan BIKE is perfect for quick trips. A few taps, and
+                                            you’re off!<br>
+                                            Choose from annual, monthly, weekly and daily memberships.
+                                        </p>
+
+                                        <button class="buttonofthebike">
+                                            <a href="#" class="LINKOFTHEBIKE">Ride now</a>
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="section-2-bike-rental">
+
+                            <div class="contener-2-bike-rental">
+
+                                <div class="img-bike-rental"><img src="img/bike-servies-slong.png" alt=""
+                                        class="image-bike-rental">
+                                </div>
+
+                                <div class="servies-words-bike">
+
+                                    <div class="words-bike-servies">
+                                        <h3 class="h3serviesbike">It's easy.</h3>
+                                        <h3 class="h3serviesbike">It's green.</h3>
+                                        <p class="pserviesbike">Finding a station, renting a bike and paying is super
+                                            simple.
+                                            Choose from annual, monthly, weekly and daily memberships.
+                                        </p>
+
+                                        <button class="buttonofthebike">
+                                            <a href="#" class="LINKOFTHEBIKE">Ride now</a>
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="details-Bike">
+
+                        <div class="data-Bike items-start">
+                            <h2>
+                                <img src="img/logo-black.png" alt="logo">
+
+                                <span>Bike</span>
+                            </h2>
+                            <p>
+                                Dubai’s most affordable ride.
+                            </p>
+                        </div>
+
+                        <div class="features-Bike">
+                            <div class="Bike-servies">
+                                <div class="image-qwe-20"><span class="material-symbols-outlined qwer-left-image-bike">
+                                    pedal_bike
+                                    </span>
+                                </div>
+                                <span>Hala</span>
+                            </div>
+                            <div class="Bike-servies">
+                                <div class=" image-qwe-20"><span class="material-symbols-outlined qwer-image-bike">
+                                    directions_bike
+                                    </span>
+                                </div>
+                                <span>Hala Max</span>
+                            </div>
+
+                            <div class="Bike-servies">
+                                <div class=" image-qwe-20"><span class="material-symbols-outlined qwer-right-image-bike">
+                                    motorcycle
+                                    </span>
+                                </div>
+                                <span>Hala Kids</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </section>
+
+         <!-- section footer -->
+         <footer id="footer-of-page">
+
+            <div class="section-footer"> <!--background-->
+    
+                <div class="footer-section-page"> <!--flex-one-->
+    
+                    <div class="partion-top-of-TOWIENS"> <!--flex-TOWIENS-->
+    
+                        <div class="partion-this-one">
+    
+                            <div class="img-logo-footer">
+                                <img src="img/‏‏Vector - footer.png" alt="logo-footer" class="logo-footer-image">
+                            </div>
+    
+                            <div class="box-download-links">
+    
+                                <ul class="list-download-links">
+    
+                                    <li class="box-download-link">
+    
+                                        <a href="#" class="download-this-link">
+                                            <img src="img/box1-download-links-AppStore.webp"
+                                                alt="box1-download-links-AppStore" class="download-this-link-from-img">
+                                        </a>
+                                    </li>
+    
+                                    <li class="box-download-link">
+    
+                                        <a href="#" class="download-this-link">
+                                            <img src="img/box2-download-links-google-play.webp"
+                                                alt="box2-download-links-google-play" class="download-this-link-from-img">
+                                        </a>
+                                    </li>
+    
+                                    <li class="box-download-link">
+    
+                                        <a href="#" class="download-this-link">
+                                            <img src="img/box3-download-links-android.webp"
+                                                alt="box3-download-links-android" class="download-this-link-from-img">
+                                        </a>
+                                    </li>
+    
+                                </ul>
+    
+                            </div>
+    
+                        </div>
+    
+    
+                    </div><!--flex-tow /-->
+    
+                    <div class="partion-bottom-of-only"> <!-- flex-only -->
+    
+                        <div class="partion-this-five">
+    
+                            <div class="downlistfooter">
+    
+                                <ul class="this-list-ourpages">
+    
+                                    <li class="ABOUT-US-OURPAES">
+                                        <a href="" class="goto-like-top">
+                                            <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
+                                    </li>
+    
+                                    <li class="ABOUT-US-OURPAES">
+                                        <a href="" class="goto-like-top">
+                                            <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
+                                    </li>
+    
+                                    <li class="ABOUT-US-OURPAES">
+                                        <a href="" class="goto-like-top">
+                                            <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
+                                    </li>
+    
+                                </ul>
+    
+                            </div>
+
+                            <div class="type-list-four">
+                                <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
+                                <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
+                                <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
+                                <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
+                            </div>
+    
+                        </div>
+    
+                    </div><!-- flex-only -->
+    
+                </div><!--flex-one -->
+    
+                <div class="partion-this-sex">
+    
+                    <div class="type-list-five">
+    
+                        <h2 class="h2terms-policy">Terms-Policy © 2023</h2>
+                    </div>
+    
+                    <div class="downlist__footer">
+    
+                        <ul class="this-list-terms-policy">
+    
+                            <li class="ABOUT-US-TERMS-POLICY">
+                                <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
+                            </li>
+    
+                            <li class="ABOUT-US-TERMS-POLICY">
+                                <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
+                            </li>
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+    
+            </div><!--background -->
+    
+        </footer>
+        <!-- section footer /-->
+    <!-- button go to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+    <!-- button go to top /-->
+
+    <script>
+
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        // Function to close the navigation sidebar
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        lastKnownScroll = 0;
+        tickings = false;
+
+        function doSomething(scrollPos) {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+
+        document.addEventListener("scroll", () => {
+            lastKnownScroll = window.scrollY;
+
+            if (!tickings) {
+                window.requestAnimationFrame(() => {
+                    doSomething(lastKnownScroll);
+                    tickings = false;
+                });
+
+                tickings = true;
+            }
+        })
+        var myButton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction(); };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 20) {
+                myButton.style.display = "block";
+            } else {
+                myButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            myButton.style.transition = '3s';
+        }
+    </script>
+</body>
+
+</html>

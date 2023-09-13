@@ -1442,8 +1442,8 @@ ins.price {
 
 section.this-brand-car-web {
   width: 100%;
-  margin-top: 10%;
-  height: 200px;
+  margin-top: 5%;
+  height: 160px;
   position: relative;
 }
 
@@ -1454,13 +1454,20 @@ section.this-brand-car-web {
   height: 100%;
 }
 
+.thiscar {
+  width: 1210px;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
 .thiscar::before,
 .thiscar::after {
-  height: 112px;
+  height: 180px;
   width: 84px;
   position: absolute;
   content: "";
-  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, #c5bdd573 0%, rgb(119 82 245 / 0%) 100%) ;
   z-index: 2;
 }
 
@@ -1473,14 +1480,6 @@ section.this-brand-car-web {
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
-}
-
-.thiscar {
-  /* width: 1000px; */
-  margin-left: 4%;
-  height: 100%;
-  display: flex;
-  overflow: hidden;
 }
 
 .thiscarweb {
@@ -1500,17 +1499,20 @@ section.this-brand-car-web {
 }
 
 .slider-brand-car {
-  width: 1080px;
+  background-color: #1512d71f;
+  width: 130px;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5rem;
 }
 
 img.brand-car {
-  /* background-color: rgba(226, 190, 123, 0.281); */
   padding: 1% 1% 1% 1%;
-  width: 80%;
+  width: 87%;
   height: 100px;
   border-radius: 10px;
-  /* border: 2px solid #bbbbbb; */
 }
 
 
@@ -3480,95 +3482,87 @@ footer#footer-of-page {
 .section-footer {
   width: 93%;
   margin-left: 3.5%;
-  display: inline-block;
   margin-top: 1%;
   background-color: #c5fdf3;
   border-radius: 2.5rem;
-  padding: 3% 0;
+  padding: 1% 0;
 }
 
 .footer-section-page {
   width: 97%;
   margin-left: 1.5%;
   display: flex;
-  justify-content: space-around;
-}
-
-.partion-top-of-TOWIENS,
-.partion-bottom-of-TOWIENS,
-a.download-this-link{
-display: flex;
-justify-content: space-between;
-}
-
-h2.h2cars,
-h2.h2our-business,
-h2.h2summary-about,
-h2.h2ourpage{
-  display: flex;
   justify-content: center;
 }
 
-.partion-top-of-TOWIENS,
-.partion-bottom-of-TOWIENS{
-  width: 40%;
+.partion-top-of-TOWIENS{
+display: block;
+}
+
+.partion-top-of-TOWIENS{
+  width: 50%;
 }
 
 .partion-this-one {
-  width: 40%;
+  width: 70%;
 }
 
-.partion-this-tow {
-  width: 55%;
-}
-
-.img-logo-footer,
-img.logo-footer-image,
-.box-download-links,
-ul.list-download-links,
-li.box-download-link,
-a.download-this-link,
-.downlist-footer,
-ul.this-list-car,
-.type-list-one,
-ul.this-list-our-business,
-ul.this-list-Summary-about{
+.img-logo-footer{
   width: 100%;
 }
 
 .partion-bottom-of-only{
-  width: 19%;
+  width: 40%;
 }
 
 img.download-this-link-from-img{
   width: 95%;
+  height: 100%;
 }
 
-.partion-this-three,
-.pattion-this-four{
-  width: 45%;
+ul.list-download-links {
+  display: flex;
+  justify-content: space-between;
 }
 
-li.ABOUT-OF-CARS,
-li.box-download-link,
-li.ABOUT-OF-Our-Business,
-li.ABOUT-OF-Summary-About{
-  margin: 10% 0;
-  font-size: 25px;
-  height: 55px;
+li.box-download-link{
+  height: 45px;
 }
 
-.type-list-one,
-.type-list-tow,
-.type-list-three,
+a.download-this-link {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.partion-this-five {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .type-list-four{
   font-size: 15px;
+  width: 45%;
+  line-height: 30px;
+}
+
+h2.h2ourpage {
+  color: #a587de;
+}
+
+.h2ourpage a{
+  transition: 1.5s;
+}
+
+.h2ourpage a:hover{
+  color: #004382;
 }
 
 .partion-this-sex{
   display: flex;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 1.5%;
 }
 
 .type-list-five,
@@ -3576,31 +3570,27 @@ li.ABOUT-OF-Summary-About{
   width: 50%;
 }
 
-h2.h2terms-policy{
-  padding: 0 0 0 10%;
-}
-
 ul.this-list-terms-policy{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 80%;
   margin: 0;
 }
 
 li.ABOUT-US-TERMS-POLICY {
-  width: 45%;
-  height: 55px;
-  font-size: 27px;
+  width: 38%;
+  height: 30px;
+  font-size: 20px;
 }
 
 li.ABOUT-US-OURPAES {
   font-size: 40px;
-  height: 70px;
-  width: 53px;
+  height: 55px;
+  width: 45px;
 }
 
 .downlistfooter {
-  width: 95%;
+  width: 55%;
 }
 
 ul.this-list-ourpages {
@@ -3624,4 +3614,9 @@ a.goto-like-top:hover{
   background-color: #4f4f9136;
   color: blue;
   transform: translateY(-6px);
+  }
+
+  h2.h2terms-policy{
+    padding: 0 0 0 10%;
+    font-size: 16px;
   }
