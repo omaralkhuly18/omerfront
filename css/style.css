@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -229,7 +230,6 @@ li.pointtt-ttop-nav {
 
 .point2-top-bar a {
   color: #fff;
-  display: inline-block;
   font-size: 14px;
   text-transform: capitalize;
 }
@@ -243,6 +243,8 @@ li.pointtt-ttop-nav {
 
 .point2-top-bar {
   width: 25%;
+  display: flex;
+  align-items: center;
 }
 
 i.fa-solid.fa-house {
@@ -540,7 +542,6 @@ img.image-hear {
 
 .Slider1.fade,
 .image-tihs,
-section#section,
 .slider-button,
 .list-drop-dowen {
   position: relative;
@@ -553,9 +554,10 @@ img.image-hear {
 section#section {
   color: white;
   font-size: 18px;
-  margin-top: -42%;
+  top: 40%;
   width: 100%;
   height: 100%;
+  position: absolute;
 }
 
 .section-position-hear {
@@ -626,16 +628,22 @@ a.slider3:hover {
   transform: translateY(-6px);
 }
 
+li.button-slider {
+  height: 40px;
+}
+
 .slider-button,
 .list-drop-dowen {
   float: right;
   width: 25%;
   height: 30px;
-  margin-top: -40%;
+  top: 25%;
+  right: 5%;
   margin-right: 1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
 }
 
 .button-slider,
@@ -811,6 +819,8 @@ section.CarCarry {
 }
 
 h1.aboutofcar {
+  display: inline-block;
+  width: 100%;
   font-size: 32px;
   color: #303747;
 }
@@ -841,11 +851,13 @@ h5.aboutofcar {
 .car-carry3 {
   display: flex;
   align-items: center;
-  width: 43%;
+  justify-content: space-around;
+  width: 47%;
+  height: 150px;
+  padding: 0;
   background-color: #DDE6ED;
   border: 1px solid #ede7e79c;
   border-radius: 2.5rem;
-  padding: 3% 2% 3% 3%;
 }
 
 .icon1-car,
@@ -861,14 +873,14 @@ h5.aboutofcar {
 
 .control1car,
 .contro21car {
-  padding-left: 5%;
+ width: 80%;
 }
 
 i.fa-solid.fa-key,
 i.fa-solid.fa-handshake,
 i.fa-solid.fa-person-chalkboard,
 i.fa-regular.fa-star {
-  font-size: 50px;
+  font-size: 40px;
   color: #146C94;
 }
 
@@ -896,10 +908,11 @@ p.free2-car {
 
 .displayCLIENTS {
   width: 90%;
-  margin-left: 4.5%;
+  margin-left: 3%;
   background-color: #06f5c93b;
   border-radius: 2.5rem;
   padding: 2% 1%;
+  position: relative;
 }
 
 .Client1-carry {
@@ -960,7 +973,7 @@ h5.sayaboutus {
 } */
 
 span.imgclients {
-  font-size: 360px;
+  font-size: 360px !important;
   color: #7a7171;
 }
 
@@ -972,6 +985,7 @@ p.myname {
   font-size: 25px;
   color: blueviolet;
   font-weight: 800;
+  margin: 1% 0;
 }
 
 p.pofyou {
@@ -1007,6 +1021,13 @@ li.starclient {
   transition: background-color 0.6s ease;
 }
 
+.rightandleft-slider {
+  width: 100%;
+  position: absolute;
+  height: 40px;
+  top: 53%;
+}
+
 .nextcients {
   right: 6%;
 }
@@ -1015,10 +1036,9 @@ li.starclient {
 .nextcients {
   cursor: pointer;
   position: absolute;
-  width: 4%;
+  width: 10%;
   height: 35px;
   display: flex;
-  margin-top: -15%;
   color: black;
   font-weight: bold;
   font-size: 30px;
@@ -1066,13 +1086,15 @@ p.passenger1 {
   color: #1322a5;
   line-height: 27px;
   background-color: cadetblue;
-  padding: 1%;
+  border-radius: 2.5rem;
+  padding: 2%;
   width: 35%;
 }
 
 div#links-condition {
   width: 18%;
   background-color: cadetblue;
+  border-radius: 2.5rem;
   padding: 1%;
 }
 
@@ -1189,16 +1211,20 @@ section.rides-register-daily {
 
 .heart1 {
   width: 100%;
+  height: 50px;
+  display: flex;
   border-radius: 50%;
-  padding: 10% 10% 10% 10%;
   color: #3c3fb1 !important;
   font-size: 90px !important;
   background-color: #a8a8d5;
   box-shadow: 0px 0px 9px 5px rgb(156 150 196);
+  justify-content: center;
+  align-items: center;
 }
 
 .Register {
   font-size: 20px;
+  width: 75%;
 }
 
 section.Latest-rentals {
@@ -1243,10 +1269,12 @@ h3.address {
 
 .img-car {
   position: relative;
+  width: 100%;
 }
 
 img.img1-car {
   border-radius: 3%;
+  width: 100%;
 }
 
 span.day-car {
@@ -1276,11 +1304,13 @@ span.day-car::before {
   display: inline-block;
   left: 6px;
   position: absolute;
+  width: 40%;
 }
 
 img.img2-car {
   border-radius: 50%;
   border: 2px solid wheat;
+  width: 100%;
 }
 
 .rentals-car2 {
@@ -1333,10 +1363,11 @@ span.icon-car {
 }
 
 span.svg-car {
+  cursor: pointer;
   width: 18%;
   height: 31px;
   display: flex;
-  font-size: 35px;
+  font-size: 35px !important;
   align-items: center;
   justify-content: center;
   background-color: #ff00006b;
@@ -1384,17 +1415,21 @@ section.Looking-for-ride {
 ul.rider1,
 ul.rider2 {
   padding: 0;
+  width: 100%;
 }
 
 li.forride,
 li.spareseat {
+  width: 95%;
+  height: 100px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  padding: 1%;
   margin-bottom: 2%;
   background: #e9edf3 none repeat scroll 0 0;
   border: 1px solid #e7dcdc73;
   border-radius: 5px;
-  padding: 3% 1% 3% 4%;
   transition: 1s;
 }
 
@@ -1404,16 +1439,20 @@ li.spareseat:hover {
   border-color: transparent;
 }
 
+.rider-avatar {
+  width: 20%;
+}
+
 .rider-avatar img {
-  box-shadow: 5px 10px 20px 0 rgb(46 58 87 / 36%);
+  box-shadow: 1px 1px 6px 4px rgb(46 58 87 / 36%);
   border-color: #ddbcbc73;
   border-radius: 50%;
+  width: 90%;
 }
 
 .rider-meta {
   position: relative;
-  width: 80%;
-  margin-left: 3%;
+  width: 75%;
 }
 
 .rider-meta a {
@@ -1443,7 +1482,7 @@ ins.price {
 section.this-brand-car-web {
   width: 100%;
   margin-top: 5%;
-  height: 160px;
+  height: 180px;
   position: relative;
 }
 
@@ -1485,7 +1524,8 @@ section.this-brand-car-web {
 .thiscarweb {
   animation: slideshow 11s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  height: 95%;
+  width: calc(250px * 7);
 }
 
 @keyframes slideshow {
@@ -1499,9 +1539,11 @@ section.this-brand-car-web {
 }
 
 .slider-brand-car {
-  background-color: #1512d71f;
-  width: 130px;
+  background-color: #adacd92e;
+  width: 180px;
   height: 100%;
+  margin-right: 1%;
+  border: 5px solid rgb(208 208 227 / 69%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1510,7 +1552,7 @@ section.this-brand-car-web {
 
 img.brand-car {
   padding: 1% 1% 1% 1%;
-  width: 87%;
+  width: 91%;
   height: 100px;
   border-radius: 10px;
 }
@@ -3497,10 +3539,7 @@ footer#footer-of-page {
 
 .partion-top-of-TOWIENS{
 display: block;
-}
-
-.partion-top-of-TOWIENS{
-  width: 50%;
+width: 50%;
 }
 
 .partion-this-one {
