@@ -22,6 +22,15 @@
     <link rel="stylesheet" href="css/responsive.css">
     <title>Services</title>
     <style>
+
+        section,
+        picture,
+        picture img{
+            width: 100% !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+
         .about-us-our {
             width: 100%;
             position: relative;
@@ -35,7 +44,7 @@
         .contener-about {
             display: flex;
             width: 100%;
-            padding: 1%;
+            padding: 1% 0;
             align-items: center;
             justify-content: space-between;
             background: linear-gradient(90deg, rgb(119 115 197 / 72%) 0%, rgb(89 89 209) 16%, rgb(16 186 221) 95%);
@@ -88,6 +97,10 @@
             background: rgb(238, 174, 202);
             background: radial-gradient(circle,
                     rgb(160 179 221) 0%, rgb(127 76 227) 100%);
+        }
+
+        div#displayourCLIENTS {
+            position: relative;
         }
 
         div#displayourCLIENTS,
@@ -161,6 +174,12 @@
             justify-content: center;
         }
 
+        .button-move-RightAndLeft {
+            position: absolute;
+            top: 45%;
+            height: 50px;
+        }
+
         .image-our-img {
             width: 25%;
             height: auto;
@@ -181,10 +200,9 @@
         .Nextourcients {
             cursor: pointer;
             position: absolute;
-            width: 6%;
+            width: 15%;
             height: 35px;
             display: flex;
-            margin-top: -15%;
             color: yellowgreen;
             font-weight: bold;
             font-size: 20px;
@@ -405,13 +423,13 @@
             display: block;
         }
 
-        picture.img-picture-taxi2{
+        picture.img-picture-taxi2 {
             width: 95%;
             margin-left: 2.5%;
             display: block;
         }
 
-        picture.img-picture-taxi3{
+        picture.img-picture-taxi3 {
             width: 95%;
             margin-left: 2.5%;
             display: block;
@@ -421,22 +439,22 @@
             width: 100%;
             border-radius: 2.5rem;
         }
-        
+
         .img-picture-taxi2 img {
             width: 100%;
             border-radius: 5%;
         }
 
-        .img-picture-taxi3 img{
+        .img-picture-taxi3 img {
             width: 100%;
             border-radius: 5%;
         }
 
         .servies-words-taxi-priveat {
-        position: absolute;
-        width: 45%;
-        padding: 3%;
-        top: 25%;
+            position: absolute;
+            width: 45%;
+            padding: 3%;
+            top: 25%;
         }
 
         .words-servies-taxi {
@@ -506,66 +524,66 @@
             height: auto;
         }
 
-        .contener-clintes-servies-Bike::before {
-            background-image: url(./img/bike-servies.png);
-            background-attachment: initial;
-            background-size: cover;
-            background-position: top;
-            position: absolute;
-            top: 0;
-            left: 4%;
-            right: 0;
-            content: "";
-            width: 90.5%;
-            height: 40%;
+        picture.img-picture-bike {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        picture.img-picture-bike2 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        picture.img-picture-bike3 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        .img-picture-bike img {
+            width: 100%;
             border-radius: 2.5rem;
         }
 
-        .servies-words-Bike {
-            position: relative;
-            width: 65%;
-            height: 65%;
-            padding: 3%;
+        .img-picture-bike2 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        .img-picture-bike3 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        .servies-words-Bike-Responsive {
+            position: absolute;
+            width: 15%;
+            top: 68%;
+            left: 28.9%;
+            transform: rotateZ(299deg);
+            background-color: #5363cf;
+            padding: 1% 0;
         }
 
         .words-servies-Bike {
-            width: 70%;
-            height: 100%;
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 6% 3%;
-        }
-
-        .flex-words-serivers-Bike {
-            width: 100%;
-            height: 50%;
-            background-color: #00000099;
-            padding: 3%;
-            border-radius: 2.5rem;
-        }
-
-        h3.h3servies-Bike {
-            color: wheat;
-            font-size: 45px;
-            width: 55%;
-        }
-
-        p.pservies-Bike {
-            font-size: 25px;
-            color: #DFD7BF;
-            margin: 3% 0;
         }
 
         p.Slogan {
             display: flex;
-            margin-top: 15%;
-            width: 50%;
-            font-size: 34px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            font-size: 51px;
             color: white;
             font-family: 'Cairo', sans-serif;
             font-family: 'Montserrat Alternates', sans-serif;
-            font-weight: 800;
+            font-weight: bolder;
         }
 
         span.Emspicail {
@@ -581,7 +599,7 @@
             background: linear-gradient(43.28deg, #3837e4 24.38%, #7280e0 70.46%);
             border-radius: 2.5rem;
             width: 95%;
-            margin: 0% 2.5%;
+            margin: 0 0 2.5% 2%;
         }
 
         .cell-responsive-bike {
@@ -749,12 +767,136 @@
             height: auto;
         }
 
-        img.Car-Rental-servies,
-        img.school-rides-servies,
-        img.Delivery-servies,
-        img.Tickets-servies {
+        picture.Car-Rental-servies{
             width: 100%;
             border-radius: 2.5rem;
+            display: block;
+        }
+
+        .Car-Rental-servies img{
+            width: 100%;
+            border-radius: 2.5rem;
+        }
+
+        picture.Car-Rental-servies2 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        .Car-Rental-servies2 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        picture.Car-Rental-servies3 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+        
+        .Car-Rental-servies3 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        picture.school-rides-servies {
+            width: 100%;
+            border-radius: 2.5rem;
+            display: block;
+        }
+
+        .school-rides-servies  img{
+            width: 100%;
+            border-radius: 2.5rem;
+        }
+
+        picture.school-rides-servies2 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        .school-rides-servies2 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        picture.school-rides-servies3 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+        
+        .school-rides-servies3 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        picture.Delivery-servies {
+            width: 100%;
+            border-radius: 2.5rem;
+            display: block;
+        }
+
+        .Delivery-servies  img{
+            width: 100%;
+            border-radius: 2.5rem;
+        }
+
+        picture.Delivery-servies2 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        .Delivery-servies2 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        picture.Delivery-servies3 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+        
+        .Delivery-servies3 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        picture.Tickets-servies {
+            width: 100%;
+            border-radius: 2.5rem;
+            display: block;
+        }
+
+        .Tickets-servies  img{
+            width: 100%;
+            border-radius: 2.5rem;
+        }
+
+        picture.Tickets-servies2 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        .Tickets-servies2 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        picture.Tickets-servies3 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+        
+        .Tickets-servies3 img {
+            width: 100%;
+            border-radius: 5%;
         }
 
         /*  */
@@ -791,7 +933,7 @@
         .img-CarRental-rental1,
         .img-CarRental-rental2,
         .img-school-rides-rental1,
-        .img-school-rides-rental,
+        .img-school-rides-rental2,
         .img-Delivery-rental1,
         .img-Delivery-rental2,
         .img-Tickets-rental1,
@@ -812,7 +954,7 @@
         }
 
         img.width-servgies {
-            width: 94%;
+            width: 98%;
         }
 
         .servies-words-CarRental1,
@@ -1533,20 +1675,20 @@
 
                             <picture class="img-picture-taxi2">
                                 <img src="img/taxi-uslong-responive-1.png" alt="picture">
-                              </picture>
+                            </picture>
 
-                              <picture class="img-picture-taxi3">
+                            <picture class="img-picture-taxi3">
                                 <img src="img/taxi-uslong-responive-2.png" alt="picture">
-                              </picture>
+                            </picture>
 
                             <div class="servies-words-taxi-priveat">
 
                                 <div class="words-servies-taxi">
 
-                                        <p class="slogan">
-                                            <span class="emspicail">'</span>
-                                            S-Logan.
-                                        </p>
+                                    <p class="slogan">
+                                        <span class="emspicail">'</span>
+                                        S-Logan.
+                                    </p>
 
                                 </div>
 
@@ -1618,24 +1760,27 @@
 
                         <div class="contener-clintes-servies-Bike">
 
-                            <div class="servies-words-Bike">
+
+                            <picture class="img-picture-bike">
+                                <img src="img/bike-servies.png" alt="picture">
+                            </picture>
+
+                            <picture class="img-picture-bike2">
+                                <img src="img/bike-servies-responive-1.png" alt="picture">
+                            </picture>
+
+                            <picture class="img-picture-bike3">
+                                <img src="img/bike-servies-responive-2.png" alt="picture">
+                            </picture>
+
+                            <div class="servies-words-Bike-Responsive responive-bike">
 
                                 <div class="words-servies-Bike">
 
-                                    <div class="flex-words-serivers-Bike">
-                                        <h3 class="h3servies-Bike">
-                                            Dubai's most affordable ride.
-                                        </h3>
-
-                                        <p class="pservies-Bike">
-                                            TAXIS AND HAIL RIDES ON THE SLogan
-                                        </p>
-
-                                        <p class="Slogan">
-                                            <span class="Emspicail">'</span>
-                                            S-Logan.
-                                        </p>
-                                    </div>
+                                    <p class="Slogan">
+                                        <span class="Emspicail">'</span>
+                                        S-Logan.
+                                    </p>
 
                                 </div>
 
@@ -1643,79 +1788,82 @@
 
                         </div>
 
-                        <section class="cells-servies-bike">
-                            <div class="cell-responciv-bike">
+                            <section class="cells-servies-bike">
+                                <div class="cell-responciv-bike">
 
-                                <div class="cell-responsive-bike">
+                                    <div class="cell-responsive-bike">
 
-                                    <div class="cellbike">
-                                        <div class="img-cell-bike "><img src="img/bike-servirs.png" alt="icon"
-                                                class="bike-cell-bike special-width  gridess">
+                                        <div class="cellbike">
+                                            <div class="img-cell-bike "><img src="img/bike-servirs.png" alt="icon"
+                                                    class="bike-cell-bike special-width  gridess">
+                                            </div>
+                                            <div class="words-bike-cells">
+                                                <div class="wordbike-cell">
+                                                    <h4 class="h4celbike">Choose your ride</h4>
+                                                    <p class="pcelbike">Select from a wide range of options and get your
+                                                        ride
+                                                        within minutes, or schedule one for later.</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="words-bike-cells">
-                                            <div class="wordbike-cell">
-                                                <h4 class="h4celbike">Choose your ride</h4>
-                                                <p class="pcelbike">Select from a wide range of options and get your
-                                                    ride
-                                                    within minutes, or schedule one for later.</p>
+
+                                        <div class="cellbike">
+                                            <div class="img-cell-bike"><img src="img/icon_5_dd8d59ffbf.png" alt="icon"
+                                                    class="bike-cell special-width  gridess">
+                                            </div>
+                                            <div class="words-bike-cells">
+                                                <div class="wordbike-cell">
+                                                    <h4 class="h4celbike">Track your ride</h4>
+                                                    <p class="pcelbike">Track your ride in real time from the moment a
+                                                        Captain
+                                                        is
+                                                        assigned until you arrive at your destination.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="cellbike">
+                                            <div class="img-cell-bike"><img src="img/Payment-card.png" alt="icon"
+                                                    class="bike-cell  gridess">
+                                            </div>
+                                            <div class="words-bike-cells">
+                                                <div class="wordbike-cell">
+                                                    <h4 class="h4celbike">Pay securely</h4>
+                                                    <p class="pcelbike">Card, Careem Pay, Apple Pay or cash; you can pay
+                                                        securely
+                                                        on Careem.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="cellbike">
-                                        <div class="img-cell-bike"><img src="img/icon_5_dd8d59ffbf.png" alt="icon"
-                                                class="bike-cell special-width  gridess">
-                                        </div>
-                                        <div class="words-bike-cells">
-                                            <div class="wordbike-cell">
-                                                <h4 class="h4celbike">Track your ride</h4>
-                                                <p class="pcelbike">Track your ride in real time from the moment a
-                                                    Captain
-                                                    is
-                                                    assigned until you arrive at your destination.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="cellbike">
-                                        <div class="img-cell-bike"><img src="img/Payment-card.png" alt="icon"
-                                                class="bike-cell  gridess">
-                                        </div>
-                                        <div class="words-bike-cells">
-                                            <div class="wordbike-cell">
-                                                <h4 class="h4celbike">Pay securely</h4>
-                                                <p class="pcelbike">Card, Careem Pay, Apple Pay or cash; you can pay
-                                                    securely
-                                                    on Careem.</p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
+                            </section>
 
-                            </div>
-                        </section>
+                            <div class="section-bike-rental">
 
-                        <div class="section-bike-rental">
+                                <div class="contener-bike-rental">
 
-                            <div class="contener-bike-rental">
+                                    <div class="img-bike-rental"><img src="img/bike-faster.png" alt=""
+                                            class="image-bike-rental">
+                                    </div>
 
-                                <div class="img-bike-rental"><img src="img/bike-faster.png" alt=""
-                                        class="image-bike-rental">
-                                </div>
+                                    <div class="servies-words-bike">
 
-                                <div class="servies-words-bike">
+                                        <div class="words-bike-servies">
+                                            <h3 class="h3serviesbike">It's fast.</h3>
+                                            <h3 class="h3serviesbike">It's affordable.</h3>
+                                            <p class="pserviesbike">S-Logan BIKE is perfect for quick trips. A few taps,
+                                                and
+                                                you’re off!<br>
+                                                Choose from annual, monthly, weekly and daily memberships.
+                                            </p>
 
-                                    <div class="words-bike-servies">
-                                        <h3 class="h3serviesbike">It's fast.</h3>
-                                        <h3 class="h3serviesbike">It's affordable.</h3>
-                                        <p class="pserviesbike">S-Logan BIKE is perfect for quick trips. A few taps, and
-                                            you’re off!<br>
-                                            Choose from annual, monthly, weekly and daily memberships.
-                                        </p>
+                                            <button class="buttonofthebike">
+                                                <a href="#" class="LINKOFTHEBIKE">Ride now</a>
+                                            </button>
+                                        </div>
 
-                                        <button class="buttonofthebike">
-                                            <a href="#" class="LINKOFTHEBIKE">Ride now</a>
-                                        </button>
                                     </div>
 
                                 </div>
@@ -1723,8 +1871,6 @@
                             </div>
 
                         </div>
-
-                    </div>
 
                 </section>
 
@@ -1733,7 +1879,17 @@
                     <div class="section-clintes-CarRental">
 
                         <div class="contener-clintes-servies-CarRental">
-                            <img src="img/Car-Rental-servies.png" class="Car-Rental-servies" alt="">
+                            <picture class="Car-Rental-servies">
+                                <img src="img/Car-Rental-servies.png" alt="Car-Rental-servies">
+                            </picture>
+    
+                            <picture class="Car-Rental-servies2">
+                                <img src="img/Car-Rental-servies-1.png" alt="Car-Rental-servies">
+                            </picture>
+    
+                            <picture class="Car-Rental-servies3">
+                                <img src="img/Car-Rental-servies-2.png" alt="Car-Rental-servies">
+                            </picture>
                         </div>
 
                         <div class="section-CarRental-rental1">
@@ -1804,7 +1960,17 @@
                     <div class="section-clintes-school-rides">
 
                         <div class="contener-clintes-servies-school-rides">
-                            <img src="img/school-rides-background.png" class="school-rides-servies" alt="">
+                            <picture class="school-rides-servies">
+                                <img src="img/school-rides-background.png" alt="Car-Rental-servies">
+                            </picture>
+    
+                            <picture class="school-rides-servies2">
+                                <img src="img/school-rides-background-responsive-1.png" alt="Car-Rental-servies">
+                            </picture>
+    
+                            <picture class="school-rides-servies3">
+                                <img src="img/school-rides-background-responsive-2.png" alt="Car-Rental-servies">
+                            </picture>
                         </div>
 
                         <div class="section-school-rides-rental1">
@@ -1870,7 +2036,17 @@
                     <div class="section-clintes-Delivery">
 
                         <div class="contener-clintes-servies-Delivery">
-                            <img src="img/Delivery-background.png" class="Delivery-servies" alt="">
+                            <picture class="Delivery-servies">
+                                <img src="img/Delivery-background.png" alt="picture">
+                            </picture>
+            
+                            <picture class="Delivery-servies2">
+                                <img src="img/Delivery-background-responsive-1.png" alt="picture">
+                            </picture>
+            
+                            <picture class="Delivery-servies3">
+                                <img src="img/Delivery-background-responsive-2.png" alt="picture">
+                            </picture>
                         </div>
 
                         <div class="section-Delivery-rental1">
@@ -1935,7 +2111,17 @@
                     <div class="section-clintes-Tickets">
 
                         <div class="contener-clintes-servies-Tickets">
-                            <img src="img/Tickets-background.png" class="Tickets-servies" alt="">
+                            <picture class="Tickets-servies">
+                                <img src="img/Tickets-background.png" alt="picture">
+                            </picture>
+            
+                            <picture class="Tickets-servies2">
+                                <img src="img/Tickets-background-responcive-1.png" alt="picture">
+                            </picture>
+            
+                            <picture class="Tickets-servies3">
+                                <img src="img/Tickets-background-responcive-2.png" alt="picture">
+                            </picture>
                         </div>
 
                         <div class="section-Tickets-rental1">
@@ -2000,127 +2186,130 @@
     </section>
 
 
-         <!-- section footer -->
-         <footer id="footer-of-page">
+    <!-- section footer -->
+    <footer id="footer-of-page">
 
-            <div class="section-footer"> <!--background-->
-    
-                <div class="footer-section-page"> <!--flex-one-->
-    
-                    <div class="partion-top-of-TOWIENS"> <!--flex-TOWIENS-->
-    
-                        <div class="partion-this-one">
-    
-                            <div class="img-logo-footer">
-                                <img src="img/‏‏Vector - footer.png" alt="logo-footer" class="logo-footer-image">
-                            </div>
-    
-                            <div class="box-download-links">
-    
-                                <ul class="list-download-links">
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box1-download-links-AppStore.webp"
-                                                alt="box1-download-links-AppStore" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box2-download-links-google-play.webp"
-                                                alt="box2-download-links-google-play" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box3-download-links-android.webp"
-                                                alt="box3-download-links-android" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                </ul>
-    
-                            </div>
-    
-                        </div>
-    
-    
-                    </div><!--flex-tow /-->
-    
-                    <div class="partion-bottom-of-only"> <!-- flex-only -->
-    
-                        <div class="partion-this-five">
-    
-                            <div class="downlistfooter">
-    
-                                <ul class="this-list-ourpages">
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                </ul>
-    
-                            </div>
+        <div class="section-footer"> <!--background-->
 
-                            <div class="type-list-four">
-                                <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
-                            </div>
-    
+            <div class="footer-section-page"> <!--flex-one-->
+
+                <div class="partion-top-of-TOWIENS"> <!--flex-TOWIENS-->
+
+                    <div class="partion-this-one">
+
+                        <div class="img-logo-footer">
+                            <img src="img/‏‏Vector - footer.png" alt="logo-footer" class="logo-footer-image">
                         </div>
-    
-                    </div><!-- flex-only -->
-    
-                </div><!--flex-one -->
-    
-                <div class="partion-this-sex">
-    
-                    <div class="type-list-five">
-    
-                        <h2 class="h2terms-policy">Terms-Policy © 2023</h2>
+
+                        <div class="box-download-links">
+
+                            <ul class="list-download-links">
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box1-download-links-AppStore.webp"
+                                            alt="box1-download-links-AppStore" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box2-download-links-google-play.webp"
+                                            alt="box2-download-links-google-play" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box3-download-links-android.webp"
+                                            alt="box3-download-links-android" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
                     </div>
-    
-                    <div class="downlist__footer">
-    
-                        <ul class="this-list-terms-policy">
-    
-                            <li class="ABOUT-US-TERMS-POLICY">
-                                <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
-                            </li>
-    
-                            <li class="ABOUT-US-TERMS-POLICY">
-                                <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
-                            </li>
-    
-                        </ul>
-    
+
+
+                </div><!--flex-tow /-->
+
+                <div class="partion-bottom-of-only"> <!-- flex-only -->
+
+                    <div class="partion-this-five">
+
+                        <div class="downlistfooter">
+
+                            <ul class="this-list-ourpages">
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-facebook-f"
+                                            style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-twitter"
+                                            style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-instagram"
+                                            style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="type-list-four">
+                            <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
+                        </div>
+
                     </div>
-    
+
+                </div><!-- flex-only -->
+
+            </div><!--flex-one -->
+
+            <div class="partion-this-sex">
+
+                <div class="type-list-five">
+
+                    <h2 class="h2terms-policy">Terms-Policy © 2023</h2>
                 </div>
-    
-            </div><!--background -->
-    
-        </footer>
-        <!-- section footer /-->
+
+                <div class="downlist__footer">
+
+                    <ul class="this-list-terms-policy">
+
+                        <li class="ABOUT-US-TERMS-POLICY">
+                            <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
+                        </li>
+
+                        <li class="ABOUT-US-TERMS-POLICY">
+                            <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div><!--background -->
+
+    </footer>
+    <!-- section footer /-->
 
     <!-- button go to top -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
@@ -2178,7 +2367,7 @@
             myButton.style.transition = '3s';
         }
     </script>
-     <script>
+    <script>
         let imageClintes = 1;
         showOurSlIde(imageClintes);
 
@@ -2209,3 +2398,4 @@
 </body>
 
 </html>
+

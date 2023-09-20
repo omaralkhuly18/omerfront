@@ -1142,7 +1142,11 @@
   picture.Car-Rental-servies,
   picture.Car-Rental-servies2,
   .school-rides-servies,
-  .school-rides-servies2 {
+  .school-rides-servies2,
+  picture.Delivery-servies,
+  picture.Delivery-servies2,
+  picture.Tickets-servies,
+  picture.Tickets-servies2 {
     display: none !important;
   }
 
@@ -1267,7 +1271,87 @@
     border: none !important;
   }
 
-  .servies-words-taxi-priveat{
+  .contener-clintes-servies,
+  .cell-responsive,
+  .details,
+  .contener-taxi-rental,
+  .contener-taxi-rental,
+  .details-taxi,
+  .contener-2-taxi-rental,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .details-SchoolRides,
+  .features-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2 {
+    display: block !important;
+  }
+
+  p.our-address {
+    font-size: 15px !important;
+  }
+
+  span#our-logo-her,
+  span#our-spicals {
+    font-size: 30px !important;
+  }
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .servies-words-taxi-priveat {
     top: 13% !important;
   }
 
@@ -2522,7 +2606,11 @@
   picture.Car-Rental-servies,
   picture.Car-Rental-servies2,
   .school-rides-servies,
-  .school-rides-servies2 {
+  .school-rides-servies2,
+  picture.Delivery-servies,
+  picture.Delivery-servies2,
+  picture.Tickets-servies,
+  picture.Tickets-servies2 {
     display: none !important;
   }
 
@@ -2552,6 +2640,86 @@
   .img-school-rides-rental2 {
     width: 100% !important;
     margin-left: 0% !important;
+  }
+
+  .contener-clintes-servies,
+  .cell-responsive,
+  .details,
+  .contener-taxi-rental,
+  .contener-taxi-rental,
+  .details-taxi,
+  .contener-2-taxi-rental,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .details-SchoolRides,
+  .features-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2 {
+    display: block !important;
+  }
+
+  p.our-address {
+    font-size: 15px !important;
+  }
+
+  span#our-logo-her,
+  span#our-spicals {
+    font-size: 30px !important;
+  }
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
   }
 
   picture.Car-Rental-servies3,
@@ -2655,7 +2823,7 @@
     border: none !important;
   }
 
-  .servies-words-taxi-priveat{
+  .servies-words-taxi-priveat {
     top: 14% !important;
   }
 
@@ -4117,8 +4285,18 @@
   picture.Car-Rental-servies,
   picture.Car-Rental-servies2,
   .school-rides-servies,
-  .school-rides-servies2 {
+  .school-rides-servies2,
+  picture.Delivery-servies,
+  picture.Delivery-servies2,
+  picture.Tickets-servies,
+  picture.Tickets-servies2 {
     display: none !important;
+  }
+
+  .servies-words-Bike-Responsive {
+    width: 33% !important;
+    top: 11.9% !important;
+    left: 48.9% !important;
   }
 
   .img-picture2,
@@ -4190,7 +4368,15 @@
   .details-SchoolRides,
   .features-SchoolRides,
   .contener-school-rides-rental1,
-  .contener-school-rides-rental2 {
+  .contener-school-rides-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2 {
     display: block !important;
   }
 
@@ -4213,24 +4399,84 @@
     padding: 0 !important;
   }
 
-  .servies-words-CarRental1,
-  .servies-words-CarRental2,
+  .contener-clintes-servies,
+  .cell-responsive,
+  .details,
+  .contener-taxi-rental,
+  .contener-taxi-rental,
+  .details-taxi,
+  .contener-2-taxi-rental,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .details-SchoolRides,
+  .features-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2 {
+    display: block !important;
+  }
+
+  p.our-address {
+    font-size: 15px !important;
+  }
+
+  span#our-logo-her,
+  span#our-spicals {
+    font-size: 30px !important;
+  }
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
   .img-CarRental-rental1,
   .img-CarRental-rental2,
-  .words-CarRental-servies1,
-  .words-CarRental-servies2,
-  img.width-servgies,
-  .contener-clintes-servies-CarRental,
-  .section-CarRental-rental1,
-  .section-CarRental-rental2,
-  .SchoolRides-servies,
-  .data-SchoolRides,
-  .features-SchoolRides,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
   .servies-words-school-rides1,
-  .servies-words-school-rides2 {
-    width: 99% !important;
-    margin: 3% 0.5% !important;
-    border: none !important;
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
   }
 
   button.buttonoftheCarRental1,
@@ -4238,9 +4484,9 @@
     width: 45% !important;
   }
 
-  .servies-words-taxi-priveat{
+  .servies-words-taxi-priveat {
     top: 16% !important;
-    }
+  }
 
   #p-SchoolRides {
     margin-left: 10%;
@@ -4407,6 +4653,61 @@
 }
 
 @media screen and (max-width:820px) and (min-width:540px) {
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
+  }
+
   .topBar {
     width: 100%;
     background-color: black;
@@ -5645,7 +5946,11 @@
   picture.Car-Rental-servies,
   picture.Car-Rental-servies2,
   .school-rides-servies,
-  .school-rides-servies2 {
+  .school-rides-servies2,
+  picture.Delivery-servies,
+  picture.Delivery-servies2,
+  picture.Tickets-servies,
+  picture.Tickets-servies2 {
     display: none !important;
   }
 
@@ -5653,7 +5958,7 @@
     top: 66% !important;
   }
 
-  .servies-words-taxi-priveat{
+  .servies-words-taxi-priveat {
     top: 16% !important;
   }
 
@@ -5694,6 +5999,12 @@
     padding: 0 !important;
   }
 
+  .servies-words-Bike-Responsive {
+    width: 33% !important;
+    top: 15% !important;
+    left: 47.9% !important;
+  }
+
   .servies-words-Bike {
     width: 30% !important;
     top: 73% !important;
@@ -5701,7 +6012,7 @@
   }
 
   p.Slogan {
-    font-size: 40px !important;
+    font-size: 30px !important;
   }
 
   .cells-servies-rides,
@@ -5810,7 +6121,15 @@
   .details-SchoolRides,
   .features-SchoolRides,
   .contener-school-rides-rental1,
-  .contener-school-rides-rental2 {
+  .contener-school-rides-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2 {
     display: block !important;
   }
 
@@ -5840,6 +6159,52 @@
     width: 100% !important;
     margin: 3% 0;
   }
+
+  .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
 
   .features-SchoolRides {
     width: 98% !important;
@@ -6047,6 +6412,61 @@
 }
 
 @media screen and (max-width:912px) and (min-width:820px) {
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
+  }
+
   .topBar {
     width: 100%;
     background-color: black;
@@ -7231,10 +7651,31 @@
   picture.Car-Rental-servies,
   picture.Car-Rental-servies3,
   .school-rides-servies,
-  .school-rides-servies3 {
+  .school-rides-servies3,
+  picture.Delivery-servies,
+  picture.Delivery-servies3,
+  picture.Tickets-servies,
+  picture.Tickets-servies3 {
     display: none !important;
   }
 
+  picture.img-picture-bike2,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike,
+  .section-clintes-bike,
+  picture.img-picture-bike2,
+  .words-bike-cells,
+  .wordbike-cell,
+  #aboutusour,
+  picture.school-rides-servies2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
   picture.img-picture-bike2,
   .contener-clintes-servies-Bike,
   picture.img-picture-bike,
@@ -7286,9 +7727,54 @@
   .section-clintes-CarRental,
   .contener-clintes-servies-CarRental,
   .details-SchoolRides,
-  .section-clintes-school-rides .contener-clintes-servies-school-rides {
+  .section-clintes-school-rides .contener-clintes-servies-school-rides,
+  picture.img-picture,
+  .section-clintes-servies,
+  .cells-servies-rides,
+  .details,
+  .details-SchoolRides,
+  .section-clintes-school-rides,
+  .contener-clintes-servies-school-rides,
+  .section-clintes-servies-taxi,
+  .contener-clintes-servies-taxi,
+  .contener-clintes-servies-CarRental,
+  picture.Car-Rental-servies2,
+  .section-clintes-CarRental,
+  .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  img.width-servgies,
+  picture.Car-Rental-servies3,
+  .section-clintes-Delivery,
+  .contener-clintes-servies-Delivery,
+  picture.Delivery-servies2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .section-clintes-Tickets,
+  .contener-clintes-servies-Tickets,
+  picture.Tickets-servies2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2 {
     width: 100% !important;
     margin-left: 0 !important;
+  }
+
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2 {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+    padding: 1% 0% !important;
+  }
+
+  .servies-words-Bike-Responsive {
+    width: 33% !important;
+    top: 26% !important;
+    left: 13.9% !important;
   }
 
   .contener-CarRental-rental1,
@@ -7389,8 +7875,7 @@
   #flex-bloges-4,
   #flex-bloges-5,
   #flex-bloges-6,
-  #flex-bloges-7 
-  .Bloges-about-us,
+  #flex-bloges-7 .Bloges-about-us,
   .spicail-img-blog {
     padding: 0 !important;
     justify-content: space-around !important;
@@ -7463,6 +7948,61 @@
 }
 
 @media SCREEN and (max-width:1024px) and (min-width:912px) {
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
+  }
+
   .topBar {
     width: 100%;
     background-color: black;
@@ -7546,11 +8086,145 @@
     padding: 0;
   }
 
+  .Bar{
+    justify-content: center;
+  }
+
+  .list-top-par2,
+  .list-top-par3{
+    margin: 0;
+  }
+
+  .list1-topp-nav {
+    right: 27% !important;
+    top: 4.5% !important;
+  }
+
+  .liist1-topp-nav {
+    right: 14% !important;
+    top: 3.7% !important;
+  }
+  
+  header{
+    margin-left: 5%;
+  }
+
+  .HEADER-IMG{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .img-header{
+    width: 10% !important;
+  }
+
+  .img-logo{
+    width: 60% !important;
+  }
+
+  .menu-2{
+    width: 53%;
+  }
+
+  ul.list-top-Nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-Nav{
+    font-size: 22px;
+  }
+
+  .list-top-par2 {
+    display: flex;
+    width: 55%;
+    justify-content: center;
+  }
+
+  .point-top-Nav,
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav {
+    color: black;
+  }
+
+  .list1-top-nav,
+  .list2-top-nav,
+  .list3-top-nav,
+  .list4-top-nav,
+  .list5-top-nav {
+    padding: 4px 12px;
+    margin-top: 0%;
+    opacity: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 25%;
+    position: absolute;
+    visibility: hidden !important;
+  }
+
+  .point-top-nav{
+    padding: 4% 4% !important;
+  }
+
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav{
+   padding: 2% 4%;
+  }
+
+  .point1-top-Nav a,
+  .point2-top-Nav a,
+  .point3-top-Nav a,
+  .point4-top-Nav a,
+  .point5-top-Nav a {
+    font-size: 26px;
+  }
+
+  a.link-Nav {
+    font-size: 14px;
+  }
+
+  .whatsapp {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
   header {
     width: 95%;
     display: flex;
-    /* margin-top: 3%;
-        margin-left: 2%; */
+    margin-top: 0%;
+    margin-left: 2%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .HEADER-IMG {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+  }
+
+  .img-logo {
+    width: 85%;
+  }
+
+  header {
+    width: 95%;
+    display: flex;
+    margin-left: 0%;
   }
 
   .HEADER-IMG {
@@ -7558,10 +8232,11 @@
     margin-left: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .img-header {
-    width: 18% !important;
+    width: 15% !important;
   }
 
   .img-logo {
@@ -7618,11 +8293,6 @@
     margin-left: 5%;
   }
 
-  .menu-2 {
-    width: 70%;
-    display: block;
-  }
-
   .list-top-Nav {
     padding: 7px;
     display: flex;
@@ -7648,25 +8318,6 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-  }
-
-
-  .list1-top-nav,
-  .list2-top-nav,
-  .list3-top-nav,
-  .list4-top-nav,
-  .list5-top-nav {
-    padding: 7px 20px;
-    /* margin-top: 3%; */
-    opacity: 0;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    width: 200px;
-    position: absolute;
-    visibility: hidden !important;
-    /* transform: rotateX(30deg) !important; */
-    transition: opacity 0.5s, visibility 0.2s !important;
   }
 
   .List2-top-nav {
@@ -8794,9 +9445,35 @@
   .details,
   .details-SchoolRides,
   .section-clintes-school-rides,
-  .contener-clintes-servies-school-rides {
+  .contener-clintes-servies-school-rides,
+  .section-clintes-servies-taxi,
+  .contener-clintes-servies-taxi,
+  .contener-clintes-servies-CarRental,
+  picture.Car-Rental-servies2,
+  .section-clintes-CarRental,
+  .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  img.width-servgies,
+  picture.Car-Rental-servies3,
+  .section-clintes-Delivery,
+  .contener-clintes-servies-Delivery,
+  picture.Delivery-servies2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .section-clintes-Tickets,
+  .contener-clintes-servies-Tickets,
+  picture.Tickets-servies2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2 {
     width: 100% !important;
     margin-left: 0% !important;
+  }
+
+  .section-taxi-rental {
+    width: 100% !important;
+    margin: 3% 0 !important;
   }
 
   .img-picture2,
@@ -8808,8 +9485,18 @@
   picture.Car-Rental-servies,
   picture.Car-Rental-servies3,
   .school-rides-servies,
-  .school-rides-servies3 {
+  .school-rides-servies3,
+  picture.Delivery-servies,
+  picture.Delivery-servies3,
+  picture.Tickets-servies,
+  picture.Tickets-servies3 {
     display: none !important;
+  }
+
+  .servies-words-Bike-Responsive {
+    width: 27% !important;
+    top: 31% !important;
+    left: 14.9% !important;
   }
 
   picture.img-picture-bike2,
@@ -8824,17 +9511,23 @@
   .words-bike-cells,
   .wordbike-cell,
   #aboutusour,
-  picture.school-rides-servies2 {
+  picture.school-rides-servies2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2 {
     width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    padding: 0 !important;
+    padding: 1% 0 !important;
   }
 
   .section-school-rides-rental1,
   .section-school-rides-rental2,
   .contener-school-rides-rental1,
-  .contener-school-rides-rental2 {
+  .contener-school-rides-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2 {
     width: 99% !important;
     margin-left: 0.5% !important;
     padding: 1% 0% !important;
@@ -8987,6 +9680,201 @@
 }
 
 @media screen and (max-width:1280px) and (min-width:1024px) {
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
+  }
+
+    
+  .Bar{
+    justify-content: center;
+  }
+
+  .list-top-par2,
+  .list-top-par3{
+    margin: 0;
+  }
+
+  .list1-topp-nav {
+    right: 30% !important;
+    top: 3.7% !important;
+  }
+
+  .liist1-topp-nav {
+    right: 20% !important;
+    top: 3.7% !important;
+  }
+  
+  header{
+    margin-left: 5%;
+  }
+
+  .HEADER-IMG{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .img-header{
+    width: 10% !important;
+  }
+
+  .img-logo{
+    width: 60% !important;
+  }
+
+  .menu-2{
+    width: 50%;
+  }
+
+  ul.list-top-Nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-Nav{
+    font-size: 22px;
+  }
+
+  .list-top-par2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .point-top-Nav,
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav {
+    color: black;
+  }
+
+  .list1-top-nav,
+  .list2-top-nav,
+  .list3-top-nav,
+  .list4-top-nav,
+  .list5-top-nav {
+    padding: 4px 12px;
+    margin-top: 0%;
+    opacity: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 25%;
+    position: absolute;
+    visibility: hidden !important;
+  }
+
+  .point-top-nav{
+    padding: 4% 4% !important;
+  }
+
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav{
+   padding: 2% 4%;
+  }
+
+  .point1-top-Nav a,
+  .point2-top-Nav a,
+  .point3-top-Nav a,
+  .point4-top-Nav a,
+  .point5-top-Nav a {
+    font-size: 26px;
+  }
+
+  a.link-Nav {
+    font-size: 23px;
+  }
+
+  .whatsapp {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  header {
+    width: 95%;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 2%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .HEADER-IMG {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+  }
+
+  .img-header {
+    width: 18%;
+  }
+
+  .img-logo {
+    width: 85%;
+  }
+
   .topBar {
     width: 100%;
     background-color: black;
@@ -9008,12 +9896,6 @@
     padding-left: 3%;
     align-items: center;
     display: none;
-
-  }
-
-  .list-top-par2 {
-    display: flex;
-    width: 50%;
 
   }
 
@@ -9086,13 +9968,6 @@
   }
 
   .menu-1 {
-    width: 50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0 0 0 4%;
-    cursor: pointer;
     display: none;
   }
 
@@ -9135,10 +10010,6 @@
     margin-left: 5%;
   }
 
-  .menu-2 {
-    width: 49%;
-  }
-
   .list-top-Nav {
     padding: 7px;
     display: flex;
@@ -9168,24 +10039,6 @@
 
   .button-1 {
     display: none;
-  }
-
-  .list1-top-nav,
-  .list2-top-nav,
-  .list3-top-nav,
-  .list4-top-nav,
-  .list5-top-nav {
-    padding: 7px 20px;
-    /* margin-top: 3%; */
-    opacity: 0;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    width: 200px;
-    position: absolute;
-    visibility: hidden !important;
-    /* transform: rotateX(30deg) !important; */
-    transition: opacity 0.5s, visibility 0.2s !important;
   }
 
   .List2-top-nav {
@@ -10153,8 +11006,18 @@
   picture.Car-Rental-servies,
   picture.Car-Rental-servies3,
   .school-rides-servies,
-  .school-rides-servies3 {
+  .school-rides-servies3,
+  picture.Delivery-servies,
+  picture.Delivery-servies3,
+  picture.Tickets-servies,
+  picture.Tickets-servies3 {
     display: none !important;
+  }
+
+  .servies-words-Bike-Responsive {
+    width: 27% !important;
+    top: 31% !important;
+    left: 14.9% !important;
   }
 
   picture.img-picture-taxi2 picture.img-picture-bike2,
@@ -10258,6 +11121,65 @@
 }
 
 @media screen and (max-width:1495px) and (min-width:1280px) {
+
+  .button-move-RightAndLeft{
+    width: 97% !important;
+  }
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
+  }
+
   .topBar {
     width: 100%;
     background-color: black;
@@ -10266,6 +11188,138 @@
 
   .d1-none {
     display: none;
+  }
+
+  
+  .Bar{
+    justify-content: center;
+  }
+
+  .list-top-par2,
+  .list-top-par3{
+    margin: 0;
+  }
+
+  .list1-topp-nav {
+    right: 30% !important;
+    top: 3.7% !important;
+  }
+
+  .liist1-topp-nav {
+    right: 20% !important;
+    top: 3.7% !important;
+  }
+  
+  header{
+    margin-left: 5%;
+  }
+
+  .HEADER-IMG{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .img-header{
+    width: 10% !important;
+  }
+
+  .img-logo{
+    width: 60% !important;
+  }
+  .menu-2{
+    width: 50%;
+  }
+  ul.list-top-Nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-Nav{
+    font-size: 22px;
+  }
+
+  .point-top-Nav,
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav {
+    color: black;
+  }
+
+  .list1-top-nav,
+  .list2-top-nav,
+  .list3-top-nav,
+  .list4-top-nav,
+  .list5-top-nav {
+    padding: 4px 12px;
+    margin-top: 0%;
+    opacity: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 20%;
+    position: absolute;
+    visibility: hidden !important;
+  }
+
+  .point-top-nav{
+    padding: 4% 4% !important;
+  }
+
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav{
+   padding: 2% 4%;
+  }
+
+  .point1-top-Nav a,
+  .point2-top-Nav a,
+  .point3-top-Nav a,
+  .point4-top-Nav a,
+  .point5-top-Nav a {
+    font-size: 26px;
+  }
+
+  a.link-Nav {
+    font-size: 23px;
+  }
+
+  .whatsapp {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  header {
+    width: 95%;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 2%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .HEADER-IMG {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+  }
+
+  .img-header {
+    width: 18%;
+  }
+
+  .img-logo {
+    width: 85%;
   }
 
   .Bar {
@@ -11244,8 +12298,18 @@
   picture.Car-Rental-servies,
   picture.Car-Rental-servies3,
   .school-rides-servies,
-  .school-rides-servies3 {
+  .school-rides-servies3,
+  picture.Delivery-servies,
+  picture.Delivery-servies3,
+  picture.Tickets-servies,
+  picture.Tickets-servies3 {
     display: none !important;
+  }
+
+  .servies-words-Bike-Responsive {
+    width: 21% !important;
+    top: 32% !important;
+    left: 18.9% !important;
   }
 
   picture.img-picture-taxi2,
@@ -11327,6 +12391,65 @@
 }
 
 @media screen and (max-width:1555px) and (min-width:1496px) {
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
+  }
+
+  .sticky{
+    margin-left: 0;
+  }
+
   .topBar {
     width: 100%;
     background-color: black;
@@ -11337,10 +12460,7 @@
     display: none;
   }
 
-  .Bar {
-    display: flex;
-    height: 100%;
-  }
+
 
   .list-top-par1 {
     display: flex;
@@ -11354,7 +12474,7 @@
   .list-top-par2 {
     display: flex;
     width: 50%;
-
+    justify-content: center;
   }
 
   #display-none {
@@ -11404,10 +12524,113 @@
     padding: 0;
   }
 
+  .Bar{
+    justify-content: center;
+  }
+
+  .list-top-par2,
+  .list-top-par3{
+    margin: 0;
+  }
+
+  .list1-topp-nav {
+    right: 30% !important;
+    top: 3.7% !important;
+  }
+
+  .liist1-topp-nav {
+    right: 20% !important;
+    top: 3.7% !important;
+  }
+  
+  header{
+    margin-left: 5%;
+  }
+
+  .HEADER-IMG{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .img-header{
+    width: 10% !important;
+  }
+
+  .img-logo{
+    width: 60% !important;
+  }
+  .menu-2{
+    width: 50%;
+  }
+  ul.list-top-Nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-Nav{
+    font-size: 22px;
+  }
+
+  .point-top-Nav,
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav {
+    color: black;
+  }
+
+  .list1-top-nav,
+  .list2-top-nav,
+  .list3-top-nav,
+  .list4-top-nav,
+  .list5-top-nav {
+    padding: 4px 12px;
+    margin-top: 0%;
+    opacity: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 20%;
+    position: absolute;
+    visibility: hidden !important;
+  }
+
+  .point-top-nav{
+    padding: 4% 4% !important;
+  }
+
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav{
+   padding: 2% 4%;
+  }
+
+  .point1-top-Nav a,
+  .point2-top-Nav a,
+  .point3-top-Nav a,
+  .point4-top-Nav a,
+  .point5-top-Nav a {
+    font-size: 26px;
+  }
+
+  a.link-Nav {
+    font-size: 23px;
+  }
+
+  .whatsapp {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
   header {
     width: 95%;
     display: flex;
-    margin-top: 3%;
+    margin-top: 0%;
     margin-left: 2%;
   }
 
@@ -11517,23 +12740,6 @@
     display: none;
   }
 
-  .list1-top-nav,
-  .list2-top-nav,
-  .list3-top-nav,
-  .list4-top-nav,
-  .list5-top-nav {
-    padding: 7px 20px;
-    margin-top: 0%;
-    opacity: 0;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    width: 200px;
-    position: absolute;
-    visibility: hidden !important;
-    /* transform: rotateX(30deg) !important; */
-    transition: opacity 0.5s, visibility 0.2s !important;
-  }
 
   .List2-top-nav {
     padding: 7px 20px;
@@ -11840,7 +13046,11 @@
   picture.Car-Rental-servies2,
   picture.Car-Rental-servies3,
   .school-rides-servies2,
-  .school-rides-servies3 {
+  .school-rides-servies3,
+  picture.Delivery-servies2,
+  picture.Delivery-servies3,
+  picture.Tickets-servies2,
+  picture.Tickets-servies3 {
     display: none !important;
   }
 
@@ -11870,23 +13080,120 @@
     left: 27.9% !important;
   }
 
+  .servies-words-Bike-Responsive {
+    width: 21% !important;
+    top: 25% !important;
+    left: 26.9% !important;
+  }
+
 }
 
 @media screen and (max-width:1760px) and (min-width: 1555px) {
 
-  .button-1,
-  .menu-1 {
-    display: none;
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
   }
 
-  .button {
-    height: 100%;
-    width: 9%;
-    text-align: center;
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
   }
 
+  .Bar{
+    justify-content: center;
+  }
+
+  .sticky{
+    margin-left: 0;
+  }
+
+  .list-top-par2,
+  .list-top-par3{
+    margin: 0;
+  }
+
+  .list1-topp-nav {
+    right: 34% !important;
+    top: 3% !important;
+  }
+
+  .liist1-topp-nav {
+    right: 24% !important;
+    top: 3% !important;
+  }
+  
+  header{
+    margin-left: 5%;
+  }
+
+  .HEADER-IMG{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .img-header{
+    width: 10% !important;
+  }
+
+  .img-logo{
+    width: 60% !important;
+  }
+  .menu-2{
+    width: 55%;
+  }
   ul.list-top-Nav {
     display: flex;
+    justify-content: center;
+  }
+
+  .link-Nav{
+    font-size: 22px;
   }
 
   .point-top-Nav,
@@ -11903,15 +13210,66 @@
   .list3-top-nav,
   .list4-top-nav,
   .list5-top-nav {
-    padding: 7px 20px;
+    padding: 4px 12px;
     margin-top: 0%;
     opacity: 0;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 200px;
+    width: 15%;
     position: absolute;
     visibility: hidden !important;
+  }
+
+  .point-top-nav{
+    padding: 4% 4% !important;
+  }
+
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav{
+   padding: 2% 4%;
+  }
+
+  .point1-top-Nav a,
+  .point2-top-Nav a,
+  .point3-top-Nav a,
+  .point4-top-Nav a,
+  .point5-top-Nav a {
+    font-size: 25px;
+  }
+
+  a.link-Nav {
+    font-size: 23px;
+  }
+
+  .whatsapp {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  .button-1,
+  .menu-1 {
+    display: none;
+  }
+
+  .button {
+    height: 100%;
+    width: 9%;
+    text-align: center;
+  }
+
+
+  .point-top-Nav,
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav {
+    color: black;
   }
 
   .List2-top-nav {
@@ -11944,10 +13302,6 @@
     width: 200px;
     position: absolute;
     visibility: hidden !important;
-  }
-
-  .list1-topp-nav {
-    right: 41% !important;
   }
 
   .point-top-nav:hover .List3-top-nav {
@@ -11986,11 +13340,6 @@
     transform: rotate(0deg) !important;
   }
 
-  .whatsapp {
-    width: 35%;
-    display: flex;
-    align-items: center;
-  }
 
   .Whatsapp1 {
     width: 100%;
@@ -12069,7 +13418,11 @@
   picture.Car-Rental-servies2,
   picture.Car-Rental-servies3,
   .school-rides-servies2,
-  .school-rides-servies3 {
+  .school-rides-servies3,
+  picture.Delivery-servies2,
+  picture.Delivery-servies3,
+  picture.Tickets-servies2,
+  picture.Tickets-servies3 {
     display: none !important;
   }
 
@@ -12094,13 +13447,118 @@
     top: 64% !important;
     left: 28.9% !important;
   }
+
+  .servies-words-Bike-Responsive {
+    top: 24% !important;
+    width: 20% !important;
+    left: 27.9% !important;
+  }
 }
 
 @media screen and (max-width:1866px) and (min-width: 1760px) {
+  
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
+  }
+
+  .Bar{
+    justify-content: center;
+  }
+
+  .list-top-par2,
+  .list-top-par3{
+    margin: 0;
+  }
+
+  .list1-topp-nav {
+    right: 34% !important;
+    top: 3% !important;
+  }
+
+  .liist1-topp-nav {
+    right: 24% !important;
+    top: 3% !important;
+  }
+
+  .sticky{
+    margin-left: 0;
+  }
+  
+  header{
+    margin-left: 5%;
+  }
+
+  .HEADER-IMG{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .img-header{
+    width: 10% !important;
+  }
+
+  .img-logo{
+    width: 60% !important;
+  }
 
   .button-1,
   .menu-1 {
     display: none !important;
+  }
+
+  .menu-2{
+    width: 50%;
   }
 
   .button {
@@ -12133,6 +13591,11 @@
 
   ul.list-top-Nav {
     display: flex;
+    justify-content: center;
+  }
+
+  .link-Nav{
+    font-size: 22px;
   }
 
   .point-top-Nav,
@@ -12149,15 +13612,39 @@
   .list3-top-nav,
   .list4-top-nav,
   .list5-top-nav {
-    padding: 7px 20px;
+    padding: 4px 12px;
     margin-top: 0%;
     opacity: 0;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 200px;
+    width: 15%;
     position: absolute;
     visibility: hidden !important;
+  }
+
+  .point-top-nav{
+    padding: 4% 4% !important;
+  }
+
+  .point1-top-Nav,
+  .point2-top-Nav,
+  .point3-top-Nav,
+  .point4-top-Nav,
+  .point5-top-Nav{
+   padding: 2% 4%;
+  }
+
+  .point1-top-Nav a,
+  .point2-top-Nav a,
+  .point3-top-Nav a,
+  .point4-top-Nav a,
+  .point5-top-Nav a {
+    font-size: 25px;
+  }
+
+  a.link-Nav {
+    font-size: 23px;
   }
 
   .List2-top-nav {
@@ -12190,16 +13677,6 @@
     width: 200px;
     position: absolute;
     visibility: hidden !important;
-  }
-
-  .list1-topp-nav {
-    right: 41% !important;
-    top: 10% !important;
-  }
-
-  .liist1-topp-nav {
-    right: 31% !important;
-    top: 10% !important;
   }
 
   .point-top-nav:hover .List3-top-nav {
@@ -12239,7 +13716,7 @@
   }
 
   .whatsapp {
-    width: 35%;
+    width: 30%;
     display: flex;
     align-items: center;
   }
@@ -12276,7 +13753,6 @@
     margin-top: 1%;
     color: red;
   }
-
   .MEDIA {
     display: none;
   }
@@ -12371,7 +13847,11 @@
   picture.Car-Rental-servies2,
   picture.Car-Rental-servies3,
   .school-rides-servies2,
-  .school-rides-servies3 {
+  .school-rides-servies3,
+  picture.Delivery-servies2,
+  picture.Delivery-servies3,
+  picture.Tickets-servies2,
+  picture.Tickets-servies3 {
     display: none !important;
   }
 
@@ -12392,9 +13872,70 @@
     top: 51% !important;
   }
 
+  .servies-words-Bike-Responsive {
+    top: 28% !important;
+    width: 15% !important;
+    left: 27.9% !important;
+  }
+
 }
 
 @media screen and (max-width:1920px) and (min-width: 1866px) {
+
+  div#displayourCLIENTS,
+  .cell-responciv,
+  .cell-responciv-bike .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .section-Delivery-rental1,
+  .section-Delivery-rental2,
+  .section-Tickets-rental1,
+  .section-Tickets-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .contener-Delivery-rental1,
+  .contener-Delivery-rental2,
+  .contener-Tickets-rental1,
+  .contener-Tickets-rental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .img-Delivery-rental1,
+  .img-Delivery-rental2,
+  .img-Tickets-rental1,
+  .img-Tickets-rental2,
+  .section-clintes-Tickets,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  .servies-words-Delivery1,
+  .servies-words-Delivery2,
+  .servies-words-Tickets1,
+  .servies-words-Tickets2,
+  .contener-clintes-servies-CarRental,
+  .contener-clintes-servies-school-rides,
+  .contener-clintes-servies-Delivery,
+  .contener-clintes-servies-Tickets,
+  .section-clintes-CarRental,
+  .section-clintes-school-rides,
+  .section-clintes-Delivery,
+  .section-clintes-Tickets {
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding: 1% 0 !important;
+  }
+
+  .Prevourcients,
+  .Nextourcients{
+    width: 8% !important;
+    height: 42px !important;
+    font-size: 32px !important;
+  }
 
   .button-1,
   .menu-1 {
@@ -12858,9 +14399,31 @@
   .section-bike-rental,
   .section-2-bike-rental,
   .details-Bike,
-  .wordbike-cell {
+  .wordbike-cell,
+  .contener-about,
+  div#displayourCLIENTS {
     width: 100% !important;
     margin-left: 0 !important;
+  }
+
+  div#displayourCLIENTS {
+    padding: 1% 0 !important;
+  }
+
+  span#our-spicals {
+    font-size: 40px !important;
+  }
+
+  span#our-logo-her {
+    font-size: 30px !important;
+  }
+
+  .image-our-img {
+    width: 55% !important;
+  }
+
+  p.our-address {
+    font-size: 20px !important;
   }
 
   .details-Bike,
@@ -12918,6 +14481,7 @@
 
   .cells-servies-bike {
     height: auto !important;
+    margin: 8% 2.5%;
   }
 
   picture.img-picture-bike,
@@ -12933,6 +14497,13 @@
 
   p.Slogan {
     font-size: 11px !important;
+  }
+
+  .servies-words-Bike-Responsive {
+    width: 23% !important;
+    top: 10% !important;
+    left: 49.9% !important;
+    border-bottom-left-radius: 1rem !important;
   }
 
   /* page about-us / */
@@ -13296,6 +14867,12 @@
     font-size: 20px !important;
   }
 
+  .servies-words-Bike-Responsive {
+    width: 28% !important;
+    top: 9.8% !important;
+    left: 48.9% !important;
+  }
+
   /* page about-us / */
 }
 
@@ -13646,6 +15223,12 @@
     font-size: 25px !important;
   }
 
+  .servies-words-Bike-Responsive {
+    width: 33% !important;
+    top: 11.5% !important;
+    left: 48.9% !important;
+  }
+
   /* page about-us / */
 }
 
@@ -13881,6 +15464,16 @@
     width: 40% !important;
     top: 67% !important;
     left: 45.9% !important;
+  }
+
+  .servies-words-Bike-Responsive {
+    width: 35% !important;
+    top: 12.5% !important;
+    left: 46.9% !important;
+  }
+
+  .Slogan {
+    font-size: 33px !important;
   }
 
   /* page about-us / */
