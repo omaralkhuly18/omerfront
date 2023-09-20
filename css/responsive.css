@@ -1267,6 +1267,10 @@
     border: none !important;
   }
 
+  .servies-words-taxi-priveat{
+    top: 13% !important;
+  }
+
   #span-SchoolRides {
     font-size: 30px !important;
   }
@@ -2649,6 +2653,10 @@
     margin-left: 0.5% !important;
     padding: 2% 0 !important;
     border: none !important;
+  }
+
+  .servies-words-taxi-priveat{
+    top: 14% !important;
   }
 
   button.buttonoftheschool-rides1,
@@ -4230,6 +4238,10 @@
     width: 45% !important;
   }
 
+  .servies-words-taxi-priveat{
+    top: 16% !important;
+    }
+
   #p-SchoolRides {
     margin-left: 10%;
   }
@@ -5639,6 +5651,10 @@
 
   .servies-words-taxi {
     top: 66% !important;
+  }
+
+  .servies-words-taxi-priveat{
+    top: 16% !important;
   }
 
   .details-taxi {

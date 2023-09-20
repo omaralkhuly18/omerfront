@@ -399,58 +399,58 @@
             height: auto;
         }
 
-        .contener-clintes-servies-taxi::before {
-            background-image: url(./img/taxi-uslogin.png);
-            background-attachment: initial;
-            background-size: cover;
-            background-position: top;
-            position: absolute;
-            top: 0;
-            left: 4%;
-            right: 0;
-            content: "";
-            width: 92%;
-            height: 32%;
-            border-radius: 2.5rem;
+        picture.img-picture-taxi {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
         }
 
-        .servies-words-taxi {
-            position: relative;
-            width: 65%;
-            height: 65%;
-            padding: 3%;
+        picture.img-picture-taxi2{
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        picture.img-picture-taxi3{
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        .img-picture-taxi img {
+            width: 100%;
+            border-radius: 2.5rem;
+        }
+        
+        .img-picture-taxi2 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        .img-picture-taxi3 img{
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        .servies-words-taxi-priveat {
+        position: absolute;
+        width: 45%;
+        padding: 3%;
+        top: 25%;
         }
 
         .words-servies-taxi {
-            width: 70%;
-            height: 100%;
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 6% 3%;
         }
 
-        .flex-words-serivers-taxi {
-            width: 100%;
-            height: 50%;
-        }
-
-        h3.h3servies-taxi {
-            color: wheat;
-            font-size: 45px;
-            width: 55%;
-        }
-
-        p.pservies-taxi {
-            font-size: 25px;
-            color: #DFD7BF;
-            margin: 3% 0;
-        }
-
         p.slogan {
             display: flex;
             margin-top: 15%;
-            width: 50%;
+            width: 100%;
             font-size: 34px;
             color: white;
             font-family: 'Cairo', sans-serif;
@@ -1527,24 +1527,26 @@
 
                         <div class="contener-clintes-servies-taxi">
 
-                            <div class="servies-words-taxi">
+                            <picture class="img-picture-taxi">
+                                <img src="img/taxi-uslogin.png" alt="picture">
+                            </picture>
+
+                            <picture class="img-picture-taxi2">
+                                <img src="img/taxi-uslong-responive-1.png" alt="picture">
+                              </picture>
+
+                              <picture class="img-picture-taxi3">
+                                <img src="img/taxi-uslong-responive-2.png" alt="picture">
+                              </picture>
+
+                            <div class="servies-words-taxi-priveat">
 
                                 <div class="words-servies-taxi">
-
-                                    <div class="flex-words-serivers-taxi">
-                                        <h3 class="h3servies-taxi">
-                                            Dubai's most affordable ride.
-                                        </h3>
-
-                                        <p class="pservies-taxi">
-                                            TAXIS AND HAIL RIDES ON THE SLogan
-                                        </p>
 
                                         <p class="slogan">
                                             <span class="emspicail">'</span>
                                             S-Logan.
                                         </p>
-                                    </div>
 
                                 </div>
 
