@@ -232,7 +232,7 @@
     width: 100% !important;
   }
 
-  .imgcar1{
+  .imgcar1 {
     width: 20%;
   }
 
@@ -247,11 +247,11 @@
     margin-bottom: 7%;
   }
 
-  p.list-link{
+  p.list-link {
     font-size: 14px;
   }
- 
-  .rides{
+
+  .rides {
     padding: 4% 0;
   }
 
@@ -260,32 +260,32 @@
     margin: 2% 5%;
   }
 
-  p.passenger1{
+  p.passenger1 {
     width: 90%;
     font-size: 15px;
     padding: 5%;
   }
 
-  div#links-condition{
+  div#links-condition {
     width: 80%;
     margin-top: 5%;
   }
 
   #link-conditions,
-  i.fa-solid.fa-right-long{
+  i.fa-solid.fa-right-long {
     font-size: 15px;
   }
 
-  .passenger3{
+  .passenger3 {
     padding: 1%;
   }
 
   p.ofthe,
-  .color{
+  .color {
     font-size: 17px !important;
   }
 
-  .daily{
+  .daily {
     justify-content: space-evenly;
   }
 
@@ -305,11 +305,11 @@
     margin-top: 5%;
   }
 
-  .register{
+  .register {
     margin-left: 0;
   }
 
-  .heart1{
+  .heart1 {
     font-size: 55px !important;
   }
 
@@ -383,46 +383,49 @@
     height: 130px;
   }
 
-  .icon1-car, .icon2-car{
+  .icon1-car,
+  .icon2-car {
     height: 60px;
     width: 15%;
     padding: 2%;
   }
 
-  p.control1-car, p.control2-car{
+  p.control1-car,
+  p.control2-car {
     font-size: 14px;
   }
 
-  p.free1-car, p.free2-car{
+  p.free1-car,
+  p.free2-car {
     font-size: 14px;
-    line-height: 20px;  
+    line-height: 20px;
   }
 
   .control1car,
-  .contro21car{
+  .contro21car {
     width: 75%;
   }
 
-  .margintoclients{
+  .margintoclients {
     width: 100%;
     margin: 0;
   }
 
   h1.saysaboutus,
   p.myname,
-  p.pofyou{
+  p.pofyou {
     font-size: 15px;
   }
 
-  p.pofyou{
+  p.pofyou {
     line-height: 24px;
   }
 
-  .rightandleft-slider{
+  .rightandleft-slider {
     top: 46%;
   }
 
-  span.imgclients{
+  span.imgclients {
     font-size: 100px !important;
   }
 
@@ -538,11 +541,11 @@
     margin-top: 15%;
   }
 
-  .tool-number{
+  .tool-number {
     display: block;
   }
 
-  .number-one{
+  .number-one {
     width: 95%;
     justify-content: space-between;
     margin: 6% 0;
@@ -552,16 +555,16 @@
     width: 19%;
   }
 
-  p.p-footer{
+  p.p-footer {
     font-size: 15px;
   }
 
-  .thiscar::before, 
-  .thiscar::after{
+  .thiscar::before,
+  .thiscar::after {
     width: 60px;
   }
 
-  .slider-brand-car{
+  .slider-brand-car {
     width: 275px;
   }
 
@@ -1132,18 +1135,289 @@
     width: 45% !important;
   }
 
-  .footer-section-page{
+  picture.img-picture,
+  .img-picture2,
+  picture.img-picture-taxi,
+  picture.img-picture-taxi2,
+  picture.Car-Rental-servies,
+  picture.Car-Rental-servies2,
+  .school-rides-servies,
+  .school-rides-servies2 {
+    display: none !important;
+  }
+
+  .img-picture3,
+  .section-clintes-servies,
+  .cells-servies-rides,
+  .details,
+  .section-taxi-rental,
+  .details-taxi,
+  .section-2-taxi-rental,
+  .contener-clintes-servies-taxi,
+  picture.img-picture-taxi3,
+  #aboutusour,
+  .section-clintes-CarRental,
+  .contener-clintes-servies-CarRental,
+  picture.Car-Rental-servies3,
+  .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .details-SchoolRides,
+  .section-clintes-school-rides,
+  .contener-clintes-servies-school-rides,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2 {
+    width: 100% !important;
+    margin-left: 0% !important;
+  }
+
+  button.buttonofthething-taxi {
+    width: 50% !important;
+  }
+
+  button.buttonofthething {
+    width: 60% !important;
+  }
+
+  .cells-servies-rides {
+    height: auto !important;
+  }
+
+  .img-cell {
+    height: 170px !important;
+  }
+
+  .ride-cell {
+    width: 20% !important;
+  }
+
+  h4.h4cell,
+  h3.h3serviesg-taxi,
+  .Taxi-servies span {
+    font-size: 25px !important;
+  }
+
+  p.pcell {
+    font-size: 15px !important;
+  }
+
+  .words-ride-cells {
+    justify-content: space-around !important;
+  }
+
+  .words-cell {
+    width: 90% !important;
+    text-align: start !important;
+  }
+
+  .contener-clintes-servies,
+  .cell-responsive,
+  .details,
+  .contener-taxi-rental,
+  .contener-taxi-rental,
+  .contener-2-taxi-rental,
+  .details-taxi,
+  .features-taxi,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .details-SchoolRides,
+  .features-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2 {
+    display: block !important;
+  }
+
+  .details-taxi {
+    padding: 2% 1%;
+  }
+
+  .image-servies,
+  .servies-words,
+  .data,
+  .features,
+  .img-taxi-rental,
+  .servies-words,
+  .data-taxi,
+  .features-taxi,
+  .servies-words-2,
+  .Taxi-servies {
+    width: 100% !important;
+    margin: 3% 0;
+  }
+
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  img.image-CarRental-rental1,
+  img.image-CarRental-rental2,
+  img.width-servgies,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .data-SchoolRides,
+  .features-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2 {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+    padding: 2% 0 !important;
+    border: none !important;
+  }
+
+  #span-SchoolRides {
+    font-size: 30px !important;
+  }
+
+  .SchoolRides-servies,
+  #p-SchoolRides {
+    width: 91% !important;
+    margin-left: 5% !important;
+  }
+
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2 {
+    padding: 0 !important;
+  }
+
+  .items-start {
+    text-align: center;
+  }
+
+  #span-rental {
+    width: 95% !important;
+    padding-bottom: 5% !important;
+    margin-left: 2.5% !important;
+  }
+
+  #No-rental {
+    margin-left: 5.5%;
+    font-size: 16px !important;
+    width: 90% !important;
+  }
+
+  .SchoolRides-servies span {
+    font-size: 25px !important;
+    padding: 2% 0;
+  }
+
+  button.buttonoftheschool-rides1,
+  button.buttonoftheschool-rides2 {
+    width: 50% !important;
+  }
+
+  h3.h3serviesschool-rides1,
+  h3.h3serviesschool-rides2 {
+    font-size: 22px !important;
+  }
+
+  button.buttonoftheCarRental1,
+  button.buttonoftheCarRental2 {
+    width: 50% !important;
+  }
+
+  h3.h3serviesCarRental1,
+  h3.h3serviesCarRental2 {
+    font-size: 25px !important;
+  }
+
+  p.pserviesCarRental1,
+  p.pserviesCarRental2 {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+
+  picture.image-qw-20 {
+    width: 80%;
+    display: block;
+    margin: 0 10%;
+  }
+
+  .items-start h2 {
+    width: 95% !important;
+  }
+
+  .items-start {
+    text-align: center;
+  }
+
+  .cellride {
+    width: 99% !important;
+    margin: 3% 0.5% !important;
+  }
+
+  h3.h3servies,
+  p.slogan {
+    font-size: 20px !important;
+  }
+
+  p.pservies {
+    line-height: 15px !important;
+    font-size: 16px !important;
+  }
+
+  .items-start span {
+    font-size: 35px !important;
+  }
+
+  .features {
+    justify-content: space-around !important;
+  }
+
+  .Ride-servies {
+    width: 25% !important;
+  }
+
+  .items-start p {
+    font-size: 16px !important;
+  }
+
+  .blogs-aboutus {
+    width: 98% !important;
+    margin-left: 1% !important;
+  }
+
+  div#flex-bloges-1,
+  div#flex-bloges-2,
+  div#flex-bloges-3,
+  div#flex-bloges-4,
+  div#flex-bloges-5,
+  div#flex-bloges-6,
+  div#flex-bloges-7 {
+    display: block !important;
+  }
+
+  #responevinblog,
+  .Bloges-about-us {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  img.spicail-image-blog {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+  }
+
+  .spicail-img-blog,
+  .words-blog,
+  .date-blogs {
+    padding: 0 !important;
+  }
+
+  .footer-section-page {
     display: block;
     width: 100%;
     margin-left: 0;
   }
 
-  .partion-top-of-TOWIENS{
+  .partion-top-of-TOWIENS {
     width: 95%;
     margin-left: 2.5%;
   }
 
-  .partion-this-one{
+  .partion-this-one {
     width: 95%;
     margin-left: 2.5%;
     display: flex;
@@ -1151,62 +1425,64 @@
     justify-content: space-between;
   }
 
-  .img-logo-footer{
+  .img-logo-footer {
     width: 35%;
   }
 
-  .box-download-links{
+  .box-download-links {
     width: 55%;
   }
 
   ul.list-download-links,
   .partion-bottom-of-only,
   .partion-this-five,
-  ul.this-list-terms-policy{
+  ul.this-list-terms-policy {
     display: block;
     width: 100%;
   }
 
   li.box-download-link,
-  .downlistfooter{
+  .downlistfooter {
     width: 100%;
     height: 50px;
     margin: 5% 0;
   }
 
-  .type-list-four{
+  .type-list-four {
     width: 100%;
     font-size: 17px;
     line-height: 35px;
     margin: 5% 0;
   }
 
-  h2.h2ourpage{
+  h2.h2ourpage {
     margin: 3% 0;
   }
 
-  .partion-this-sex{display: block;}
+  .partion-this-sex {
+    display: block;
+  }
 
-  h2.h2terms-policy{
+  h2.h2terms-policy {
     padding: 0;
   }
 
   .type-list-five,
   .downlist__footer,
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     width: 100%;
     margin: 5% 0;
   }
 
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     height: 40px;
   }
 
-  a.goto-like-top{
+  a.goto-like-top {
     font-size: 22px;
   }
 
-  .download-this{
+  .download-this {
     display: none;
   }
 
@@ -1477,7 +1753,7 @@
     margin: 4% 0;
   }
 
-  span.imgclients{
+  span.imgclients {
     font-size: 100px !important;
   }
 
@@ -1491,15 +1767,15 @@
   }
 
   p.myname,
-  p.pofyou{
+  p.pofyou {
     font-size: 15px;
   }
 
-  p.pofyou{
+  p.pofyou {
     line-height: 23px;
   }
 
-  .rightandleft-slider{
+  .rightandleft-slider {
     top: 52%;
   }
 
@@ -1519,18 +1795,18 @@
     display: block;
   }
 
-  p.passenger1{
+  p.passenger1 {
     font-size: 20px;
     width: 99%;
   }
 
-  div#links-condition{
+  div#links-condition {
     width: 60%;
     margin-top: 3%;
   }
 
-  #link-conditions, 
-  i.fa-solid.fa-right-long{
+  #link-conditions,
+  i.fa-solid.fa-right-long {
     font-size: 17px;
   }
 
@@ -1560,11 +1836,11 @@
     justify-content: space-between;
   }
 
-  .heart1{
+  .heart1 {
     font-size: 60px !important;
   }
 
-  .Register{
+  .Register {
     width: 70%;
   }
 
@@ -2235,24 +2511,247 @@
     width: 35% !important;
   }
 
+  picture.img-picture,
+  .img-picture3,
+  .img-picture-taxi,
+  .img-picture-taxi2,
+  picture.Car-Rental-servies,
+  picture.Car-Rental-servies2,
+  .school-rides-servies,
+  .school-rides-servies2 {
+    display: none !important;
+  }
+
+  .img-picture2,
+  .section-clintes-servies,
+  .cells-servies-rides,
+  .details,
+  .section-clintes-servies-taxi,
+  .contener-clintes-servies-taxi,
+  picture.img-picture-taxi3,
+  .section-taxi-rental,
+  .section-taxi-rental,
+  .section-2-taxi-rental,
+  #aboutusour,
+  .section-clintes-CarRental,
+  .contener-clintes-servies-CarRental,
+  .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .data-SchoolRides,
+  .features-SchoolRides,
+  .details-SchoolRides,
+  .section-clintes-school-rides,
+  .contener-clintes-servies-school-rides,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2 {
+    width: 100% !important;
+    margin-left: 0% !important;
+  }
+
+  picture.Car-Rental-servies3,
+  .SchoolRides-servies,
+  #p-SchoolRides {
+    width: 91% !important;
+    margin-left: 5% !important;
+    margin-top: 3%;
+    border-radius: 2.5rem !important;
+  }
+
+  .SchoolRides-servies span {
+    font-size: 25px;
+    padding: 2% 0;
+  }
+
+  #span-SchoolRides {
+    font-size: 30px !important;
+  }
+
+
+  button.buttonofthething-taxi {
+    width: 50% !important;
+  }
+
+  button.buttonofthething {
+    width: 50% !important;
+  }
+
+  .cells-servies-rides {
+    height: auto !important;
+  }
+
+  .img-cell {
+    height: 170px !important;
+  }
+
+  .ride-cell {
+    width: 25% !important;
+  }
+
+  h4.h4cell {
+    font-size: 30px !important;
+  }
+
+  p.pcell {
+    font-size: 17px !important;
+  }
+
+  .words-ride-cells {
+    justify-content: space-around !important;
+  }
+
+  .words-cell {
+    width: 90% !important;
+    text-align: start !important;
+  }
+
+  .contener-clintes-servies,
+  .cell-responsive,
+  .details,
+  .contener-taxi-rental,
+  .contener-taxi-rental,
+  .details-taxi,
+  .contener-2-taxi-rental,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .details-SchoolRides,
+  .features-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2 {
+    display: block !important;
+  }
+
+  .image-servies,
+  .servies-words,
+  .data,
+  .features,
+  .img-taxi-rental,
+  .servies-words-2,
+  .data-taxi,
+  .features-taxi {
+    width: 100% !important;
+    margin: 3% 0 !important;
+  }
+
+  .cellride,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  img.width-servgies,
+  picture.school-rides-servies3,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2 {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+    padding: 2% 0 !important;
+    border: none !important;
+  }
+
+  button.buttonoftheschool-rides1,
+  button.buttonoftheschool-rides2 {
+    width: 50% !important;
+  }
+
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2 {
+    padding: 0 !important;
+  }
+
+  h3.h3servies,
+  p.slogan {
+    font-size: 20px !important;
+  }
+
+  #span-rental {
+    width: 95% !important;
+    padding-bottom: 5% !important;
+    margin-left: 2.5% !important;
+  }
+
+  #No-rental {
+    margin-left: 9.5%;
+    font-size: 16px !important;
+  }
+
+  .Bike-servies span {
+    font-size: 30px !important;
+  }
+
+  p.pservies {
+    line-height: 15px !important;
+    font-size: 14px !important;
+  }
+
+  .items-start span {
+    font-size: 35px !important;
+  }
+
+  .features {
+    justify-content: space-around !important;
+  }
+
+  .Ride-servies {
+    width: 20% !important;
+  }
+
+  .items-start p {
+    font-size: 16px !important;
+  }
+
+  .blogs-aboutus {
+    width: 98% !important;
+    margin-left: 1% !important;
+  }
+
+  div#flex-bloges-1,
+  div#flex-bloges-2,
+  div#flex-bloges-3,
+  div#flex-bloges-4,
+  div#flex-bloges-5,
+  div#flex-bloges-6,
+  div#flex-bloges-7 {
+    display: block !important;
+  }
+
+  #responevinblog,
+  .Bloges-about-us {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  img.spicail-image-blog {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+  }
+
+  .spicail-img-blog,
+  .words-blog,
+  .date-blogs {
+    padding: 0 !important;
+  }
+
   .tool-number,
   .footer-section-page,
   ul.list-download-links,
   .partion-this-five,
   .partion-this-sex,
-  ul.this-list-terms-policy{
+  ul.this-list-terms-policy {
     display: block;
   }
 
   .number-one,
-  .ul.this-list-ourpages{
+  .ul.this-list-ourpages {
     width: 95%;
     justify-content: space-around;
     margin: 4% 0;
   }
 
-  p.p-footer{
-    font-size: 15px; 
+  p.p-footer {
+    font-size: 15px;
   }
 
   .partion-top-of-TOWIENS,
@@ -2260,23 +2759,23 @@
   .downlistfooter,
   .partion-bottom-of-only,
   .type-list-four,
-  h2.h2ourpage{
+  h2.h2ourpage {
     width: 99%;
     margin: 3% 0;
   }
 
-  .partion-this-one{
+  .partion-this-one {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
   .img-logo-footer,
-  .box-download-links{
+  .box-download-links {
     width: 45%;
   }
 
-  li.box-download-link{
+  li.box-download-link {
     height: 50px;
     margin: 3% 0;
   }
@@ -2284,19 +2783,19 @@
   .type-list-five,
   .downlist__footer,
   ul.this-list-terms-policy,
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     width: 100%;
   }
 
-  h2.h2terms-policy{
+  h2.h2terms-policy {
     padding: 0;
   }
 
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     margin: 3% 0;
   }
 
-  .download-this{
+  .download-this {
     display: none;
   }
 
@@ -2579,18 +3078,18 @@
     width: 15%;
   }
 
-  i.fa-solid.fa-key, 
-  i.fa-solid.fa-handshake, 
-  i.fa-solid.fa-person-chalkboard, 
-  i.fa-regular.fa-star{
+  i.fa-solid.fa-key,
+  i.fa-solid.fa-handshake,
+  i.fa-solid.fa-person-chalkboard,
+  i.fa-regular.fa-star {
     font-size: 35px;
   }
 
-  h1.saysaboutus{
+  h1.saysaboutus {
     font-size: 25px;
   }
 
-  li.starclient{
+  li.starclient {
     width: 8%;
     margin: 0 -2px;
   }
@@ -2603,37 +3102,39 @@
     font-size: 105px !important;
   }
 
-  .rightandleft-slider{
+  .rightandleft-slider {
     top: 50%;
   }
 
-  .condition1{
+  .condition1 {
     display: block;
     margin-left: 7%;
   }
 
-  p.passenger1{
+  p.passenger1 {
     width: 100%;
     font-size: 20px;
   }
 
-  div#links-condition{
+  div#links-condition {
     width: 50%;
     margin-top: 3%;
   }
 
-  #link-conditions, 
-  i.fa-solid.fa-right-long{
+  #link-conditions,
+  i.fa-solid.fa-right-long {
     font-size: 15px;
   }
 
   .passenger2,
-  .passenger3{
+  .passenger3 {
     display: block;
     width: 100%;
   }
 
-  .passenger3{padding: 3% 2%;}
+  .passenger3 {
+    padding: 3% 2%;
+  }
 
   .control1car,
   .contro21car {
@@ -2911,11 +3412,11 @@
     right: 0;
   }
 
-  .tool-number{
+  .tool-number {
     display: block;
   }
 
-  .number-one{
+  .number-one {
     width: 100%;
     margin: 3% 0;
   }
@@ -3601,84 +4102,173 @@
     width: 35% !important;
   }
 
-  picture.img-picture{
+  picture.img-picture,
+  .img-picture3,
+  .img-picture-taxi,
+  .img-picture-taxi2,
+  picture.Car-Rental-servies,
+  picture.Car-Rental-servies2,
+  .school-rides-servies,
+  .school-rides-servies2 {
     display: none !important;
   }
 
   .img-picture2,
   .section-clintes-servies,
   .cells-servies-rides,
-  .details{
+  .details,
+  .section-clintes-servies-taxi,
+  .contener-clintes-servies-taxi,
+  picture.img-picture-taxi3,
+  #aboutusour,
+  .section-clintes-CarRental,
+  picture.Car-Rental-servies3,
+  .features-SchoolRides,
+  .section-clintes-school-rides,
+  .contener-clintes-servies-school-rides,
+  picture.school-rides-servies3,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2 {
     width: 100% !important;
     margin-left: 0% !important;
   }
 
-  button.buttonofthething{
+  button.buttonofthething-taxi {
+    width: 45% !important;
+  }
+
+  button.buttonofthething {
     width: 50% !important;
   }
 
-  .cells-servies-rides{
+  .cells-servies-rides {
     height: auto !important;
   }
 
-  .img-cell{
+  .img-cell {
     height: 170px !important;
   }
 
-  .ride-cell{
+  .ride-cell {
     width: 25% !important;
   }
 
-  h4.h4cell{
+  h4.h4cell {
     font-size: 30px !important;
   }
 
-  p.pcell{
+  p.pcell {
     font-size: 17px !important;
   }
 
-  .words-ride-cells{
+  .words-ride-cells {
     justify-content: space-around !important;
   }
 
-  .words-cell{
+  .words-cell {
     width: 90% !important;
     text-align: start !important;
   }
 
   .contener-clintes-servies,
   .cell-responsive,
-  .details{
+  .details,
+  .contener-taxi-rental,
+  .contener-taxi-rental,
+  .details-taxi,
+  .contener-2-taxi-rental,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .details-SchoolRides,
+  .features-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2 {
     display: block !important;
   }
 
   .image-servies,
   .servies-words,
   .data,
-  .features{
+  .features,
+  .img-taxi-rental,
+  .servies-words-2,
+  .data-taxi,
+  .features-taxi,
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2 {
     width: 100% !important;
-    margin: 3% 0;
+    margin: 3% 0 !important;
+    padding: 0 !important;
   }
 
-  .cellride{
+  .servies-words-CarRental1,
+  .servies-words-CarRental2,
+  .img-CarRental-rental1,
+  .img-CarRental-rental2,
+  .words-CarRental-servies1,
+  .words-CarRental-servies2,
+  img.width-servgies,
+  .contener-clintes-servies-CarRental,
+  .section-CarRental-rental1,
+  .section-CarRental-rental2,
+  .SchoolRides-servies,
+  .data-SchoolRides,
+  .features-SchoolRides,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2 {
+    width: 99% !important;
+    margin: 3% 0.5% !important;
+    border: none !important;
+  }
+
+  button.buttonoftheCarRental1,
+  button.buttonoftheCarRental2 {
+    width: 45% !important;
+  }
+
+  #p-SchoolRides {
+    margin-left: 10%;
+  }
+
+  .Bike-servies span {
+    font-size: 30px !important;
+  }
+
+  .cellride {
     width: 99% !important;
     margin-left: 0.5% !important;
   }
 
-  h3.h3servies{
+  h3.h3servies,
+  p.slogan {
     font-size: 20px !important;
   }
 
-  p.pservies{
+  p.pservies {
     line-height: 15px !important;
     font-size: 14px !important;
   }
 
-  .items-start span{
+  #No-rental {
+    margin-left: 9.5%;
+    font-size: 16px !important;
+  }
+
+  #span-rental {
+    width: 95% !important;
+    padding-bottom: 5% !important;
+    margin-left: 2.5% !important;
+  }
+
+  .items-start span {
     font-size: 35px !important;
   }
 
-  .features{
+  .features {
     justify-content: space-around !important;
   }
 
@@ -3686,23 +4276,55 @@
     width: 20% !important;
   }
 
-  .items-start p{
+  .items-start p {
     font-size: 16px !important;
+  }
+
+  .blogs-aboutus {
+    width: 98% !important;
+    margin-left: 1% !important;
+  }
+
+  div#flex-bloges-1,
+  div#flex-bloges-2,
+  div#flex-bloges-3,
+  div#flex-bloges-4,
+  div#flex-bloges-5,
+  div#flex-bloges-6,
+  div#flex-bloges-7 {
+    display: block !important;
+  }
+
+  #responevinblog,
+  .Bloges-about-us {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  img.spicail-image-blog {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+  }
+
+  .spicail-img-blog,
+  .words-blog,
+  .date-blogs {
+    padding: 0 !important;
   }
 
   .footer-section-page,
   ul.list-download-links,
   .partion-this-five,
   .partion-this-sex,
-  ul.this-list-terms-policy{
+  ul.this-list-terms-policy {
     display: block;
   }
 
-  .partion-top-of-TOWIENS{
+  .partion-top-of-TOWIENS {
     width: 100%;
   }
 
-  .partion-this-one{
+  .partion-this-one {
     width: 99%;
     display: flex;
     align-items: center;
@@ -3710,7 +4332,7 @@
   }
 
   .img-logo-footer,
-  .box-download-links{
+  .box-download-links {
     width: 45%;
   }
 
@@ -3718,12 +4340,12 @@
     width: 50%;
   }
 
-  li.box-download-link{
+  li.box-download-link {
     height: 50px;
   }
 
   li.box-download-link,
-  h2.h2ourpage{
+  h2.h2ourpage {
     margin: 4% 0;
   }
 
@@ -3733,40 +4355,40 @@
   .type-list-five,
   .downlist__footer,
   ul.this-list-terms-policy,
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     width: 100%;
   }
 
-  ul.this-list-ourpages{
+  ul.this-list-ourpages {
     justify-content: space-evenly;
   }
 
-  li.ABOUT-US-OURPAES{
+  li.ABOUT-US-OURPAES {
     height: 60px;
     width: 65px;
   }
 
   i.fa-brands.fa-facebook-f,
   i.fa-brands.fa-twitter,
-  i.fa-brands.fa-instagram{
+  i.fa-brands.fa-instagram {
     font-size: 40px;
   }
 
-  .h2ourpage a{
+  .h2ourpage a {
     font-size: 30px;
   }
 
-  h2.h2terms-policy{
+  h2.h2terms-policy {
     padding: 0;
     font-size: 18px;
   }
-  
-  li.ABOUT-US-TERMS-POLICY{
+
+  li.ABOUT-US-TERMS-POLICY {
     height: 40px;
     margin: 3% 0;
   }
 
-  .download-this{
+  .download-this {
     display: none;
   }
 
@@ -4074,11 +4696,11 @@
     margin: -15px 1%;
   }
 
-  .starclient img{
+  .starclient img {
     width: 100%;
   }
 
-  span.imgclients{
+  span.imgclients {
     font-size: 200px !important;
   }
 
@@ -4086,43 +4708,43 @@
     margin-top: 5%;
   }
 
-  p.myname{
+  p.myname {
     font-size: 30px;
   }
 
-  p.pofyou{
+  p.pofyou {
     line-height: 25px;
   }
 
-  .rightandleft-slider{
+  .rightandleft-slider {
     top: 58%;
   }
 
   .condition1,
-  .condition-passenger{
+  .condition-passenger {
     width: 100%;
     margin-left: 0;
   }
 
-  p.passenger1{
+  p.passenger1 {
     font-size: 16px;
     width: 55%;
   }
 
-  div#links-condition{
+  div#links-condition {
     width: 33%;
   }
 
   #link-conditions,
-  i.fa-solid.fa-right-long{
+  i.fa-solid.fa-right-long {
     font-size: 16px;
   }
 
-  p.ofthe{
+  p.ofthe {
     font-size: 15px;
   }
 
-  .color{
+  .color {
     font-size: 20px !important;
   }
 
@@ -4997,66 +5619,278 @@
   picture.img-picture,
   .section-clintes-servies,
   .cells-servies-rides,
-  .details{
+  .details {
     width: 100% !important;
     margin-left: 0% !important;
   }
 
-  .img-picture2{
-    display: none;
+  .img-picture2,
+  .img-picture3,
+  picture.img-picture-taxi,
+  picture.img-picture-taxi2,
+  picture.img-picture-bike,
+  picture.img-picture-bike2,
+  picture.Car-Rental-servies,
+  picture.Car-Rental-servies2,
+  .school-rides-servies,
+  .school-rides-servies2 {
+    display: none !important;
   }
 
-  button.buttonofthething{
-    width: 50% !important;
+  .servies-words-taxi {
+    top: 66% !important;
   }
 
-  .cells-servies-rides{
+  .details-taxi {
+    padding: 2% 1% !important;
+  }
+
+  p.slogan {
+    font-size: 25px !important;
+  }
+
+  .section-clintes-servies-taxi,
+  picture.img-picture-taxi3 {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  picture.img-picture-bike2,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike,
+  .section-clintes-bike,
+  picture.img-picture-bike2,
+  .words-bike-cells,
+  .wordbike-cell,
+  picture.img-picture-bike3,
+  .section-clintes-school-rides,
+  .contener-clintes-servies-school-rides,
+  picture.school-rides-servies3,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2 {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+  }
+
+  .servies-words-Bike {
+    width: 30% !important;
+    top: 73% !important;
+    left: 49.9% !important;
+  }
+
+  p.Slogan {
+    font-size: 40px !important;
+  }
+
+  .cells-servies-rides,
+  .cells-servies-bike,
+  .cell-responsive-bike {
     height: auto !important;
   }
 
-  .img-cell{
-    height: 170px !important;
+  .section-clintes-servies-taxi,
+  picture.img-picture-taxi2,
+  #aboutusour,
+  .section-clintes-CarRental,
+  .contener-clintes-servies-CarRental,
+  .details-SchoolRides {
+    width: 100% !important;
+    margin-left: 0 !important;
   }
 
-  .ride-cell{
-    width: 25% !important;
+  .SchoolRides-servies {
+    width: 30% !important;
   }
 
-  h4.h4cell{
-    font-size: 20px !important;
-  }
-
-  p.pcell{
+  .SchoolRides-servies span {
     font-size: 13px !important;
   }
 
-  .words-ride-cells{
+  h3.h3serviesCarRental1,
+  h3.h3serviesCarRental2 {
+    font-size: 25px !important;
+  }
+
+  p.pserviesCarRental1,
+  p.pserviesCarRental2 {
+    line-height: 20px !important;
+    font-size: 13px !important;
+  }
+
+  img.special-width.gridess {
+    width: 50% !important;
+  }
+
+  .gridess {
+    width: 25% !important;
+  }
+
+  h4.h4celbike {
+    font-size: 38px !important;
+  }
+
+  p.pcelbike {
+    font-size: 25px !important;
+    line-height: 40px !important;
+  }
+
+  button.buttonofthething-taxi {
+    width: 40% !important;
+  }
+
+  button.buttonofthething {
+    width: 45% !important;
+  }
+
+  .cells-servies-rides {
+    height: auto !important;
+  }
+
+  .img-cell {
+    height: 170px !important;
+  }
+
+  .ride-cell {
+    width: 25% !important;
+  }
+
+  h4.h4cell {
+    font-size: 25px !important;
+  }
+
+  p.pcell {
+    font-size: 16px !important;
+  }
+
+  .words-ride-cells {
     width: 100%;
   }
 
-  .words-cell{
+  .words-cell {
     width: 90% !important;
     text-align: start !important;
   }
 
-  .contener-clintes-servies{
-    align-items: center;
+  .contener-clintes-servies,
+  .cell-responsive,
+  .details,
+  .contener-taxi-rental,
+  .contener-taxi-rental,
+  .details-taxi,
+  .contener-2-taxi-rental,
+  .cell-responsive-bike,
+  .contener-bike-rental,
+  .contener-2-bike-rental,
+  .details-Bike,
+  .details-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .details-SchoolRides,
+  .features-SchoolRides,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2 {
+    display: block !important;
   }
 
-  h3.h3servies{
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2,
+  .img-school-rides-rental1,
+  .img-school-rides-rental2,
+  .servies-words-school-rides1,
+  .servies-words-school-rides2,
+  img.width-servgies {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+    padding: 1% 0 !important;
+  }
+
+  .image-servies,
+  .servies-words,
+  .img-taxi-rental,
+  .data-taxi,
+  .features-taxi,
+  .servies-words-2,
+  .data-Bike,
+  .cellbike,
+  .img-bike-rental,
+  .servies-words-bike,
+  .data-SchoolRides {
+    width: 100% !important;
+    margin: 3% 0;
+  }
+
+  .features-SchoolRides {
+    width: 98% !important;
+    margin: 3% 1%;
+  }
+
+  .items-start {
+    text-align: center;
+  }
+
+  #span-rental {
+    width: 95% !important;
+    padding-bottom: 5% !important;
+    margin-left: 2.5% !important;
+  }
+
+  .items-start h2 {
+    width: 95% !important;
+    padding-top: 1% !important;
+  }
+
+  #h2-SchoolRides {
+    width: 95% !important;
+    padding-top: 1% !important;
+    margin-left: 2.5% !important;
+  }
+
+  #span-SchoolRides {
+    font-size: 30px !important;
+  }
+
+  #p-SchoolRides {
+    margin-left: 10% !important;
+  }
+
+  .features-Bike {
+    width: 100% !important;
+    padding-bottom: 2% !important;
+  }
+
+  .cellride,
+  .data,
+  .features {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+  }
+
+  h3.h3servies,
+  .Taxi-servies span,
+  p.slogan {
     font-size: 20px !important;
   }
 
-  p.pservies{
+  p.pservies {
     line-height: 15px !important;
     font-size: 14px !important;
   }
 
-  .items-start span{
+  #p-rental {
+    font-size: 30px !important;
+  }
+
+  .items-start span {
     font-size: 35px !important;
   }
 
-  .features{
+  .features {
     justify-content: space-around !important;
   }
 
@@ -5064,33 +5898,69 @@
     width: 20% !important;
   }
 
-  .items-start p{
+  #No-rental {
+    margin-left: 9.5%;
     font-size: 16px !important;
   }
 
-  .tool-number{
+  .items-start p {
+    font-size: 16px !important;
+  }
+
+  .tool-number {
     display: block;
   }
 
-  .number-one{
+  .number-one {
     width: 99%;
     justify-content: space-around;
   }
 
-  
+  .blogs-aboutus {
+    width: 98% !important;
+    margin-left: 1% !important;
+  }
+
+  div#flex-bloges-1,
+  div#flex-bloges-2,
+  div#flex-bloges-3,
+  div#flex-bloges-4,
+  div#flex-bloges-5,
+  div#flex-bloges-6,
+  div#flex-bloges-7 {
+    display: block !important;
+  }
+
+  #responevinblog,
+  .Bloges-about-us {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  img.spicail-image-blog {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+  }
+
+  .spicail-img-blog,
+  .words-blog,
+  .date-blogs {
+    padding: 0 !important;
+  }
+
   .footer-section-page,
   ul.list-download-links,
   .partion-this-five,
   .partion-this-sex,
-  ul.this-list-terms-policy{
+  ul.this-list-terms-policy {
     display: block;
   }
 
-  .partion-top-of-TOWIENS{
+  .partion-top-of-TOWIENS {
     width: 100%;
   }
 
-  .partion-this-one{
+  .partion-this-one {
     width: 99%;
     display: flex;
     align-items: center;
@@ -5098,7 +5968,7 @@
   }
 
   .img-logo-footer,
-  .box-download-links{
+  .box-download-links {
     width: 45%;
   }
 
@@ -5106,12 +5976,12 @@
     width: 50%;
   }
 
-  li.box-download-link{
+  li.box-download-link {
     height: 50px;
   }
 
   li.box-download-link,
-  h2.h2ourpage{
+  h2.h2ourpage {
     margin: 4% 0;
   }
 
@@ -5121,40 +5991,40 @@
   .type-list-five,
   .downlist__footer,
   ul.this-list-terms-policy,
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     width: 100%;
   }
 
-  ul.this-list-ourpages{
+  ul.this-list-ourpages {
     justify-content: space-evenly;
   }
 
-  li.ABOUT-US-OURPAES{
+  li.ABOUT-US-OURPAES {
     height: 60px;
     width: 65px;
   }
 
   i.fa-brands.fa-facebook-f,
   i.fa-brands.fa-twitter,
-  i.fa-brands.fa-instagram{
+  i.fa-brands.fa-instagram {
     font-size: 40px;
   }
 
-  .h2ourpage a{
+  .h2ourpage a {
     font-size: 30px;
   }
 
-  h2.h2terms-policy{
+  h2.h2terms-policy {
     padding: 0;
     font-size: 18px;
   }
-  
-  li.ABOUT-US-TERMS-POLICY{
+
+  li.ABOUT-US-TERMS-POLICY {
     height: 40px;
     margin: 3% 0;
   }
 
-  .download-this{
+  .download-this {
     display: none;
   }
 
@@ -5454,7 +6324,7 @@
     margin-left: 0%;
   }
 
-  span.imgclients{
+  span.imgclients {
     font-size: 270px !important;
   }
 
@@ -5463,34 +6333,34 @@
     margin: -6px 1px;
   }
 
-  .starclient img{
+  .starclient img {
     width: 100%;
   }
 
-  .condition1{
+  .condition1 {
     width: 95%;
     margin-left: 2.5%;
   }
 
-  p.passenger1{
+  p.passenger1 {
     width: 55%;
     font-size: 20px;
   }
 
-  div#links-condition{
+  div#links-condition {
     width: 30%;
   }
 
   #link-conditions,
-  i.fa-solid.fa-right-long{
+  i.fa-solid.fa-right-long {
     font-size: 15px;
   }
 
-  p.ofthe{
+  p.ofthe {
     font-size: 15px !important;
   }
 
-  .color{
+  .color {
     font-size: 20px !important;
   }
 
@@ -5827,7 +6697,7 @@
     border-color: transparent;
   }
 
-  .rider-avatar{
+  .rider-avatar {
     width: 30%;
   }
 
@@ -5860,23 +6730,23 @@
     color: #e33034;
   }
 
-  .number-one{
+  .number-one {
     justify-content: space-between;
   }
 
-  .img-icon-svg{
+  .img-icon-svg {
     width: 25%;
   }
 
-  .Tucson-Canada{
+  .Tucson-Canada {
     width: 66%;
   }
 
-  p.p-footer{
+  p.p-footer {
     font-size: 15px;
   }
 
-  p.p-place{
+  p.p-place {
     font-size: 17px;
   }
 
@@ -6319,66 +7189,172 @@
   picture.img-picture,
   .section-clintes-servies,
   .cells-servies-rides,
-  .details{
+  .details {
     width: 100% !important;
     margin-left: 0% !important;
   }
 
-  .img-picture2{
-    display: none;
+  p.pserviesCarRental1,
+  p.pserviesCarRental2 {
+    line-height: 21px !important;
+    font-size: 14px !important;
   }
 
-  button.buttonofthething{
-    width: 45% !important;
+  button.buttonoftheCarRental1,
+  button.buttonoftheCarRental2 {
+    width: 40% !important;
+    height: 35px !important;
   }
 
-  .cells-servies-rides{
+  .img-picture2,
+  .img-picture3,
+  .img-picture-taxi,
+  picture.img-picture-taxi3,
+  picture.img-picture-bike,
+  picture.img-picture-bike3,
+  picture.Car-Rental-servies,
+  picture.Car-Rental-servies3,
+  .school-rides-servies,
+  .school-rides-servies3 {
+    display: none !important;
+  }
+
+  picture.img-picture-bike2,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .section-clintes-bike,
+  picture.img-picture-bike2,
+  .words-bike-cells,
+  .wordbike-cell,
+  .section-clintes-school-rides,
+  picture.school-rides-servies2,
+  .section-school-rides-rental1,
+  .section-school-rides-rental2 {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+  }
+
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2 {
+    padding: 1% 0 !important;
+  }
+
+  .SchoolRides-servies {
+    width: 33% !important;
+  }
+
+  .servies-words-Bike {
+    width: 35% !important;
+    top: 63% !important;
+    left: 18.9% !important;
+  }
+
+  p.Slogan {
+    font-size: 45px !important;
+  }
+
+  .cells-servies-rides,
+  .cells-servies-bike,
+  .cell-responsive-bike {
     height: auto !important;
   }
 
-  .img-cell{
-    height: 185px !important;
+  .section-clintes-servies-taxi,
+  picture.img-picture-taxi2,
+  #aboutusour,
+  .section-clintes-CarRental,
+  .contener-clintes-servies-CarRental,
+  .details-SchoolRides,
+  .section-clintes-school-rides .contener-clintes-servies-school-rides {
+    width: 100% !important;
+    margin-left: 0 !important;
   }
 
-  .ride-cell{
-    width: 35% !important;
+  .contener-CarRental-rental1,
+  .contener-CarRental-rental2 {
+    margin-left: 0.5% !important;
   }
 
-  h4.h4cell{
-    font-size: 20px !important;
+  .Bike-servies span {
+    font-size: 12px !important;
   }
 
-  p.pcell{
+  img.special-width.gridess {
+    width: 50% !important;
+  }
+
+  .gridess {
+    width: 25% !important;
+  }
+
+  h4.h4celbike {
+    font-size: 25px !important;
+  }
+
+  p.pcelbike {
     font-size: 13px !important;
   }
 
-  .words-ride-cells{
+  button.buttonofthething-taxi {
+    width: 40% !important;
+  }
+
+  button.buttonofthething {
+    width: 45% !important;
+  }
+
+  .cells-servies-rides {
+    height: auto !important;
+  }
+
+  .img-cell {
+    height: 185px !important;
+  }
+
+  .ride-cell {
+    width: 35% !important;
+  }
+
+  h4.h4cell {
+    font-size: 20px !important;
+  }
+
+  p.pcell {
+    font-size: 13px !important;
+  }
+
+  .words-ride-cells {
     width: 100%;
   }
 
-  .words-cell{
+  .words-cell {
     width: 90% !important;
     text-align: start !important;
   }
 
-  .contener-clintes-servies{
+  .contener-clintes-servies {
     align-items: center;
   }
 
-  h3.h3servies{
+  h3.h3servies {
     font-size: 20px !important;
   }
 
-  p.pservies{
+  p.pservies {
     line-height: 15px !important;
     font-size: 14px !important;
   }
 
-  .items-start span{
-    font-size: 35px !important;
+  .items-start span {
+    font-size: 30px !important;
   }
 
-  .features{
+  .features {
     justify-content: space-around !important;
   }
 
@@ -6386,31 +7362,45 @@
     width: 20% !important;
   }
 
-  .items-start p{
-    font-size: 16px !important;
+  .items-start p {
+    font-size: 14px !important;
+    line-height: 20px !important;
   }
 
-  .footer-section-page{
+  #flex-bloges-1,
+  #flex-bloges-2,
+  #flex-bloges-3,
+  #flex-bloges-4,
+  #flex-bloges-5,
+  #flex-bloges-6,
+  #flex-bloges-7 
+  .Bloges-about-us,
+  .spicail-img-blog {
+    padding: 0 !important;
+    justify-content: space-around !important;
+  }
+
+  .footer-section-page {
     display: block;
   }
 
   .partion-top-of-TOWIENS,
   .partion-bottom-of-only,
-  .box-download-links{
+  .box-download-links {
     width: 100%;
     margin: 3% 0;
   }
 
-  .partion-this-one{
+  .partion-this-one {
     width: 95%;
     margin-left: 2.5%;
   }
 
-  li.box-download-link{
+  li.box-download-link {
     width: 30%;
   }
 
-  img.download-this-link-from-img{
+  img.download-this-link-from-img {
     width: 100%;
   }
 
@@ -6427,32 +7417,32 @@
     height: 115%;
   }
 
-.download-this {
-  width: 55%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: blueviolet;
-  font-family: 'Font Awesome 6 Brands';
-  transition: 1.5s;
+  .download-this {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    font-family: 'Font Awesome 6 Brands';
+    transition: 1.5s;
   }
 
   .download-this:hover {
     color: #0a30c1;
-}
+  }
 
-ul.this-list-terms-policy{
-  width: 95%;
-}
+  ul.this-list-terms-policy {
+    width: 95%;
+  }
 
-li.ABOUT-US-TERMS-POLICY{
-  width: 48%;
-}
+  li.ABOUT-US-TERMS-POLICY {
+    width: 48%;
+  }
 
-a.goto-like-top{
-  font-size: 15px;
-}
+  a.goto-like-top {
+    font-size: 15px;
+  }
 
 }
 
@@ -6846,40 +7836,40 @@ a.goto-like-top{
     margin-left: 0%;
   }
 
-  span.imgclients{
+  span.imgclients {
     font-size: 315px !important;
   }
 
-  li.starclient{
+  li.starclient {
     width: 6%;
     margin: -5px 0%;
   }
 
-  .starclient img{
+  .starclient img {
     width: 100%;
   }
 
   .condition1,
-  .condition2{
+  .condition2 {
     width: 95%;
     margin-left: 2.5%;
   }
 
-  p.passenger1{
+  p.passenger1 {
     font-size: 20px;
     width: 50%;
   }
 
-  div#links-condition{
+  div#links-condition {
     width: 24%;
   }
 
   #link-conditions,
-  i.fa-solid.fa-right-long{
+  i.fa-solid.fa-right-long {
     font-size: 17px;
   }
 
-  p.ofthe{
+  p.ofthe {
     font-size: 18px;
   }
 
@@ -7785,78 +8775,141 @@ a.goto-like-top{
   picture.img-picture,
   .section-clintes-servies,
   .cells-servies-rides,
-  .details{
+  .details,
+  .details-SchoolRides,
+  .section-clintes-school-rides,
+  .contener-clintes-servies-school-rides {
     width: 100% !important;
     margin-left: 0% !important;
   }
 
-  .img-picture2{
-    display: none;
+  .img-picture2,
+  .img-picture3,
+  .img-picture-taxi,
+  picture.img-picture-taxi3,
+  picture.img-picture-bike,
+  picture.img-picture-bike3,
+  picture.Car-Rental-servies,
+  picture.Car-Rental-servies3,
+  .school-rides-servies,
+  .school-rides-servies3 {
+    display: none !important;
   }
 
-  button.buttonofthething{
-    width: 35% !important;
+  picture.img-picture-bike2,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike,
+  .section-clintes-bike,
+  picture.img-picture-bike2,
+  .words-bike-cells,
+  .wordbike-cell,
+  #aboutusour,
+  picture.school-rides-servies2 {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
   }
 
-  .cells-servies-rides{
+  .section-school-rides-rental1,
+  .section-school-rides-rental2,
+  .contener-school-rides-rental1,
+  .contener-school-rides-rental2 {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+    padding: 1% 0% !important;
+  }
+
+  .servies-words-Bike {
+    width: 30% !important;
+    top: 63% !important;
+    left: 14.9% !important;
+  }
+
+  .cells-servies-rides,
+  .cells-servies-bike,
+  .cell-responsive-bike {
     height: auto !important;
   }
 
-  .img-cell{
+  picture.img-picture-taxi2 {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  button.buttonofthething-taxi {
+    width: 40% !important;
+  }
+
+
+
+  button.buttonofthething {
+    width: 35% !important;
+  }
+
+  .cells-servies-rides {
+    height: auto !important;
+  }
+
+  .img-cell {
     height: 185px !important;
   }
 
-  .ride-cell{
+  .ride-cell {
     width: 45% !important;
   }
 
-  h4.h4cell{
+  h4.h4cell {
     font-size: 25px !important;
   }
 
-  p.pcell{
+  p.pcell {
     font-size: 15px !important;
   }
 
-  .words-ride-cells{
+  .words-ride-cells {
     width: 100%;
   }
 
-  .words-cell{
+  .words-cell {
     width: 90% !important;
     text-align: start !important;
   }
 
-  .contener-clintes-servies{
+  .contener-clintes-servies {
     align-items: center;
   }
 
-  h3.h3servies{
+  h3.h3servies {
     font-size: 25px !important;
   }
 
-  p.pservies{
+  p.pservies {
     line-height: 20px !important;
     font-size: 15px !important;
   }
 
-  .footer-section-page{
+  .footer-section-page {
     display: block;
   }
 
   .partion-top-of-TOWIENS,
   .partion-bottom-of-only,
   .box-download-links,
-  ul.list-download-links{
+  ul.list-download-links {
     width: 100%;
   }
 
-  .partion-this-one{
+  .partion-this-one {
     width: 99%;
     margin: 5% 0.5%;
   }
 
-  .img-logo-footer{
+  .img-logo-footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -7864,12 +8917,12 @@ a.goto-like-top{
     margin: 2% 0;
   }
 
-  img.logo-footer-image{
+  img.logo-footer-image {
     width: 20%;
     height: 115px;
   }
 
-  a.download-this{
+  a.download-this {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7880,38 +8933,38 @@ a.goto-like-top{
     transition: 1.5s;
   }
 
-  a.download-this:hover{
+  a.download-this:hover {
     color: rgb(38, 11, 196);
   }
 
-  li.box-download-link{
+  li.box-download-link {
     width: 90%;
     height: 50px;
   }
 
-  a.download-this-link{
+  a.download-this-link {
     justify-content: center;
   }
 
-  .partion-bottom-of-only{
+  .partion-bottom-of-only {
     margin: 3% 0;
   }
 
-  ul.this-list-terms-policy{
+  ul.this-list-terms-policy {
     width: 95%;
   }
 
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     width: 45%;
   }
 
-  a.goto-like-top{
+  a.goto-like-top {
     font-size: 17px;
   }
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 70% !important;
   }
 
@@ -8279,7 +9332,7 @@ a.goto-like-top{
   .car-carry {
     width: 95%;
     margin-left: 2.5%;
-}
+  }
 
   .car2-carry,
   .car3-carry {
@@ -8287,7 +9340,7 @@ a.goto-like-top{
     display: block;
     margin-bottom: 1%;
   }
-  
+
   .car-carry2,
   .car-carry3 {
     display: flex;
@@ -8301,7 +9354,7 @@ a.goto-like-top{
     border: 1px solid #ede7e79c;
     border-radius: 2.5rem;
   }
-  
+
   .icon1-car,
   .icon2-car {
     border: 2px solid #146C94;
@@ -8312,12 +9365,12 @@ a.goto-like-top{
     width: 10%;
     height: 60px;
   }
-  
+
   .control1car,
   .contro21car {
-   width: 80%;
+    width: 80%;
   }
-  
+
   i.fa-solid.fa-key,
   i.fa-solid.fa-handshake,
   i.fa-solid.fa-person-chalkboard,
@@ -8328,18 +9381,18 @@ a.goto-like-top{
 
   p.control1-car,
   p.control2-car {
-  font-size: 19px;
-}
+    font-size: 19px;
+  }
 
   p.free1-car,
   p.free2-car {
     font-size: 18px;
-}
+  }
 
   .row-create {
     margin-left: 0%;
   }
-  
+
   .margintoclients {
     width: 100%;
     margin-left: 0;
@@ -8347,33 +9400,33 @@ a.goto-like-top{
 
   span.imgclients {
     font-size: 260px !important;
-}
+  }
 
-.condition2{
-  width: 95%;
-  margin-left: 2.5%;
-}
+  .condition2 {
+    width: 95%;
+    margin-left: 2.5%;
+  }
 
-p.passenger1{
-  width: 55%;
-  font-size: 20px;
-}
+  p.passenger1 {
+    width: 55%;
+    font-size: 20px;
+  }
 
-div#links-condition{
-  width: 28%;
-}
+  div#links-condition {
+    width: 28%;
+  }
 
-#link-conditions:hover {
-  margin-left: 8%;
-}
+  #link-conditions:hover {
+    margin-left: 8%;
+  }
 
-p.ofthe{
-  font-size: 18px !important;
-}
+  p.ofthe {
+    font-size: 18px !important;
+  }
 
-.color{
-  font-size: 20px !important;
-}
+  .color {
+    font-size: 20px !important;
+  }
 
   form.cola-form,
   form.coola-form,
@@ -8470,7 +9523,7 @@ p.ofthe{
     color: white;
   }
 
-  .rides{
+  .rides {
     padding: 2%;
   }
 
@@ -9070,20 +10123,58 @@ p.ofthe{
   picture.img-picture,
   .section-clintes-servies,
   .cells-servies-rides,
-  .details{
+  .details {
     width: 100% !important;
     margin-left: 0% !important;
   }
 
-  .img-picture2{
-    display: none;
+  .img-picture2,
+  .img-picture3,
+  .img-picture-taxi,
+  picture.img-picture-taxi3,
+  picture.img-picture-bike,
+  picture.img-picture-bike3,
+  picture.Car-Rental-servies,
+  picture.Car-Rental-servies3,
+  .school-rides-servies,
+  .school-rides-servies3 {
+    display: none !important;
   }
 
-  button.buttonofthething{
+  picture.img-picture-taxi2 picture.img-picture-bike2,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike,
+  .section-clintes-bike,
+  picture.img-picture-bike2,
+  .words-bike-cells,
+  .wordbike-cell {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+  }
+
+  button.buttonofthething-taxi {
     width: 35% !important;
   }
 
-  .cells-servies-rides{
+  button.buttonofthething {
+    width: 35% !important;
+  }
+
+  .servies-words-Bike {
+    width: 25% !important;
+    top: 63% !important;
+    left: 18.9% !important;
+  }
+
+  .cells-servies-rides,
+  .cells-servies-bike,
+  .cell-responsive-bike {
     height: auto !important;
   }
 
@@ -9091,7 +10182,7 @@ p.ofthe{
     width: 50%;
   }
 
-  .type-list-four{
+  .type-list-four {
     width: 50%;
   }
 
@@ -9100,7 +10191,7 @@ p.ofthe{
     width: 45%;
     justify-content: space-around;
   }
-  
+
   .partion-this-one {
     width: 90%;
     display: flex;
@@ -9130,21 +10221,21 @@ p.ofthe{
     width: 50%;
   }
 
-  ul.this-list-terms-policy{
+  ul.this-list-terms-policy {
     width: 90%;
   }
 
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     width: 45%;
   }
 
-  a.goto-like-top{
+  a.goto-like-top {
     font-size: 17px;
   }
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 70% !important;
   }
 
@@ -10128,13 +11219,49 @@ p.ofthe{
     font-size: 70px !important;
   }
 
-  
+  .img-picture2,
+  .img-picture3,
+  .img-picture-taxi,
+  picture.img-picture-taxi3,
+  picture.img-picture-bike,
+  picture.img-picture-bike3,
+  picture.Car-Rental-servies,
+  picture.Car-Rental-servies3,
+  .school-rides-servies,
+  .school-rides-servies3 {
+    display: none !important;
+  }
+
+  picture.img-picture-taxi2,
+  picture.img-picture-bike2,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike,
+  .section-clintes-bike {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  button.buttonofthething-taxi {
+    width: 30% !important;
+  }
+
+  .servies-words-Bike {
+    width: 23% !important;
+    top: 64% !important;
+    left: 19.9% !important;
+  }
+
   .partion-top-of-TOWIENS {
     display: flex;
     width: 45%;
     justify-content: space-around;
   }
-  
+
   .partion-this-one {
     width: 90%;
     display: flex;
@@ -10164,21 +11291,21 @@ p.ofthe{
     width: 50%;
   }
 
-  ul.this-list-terms-policy{
+  ul.this-list-terms-policy {
     width: 90%;
   }
 
-  li.ABOUT-US-TERMS-POLICY{
+  li.ABOUT-US-TERMS-POLICY {
     width: 45%;
   }
 
-  a.goto-like-top{
+  a.goto-like-top {
     font-size: 17px;
   }
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 70% !important;
   }
 }
@@ -10684,8 +11811,47 @@ p.ofthe{
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 70% !important;
+  }
+
+  .img-picture2,
+  .img-picture3,
+  picture.img-picture-taxi2,
+  picture.img-picture-taxi3,
+  picture.img-picture-bike2,
+  picture.img-picture-bike3,
+  picture.Car-Rental-servies2,
+  picture.Car-Rental-servies3,
+  .school-rides-servies2,
+  .school-rides-servies3 {
+    display: none !important;
+  }
+
+  picture.img-picture-taxi .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike,
+  .section-clintes-bike {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .servies-words-taxi {
+    top: 51% !important;
+  }
+
+  button.buttonofthething-taxi {
+    width: 30% !important;
+  }
+
+  .servies-words-Bike {
+    width: 20% !important;
+    top: 62% !important;
+    left: 27.9% !important;
   }
 
 }
@@ -10870,12 +12036,47 @@ p.ofthe{
     transform: rotateZ(37deg);
   }
 
-  .link1-section{
+  .link1-section {
     width: 75% !important;
   }
 
-  .link1-section span{
+  .link1-section span {
     width: 45% !important;
+  }
+
+  .img-picture2,
+  .img-picture3,
+  picture.img-picture-taxi2,
+  picture.img-picture-taxi3,
+  picture.img-picture-bike2,
+  picture.img-picture-bike3,
+  picture.Car-Rental-servies2,
+  picture.Car-Rental-servies3,
+  .school-rides-servies2,
+  .school-rides-servies3 {
+    display: none !important;
+  }
+
+  picture.img-picture-taxi .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike,
+  .section-clintes-bike {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .servies-words-taxi {
+    top: 51% !important;
+  }
+
+  .servies-words-Bike {
+    width: 20% !important;
+    top: 64% !important;
+    left: 28.9% !important;
   }
 }
 
@@ -10977,6 +12178,12 @@ p.ofthe{
 
   .list1-topp-nav {
     right: 41% !important;
+    top: 10% !important;
+  }
+
+  .liist1-topp-nav {
+    right: 31% !important;
+    top: 10% !important;
   }
 
   .point-top-nav:hover .List3-top-nav {
@@ -11106,18 +12313,18 @@ p.ofthe{
   }
 
   .car2-carry,
-  .car3-carry{
+  .car3-carry {
     width: 100%;
   }
 
   .car-carry2,
-  .car-carry3{
+  .car-carry3 {
     width: 49%;
     height: 130px;
   }
 
   .icon1-car,
-  .icon2-car{
+  .icon2-car {
     width: 10%;
     height: 80px;
   }
@@ -11126,17 +12333,47 @@ p.ofthe{
     width: 30%;
   }
 
-  .heart1{
+  .heart1 {
     font-size: 65px !important;
     height: 60px !important;
   }
 
-  .imgcar1{
-    width:18%;
+  .imgcar1 {
+    width: 18%;
   }
 
   .rider-avatar {
     width: 15%;
+  }
+
+  .img-picture2,
+  .img-picture3,
+  picture.img-picture-taxi2,
+  picture.img-picture-taxi3,
+  picture.img-picture-bike2,
+  picture.img-picture-bike3,
+  picture.Car-Rental-servies2,
+  picture.Car-Rental-servies3,
+  .school-rides-servies2,
+  .school-rides-servies3 {
+    display: none !important;
+  }
+
+  picture.img-picture-taxi,
+  .section-clintes-bike,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .servies-words-taxi {
+    top: 51% !important;
   }
 
 }
@@ -11292,6 +12529,24 @@ p.ofthe{
     width: 100%;
     margin-top: 1%;
     color: red;
+  }
+
+  .img-picture2,
+  .img-picture3,
+  picture.img-picture-taxi2,
+  picture.img-picture-taxi3,
+  picture.img-picture-bike2,
+  picture.img-picture-bike3 {
+    display: none !important;
+  }
+
+  picture.img-picture-taxi {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .servies-words-taxi {
+    top: 51% !important;
   }
 
 }
@@ -11580,6 +12835,90 @@ p.ofthe{
     width: 45% !important;
   }
 
+  .section-clintes-bike,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike3,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike,
+  .wordbike-cell {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .details-Bike,
+  .cell-responsive-bike,
+  .contener-bike-rental,
+  .contener-2-bike-rental,
+  .features-Bike {
+    display: block !important;
+  }
+
+  .Bike-servies,
+  .data-Bike,
+  .cellbike,
+  .img-bike-rental,
+  .servies-words-bike,
+  .servies-words-bike,
+  .features-Bike {
+    width: 99% !important;
+    margin-top: 3% !important;
+    margin-left: 0.5% !important;
+  }
+
+  .qwer-left-image-bike,
+  .qwer-right-image-bike,
+  .qwer-image-bike {
+    font-size: 130px !important;
+  }
+
+  button.buttonofthebike {
+    width: 50% !important;
+  }
+
+  h4.h4celbike,
+  h3.h3serviesbike {
+    font-size: 25px !important;
+  }
+
+  p.pcelbike,
+  p.pserviesbike {
+    font-size: 15px !important;
+  }
+
+  .items-start {
+    text-align: center;
+  }
+
+  .items-start h2 {
+    width: 95% !important;
+    margin: 2.5% !important;
+  }
+
+  .items-start p {
+    font-size: 20px !important;
+  }
+
+  .cells-servies-bike {
+    height: auto !important;
+  }
+
+  picture.img-picture-bike,
+  picture.img-picture-bike2 {
+    display: none !important;
+  }
+
+  .responive-bike {
+    width: 23% !important;
+    top: 70% !important;
+    left: 49.9% !important;
+  }
+
+  p.Slogan {
+    font-size: 11px !important;
+  }
+
   /* page about-us / */
 
 }
@@ -11696,7 +13035,7 @@ p.ofthe{
     display: block;
     transition: all 3s;
     animation: fadein 3s;
-    
+
   }
 
   .drop-dowen:hover .slider-button {
@@ -11870,6 +13209,75 @@ p.ofthe{
   button.links-about-to-page {
     width: 45% !important;
     margin-top: 3%;
+  }
+
+  .section-clintes-bike,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike3,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .details-Bike,
+  .cell-responsive-bike,
+  .contener-bike-rental,
+  .contener-2-bike-rental,
+  .features-Bike {
+    display: block !important;
+  }
+
+  .Bike-servies,
+  .data-Bike,
+  .cellbike,
+  .img-bike-rental,
+  .servies-words-bike,
+  .servies-words-bike,
+  .features-Bike {
+    width: 99% !important;
+    margin-top: 3% !important;
+    margin-left: 0.5% !important;
+  }
+
+  .qwer-left-image-bike,
+  .qwer-right-image-bike,
+  .qwer-image-bike {
+    font-size: 130px !important;
+  }
+
+  .items-start {
+    text-align: center;
+  }
+
+  .items-start h2 {
+    width: 95% !important;
+    margin: 2.5% !important;
+  }
+
+  .items-start p {
+    font-size: 20px !important;
+  }
+
+  .cells-servies-bike {
+    height: auto !important;
+  }
+
+  picture.img-picture-bike,
+  picture.img-picture-bike2 {
+    display: none !important;
+  }
+
+  .responive-bike {
+    width: 30% !important;
+    top: 70% !important;
+    left: 49.9% !important;
+  }
+
+  p.Slogan {
+    font-size: 20px !important;
   }
 
   /* page about-us / */
@@ -12153,6 +13561,75 @@ p.ofthe{
     margin-top: 3%;
   }
 
+  .section-clintes-bike,
+  .contener-clintes-servies-Bike,
+  picture.img-picture-bike3,
+  .cells-servies-bike,
+  .section-bike-rental,
+  .section-2-bike-rental,
+  .details-Bike {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .details-Bike,
+  .cell-responsive-bike,
+  .contener-bike-rental,
+  .contener-2-bike-rental,
+  .features-Bike {
+    display: block !important;
+  }
+
+  .Bike-servies,
+  .data-Bike,
+  .cellbike,
+  .img-bike-rental,
+  .servies-words-bike,
+  .servies-words-bike,
+  .features-Bike {
+    width: 99% !important;
+    margin-top: 3% !important;
+    margin-left: 0.5% !important;
+  }
+
+  .qwer-left-image-bike,
+  .qwer-right-image-bike,
+  .qwer-image-bike {
+    font-size: 130px !important;
+  }
+
+  .items-start {
+    text-align: center;
+  }
+
+  .items-start h2 {
+    width: 95% !important;
+    margin: 2.5% !important;
+  }
+
+  .items-start p {
+    font-size: 20px !important;
+  }
+
+  .cells-servies-bike {
+    height: auto !important;
+  }
+
+  picture.img-picture-bike,
+  picture.img-picture-bike2 {
+    display: none !important;
+  }
+
+  .responive-bike {
+    width: 30% !important;
+    top: 70% !important;
+    left: 49.9% !important;
+  }
+
+  p.Slogan {
+    font-size: 25px !important;
+  }
+
   /* page about-us / */
 }
 
@@ -12175,7 +13652,7 @@ p.ofthe{
     height: 75% !important;
     top: 20%;
   }
-  
+
   .section-position-hear {
     width: 90% !important;
     margin-left: 5%;
@@ -12382,6 +13859,12 @@ p.ofthe{
   button.links-about-to-page {
     width: 45% !important;
     margin-top: 3%;
+  }
+
+  .responive-bike {
+    width: 40% !important;
+    top: 67% !important;
+    left: 45.9% !important;
   }
 
   /* page about-us / */
@@ -14484,7 +15967,7 @@ p.ofthe{
   }
 
   section.navsection,
-  .section-three{
+  .section-three {
     width: 100%;
     margin-left: 0;
     padding: 0;
@@ -14495,13 +15978,13 @@ p.ofthe{
     padding: 0;
   }
 
-  a.link-section-three{
+  a.link-section-three {
     font-size: 20px;
   }
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 85% !important;
   }
 
@@ -14595,17 +16078,17 @@ p.ofthe{
   }
 
   section.navsection,
-  .section-three{
+  .section-three {
     width: 100%;
     margin-left: 0;
     padding: 0;
   }
-  
+
   a.link-section-three {
     font-size: 25px;
   }
 
-  .nav2-section button{
+  .nav2-section button {
     width: 35%;
   }
 
@@ -14616,7 +16099,7 @@ p.ofthe{
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 85% !important;
   }
 
@@ -14662,7 +16145,7 @@ p.ofthe{
     font-size: 25px;
   }
 
-  .nav2-section button{
+  .nav2-section button {
     width: 35%;
   }
 
@@ -14693,9 +16176,10 @@ p.ofthe{
   .sections-three {
     width: 100%;
   }
+
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 85% !important;
   }
 
@@ -14774,9 +16258,10 @@ p.ofthe{
   .sections-three {
     width: 100%;
   }
+
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 85% !important;
   }
 
@@ -14852,7 +16337,7 @@ p.ofthe{
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 85% !important;
   }
 
@@ -14933,7 +16418,7 @@ p.ofthe{
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 70% !important;
   }
 
@@ -14991,7 +16476,7 @@ p.ofthe{
 
   .link1-section,
   .link1-section span,
-  a.link-section-three{
+  a.link-section-three {
     width: 70% !important;
   }
 

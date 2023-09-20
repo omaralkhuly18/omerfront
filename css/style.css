@@ -193,7 +193,7 @@ li.pointtt-top-nav {
   z-index: 35;
   width: 65px;
   position: absolute;
-  right: 2 3%;
+  right: 23%;
   visibility: hidden !important;
   /* transform: rotateX(30deg) !important; */
   transition: opacity 1s, visibility 0.2s !important;

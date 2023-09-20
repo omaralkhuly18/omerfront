@@ -149,9 +149,37 @@
             height: auto;
         }
 
-        img.Car-Rental-servies{
+        picture.Car-Rental-servies{
             width: 100%;
             border-radius: 2.5rem;
+            display: block;
+        }
+
+        .Car-Rental-servies img{
+            width: 100%;
+            border-radius: 2.5rem;
+        }
+
+        picture.Car-Rental-servies2 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        .Car-Rental-servies2 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        picture.Car-Rental-servies3 {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+        
+        .Car-Rental-servies3 img {
+            width: 100%;
+            border-radius: 5%;
         }
 
         /*  */
@@ -212,7 +240,7 @@
         p.pserviesCarRental1,
         p.pserviesCarRental2{
             margin: 4% 0;
-            line-height: 25px !important;
+            line-height: 25px;
             font-size: 17px;
             font-weight: 700;
             color: #4516cf;
@@ -254,7 +282,7 @@
 
 
         .details-Bike {
-            background: linear-gradient(43.28deg, #9da2e4 24.38%, #7280e0 70.46%);
+            background: linear-gradient(43.28deg, #9da2e4 24.38%, #959edf 70.46%);
             border-radius: 2.5rem;
             width: 95%;
             margin: 2% 2.5%;
@@ -295,21 +323,21 @@
             color: #f3f3fb;
         }
 
-        .items-start h2 {
+        #span-rental{
             width: 80%;
         }
 
-        .items-start img {
+        #span-rental img {
             width: 25%;
         }
 
-        .items-start span {
+        #p-rental {
             margin-left: -4%;
             color: blueviolet;
             font-size: 40px;
         }
 
-        .items-start p {
+        #No-rental{
             width: 80%;
             font-size: 16px;
             color: aliceblue;
@@ -718,8 +746,21 @@
                     <div class="section-clintes-CarRental">
 
                         <div class="contener-clintes-servies-CarRental">
-                            <img src="img/Car-Rental-servies.png" class="Car-Rental-servies" alt="">
+
+                            <picture class="Car-Rental-servies">
+                                <img src="img/Car-Rental-servies.png" alt="Car-Rental-servies">
+                            </picture>
+    
+                            <picture class="Car-Rental-servies2">
+                                <img src="img/Car-Rental-servies-1.png" alt="Car-Rental-servies">
+                            </picture>
+    
+                            <picture class="Car-Rental-servies3">
+                                <img src="img/Car-Rental-servies-2.png" alt="Car-Rental-servies">
+                            </picture>
+                            
                         </div>
+
 
                         <div class="section-CarRental-rental1">
 
@@ -787,12 +828,13 @@
                 <div class="details-Bike">
 
                     <div class="data-Bike items-start">
-                        <h2>
+
+                        <h2 id="span-rental">
                             <img src="img/logo-black.png" alt="logo">
 
-                            <span>Car-Rental</span>
+                            <span id="p-rental">Car-Rental</span>
                         </h2>
-                        <p>
+                        <p id="No-rental">
                             No hassle, no deposit, no paperwork. Rent a car for a month, a week, or even a day on
                             Careem. Choose from a wide selection of cars and have it delivered straight to your door.
                         </p>
@@ -825,127 +867,132 @@
             </div>
         </div>
     </section>
-         <!-- section footer -->
-         <footer id="footer-of-page">
 
-            <div class="section-footer"> <!--background-->
-    
-                <div class="footer-section-page"> <!--flex-one-->
-    
-                    <div class="partion-top-of-TOWIENS"> <!--flex-TOWIENS-->
-    
-                        <div class="partion-this-one">
-    
-                            <div class="img-logo-footer">
-                                <img src="img/‏‏Vector - footer.png" alt="logo-footer" class="logo-footer-image">
-                            </div>
-    
-                            <div class="box-download-links">
-    
-                                <ul class="list-download-links">
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box1-download-links-AppStore.webp"
-                                                alt="box1-download-links-AppStore" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box2-download-links-google-play.webp"
-                                                alt="box2-download-links-google-play" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box3-download-links-android.webp"
-                                                alt="box3-download-links-android" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                </ul>
-    
-                            </div>
-    
-                        </div>
-    
-    
-                    </div><!--flex-tow /-->
-    
-                    <div class="partion-bottom-of-only"> <!-- flex-only -->
-    
-                        <div class="partion-this-five">
-    
-                            <div class="downlistfooter">
-    
-                                <ul class="this-list-ourpages">
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                </ul>
-    
-                            </div>
+    <!-- section footer -->
+    <footer id="footer-of-page">
 
-                            <div class="type-list-four">
-                                <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
-                            </div>
-    
+        <div class="section-footer"> <!--background-->
+
+            <div class="footer-section-page"> <!--flex-one-->
+
+                <div class="partion-top-of-TOWIENS"> <!--flex-TOWIENS-->
+
+                    <div class="partion-this-one">
+
+                        <div class="img-logo-footer">
+                            <img src="img/‏‏Vector - footer.png" alt="logo-footer" class="logo-footer-image">
+
+                            <a href="#" class="download-this">
+                                <h1 class="download-this-lin">slogan</h1>
+                            </a>
                         </div>
-    
-                    </div><!-- flex-only -->
-    
-                </div><!--flex-one -->
-    
-                <div class="partion-this-sex">
-    
-                    <div class="type-list-five">
-    
-                        <h2 class="h2terms-policy">Terms-Policy © 2023</h2>
+
+                        <div class="box-download-links">
+
+                            <ul class="list-download-links">
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box1-download-links-AppStore.webp"
+                                            alt="box1-download-links-AppStore" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box2-download-links-google-play.webp"
+                                            alt="box2-download-links-google-play" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box3-download-links-android.webp"
+                                            alt="box3-download-links-android" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
                     </div>
-    
-                    <div class="downlist__footer">
-    
-                        <ul class="this-list-terms-policy">
-    
-                            <li class="ABOUT-US-TERMS-POLICY">
-                                <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
-                            </li>
-    
-                            <li class="ABOUT-US-TERMS-POLICY">
-                                <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
-                            </li>
-    
-                        </ul>
-    
+
+
+                </div><!--flex-tow /-->
+
+                <div class="partion-bottom-of-only"> <!-- flex-only -->
+
+                    <div class="partion-this-five">
+
+                        <div class="downlistfooter">
+
+                            <ul class="this-list-ourpages">
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="type-list-four">
+                            <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
+                        </div>
+
                     </div>
-    
+
+                </div><!-- flex-only -->
+
+            </div><!--flex-one -->
+
+            <div class="partion-this-sex">
+
+                <div class="type-list-five">
+
+                    <h2 class="h2terms-policy">Terms-Policy © 2023</h2>
                 </div>
-    
-            </div><!--background -->
-    
-        </footer>
-        <!-- section footer /-->
+
+                <div class="downlist__footer">
+
+                    <ul class="this-list-terms-policy">
+
+                        <li class="ABOUT-US-TERMS-POLICY">
+                            <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
+                        </li>
+
+                        <li class="ABOUT-US-TERMS-POLICY">
+                            <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div><!--background -->
+
+    </footer>
+    <!-- section footer /-->
 
     <!-- button go to top -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>

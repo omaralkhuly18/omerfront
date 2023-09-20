@@ -86,7 +86,7 @@
             padding: 3%;
         }
 
-        h3.h3servies {
+        h3.h3serviesg-taxi {
             color: black;
             font-size: 36px;
             margin: 5% 0;
@@ -99,7 +99,7 @@
             margin: 5% 0;
         }
 
-        button.buttonofthething {
+        button.buttonofthething-taxi {
             background: none;
             border: none;
             outline: none;
@@ -142,63 +142,64 @@
         }
 
         .contener-clintes-servies-taxi {
+            position: relative;
             width: 97%;
-            margin: 0 1.5% 3% 0;
+            margin: 1.5% 1.5%;
             height: auto;
         }
 
-        .contener-clintes-servies-taxi::before {
-            background-image: url(./img/taxi-uslogin.png);
-            background-attachment: initial;
-            background-size: cover;
-            background-position: top;
-            position: absolute;
-            top: 0;
-            left: 4%;
-            right: 0;
-            content: "";
-            width: 92%;
-            height: 23%;
+        picture.img-picture-taxi {
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        picture.img-picture-taxi2{
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        picture.img-picture-taxi3{
+            width: 95%;
+            margin-left: 2.5%;
+            display: block;
+        }
+
+        .img-picture-taxi img {
+            width: 100%;
             border-radius: 2.5rem;
+        }
+        
+        .img-picture-taxi2 img {
+            width: 100%;
+            border-radius: 5%;
+        }
+
+        .img-picture-taxi3 img{
+            width: 100%;
+            border-radius: 5%;
         }
 
         .servies-words-taxi {
-            position: relative;
-            width: 65%;
-            height: 65%;
-            padding: 3%;
+        position: absolute;
+        width: 45%;
+        padding: 3%;
+        top: 60%;
         }
 
         .words-servies-taxi {
-            width: 70%;
-            height: 100%;
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 6% 3%;
         }
 
-        .flex-words-serivers-taxi {
-            width: 100%;
-            height: 50%;
-        }
-
-        h3.h3servies-taxi {
-            color: wheat;
-            font-size: 45px;
-            width: 55%;
-        }
-
-        p.pservies-taxi {
-            font-size: 25px;
-            color: #DFD7BF;
-            margin: 3% 0;
-        }
-
         p.slogan {
             display: flex;
             margin-top: 15%;
-            width: 50%;
+            width: 100%;
             font-size: 34px;
             color: white;
             font-family: 'Cairo', sans-serif;
@@ -335,27 +336,12 @@
             font-size: 36px;
             margin: 5% 0;
         }
-        
+
         p.Hala-pservies {
             color: blueviolet;
             line-height: 25px;
             font-size: 17px;
             margin: 5% 0;
-        }
-        .servies-words-taxi {
-            position: relative;
-            width: 65%;
-            height: 65%;
-            padding: 3%;
-        }
-
-        .words-servies-taxi {
-            width: 70%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 6% 3%;
         }
 
         /* Section To Links From To / */
@@ -720,24 +706,26 @@
 
                         <div class="contener-clintes-servies-taxi">
 
+                            <picture class="img-picture-taxi">
+                                <img src="img/taxi-uslogin.png" alt="picture">
+                            </picture>
+
+                            <picture class="img-picture-taxi2">
+                                <img src="img/taxi-uslong-responive-1.png" alt="picture">
+                              </picture>
+
+                              <picture class="img-picture-taxi3">
+                                <img src="img/taxi-uslong-responive-2.png" alt="picture">
+                              </picture>
+
                             <div class="servies-words-taxi">
 
                                 <div class="words-servies-taxi">
-
-                                    <div class="flex-words-serivers-taxi">
-                                        <h3 class="h3servies-taxi">
-                                            Dubai's most affordable ride.
-                                        </h3>
-
-                                        <p class="pservies-taxi">
-                                            TAXIS AND HAIL RIDES ON THE SLogan
-                                        </p>
 
                                         <p class="slogan">
                                             <span class="emspicail">'</span>
                                             S-Logan.
                                         </p>
-                                    </div>
 
                                 </div>
 
@@ -755,12 +743,12 @@
                                 <div class="servies-words">
 
                                     <div class="words-servies">
-                                        <h3 class="h3servies">Hala</h3>
+                                        <h3 class="h3serviesg-taxi">Hala</h3>
                                         <p class="pservies">Book a Hala, Dubai’s most affordable taxi, with a tap. Only
                                             available on the S-Logan app.
                                         </p>
 
-                                        <button class="buttonofthething">
+                                        <button class="buttonofthething-taxi">
                                             <a href="#" class="LINKOFTHETHING">Book Your Ride</a>
                                         </button>
                                     </div>
@@ -778,12 +766,12 @@
                                 <div class="servies-words height-this">
 
                                     <div class="words-servies">
-                                        <h3 class="h3servies">Hala Kids</h3>
+                                        <h3 class="h3serviesg-taxi">Hala Kids</h3>
                                         <p class="pservies">Kids need affordable rides too. Book a car that has a child
                                             seat to travel safely with a bundle of joy..
                                         </p>
 
-                                        <button class="buttonofthething">
+                                        <button class="buttonofthething-taxi">
                                             <a href="#" class="LINKOFTHETHING">Book Your Ride</a>
                                         </button>
                                     </div>
@@ -847,11 +835,12 @@
 
                                     <div class="words-2-servies">
                                         <h3 class="h3-Hala-servies">Hala Max</h3>
-                                        <p class="Hala-pservies">Hala Max is both a good quality and a price friendly ride
+                                        <p class="Hala-pservies">Hala Max is both a good quality and a price friendly
+                                            ride
                                             for the whole group. Book a ride for a maximum of six people.
                                         </p>
 
-                                        <button class="buttonofthething">
+                                        <button class="buttonofthething-taxi">
                                             <a href="#" class="LINKOFTHETHING">Book Your Ride</a>
                                         </button>
                                     </div>
@@ -875,127 +864,131 @@
         </div>
     </section>
 
-         <!-- section footer -->
-         <footer id="footer-of-page">
+    <!-- section footer -->
+    <footer id="footer-of-page">
 
-            <div class="section-footer"> <!--background-->
-    
-                <div class="footer-section-page"> <!--flex-one-->
-    
-                    <div class="partion-top-of-TOWIENS"> <!--flex-TOWIENS-->
-    
-                        <div class="partion-this-one">
-    
-                            <div class="img-logo-footer">
-                                <img src="img/‏‏Vector - footer.png" alt="logo-footer" class="logo-footer-image">
-                            </div>
-    
-                            <div class="box-download-links">
-    
-                                <ul class="list-download-links">
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box1-download-links-AppStore.webp"
-                                                alt="box1-download-links-AppStore" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box2-download-links-google-play.webp"
-                                                alt="box2-download-links-google-play" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box3-download-links-android.webp"
-                                                alt="box3-download-links-android" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                </ul>
-    
-                            </div>
-    
-                        </div>
-    
-    
-                    </div><!--flex-tow /-->
-    
-                    <div class="partion-bottom-of-only"> <!-- flex-only -->
-    
-                        <div class="partion-this-five">
-    
-                            <div class="downlistfooter">
-    
-                                <ul class="this-list-ourpages">
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                </ul>
-    
-                            </div>
+        <div class="section-footer"> <!--background-->
 
-                            <div class="type-list-four">
-                                <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
-                            </div>
-    
+            <div class="footer-section-page"> <!--flex-one-->
+
+                <div class="partion-top-of-TOWIENS"> <!--flex-TOWIENS-->
+
+                    <div class="partion-this-one">
+
+                        <div class="img-logo-footer">
+                            <img src="img/‏‏Vector - footer.png" alt="logo-footer" class="logo-footer-image">
+
+                            <a href="#" class="download-this">
+                                <h1 class="download-this-lin">slogan</h1>
+                            </a>
                         </div>
-    
-                    </div><!-- flex-only -->
-    
-                </div><!--flex-one -->
-    
-                <div class="partion-this-sex">
-    
-                    <div class="type-list-five">
-    
-                        <h2 class="h2terms-policy">Terms-Policy © 2023</h2>
+
+                        <div class="box-download-links">
+
+                            <ul class="list-download-links">
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box1-download-links-AppStore.webp"
+                                            alt="box1-download-links-AppStore" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box2-download-links-google-play.webp"
+                                            alt="box2-download-links-google-play" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                                <li class="box-download-link">
+
+                                    <a href="#" class="download-this-link">
+                                        <img src="img/box3-download-links-android.webp"
+                                            alt="box3-download-links-android" class="download-this-link-from-img">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
                     </div>
-    
-                    <div class="downlist__footer">
-    
-                        <ul class="this-list-terms-policy">
-    
-                            <li class="ABOUT-US-TERMS-POLICY">
-                                <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
-                            </li>
-    
-                            <li class="ABOUT-US-TERMS-POLICY">
-                                <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
-                            </li>
-    
-                        </ul>
-    
+
+
+                </div><!--flex-tow /-->
+
+                <div class="partion-bottom-of-only"> <!-- flex-only -->
+
+                    <div class="partion-this-five">
+
+                        <div class="downlistfooter">
+
+                            <ul class="this-list-ourpages">
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                                <li class="ABOUT-US-OURPAES">
+                                    <a href="" class="goto-like-top">
+                                        <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="type-list-four">
+                            <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
+                            <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
+                        </div>
+
                     </div>
-    
+
+                </div><!-- flex-only -->
+
+            </div><!--flex-one -->
+
+            <div class="partion-this-sex">
+
+                <div class="type-list-five">
+
+                    <h2 class="h2terms-policy">Terms-Policy © 2023</h2>
                 </div>
-    
-            </div><!--background -->
-    
-        </footer>
-        <!-- section footer /-->
+
+                <div class="downlist__footer">
+
+                    <ul class="this-list-terms-policy">
+
+                        <li class="ABOUT-US-TERMS-POLICY">
+                            <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
+                        </li>
+
+                        <li class="ABOUT-US-TERMS-POLICY">
+                            <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div><!--background -->
+
+</footer>
+<!-- section footer /-->
 
     <!-- button go to top -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
@@ -1056,3 +1049,12 @@
 </body>
 
 </html>
+
+
+<!-- <picture class="img-picture2">
+    <img src="img/pictuer-rides-responsive.png" alt="picture">
+  </picture>
+
+ <picture class="img-picture3">
+    <img src="img/picture-rieds-responsive-1.png" alt="picture">
+ </picture> -->
