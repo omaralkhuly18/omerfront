@@ -1,5 +1,3 @@
-/* *{border: 1px solid red;} */
-
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -23,6 +21,22 @@ h5,
 h6 {
   margin: 0;
 }
+
+svg.svg-inline--fa.fa-key,
+svg.svg-inline--fa.fa-handshake,
+svg.svg-inline--fa.fa-star,
+svg.svg-inline--fa.fa-person-chalkboard{
+  font-size: 30px;
+}
+
+svg.svg-inline--fa.fa-heart,
+svg.svg-inline--fa.fa-road,
+svg.change{
+  font-size: 30px !important;
+}
+
+
+a{text-decoration: none;}
 
 ul,
 ol {
@@ -185,28 +199,15 @@ span.span-phone {
   height: 560px;
 }
 
-.imageSlider {
-  content: "";
-  position: absolute;
+.SliderTopImage img {
   width: 100%;
   height: 550px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transform: rotateX(355deg);
 }
 
-.background-image-1 {
-  background-image: url(/img/featured-avatar.jpeg);
-}
-
-.background-image-2 {
-  background-image: url(/img/featured-avatar5.jpeg);
-}
-
-.background-image-3 {
-  background-image: url(/img/featured-avatar-click.jpg);
-}
+.imageslider{
+  width: 100%;
+  height: 550px;
+} 
 
 button#gototop {
   width: 4%;
@@ -304,6 +305,10 @@ button#gototop:hover {
   to {
     opacity: 1
   }
+}
+
+.active, .clicks:hover {
+  background-color: #717171;
 }
 
 .footer-bootstrap-v5 {
@@ -611,8 +616,8 @@ p.free2-car {
 }
 
 .displayCLIENTS {
-  width: 90%;
-  margin-left: 3%;
+  width: 100%;
+  margin-left: 0%;
   background-color: #06f5c93b;
   border-radius: 2.5rem;
   padding: 2% 1%;
@@ -670,6 +675,10 @@ h5.sayaboutus {
 .imageclients {
   width: 100%;
 }
+
+svg.svg-inline--fa.fa-user {
+  font-size: 70px;
+  }
 
 /* .imgclients {
   width: 22%;
@@ -937,8 +946,8 @@ section.Latest-rentals {
 }
 
 .carlatest {
-  width: 93%;
-  margin-left: 3.5%;
+  width: 100%;
+  margin-left: 0%;
   background-color: #99dbf5;
   border-radius: 2.5rem;
   padding: 2% 0;
@@ -1087,16 +1096,16 @@ section.Looking-for-ride {
 }
 
 .space.no-top {
-  width: 93%;
-  margin-left: 3.5%;
+  width: 100%;
+  margin-left: 0%;
   background-color: #c5fdf3;
   border-radius: 2.5rem;
   padding: 3% 0;
 }
 
 .container {
-  width: 90%;
-  margin-left: 5%;
+  width: 100%;
+  margin-left: 0%;
 }
 
 .row {
@@ -3151,16 +3160,16 @@ section.icons-placeholder {
 }
 
 .ICONS-PLACEHOLDER {
-  width: 93%;
+  width: 100%;
   background-color: #99dbf5;
   border-radius: 2.5rem;
   padding: 2% 0;
-  margin-left: 3.5%;
+  margin-left: 0%;
 }
 
 div#ICONS-placeholder {
-  width: 95%;
-  margin-left: 2.5%;
+  width: 100%;
+  margin-left: 0%;
 }
 
 .tool-number {
