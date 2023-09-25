@@ -294,6 +294,41 @@
             }
         }
 
+        .blogs-image .box {
+            padding: 5px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .blogs-image .row {
+            width: 99% !important;
+        }
+
+        .blogs-image .box img {
+            width: 100%;
+            height: auto;
+        }
+
+        .blogs-image .box::before {
+            content: attr(data-work);
+            position: absolute;
+            background-color: rgba(54, 51, 209, 0.575);
+            width: calc(100% - 10px);
+            height: calc(100% - 10px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: white;
+            transition: 0.3s;
+            font-size: 1.5rem;
+            transform: translateX(calc(-100% - 5px));
+        }
+
+        .blogs-image .box:hover::before {
+            transform: translateX(0);
+        }
+
         .footer-bootstrap-v5 {
             width: 100%;
             background-color: rgb(13, 202, 240);
@@ -318,7 +353,7 @@
             height: 50px;
         }
 
-        .h2ourpage{
+        .h2ourpage {
             font-size: 26px;
         }
 
@@ -680,12 +715,9 @@
                                     <h2 class="h22-slider-top text-white-50">el-trip</h2>
                                     <h3 class="h33-slider-top text-muted">Make</h3>
                                     <h3 class="h333-slider-top text-info">customers</h3>
-                                    <p class="p-slider-top text-white">We've been established 13 years, giving us plenty
-                                        of time to perfect
-                                        our service In that time we've grown from 115 sales to over 7000 with full
-                                        warranty</p>
-                                    <button id="link-click-slider-top"><a href="#" id="link-click-slider">contact
-                                            now</a></button>
+                                    <p class="p-slider-top text-white"> </p>
+                                    <button id="link-click-slider-top"><a href="#" id="link-click-slider">REGISTER
+                                            NOW</a></button>
 
                                 </div>
 
@@ -711,8 +743,9 @@
                                     <h2 class="h22-slider-top text-white-50">el-trip</h2>
                                     <h3 class="h33-slider-top text-muted">Make</h3>
                                     <h3 class="h333-slider-top text-info">customers</h3>
-                                    <p class="p-slider-top text-white">We've been established 13 years, giving us plenty
-                                        of time to perfect
+                                    <p class="p-slider-top text-white">Make an Impression Cars for every budget
+                                        We have a dedicated procurement team working around the clock to make sure you
+                                        always get the best deals......
                                         our service In that time we've grown from 115 sales to over 7000 with full
                                         warranty</p>
                                     <button id="link-click-slider-top"><a href="#" id="link-click-slider">contact
@@ -891,81 +924,172 @@
         </p>
     </div>
 
+
+    <section class="blogs-image">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="box mb-3 bg-white" data-work="Our slogan Don't just take our word for it. We're rated at 9.7/10 on independent,
+                review website TrustPilot, from over 4,000
+                genuine customer reviews. el-trip Make customers">
+
+                    <img class="img-fluid" src="img/rider-1.jpg" alt="" />
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="box mb-3 bg-white" data-work="Application">
+
+                    <img class="img-fluid" src="img/rider-2.jpg" alt="" />
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="box mb-3 bg-white" data-work="Application">
+
+                    <img class="img-fluid" src="img/rider-3.jpg" alt="" />
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="box mb-3 bg-white" data-work="Application">
+
+                    <img class="img-fluid" src="img/rider-4.jpg" alt="" />
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="box mb-3 bg-white" data-work="Application">
+
+                    <img class="img-fluid" src="img/rider-5.jpg" alt="" />
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="box mb-3 bg-white" data-work="Application">
+
+                    <img class="img-fluid" src="img/rider-6.jpg" alt="" />
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="box mb-3 bg-white" data-work="Application">
+
+                    <img class="img-fluid" src="img/rider-7.jpg" alt="" />
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="box mb-3 bg-white" data-work="Application">
+
+                    <img class="img-fluid" src="img/rider-8.jpg" alt="" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
     <footer class=" footer-bootstrap-v5">
 
         <div class="row ms-0 me-0">
 
-           
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
 
-                    <div class="logo-footer mt-3 mb-3">
+            <div class="col-lg-4 col-md-6 col-sm-12">
 
-                        <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+                <div class="logo-footer mt-3 mb-3">
 
+                    <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+
+                </div>
+
+                <div class="d-flex download-fluter  mt-3 mb-3">
+
+                    <div class="image-link-one">
+                        <img src="img/box1-download-links-AppStore.webp" class=" mt-2 mb-2" alt="AppStore">
                     </div>
 
-                    <div class="d-flex download-fluter  mt-3 mb-3">
+                    <div class="image-link-one">
+                        <img src="img/box2-download-links-google-play.webp" class=" mt-2 mb-2" alt="AppStore">
+                    </div>
 
-                        <div class="image-link-one">
-                            <img src="img/box1-download-links-AppStore.webp" class=" mt-2 mb-2" alt="AppStore">
-                        </div>
-
-                        <div class="image-link-one">
-                            <img src="img/box2-download-links-google-play.webp" class=" mt-2 mb-2" alt="AppStore">
-                        </div>
-
-                        <div class="image-link-one">
-                            <img src="img/box3-download-links-android.webp" class=" mt-2 mb-2" alt="AppStore">
-                        </div>
-
+                    <div class="image-link-one">
+                        <img src="img/box3-download-links-android.webp" class=" mt-2 mb-2" alt="AppStore">
                     </div>
 
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
+            </div>
 
-                    <div class="phone-whatsapp mt-3 mb-3">
+            <div class="col-lg-4 col-md-6 col-sm-12">
 
-                        <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                        <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                        <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
-                        <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
+                <div class="phone-whatsapp mt-3 mb-3">
 
-                    </div>
-
-
+                    <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
+                    <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
+                    <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
+                    <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
 
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-
-                    <div class="icons-goto-pages ">
-
-                        <ul class="this-list-ourpages mt-3 mb-3 d-flex align-items-center justify-content-between">
-
-                            <li class="ABOUT-US-OURPAES">
-                                <a href="" class="goto-like-page">
-                                    <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
-                            </li>
-
-                            <li class="ABOUT-US-OURPAES">
-                                <a href="" class="goto-like-page">
-                                    <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
-                            </li>
-
-                            <li class="ABOUT-US-OURPAES">
-                                <a href="" class="goto-like-page">
-                                    <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
-                            </li>
-
-                        </ul>
-
-                    </div>
 
 
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+
+                <div class="icons-goto-pages ">
+
+                    <ul class="this-list-ourpages mt-3 mb-3 d-flex align-items-center justify-content-between">
+
+                        <li class="ABOUT-US-OURPAES">
+                            <a href="" class="goto-like-page">
+                                <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
+                        </li>
+
+                        <li class="ABOUT-US-OURPAES">
+                            <a href="" class="goto-like-page">
+                                <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
+                        </li>
+
+                        <li class="ABOUT-US-OURPAES">
+                            <a href="" class="goto-like-page">
+                                <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
+                        </li>
+
+                    </ul>
 
                 </div>
+
+
+
+            </div>
 
 
             <div class="row container-fluid">
