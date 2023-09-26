@@ -1248,64 +1248,6 @@
         }
     </script>
 
-    <script>
-
-        let slideIndex = 1;
-        MovementClick(slideIndex);
-
-        function plusSlides(image) {
-            MovementClick(slideIndex += image);
-        }
-
-        function afterClick(image) {
-            MovementClick(slideIndex = image);
-        }
-
-        function MovementClick(image) {
-            let slides = document.getElementsByClassName("SliderTopImage");
-            let clickHer = document.getElementsByClassName("btn");
-            if (image > slides.length) { slideIndex = 1; }
-            if (image < 1) { slideIndex = slides.length; }
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (let i = 0; i < clickHer.length; i++) {
-                clickHer[i].className = clickHer[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            clickHer[slideIndex - 1].className += " active";
-        }
-
-        let imageClients = 1;
-        showSlide(imageClients);
-
-        function plusClients(images) {
-            showSlide(imageClients += images);
-        }
-
-        function currentClients(images) {
-            showSlide(imageClients = images);
-        }
-
-        function showSlide(images) {
-            let client = document.getElementsByClassName("clientsaysaboutus");
-            let click = document.getElementsByClassName("clicks");
-            if (images > client.length) { imageClients = 1; }
-            if (images < 1) { imageClients = client.length; }
-            for (let i = 0; i < client.length; i++) {
-                client[i].style.display = "none";
-            }
-            for (let i = 0; i < click.length; i++) {
-                click[i].className = click[i].className.replace(" active", "");
-            }
-            client[imageClients - 1].style.display = "block";
-            click[imageClients - 1].className += " active";
-        }
-    </script>
-
-    <script src="js/java.js"></script>
-
-
 </body>
 
 </html>

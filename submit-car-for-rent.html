@@ -7,10 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/brands.css">
-    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/solid.css">
-    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/regular.css">
-    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Submit-Car-For-Rent</title>
@@ -285,332 +284,147 @@
 </head>
 
 <body>
-    <div class="Topbar">
-        <div class="topBar">
-            <div class="Bar">
-                <ul class="list-top-par1">
-                    <li class="point-top-bar" id="display-none">
-                        <i class="fa-solid fa-house"></i>
-                    </li>
+    <div class="container-fluid" id="container-fluid">
 
-                    <li class="point-top-bar">
-                        <i class="fa-solid fa-circle-question"></i>
-                    </li>
+        <ul class="navbar-nav me-auto mb-2 flex-new">
 
-                    <li class="point-top-bar">
-                        <i class="fa-solid fa-headset"></i>
-                    </li>
+            <div class=" navbar-collapse" id="navbarSupported">
 
+                <li class="nav-item  width">
 
-                    <li class="point-top-bar">
-                        <i class="fa-solid fa-lock"></i>
-                        <ul class="list11-topp-nav">
-                            <li class="pointtt-top-nav"><a class="linkthis" href="Loginuser.html">user </a></li>
-                            <li class="pointtt-top-nav"><a class="linkthis" href="Logindriver.html">driver</a></li>
-                        </ul>
-                    </li>
+                    <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-lock" id="icon-lock"></i> Login</a>
 
-                    <li class="point-top-bar">
-                        <i class="fa-solid fa-circle-check"></i>
-                        <ul class="list111-topp-nav">
-                            <li class="pointtt-top-nav"><a class="linkthis" href="Registeruser.html">user </a></li>
-                            <li class="pointtt-top-nav"><a class="linkthis" href="Registerdriver.html">driver</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Loginuser.html"> user</a></li>
+                        <li><a class="dropdown-item" href="Logindriver.html">driver</a></li>
+                    </ul>
 
-                <ul class="list-top-par2">
+                </li>
 
-                    <div class="list-bar1-widtHhigh">
-                        <li class="point1-top-bar">
-                            <i class="fa-solid fa-headset"></i>
-                            <a href="#" class="Support-Center">Support Center</a>
-                        </li>
+                <li class="nav-item  width">
 
-                        <li class="point1-top-bar">
-                            <i class="fa-solid fa-circle-question"></i>
-                            <a href="#" class="Faq's">Faq's</a>
-                        </li>
-                    </div>
-                </ul>
-                <ul class="list-top-par3">
-                    <div class="list-bar2-widtHhigh">
-                        <li class="point2-top-bar">
-                            <a href="#" class="Login"><i class="fa-solid fa-lock"></i> Login</a>
-                            <ul class="list1-topp-nav">
-                                <li class="pointtt-top-nav"><a class="linkthis" href="Loginuser.html"> user</a></li>
-                                <li class="pointtt-top-nav"><a class="linkthis" href="Logindriver.html">driver</a></li>
-                            </ul>
-                        </li>
+                    <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-circle-check" id="icon-check"></i>Register</a>
 
-                        <li class="point2-top-bar">
-                            <i class="fa-solid fa-circle-check"></i>
-                            <a href="#" class=" Register"> Register</a>
-                            <ul class="liist1-topp-nav">
-                                <li class="pointtt-ttop-nav"><a class="llinkthis" href="Registeruser.html">user </a>
-                                </li>
-                                <li class="pointtt-ttop-nav"><a class="llinkthis" href="Registerdriver.html">driver</a>
-                                </li>
-                            </ul>
-                        </li>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Registeruser.html">user </a></li>
+                        <li><a class="dropdown-item" href="Registerdriver.html">driver</a></li>
+                    </ul>
 
-                    </div>
-                </ul>
-                <div class="button">
-                    <a href="#" class="button-plus">+Post</a>
-                </div>
-                <div class="button-1">
-                    <a href="#" class="buttonplus">+Post</a>
-                </div>
-
+                </li>
             </div>
-        </div>
+
+            <form class="d-flex d-lg d-flex justify-content-end" id="d-flex">
+                <button class="btn  button-post" type="submit">+post</button>
+            </form>
+
+        </ul>
+
     </div>
 
-    <!-- header myHeader -->
-    <header id="myHeader">
-        <div class="HEADER-IMG">
-            <div class="img-header">
-                <a href="index.html"><img src="img/Vector.png" alt="Img-Logo" class="img-logo"></a>
-            </div>
+    <nav class="navbar bg-info text-dark navbar-expand-lg  sticky-top">
 
-            <div class="menu-1">
-                <div id="myNav" class="overlay">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <div class="overlay-content">
-                        <ul class="list-top-Nav">
-                            <li class="point-top-Nav">
-                                <a href="#" class="link-Nav" id="hover1-link">Home
-                                    <ul class="list1-top-nav">
-                                        <li class="point-top-nav"><a href="index after login.html">index after login</a>
-                                        </li>
-                                    </ul>
-                                </a>
-                            </li>
+        <div class="container-floid container-fluid">
 
-                            <li class="point1-top-Nav">
-                                <a href="#" class="link-Nav" id="hover1-link"> Cars
-                                    <i class="fa-solid fa-caret-down"></i></a>
-                                <ul class="list1-top-nav">
-                                    <li class="point-top-nav">
-                                        <a href="Models-Cars.html" class="link-nav">Models-Cars</a>
-                                    </li>
+            <a class="navbar-brand" href="index.html"><img src="img/Vector.png" class="vector-img-logo"
+                    alt="Vector"></a>
 
-                                    <li class="point-top-nav">
-                                        <a href="car-profile.html" class="link-nav">Car Profile</a>
-                                    </li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
 
-                                    <li class="point-top-nav">
-                                        <a href="car-detail.html" class="link-nav">Cars Detail</a>
-                                    </li>
+                <i class="fa-solid fa-bars"></i>
 
-                                    <li class="point-top-nav">
-                                        <a href="create-route-notification.html" class="link-nav">Route Notification</a>
-                                    </li>
+                <!-- <span class="navbar-toggler-icon"></span> -->
 
-                                    <li class="point-top-nav">
-                                        <a href="submit-car-intro.html" class="link-nav">Submit Car Introduction</a>
-                                    </li>
+            </button>
 
-                                    <li class="point-top-nav">
-                                        <a href="submit-car-for-rent.html" class="link-nav">Submit Car For Rent</a>
-                                    </li>
-                                </ul>
-                            </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                            <li class="point2-top-Nav">
-                                <a href="#" class="link-Nav">>Our-Business
-                                    <i class="fa-solid fa-caret-down"></i> </a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                                <ul class="list2-top-nav">
-                                    <li class="point-top-nav">
-                                        <a href="Rides.html" class="link-nav">Rides</a>
-                                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            home
+                        </a>
 
-                                    <li class="point-top-nav">
-                                        <a href="Taxi.html" class="link-nav">Taxi</a>
-                                    </li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                                    <li class="point-top-nav">
-                                        <a href="motor-bike.html" class="link-nav">motor-bike</a>
-                                    </li>
-
-                                    <li class="point-top-nav">
-                                        <a href="Car-Rental.html" class="link-nav">Car-Rental</a>
-                                    </li>
-
-                                    <li class="point-top-nav">
-                                        <a href="School-Rides.html" class="link-nav">School-Rides</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-                            <li class="point4-top-Nav">
-                                <a href="#" class="link-Nav"> Profiles
-                                    <i class="fa-solid fa-caret-down"></i></a>
-                                <ul class="list4-top-nav">
-                                    <li class="point-top-nav">
-                                        <a href="profile-driver.html" class="link-nav">profile-driver</a>
-                                    </li>
-
-                                    <li class="point-top-nav">
-                                        <a href="profile-user.html" class="link-nav">Profile-user</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="point5-top-Nav">
-                                <a href="#" class="link-Nav">More Pages
-                                    <i class="fa-solid fa-caret-down"></i></a>
-                                <ul class="list5-top-nav">
-                                    <li class="point-top-nav">
-                                        <a href="Services.html" class="link-nav">Services</a>
-                                    </li>
-
-                                    <li class="point-top-nav">
-                                        <a href="About-Us.html" class="link-nav">About-Us</a>
-                                    </li>
-
-                                    <li class="point-top-nav">
-                                        <a href="Contact-Us.html" class="link-nav">Contact-Us</a>
-                                    </li>
-
-                                    <li class="point-top-nav">
-                                        <a href="Blog.html" class="link-nav">Blog</a>
-                                    </li>
-
-                                    <li class="point-top-nav">
-                                        <a href="Our-Values.html" class="link-nav">Our-Values</a>
-                                    </li>
-
-                                    <li class="point-top-nav">
-                                        <a href="Our-Effect.html" class="link-nav">Our-Effect</a>
-                                    </li>
-                                </ul>
-                            </li>
+                            <li><a class="dropdown-item" href="index after login.html">index after login</a></li>
 
                         </ul>
-                    </div>
-                </div>
-                <button class="onclick" onclick="openNav()">&#9776; </button>
-            </div>
 
-            <div class="menu-2">
-                <div class="menu1">
-                    <ul class="list-top-Nav">
-                        <li class="point1-top-Nav">
-                            <a href="#" class="link-Nav">Home</a>
-                            <ul class="list1-top-nav">
-                                <li class="point-top-nav"><a href="index after login.html">index after login</a></li>
-                            </ul>
-                        </li>
+                    </li>
 
-                        <li class="point1-top-Nav">
-                            <a href="#" class="link-Nav"> Cars
-                            </a>
-                            <ul class="list1-top-nav">
-                                <li class="point-top-nav">
-                                    <a href="Models-Cars.html" class="link-nav">Models-Cars</a>
-                                </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Cars </a>
 
-                                <li class="point-top-nav">
-                                    <a href="car-profile.html" class="link-nav">Car Profile</a>
-                                </li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                                <li class="point-top-nav">
-                                    <a href="car-detail.html" class="link-nav">Cars Detail</a>
-                                </li>
+                            <li><a class="dropdown-item" href="Models-Cars.html">Models-Cars</a></li>
+                            <li><a class="dropdown-item" href="car-profile.html">Car Profile</a></li>
+                            <li><a class="dropdown-item" href="car-detail.html">Cars Detail</a></li>
+                            <li><a class="dropdown-item" href="create-route-notification.html">Route Notification</a>
+                            </li>
+                            <li><a class="dropdown-item" href="submit-car-intro.html">Submit Car Introduction</a></li>
+                            <li><a class="dropdown-item" href="submit-car-for-rent.html">Submit Car For Rent</a></li>
 
-                                <li class="point-top-nav">
-                                    <a href="create-route-notification.html" class="link-nav">Route Notification</a>
-                                </li>
+                        </ul>
 
-                                <li class="point-top-nav">
-                                    <a href="submit-car-intro.html" class="link-nav">Submit Car Introduction</a>
-                                </li>
+                    </li>
 
-                                <li class="point-top-nav">
-                                    <a href="submit-car-for-rent.html" class="link-nav">Submit Car For Rent</a>
-                                </li>
-                            </ul>
-                        </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Our-Business
+                        </a>
 
-                        <li class="point2-top-Nav">
-                            <a href="#" class="link-Nav">Our-Business
-                            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Rides.html">Rides</a></li>
+                            <li><a class="dropdown-item" href="Taxi.html">Taxi</a></li>
+                            <li><a class="dropdown-item" href="motor-bike.html">motor-bike</a></li>
+                            <li><a class="dropdown-item" href="Car-Rental.html">Car-Rental</a></li>
+                            <li><a class="dropdown-item" href="School-Rides.html">School-Rides</a></li>
+                        </ul>
 
-                            <ul class="list2-top-nav">
-                                <li class="point-top-nav">
-                                    <a href="Rides.html" class="link-nav">Rides</a>
-                                </li>
+                    </li>
 
-                                <li class="point-top-nav">
-                                    <a href="Taxi.html" class="link-nav">Taxi</a>
-                                </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Profiles
+                        </a>
 
-                                <li class="point-top-nav">
-                                    <a href="motor-bike.html" class="link-nav">motor-bike</a>
-                                </li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="profile-driver.html"> profile-driver</a></li>
+                            <li><a class="dropdown-item" href="profile-user.html">profile-user</a></li>
+                        </ul>
 
-                                <li class="point-top-nav">
-                                    <a href="Car-Rental.html" class="link-nav">Car-Rental</a>
-                                </li>
+                    </li>
 
-                                <li class="point-top-nav">
-                                    <a href="School-Rides.html" class="link-nav">School-Rides</a>
-                                </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More Pages
+                        </a>
 
-                            </ul>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Services.html">Services</a></li>
+                            <li><a class="dropdown-item" href="About-Us.html">About-Us</a></li>
+                            <li><a class="dropdown-item" href="Contact-Us.html">Contact-Us</a></li>
+                            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="Our-Values.html">Our-Values</a></li>
+                            <li><a class="dropdown-item" href="Our-Effect.html">Our-Effect</a></li>
+                        </ul>
 
-                        </li>
-
-                        <li class="point4-top-Nav">
-                            <a href="#" class="link-Nav"> Profiles
-                            </a>
-                            <ul class="list4-top-nav">
-                                <li class="point-top-nav">
-                                    <a href="profile-driver.html" class="link-nav">profile-driver</a>
-                                </li>
-
-                                <li class="point-top-nav">
-                                    <a href="profile-user.html" class="link-nav">profile-user</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="point5-top-Nav">
-                            <a href="#" class="link-Nav">More Pages
-                            </a>
-                            <ul class="list5-top-nav">
-                                <li class="point-top-nav">
-                                    <a href="Services.html" class="link-nav">Services</a>
-                                </li>
-
-                                <li class="point-top-nav">
-                                    <a href="About-Us.html" class="link-nav">About-Us</a>
-                                </li>
-
-                                <li class="point-top-nav">
-                                    <a href="Contact-Us.html" class="link-nav">Contact-Us</a>
-                                </li>
-
-                                <li class="point-top-nav">
-                                    <a href="Blog.html" class="link-nav">Blog</a>
-                                </li>
-
-                                <li class="point-top-nav">
-                                    <a href="Our-Values.html" class="link-nav">Our-Values</a>
-                                </li>
-
-                                <li class="point-top-nav">
-                                    <a href="Our-Effect.html" class="link-nav">Our-Effect</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </div>
+                    </li>
+                </ul>
 
             </div>
 
@@ -619,14 +433,15 @@
                     <span class="whatsapp2">
                         <i class="fa-solid fa-phone"></i>
                     </span>
-                    <span class="whatsapp3">Whatsapp now <em>01152148220</em></span>
+                    <div id="what-sapp">
+                        <p class="whatsapp3">Whatsapp now</p>
+                        <span class="span-phone">01152148220</span>
+                    </div>
                 </div>
             </div>
 
-
         </div>
-    </header>
-    <!-- header myHeader /-->
+    </nav>
 
     <section class="sumbit-car-for">
         <div class="sumbit-cars">
@@ -1023,166 +838,119 @@
             </div>
     </section>
 
-         <!-- section footer -->
-         <footer id="footer-of-page">
+    <!-- subhead -->
+    <footer class=" footer-bootstrap-v5">
 
-            <div class="section-footer"> <!--background-->
-    
-                <div class="footer-section-page"> <!--flex-one-->
-    
-                    <div class="partion-top-of-TOWIENS"> <!--flex-TOWIENS-->
-    
-                        <div class="partion-this-one">
-    
-                            <div class="img-logo-footer">
-                                <img src="img/‏‏Vector - footer.png" alt="logo-footer" class="logo-footer-image">
-                            </div>
-    
-                            <div class="box-download-links">
-    
-                                <ul class="list-download-links">
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box1-download-links-AppStore.webp"
-                                                alt="box1-download-links-AppStore" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box2-download-links-google-play.webp"
-                                                alt="box2-download-links-google-play" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                    <li class="box-download-link">
-    
-                                        <a href="#" class="download-this-link">
-                                            <img src="img/box3-download-links-android.webp"
-                                                alt="box3-download-links-android" class="download-this-link-from-img">
-                                        </a>
-                                    </li>
-    
-                                </ul>
-    
-                            </div>
-    
-                        </div>
-    
-    
-                    </div><!--flex-tow /-->
-    
-                    <div class="partion-bottom-of-only"> <!-- flex-only -->
-    
-                        <div class="partion-this-five">
-    
-                            <div class="downlistfooter">
-    
-                                <ul class="this-list-ourpages">
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                    <li class="ABOUT-US-OURPAES">
-                                        <a href="" class="goto-like-top">
-                                            <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
-                                    </li>
-    
-                                </ul>
-    
-                            </div>
+        <div class="row ms-0 me-0">
 
-                            <div class="type-list-four">
-                                <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
-                                <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
-                            </div>
-    
-                        </div>
-    
-                    </div><!-- flex-only -->
-    
-                </div><!--flex-one -->
-    
-                <div class="partion-this-sex">
-    
-                    <div class="type-list-five">
-    
-                        <h2 class="h2terms-policy">Terms-Policy © 2023</h2>
-                    </div>
-    
-                    <div class="downlist__footer">
-    
-                        <ul class="this-list-terms-policy">
-    
-                            <li class="ABOUT-US-TERMS-POLICY">
-                                <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
-                            </li>
-    
-                            <li class="ABOUT-US-TERMS-POLICY">
-                                <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
-                            </li>
-    
-                        </ul>
-    
-                    </div>
-    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+
+                <div class="logo-footer mt-3 mb-3">
+
+                    <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+
                 </div>
-    
-            </div><!--background -->
-    
-        </footer>
-        <!-- section footer /-->
+
+                <div class="d-flex download-fluter  mt-3 mb-3">
+
+                    <div class="image-link-one">
+                        <img src="img/box1-download-links-AppStore.webp" class=" mt-2 mb-2" alt="AppStore">
+                    </div>
+
+                    <div class="image-link-one">
+                        <img src="img/box2-download-links-google-play.webp" class=" mt-2 mb-2" alt="AppStore">
+                    </div>
+
+                    <div class="image-link-one">
+                        <img src="img/box3-download-links-android.webp" class=" mt-2 mb-2" alt="AppStore">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+
+                <div class="phone-whatsapp mt-3 mb-3">
+
+                    <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
+                    <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
+                    <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
+                    <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+
+                <div class="icons-goto-pages ">
+
+                    <ul class="this-list-ourpages mt-3 mb-3 d-flex align-items-center justify-content-between">
+
+                        <li class="ABOUT-US-OURPAES">
+                            <a href="" class="goto-like-page">
+                                <i class="fa-brands fa-facebook-f" style="color: #376ed3; font-size: 30px;"></i></a>
+                        </li>
+
+                        <li class="ABOUT-US-OURPAES">
+                            <a href="" class="goto-like-page">
+                                <i class="fa-brands fa-twitter" style="color: #376ed3; font-size: 30px;"></i></a>
+                        </li>
+
+                        <li class="ABOUT-US-OURPAES">
+                            <a href="" class="goto-like-page">
+                                <i class="fa-brands fa-instagram" style="color: #376ed3; font-size: 30px;"></i></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="row container-fluid">
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p class="p-footer">Terms-Policy © 2023</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <button id="link-click-go-to">
+                        <a href="Terms-of-Service.html" class="goto-like-top">Terms of Service</a>
+                    </button>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <button id="link-click-go-to">
+                        <a href="Privacy-Policy.html" class="goto-like-top">Privacy Policy</a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </footer>
 
     <!-- button go to top -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+    <button onclick="topFunction()" id="gototop"><i class="fa-solid fa-chevron-up"></i></button>
+    <!-- button go to top /-->
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
 
     <script>
 
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-
-        let lastKnownScroll = 0;
-        let ticking = false;
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-
-        function doSomething(scrollPos) {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
-        }
-        document.addEventListener("scroll", (event) => {
-            lastKnownScroll = window.scrollY;
-            if (!ticking) {
-                window.requestAnimationFrame(() => {
-                    doSomething(lastKnownScroll);
-                    ticking = false;
-                });
-
-                ticking = true;
-            }
-        });
-
-        var myButton = document.getElementById("myBtn");
-        window.onscroll = function () { scrollFunction() };
+        var myButton = document.getElementById("gototop");
+        window.onscroll = function () { scrollFunction(); };
         function scrollFunction() {
             if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 20) {
                 myButton.style.display = "block";
@@ -1195,6 +963,11 @@
             document.documentElement.scrollTop = 0;
             myButton.style.transition = '3s';
         }
+    </script>
+
+    <script src="js/date-picker.js"></script>
+
+    <script>
 
         // this habel
 
