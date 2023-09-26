@@ -24,7 +24,7 @@
   svg.svg-inline--fa.fa-key,
   svg.svg-inline--fa.fa-handshake,
   svg.svg-inline--fa.fa-star{
-    font-size: 25px;
+    font-size: 14px;
   }
 
   svg.svg-inline--fa.fa-user {
@@ -278,8 +278,8 @@
   }
 
   .col-lg-3 {
-    width: 90%;
-    margin-left: 5%;
+    width: 98%;
+    margin-left: 1%;
   }
 
   .profile-dp {
@@ -289,20 +289,11 @@
 
   }
 
-  .col-md-12 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
+  .col-md12 {
+    width: 100%;
   }
 
-  .profile-dp figure {
-    padding: 0;
-    margin: 0;
-    width: 55%;
-  }
-
-  .col-md-12 img {
+  .profile-dp img {
     border-radius: 50%;
     width: 100%;
   }
@@ -313,7 +304,7 @@
 
   .profile-info {
     line-height: 25px;
-    margin-left: 15%;
+    margin-left: 0%;
   }
 
   ul.stars-rating {
@@ -334,7 +325,7 @@
     align-items: center;
     padding: 4% 3% 4% 3%;
     transition: 0.5s;
-    width: 30%;
+    width: 70%;
     height: 20px;
   }
 
@@ -1630,38 +1621,32 @@
   }
 
   .col-lg-3 {
-    width: 90%;
-    margin-left: 5%;
+    width: 98%;
+    margin-left: 1%;
   }
 
   .profile-dp {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
 
-  .col-md-12 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
+  svg.svg-inline--fa.fa-star{
+    font-size: 14px;
   }
 
-  .profile-dp figure {
-    padding: 0;
-    margin: 0;
-    width: 55%;
+  .col-md12 {
+    width: 60%;
   }
 
-  .col-md-12 img {
+  .profile-dp img {
     border-radius: 50%;
-    width: 100%;
+    width: 40%;
   }
 
   .profile-info {
     line-height: 25px;
-    margin-left: 15%;
+    margin-left: 0%;
   }
 
   ul.stars-rating {
@@ -1671,7 +1656,7 @@
   }
 
   ul.verification {
-    line-height: 25px;
+    display: none;
   }
 
   a.themee-btn {
@@ -1682,7 +1667,7 @@
     align-items: center;
     padding: 4% 3% 4% 3%;
     transition: 0.5s;
-    width: 30%;
+    width: 40%;
     height: 20px;
   }
 
@@ -3080,20 +3065,14 @@
 
   }
 
-  .col-md-12 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  .col-md12 {
+
     width: 50%;
   }
 
-  .profile-dp figure {
-    padding: 0;
-    margin: 0;
-    width: 55%;
-  }
 
-  .col-md-12 img {
+
+  .profile-dp img {
     border-radius: 50%;
     width: 100%;
   }
@@ -4733,23 +4712,10 @@
     margin-left: 5%;
   }
 
-  .col-md-12 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
 
-  .profile-dp figure {
-    padding: 0;
-    margin: 0;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .col-md-12 img {
+  .profile-dp img {
     border-radius: 50%;
-    width: 50%;
+    width: 35%;
   }
 
   .profile-info {
@@ -4895,11 +4861,14 @@
   }
 
   a.a-link {
-    width: 50%;
-    display: block;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
     background: #f75f62;
     box-shadow: 4px 8px 10px 0 rgb(15 67 185 / 30%);
-    padding: 2% 9% 2% 9%;
+    padding: 0;
     border-radius: 8%;
     color: white;
     transition: 0.5s;
@@ -6257,26 +6226,14 @@
     width: 30%;
   }
 
-  .col-md-12 {
-    display: block;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .profile-dp figure {
-    padding: 0;
-    margin: 0;
-    width: 55%;
-  }
-
-  .col-md-12 img {
+  .profile-dp img {
     border-radius: 50%;
-    width: 100%;
+    width: 70%;
   }
 
   .profile-info {
     line-height: 25px;
-    margin-left: 15%;
+    margin-left: 0%;
   }
 
   ul.stars-rating {
@@ -6360,7 +6317,7 @@
   }
 
   figure.qwer {
-    width: 55%;
+    width: 40%;
   }
 
   img#qwer {
@@ -6403,10 +6360,6 @@
     margin-top: -2%;
   }
 
-  a.a-link {
-    display: inline-block;
-  }
-
   span.span-citroen {
     color: #f75f62;
     font-size: 15px;
@@ -6417,10 +6370,14 @@
   }
 
   a.a-link {
-    display: inline-block;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
     background: #f75f62;
     box-shadow: 4px 8px 10px 0 rgb(15 67 185 / 30%);
-    padding: 4% 9% 4% 9%;
+    padding: 0;
     border-radius: 8%;
     color: white;
     transition: 0.5s;
@@ -7547,19 +7504,7 @@
     width: 30%;
   }
 
-  .col-md-12 {
-    display: block;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .profile-dp figure {
-    padding: 0;
-    margin: 0;
-    width: 55%;
-  }
-
-  .col-md-12 img {
+  .profile-dp img {
     border-radius: 50%;
     width: 100%;
   }
@@ -7579,15 +7524,19 @@
     line-height: 25px;
   }
 
+  .d1-block{display: n;}
+
   a.themee-btn {
     background-color: #7ba8f9;
     color: white;
     border-radius: 5px;
     display: flex;
     align-items: center;
-    padding: 4% 3% 4% 3%;
+    justify-content: center;
+    height: 40px;
+    padding: 0;
     transition: 0.5s;
-    width: 35%;
+    width: 55%;
   }
 
   a.themee-btn:hover {
@@ -7692,10 +7641,6 @@
     margin-top: -2%;
   }
 
-  a.a-link {
-    display: inline-block;
-  }
-
   span.span-citroen {
     color: #f75f62;
     font-size: 15px;
@@ -7706,13 +7651,17 @@
   }
 
   a.a-link {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #f75f62;
     box-shadow: 4px 8px 10px 0 rgb(15 67 185 / 30%);
-    padding: 4% 9% 4% 9%;
+    padding: 0;
     border-radius: 8%;
     color: white;
     transition: 0.5s;
+    width: 90%;
+    height: 30px;
   }
 
   a.a-link:hover {
@@ -8803,7 +8752,6 @@
   }
 
   .conteainer {
-    margin-left: 5%;
     width: 90%;
   }
 
@@ -8824,19 +8772,7 @@
     width: 30%;
   }
 
-  .col-md-12 {
-    display: block;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .profile-dp figure {
-    padding: 0;
-    margin: 0;
-    width: 55%;
-  }
-
-  .col-md-12 img {
+  .profile-dp img {
     border-radius: 50%;
     width: 100%;
   }
@@ -9804,7 +9740,6 @@
   }
 
   .conteainer {
-    margin-left: 5%;
     width: 90%;
   }
 
@@ -9825,19 +9760,7 @@
     width: 30%;
   }
 
-  .col-md-12 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .profile-dp figure {
-    padding: 0;
-    margin: 0;
-    width: 55%;
-  }
-
-  .col-md-12 img {
+  .profile-dp img {
     border-radius: 50%;
     width: 100%;
   }
@@ -9862,9 +9785,11 @@
     border-radius: 5px;
     display: flex;
     align-items: center;
-    padding: 4% 3% 4% 3%;
+    justify-content: center;
+    padding: 0;
+    height: 40px;
     transition: 0.5s;
-    width: 35%;
+    width: 40%;
   }
 
   a.themee-btn:hover {

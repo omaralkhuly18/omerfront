@@ -16,63 +16,78 @@
     <link rel="stylesheet" href="css/timepicker.min.css">
     <title>Create-Route-Notification</title>
     <style>
+        body {
+            overflow: visible;
+        }
+
         .sub-head {
-            width: 100%;
-            position: relative;
-            height: 150px;
-            z-index: -1;
+            width: 99%;
+            margin-left: 0.2%;
         }
 
-        .bg-image {
-            height: 100%;
-            left: 0;
-            margin: 0;
-            position: absolute;
+        .width-99 {
+            width: 99%;
+            margin-left: 0.2%;
+            height: 200px;
+        }
+
+        .amovement {
             top: 0;
-            width: 100%;
-            z-index: -1;
-        }
-
-        .blackish:before {
-            background: #00000057 none repeat scroll 0 0;
-            content: "";
+            width: 99%;
+            display: flex;
+            justify-content: space-around;
             height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
+            align-items: center;
+        }
+
+        .this-width-n {
             width: 100%;
-            z-index: -1;
+            align-items: center;
+            justify-content: space-between;
         }
 
-        .container {
-            width: 90%;
-            margin-left: 5%;
+        .d-flex {
+            display: flex !important;
+            justify-content: space-around;
         }
 
-        .rows {
-            display: inline-block;
-            width: 100%;
-            margin-top: 3%;
+        a.text-white {
+            background-color: rgb(196, 149, 240);
+            width: 40%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1.5s;
+            margin: 2% 0;
         }
 
-        .head-meta p {
-            color: aqua;
+        @media screen and (max-width:1215px) and (min-width:980px) {
+            a.text-white {
+                width: 60%;
+                height: 30px;
+            }
         }
 
-        a.theme-btnn {
-            float: right;
-            border-radius: 20%;
-            background-color: blueviolet;
-            padding: 1% 1% 1% 1%;
-            color: gainsboro;
-            margin-top: -6%;
-            width: 10%;
-            transition: 0.7s;
+        @media screen and (max-width: 980px) and (min-width: 730px) {
+            a.text-white {
+                width: 60%;
+                height: 30px;
+            }
         }
 
-        a.theme-btnn:hover {
-            background-color: #a15d3e;
-            color: #efdfdf;
+        @media screen and (max-width: 730px) and (min-width: 530px) {
+            a.text-white {
+                width: 55%;
+                height: 35px;
+            }
+        }
+
+        @media screen and (max-width: 530px) and (min-width: 280px) {
+            a.text-white {
+                width: 60%;
+                height: 35px;
+            }
         }
 
         input:invalid+span::after {
@@ -247,50 +262,66 @@
         </div>
     </nav>
 
-    <div class="sub-head blackish ">
-        <div class="bg-image" style="background-image: url(img/subhead-bg.jpg)"></div>
-        <div class="container">
-            <div class="rows">
-                <div class="col-md">
-                    <div class="cola-head">
-                        <div class="head-meta">
-                            <h4>Create Route Notification</h4>
-                            <p>( Cambridge )</p>
-                        </div>
-                        <a href="#" title="" class="theme-btnn"><i class="fa fa-share-alt"></i>share profile</a>
-                        <div class="info-links">
-                            <a href="#" title="">how does this work</a>
-                            <a href="#" title="">submit your car</a>
-                            <span><i class="fa fa-phone"></i>call (012) 345 - 6789</span>
-                        </div>
+    <div class="sub-head blackish">
+        <div class="bg-image position-relative">
+            <img src="img/subhead-bg.jpg" class="img-fluid width-99">
+
+            <div class="conteainer amovement position-absolute">
+                <div class="row this-width-n">
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex d-w-imp-s">
+                        <h4 class="text-white">Maria Grey</h4>
+                        <p class="text-white">( Cambridge )</p>
                     </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-w-imp-l">
+                        <a href="#" title="" class=" text-white theme-btnn"><i class="fa fa-share-alt"></i>share
+                            profile</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-w-imp-ls">
+                        <a href="#" class="text-white d-inherit" title="">how does this work</a>
+                        <a href="#" class="text-white d-inherit" title="">submit your car</a>
+                        <i class="fa fa-phone  text-white"></i>
+                        <span class="text-white">call (012) 345 - 6789</span>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 
     <section class="create-route">
+
         <div class="notification">
+
             <div class="row-create">
+
                 <div class="col-lg8">
+
                     <h4 class="h44">Submit your route</h4>
                     <p class="pp">You will receive notifications by e-mail with the new trips that match your needs!</p>
+                    
                     <form method="post" class="cola-form">
                         <p class="label-her1">From:</p>
                         <input type="text" class="input-her1" placeholder="Enter the address or city">
                     </form>
+
                     <form method="post" class="coola-form">
                         <p class="label-her2">To:</p>
                         <input type="text" class="input-her2" placeholder="Enter the address or city">
                     </form>
+
                     <div class="inline-calendar">
                         <input id="party" type="datetime-local" name="partydate" min="2000-06-01T08:30"
                         max="2050-06-30T16:30" required style="background-color: rgb(165, 107, 107);" />
                         
                         <span class="validity" style="background-color: rgb(165, 107, 107);"></span>
                     </div>
+
                     <form method="post" class="cola-form">
                         <div class="schedule">
+
                             <div class="row-schedule">
                                 <div id="display-flex">
                                     <div class="col-lg1">
@@ -329,25 +360,32 @@
                                     </div>
                                 </div>
                             </div>
+
                             <p>Message for the driver:</p>
                             <textarea class="textarea" rows="4"
                                 placeholder="e.g. meeting location pickup, capacity for the baggage, etc."></textarea>
                         </div>
+
                         <div class="notebox">
                             <p class="notp">
                                 Note: Do not add your phone number or your email in this field. Use your profile instead
                                 for these informations.
                             </p>
                         </div>
+
                         <button type="submit" class="long">+ submit alert</button>
                     </form>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
     <!-- subhead -->
-    <footer class=" footer-bootstrap-v5">
+    <footer class=" footer-bootstrap-v5 mt-2">
 
         <div class="row ms-0 me-0">
 

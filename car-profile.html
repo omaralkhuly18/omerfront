@@ -7,64 +7,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Car-Profile</title>
 
     <style>
-        .sub-head {
-            width: 100%;
-            position: relative;
-            height: 150px;
-            z-index: -1;
+        body{  overflow: visible;}
+        .sub-head{
+            width: 99%;
+            margin-left: 0.2%;
         }
 
-        .bg-image {
-            height: 100%;
-            left: 0;
-            margin: 0;
-            position: absolute;
+        .width-99 {
+            width: 99%;
+            margin-left: 0.2%;
+            height: 200px;
+        }
+
+        .amovement {
             top: 0;
-            width: 100%;
-            z-index: -1;
-        }
-
-        .blackish:before {
-            background: #00000057 none repeat scroll 0 0;
-            content: "";
+            width: 99%;
+            display: flex;
+            justify-content: space-around;
             height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
+            align-items: center;
+        }
+
+        .this-width-n {
             width: 100%;
-            z-index: -1;
+            align-items: center;
+            justify-content: space-between;
         }
 
-        .rows {
-            display: inline-block;
-            width: 100%;
-            margin-top: 3%;
+        .d-flex {
+            display: flex !important;
+            justify-content: space-around;
         }
 
-        a.theme-btnn {
-            float: right;
-            border-radius: 20%;
-            background-color: blueviolet;
-            padding: 1% 1% 1% 1%;
-            color: gainsboro;
-            margin-top: -6%;
-            width: 10%;
-            transition: 0.7s;
+        a.text-white {
+            background-color: rgb(196, 149, 240);
+            width: 40%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1.5s;
+            margin: 2% 0;
         }
 
-        a.theme-btnn:hover {
-            background-color: #a15d3e;
-            color: #efdfdf;
+        @media screen and (max-width:1215px) and (min-width:980px) {
+            a.text-white {
+                width: 60%;
+                height: 30px;
+            }
+        }
+
+        @media screen and (max-width: 980px) and (min-width: 730px) {
+            a.text-white {
+                width: 60%;
+                height: 30px;
+            }
+        }
+
+        @media screen and (max-width: 730px) and (min-width: 530px) {
+            a.text-white {
+                width: 55%;
+                height: 35px;
+            }
+        }
+
+        @media screen and (max-width: 530px) and (min-width: 280px) {
+            a.text-white {
+                width: 60%;
+                height: 35px;
+            }
         }
     </style>
 
@@ -231,22 +252,29 @@
     </nav>
 
     <div class="sub-head blackish">
-        <div class="bg-image" style="background-image: url(img/subhead-bg.jpg)"></div>
-        <div class="conteainer">
-            <div class="rows">
-                <div class="col-md">
-                    <div class="cola-head">
-                        <div class="head-meta">
-                            <h4>Maria Grey</h4>
-                            <p>( Cambridge )</p>
-                        </div>
-                        <a href="#" title="" class="theme-btnn"><i class="fa fa-share-alt"></i>share profile</a>
-                        <div class="info-links">
-                            <a href="#" title="">how does this work</a>
-                            <a href="#" title="">submit your car</a>
-                            <span><i class="fa fa-phone"></i>call (012) 345 - 6789</span>
-                        </div>
+        <div class="bg-image position-relative">
+            <img src="img/subhead-bg.jpg" class="img-fluid width-99">
+
+            <div class="conteainer amovement position-absolute">
+                <div class="row this-width-n">
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex d-w-imp-s">
+                        <h4 class="text-white">Maria Grey</h4>
+                        <p class="text-white">( Cambridge )</p>
                     </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-w-imp-l">
+                        <a href="#" title="" class=" text-white theme-btnn"><i class="fa fa-share-alt"></i>share
+                            profile</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-w-imp-ls">
+                        <a href="#" class="text-white d-inherit" title="">how does this work</a>
+                        <a href="#" class="text-white d-inherit" title="">submit your car</a>
+                        <i class="fa fa-phone  text-white"></i>
+                        <span class="text-white">call (012) 345 - 6789</span>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -259,11 +287,11 @@
                 <div class="roww">
 
                     <div class="profile">
-                        <div class="rowsw">
+                        <div class="row">
                             <div class="col-lg-3 col-sm-4">
                                 <div class="profile-dp">
-                                    <div class="col-md-12">
-                                        <figure><img src="img/rider-2.jpg" alt=""></figure>
+                                    <div class="col-md12">
+                                        <img src="img/rider-2.jpg" alt="">
                                         <div class="profile-info">
                                             <span class="profile-name">Selena G.</span>
                                             <ul class="stars-rating">

@@ -11,7 +11,8 @@ footer,
 .rightandleft-slider,
 .responsive-new,
 .width-height-img-slider-top,
-.width-priveat{
+.width-priveat,
+.sub-head{
   width: 98% !important;
   margin-left: 1% !important;
 }
@@ -1772,7 +1773,6 @@ i.fa.fa-share-alt {
 }
 
 .conteainer {
-  margin-left: 5%;
   width: 90%;
 }
 
@@ -1793,19 +1793,8 @@ i.fa.fa-share-alt {
   width: 30%;
 }
 
-.col-md-12 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 
-.profile-dp figure {
-  padding: 0;
-  margin: 0;
-  width: 55%;
-}
-
-.col-md-12 img {
+.profile-dp img {
   border-radius: 50%;
   width: 100%;
 }
@@ -2078,6 +2067,7 @@ div#display-flex,
   border: 2px solid pink;
   background-color: #ffebee;
   color: blue;
+  resize: none;
 }
 
 .notebox {
@@ -2111,7 +2101,7 @@ div#display-flex,
 }
 
 section.deatilone {
-  margin-top: 5%;
+  margin-top: 2%;
   width: 100%;
 }
 
@@ -2227,12 +2217,8 @@ ul.detail-caro {
 }
 
 p.ppp {
-  position: absolute;
-  top: 90%;
   color: white;
-  left: 2%;
   background-color: rgb(40 36 36 / 90%);
-  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2389,7 +2375,7 @@ a.stars-cars:hover {
 }
 
 .DATANTIME li {
-  display: inline-block;
+  display: flex;
   font-size: 15px;
   margin-bottom: 10%;
   font-weight: 400;

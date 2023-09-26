@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
+
     <title>bootstap</title>
     <style>
         a {
@@ -406,6 +408,43 @@
             color: black !important;
         }
 
+        .width-99 {
+            width: 99%;
+            margin-left: 0.2%;
+            height: 220px;
+        }
+
+        .amovement {
+            top: 0;
+            width: 99%;
+            display: flex;
+            justify-content: space-around;
+            height: 100%;
+            align-items: center;
+        }
+
+        .this-width-n {
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .d-flex {
+            display: flex !important;
+            justify-content: space-around;
+        }
+
+        a.text-white {
+            background-color: rgb(196, 149, 240);
+            width: 40%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1.5s;
+            margin: 2% 0;
+        }
+
         @media screen and (max-width: 990px) and (min-width: 280px) {
             .whatsapp {
                 display: none;
@@ -505,6 +544,45 @@
             #link-click-slider-top {
                 width: 30%;
             }
+        }
+
+        @media screen and (max-width:1215px) and (min-width:980px) {
+            a.text-white {
+                width: 60%;
+                height: 30px;
+            }
+        }
+
+        @media screen and (max-width: 980px) and (min-width: 730px) {
+            a.text-white {
+                width: 60%;
+                height: 30px;
+            }
+        }
+
+        @media screen and (max-width: 730px) and (min-width: 530px) {
+            a.text-white {
+                width: 55%;
+                height: 35px;
+            }
+        }
+
+        @media screen and (max-width: 530px) and (min-width: 280px) {
+            a.text-white {
+                width: 60%;
+                height: 35px;
+            }
+        }
+
+        .carousel-inner{
+            width: 52% !important;
+        }
+
+        .position-priveat {
+            width: 47% !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            left: 0 !important;
         }
     </style>
 </head>
@@ -777,7 +855,7 @@
         </div>
 
     </section>
-
+<!-- 
     <div class="filter-meta">
 
         <span class="this-span">style :</span>
@@ -940,7 +1018,7 @@
                 review website TrustPilot, from over 4,000
                 genuine customer reviews. el-trip Make customers">
 
-                    <img class="img-fluid" src="img/rider-1.jpg" alt="" />
+                    <i class="fa-solid fa-user-tie" style="font-size: 100px;"></i>
 
                 </div>
 
@@ -950,7 +1028,7 @@
 
                 <div class="box mb-3 bg-white" data-work="Application">
 
-                    <img class="img-fluid" src="img/rider-2.jpg" alt="" />
+                    <i class="fa-solid fa-user-tie" style="font-size: 100px;"></i>
 
                 </div>
 
@@ -960,7 +1038,7 @@
 
                 <div class="box mb-3 bg-white" data-work="Application">
 
-                    <img class="img-fluid" src="img/rider-3.jpg" alt="" />
+                    <i class="fa-solid fa-user-tie" style="font-size: 100px;"></i>
 
                 </div>
 
@@ -970,7 +1048,7 @@
 
                 <div class="box mb-3 bg-white" data-work="Application">
 
-                    <img class="img-fluid" src="img/rider-4.jpg" alt="" />
+                    <i class="fa-solid fa-user-tie" style="font-size: 100px;"></i>
 
                 </div>
 
@@ -980,7 +1058,7 @@
 
                 <div class="box mb-3 bg-white" data-work="Application">
 
-                    <img class="img-fluid" src="img/rider-5.jpg" alt="" />
+                    <i class="fa-solid fa-user-tie" style="font-size: 100px;"></i>
 
                 </div>
 
@@ -990,7 +1068,7 @@
 
                 <div class="box mb-3 bg-white" data-work="Application">
 
-                    <img class="img-fluid" src="img/rider-6.jpg" alt="" />
+                    <i class="fa-solid fa-user-tie" style="font-size: 100px;"></i>
 
                 </div>
 
@@ -1000,7 +1078,7 @@
 
                 <div class="box mb-3 bg-white" data-work="Application">
 
-                    <img class="img-fluid" src="img/rider-7.jpg" alt="" />
+                    <i class="fa-solid fa-user-tie" style="font-size: 100px;"></i>
 
                 </div>
 
@@ -1010,7 +1088,7 @@
 
                 <div class="box mb-3 bg-white" data-work="Application">
 
-                    <img class="img-fluid" src="img/rider-8.jpg" alt="" />
+                    <i class="fa-solid fa-user-tie" style="font-size: 100px;"></i>
 
                 </div>
 
@@ -1020,7 +1098,132 @@
 
     </section>
 
-    <footer class=" footer-bootstrap-v5">
+    <div class="sub-head blackish">
+        <div class="bg-image position-relative">
+            <img src="img/subhead-bg.jpg" class="img-fluid width-99">
+
+            <div class="conteainer amovement position-absolute">
+                <div class="row this-width-n">
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex d-w-imp-s">
+                        <h4 class="text-white">Maria Grey</h4>
+                        <p class="text-white">( Cambridge )</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-w-imp-l">
+                        <a href="#" title="" class=" text-white theme-btnn"><i class="fa fa-share-alt"></i>share
+                            profile</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-w-imp-ls">
+                        <a href="#" class="text-white d-inherit" title="">how does this work</a>
+                        <a href="#" class="text-white d-inherit" title="">submit your car</a>
+                        <i class="fa fa-phone  text-white"></i>
+                        <span class="text-white">call (012) 345 - 6789</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators mb-0">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+
+        </div>
+
+        <div class="carousel-inner ">
+
+            <div class="carousel-item active">
+                <img src="img/detailcaro-1.jpg" alt="...">
+                <div class="carousel-caption  position-priveat">
+                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/detailcaro-2.jpg" alt="...">
+                <div class="carousel-caption   position-priveat">
+                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/detailcaro-3.jpg" alt="...">
+                <div class="carousel-caption   position-priveat">
+                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/detailcaro-2.jpg" alt="...">
+                <div class="carousel-caption   position-priveat">
+                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/detailcaro-1.jpg" alt="...">
+                <div class="carousel-caption   position-priveat">
+                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/detailcaro-3.jpg" alt="...">
+                <div class="carousel-caption   position-priveat">
+                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev priveat-enmatain-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next priveat-enmatain-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div> -->
+
+    <select class="form-select bg-primary bg-gradient bg-opacity-25" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option>london</option>
+        <option>galaxco</option>
+        <option>local city</option>
+      </select>
+
+    <footer class=" footer-bootstrap-v5 mt-10">
 
         <div class="row ms-0 me-0">
 

@@ -11,99 +11,84 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/date-picker.css">
     <title>Car-Detail</title>
     <style>
+        body {
+            overflow: visible;
+        }
+
         .sub-head {
-            width: 100%;
-            position: relative;
-            height: 150px;
-            z-index: -1;
+            width: 99%;
+            margin-left: 0.2%;
         }
 
-        .bg-image {
-            height: 100%;
-            left: 0;
-            margin: 0;
-            position: absolute;
+        .width-99 {
+            width: 99%;
+            margin-left: 0.2%;
+            height: 200px;
+        }
+
+        .amovement {
             top: 0;
-            width: 100%;
-            z-index: -1;
-        }
-
-        .blackish:before {
-            background: #00000057 none repeat scroll 0 0;
-            content: "";
+            width: 99%;
+            display: flex;
+            justify-content: space-around;
             height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
+            align-items: center;
+        }
+
+        .this-width-n {
             width: 100%;
-            z-index: -1;
+            align-items: center;
+            justify-content: space-between;
         }
 
-        .container {
-            width: 90%;
-            margin-left: 5%;
+        .d-flex {
+            display: flex !important;
+            justify-content: space-around;
         }
 
-        .rows {
-            display: inline-block;
-            width: 100%;
-            margin-top: 3%;
+        a.text-white {
+            background-color: rgb(196, 149, 240);
+            width: 40%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1.5s;
+            margin: 2% 0;
         }
 
-        a.theme-btnn {
-            float: right;
-            border-radius: 20%;
-            background-color: blueviolet;
-            padding: 1% 1% 1% 1%;
-            color: gainsboro;
-            margin-top: -6%;
-            width: 10%;
-            transition: 0.7s;
-        }
-
-        a.theme-btnn:hover {
-            background-color: #a15d3e;
-            color: #efdfdf;
-        }
-
-        p.viewrz {
-            color: #7e7878;
-        }
-
-        a.themee-bbt {
-            color: black;
-            transition: 0.8s;
-        }
-
-        a.themee-bbt:hover {
-            color: rgb(185, 29, 29);
-            text-decoration: underline;
-        }
-
-        i.fa.fa-eye {
-            color: black;
-        }
-
-        .fade3 {
-            animation-name: fade3;
-            animation-duration: 1.5s;
-        }
-
-        @keyframes fade3 {
-            from {
-                opacity: .4
+        @media screen and (max-width:1215px) and (min-width:980px) {
+            a.text-white {
+                width: 60%;
+                height: 30px;
             }
+        }
 
-            to {
-                opacity: 1
+        @media screen and (max-width: 980px) and (min-width: 730px) {
+            a.text-white {
+                width: 60%;
+                height: 30px;
             }
+        }
 
+        @media screen and (max-width: 730px) and (min-width: 530px) {
+            a.text-white {
+                width: 55%;
+                height: 35px;
+            }
+        }
+
+        @media screen and (max-width: 530px) and (min-width: 280px) {
+            a.text-white {
+                width: 60%;
+                height: 35px;
+            }
         }
 
         input:invalid+span::after {
@@ -114,6 +99,46 @@
         input:valid+span::after {
             content: "✓";
             padding-left: 5px;
+        }
+
+        /* .carousel-inner{
+            width: 52% !important;
+        } */
+
+        .position-priveat {
+            width: 100% !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            left: 0 !important;
+        }
+
+        .priveat-deatilone-carousel {
+            height: 63px;
+            width: 20%;
+            position: absolute;
+            top: 2%;
+            right: 0;
+            display: flex;
+        }
+
+        .priveat-deatilone-prev,
+        .priveat-deatilone-next {
+            top: 3% !important;
+            bottom: 1% !important;
+            opacity: inherit !important;
+            background-color: #000000f0;
+            height: 49px;
+            width: 40% !important;
+            transition: 1s !important;
+            border-radius: 2.5rem;
+        }
+
+        .priveat-deatilone-prev {
+            left: 2% !important;
+        }
+
+        .priveat-deatilone-next {
+            right: 2% !important;
         }
     </style>
 </head>
@@ -278,23 +303,30 @@
         </div>
     </nav>
 
-    <div class="sub-head blackish ">
-        <div class="bg-image" style="background-image: url(img/subhead-bg.jpg)"></div>
-        <div class="container">
-            <div class="rows">
-                <div class="col-md">
-                    <div class="cola-head">
-                        <div class="head-meta">
-                            <h4>Maria Grey</h4>
-                            <p>( Cambridge )</p>
-                        </div>
-                        <a href="#" title="" class="theme-btnn"><i class="fa fa-share-alt"></i>share profile</a>
-                        <div class="info-links">
-                            <a href="#" title="">how does this work</a>
-                            <a href="#" title="">submit your car</a>
-                            <span><i class="fa fa-phone"></i>call (012) 345 - 6789</span>
-                        </div>
+    <div class="sub-head blackish">
+        <div class="bg-image position-relative">
+            <img src="img/subhead-bg.jpg" class="img-fluid width-99">
+
+            <div class="conteainer amovement position-absolute">
+                <div class="row this-width-n">
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex d-w-imp-s">
+                        <h4 class="text-white">Maria Grey</h4>
+                        <p class="text-white">( Cambridge )</p>
                     </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-w-imp-l">
+                        <a href="#" title="" class=" text-white theme-btnn"><i class="fa fa-share-alt"></i>share
+                            profile</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-w-imp-ls">
+                        <a href="#" class="text-white d-inherit" title="">how does this work</a>
+                        <a href="#" class="text-white d-inherit" title="">submit your car</a>
+                        <i class="fa fa-phone  text-white"></i>
+                        <span class="text-white">call (012) 345 - 6789</span>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -302,360 +334,434 @@
     <!-- subhead -->
 
     <section class="deatilone">
-        <div class="detailtow">
-            <div class="deatalithree">
-                <div class="deatailfore">
-                    <div class="detail-sec">
-                        <div class="detail-head">
-                            <h1 class="h11">Citroen C5 2.0 HDI 110 EXCLUSIVE 5dr <span class="span2012">2012</span></h1>
-                            <div class="detalinn">
-                                <div class="deailnn">
-                                    <ul class="starsrating">
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                    </ul>
-                                    <a href="#" title="" class="themee-bbtn"><i class="fa-regular fa-heart"></i>save</a>
-                                    <a href="#" title="" class="themee-bbtn"><i class="fa fa-share-alt"></i>share</a>
+
+        <div class="row">
+
+            <div class="col-lg-6 col-md-12">
+
+                <div class="detail-sec">
+
+                    <div class="detail-head">
+
+                        <h1 class="h11">Citroen C5 2.0 HDI 110 EXCLUSIVE 5dr <span class="span2012">2012</span></h1>
+                        <div class="detalinn">
+
+                            <div class="deailnn">
+
+                                <ul class="starsrating">
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                </ul>
+
+                                <a href="#" title="" class="themee-bbtn"><i class="fa-regular fa-heart"></i>save</a>
+
+                                <a href="#" title="" class="themee-bbtn"><i class="fa fa-share-alt"></i>share</a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="detalin">
+                            <div class="deailn">
+                                <p class="viewrz">Property of <a href="#" class="themee-bbt">Andrew</a> from <a href=""
+                                        class="themee-bbt">01000 New York.</a></p>
+                                <p class="viewrz display-flex"><i class="fa fa-eye"></i>125 people saw this.</p>
+                            </div>
+                        </div>
+
+                    </div>
+<!-- -->
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+
+                        <div class="carousel-indicators mb-0 bg-dark bg-opacity-50">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+
+                        </div>
+
+                        <div class="carousel-inner ">
+
+                            <div class="carousel-item active">
+                                <img src="img/detailcaro-1.jpg"class="img-fluid w-100" alt="...">
+                                <div class="carousel-caption  position-priveat">
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
                                 </div>
                             </div>
 
-                            <div class="detalin">
-                                <div class="deailn">
-                                    <p class="viewrz">Property of <a href="#" class="themee-bbt">Andrew</a> from <a
-                                            href="" class="themee-bbt">01000 New York.</a></p>
-                                    <p class="viewrz display-flex"><i class="fa fa-eye"></i>125 people saw this.</p>
+                            <div class="carousel-item">
+                                <img src="img/detailcaro-2.jpg" class="img-fluid w-100" alt="...">
+                                <div class="carousel-caption   position-priveat">
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/detailcaro-3.jpg"  class="img-fluid w-100" alt="...">
+                                <div class="carousel-caption   position-priveat">
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/detailcaro-2.jpg"  class="img-fluid w-100" alt="...">
+                                <div class="carousel-caption   position-priveat">
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/detailcaro-1.jpg"  class="img-fluid w-100" alt="...">
+                                <div class="carousel-caption   position-priveat">
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/detailcaro-3.jpg"  class="img-fluid w-100" alt="...">
+                                <div class="carousel-caption   position-priveat">
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+
                                 </div>
                             </div>
 
                         </div>
 
-                        <ul class="detail-caro ">
-                            <div class="owlstageouter ">
-                                <div class="mySlides fade3">
-                                    <li>
-                                        <img src="img/detailcaro-1.jpg" alt="">
-                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-                                    </li>
-                                </div>
-                                <div class="mySlides fade3" style="display: none;">
-                                    <li>
-                                        <img src="img/detailcaro-2.jpg" alt="">
-                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-                                    </li>
-                                </div>
-                                <div class="mySlides fade3" style="display: none;">
-                                    <li>
-                                        <img src="img/detailcaro-3.jpg" alt="">
-                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-                                    </li>
-                                </div>
-                                <div class="mySlides fade3" style="display: none;">
-                                    <li>
-                                        <img src="img/detailcaro-1.jpg" alt="">
-                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-                                    </li>
-                                </div>
-                                <div class="mySlides fade3" style="display: none;">
-                                    <li>
-                                        <img src="img/detailcaro-2.jpg" alt="">
-                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-                                    </li>
-                                </div>
-                                <div class="mySlides fade3" style="display: none;">
-                                    <li>
-                                        <img src="img/detailcaro-3.jpg" alt="">
-                                        <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-                                    </li>
-                                </div>
-                            </div>
+                        <div class="priveat-deatilone-carousel">
 
-                            <div class="sliderr-button">
-                                <div class="botton1" onclick="countroalSlide(1)">1</div>
-                                <div class="botton1" onclick="countroalSlide(2)">2</div>
-                                <div class="botton1" onclick="countroalSlide(3)">3</div>
-                                <div class="botton1" onclick="countroalSlide(4)">4</div>
-                                <div class="botton1" onclick="countroalSlide(5)">5</div>
-                                <div class="botton1" onclick="countroalSlide(6)">6</div>
-                            </div>
-                        </ul>
+                            <button class="carousel-control-prev priveat-deatilone-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
 
+                            <button class="carousel-control-next priveat-deatilone-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
 
-                    </div>
-                    </ul>
-                    <div class="paragraph">
-                        <h5 class="little-title">Description:</h5>
-                        <p class="lttlE-Title">My car is very clean, so I would like to keep it that way!</p>
-                        <p class="littlE-Title">
-                            This car comes with Anti-Lock Brakes, Automatic Air Conditioning, Power-Assisted
-                            Steering,
-                            Driver, Passenger, Front Side And Side Air Bags, 16In Alloy Wheels, Cruise Control,
-                            Satellite
-                            Navigation, Trip Computer, Electric Door Mirrors, Immobiliser.
-                        </p>
-                        <p class="litlE-Title">
-                            I also have Front Fog Lights, Seats Split Rear, Front Electric Windows, Deadlocks, Audio
-                            Steering Wheel
-                            Mounted Controls, Front/Rear Head Restraints, Bluetooth Interface Telephone Equipment,
-                            Centre Rear Seat
-                            Belt.
-                        </p>
-                    </div>
-                    <div class="profile-list">
-                        <ul>
-                            <li class="complete"><i class="fa-regular fa-circle-check"></i>Name and email</li>
-                            <li class="complete"><i class="fa-regular fa-circle-check"></i>Profile picture</li>
-                            <li class="incomplete"><i class="fa fa-ban"></i>Training</li>
-                            <li class="incomplete"><i class="fa fa-ban"></i>Profession</li>
-                            <li class="incomplete"><i class="fa fa-ban"></i>Complete address</li>
-                            <li class="incomplete"><i class="fa fa-ban"></i>About me</li>
-                        </ul>
-                    </div>
-                    <div class="Characteristics">
-                        <h5 class="little-title">Characteristics:</h5>
-                        <ul class="featurez">
-                            <li class="list-this-page"><i>Model</i>
-                                <p class="pppm">Citroen C5 2.0 HDI 110 EXCLUSIVE 5dr</p>
-                            </li>
-                            <li class="list-this-page"><i>year</i>
-                                <p class="pppm">2012</p>
-                            </li>
-                            <li class="list-this-page"> <i>Fuel</i>
-                                <p class="pppm">Diesel</p>
-                            </li>
-                            <li class="list-this-page"><i>km</i>
-                                <p class="pppm">100.000 - 125.000</p>
-                            </li>
-                            <li class="list-this-page"><i>Fuel</i>
-                                <p class="pppm">Diesel</p>
-                            </li>
-                            <li class="list-this-page"><i>Registration number</i>
-                                <p class="pppm">5678FCD</p>
-                            </li>
-                            <li class="list-this-page"><i>Seats</i>
-                                <p class="pppm">5</p>
-                            </li>
-                            <li class="list-this-page"><i>Insurance</i>
-                                <p class="pppm">Best Boy Insurance</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="features-list">
-                        <h5 class="little-title">Features:</h5>
-                        <ul class="feature-list">
-                            <li><i class="fa-solid fa-circle-check"></i>abs</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Cruise control</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Audio remote control</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Alarm</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Electric door mirrors</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Bluetooth connection</li>
-                        </ul>
+                        </div>
                     </div>
 
-                    <div class="reviewers">
-                        <h5 class="little-title">reviews</h5>
-                        <ul class="reviewer">
-                            <li>
-                                <figure>
-                                    <img src="img/reviewer-1.jpg" alt="" style="border-radius: 100%;">
-                                </figure>
-                                <div class="activity-meta">
-                                    <p class="star-cars"> <a class="stars-cars" href="#" title="">Derrick H.</a> 02 Oct
-                                        2017</p>
-                                    <p>Very cozy and welcoming in Jessica’s car!</p>
-                                    <ul class="star-rating">
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                    </ul>
+                </div>
+                </ul>
 
-                                </div>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/reviewer-2.jpg" alt="" style="border-radius: 100%;">
-                                </figure>
-                                <div class="activity-meta">
-                                    <p class="star-cars"><a class="stars-cars" href="#" title="">Mia J.</a> 28 Sept 2017
-                                    </p>
-                                    <p>Jessica is very outgoing and peaceful. I had such a great time on the
-                                        full ride with
-                                        here.
-                                        100% recommended!</p>
-                                    <ul class="star-rating">
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/reviewer-3.jpg" alt="" style="border-radius: 100%;">
-                                </figure>
-                                <div class="activity-meta">
-                                    <p class="star-cars"><a class="stars-cars" href="#" title="">Janet Y.</a> 24 Sept
-                                        2017</p>
-                                    <p>Jessica is punctual, which I really appreciate at someone, especially
-                                        when they are
-                                        getting
-                                        picked up. </p>
-                                    <ul class="star-rating">
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                        <li><i class="fa fa-star checked"></i></li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
+                <div class="paragraph">
+                    <h5 class="little-title">Description:</h5>
+                    <p class="lttlE-Title">My car is very clean, so I would like to keep it that way!</p>
+                    <p class="littlE-Title">
+                        This car comes with Anti-Lock Brakes, Automatic Air Conditioning, Power-Assisted
+                        Steering,
+                        Driver, Passenger, Front Side And Side Air Bags, 16In Alloy Wheels, Cruise Control,
+                        Satellite
+                        Navigation, Trip Computer, Electric Door Mirrors, Immobiliser.
+                    </p>
+                    <p class="litlE-Title">
+                        I also have Front Fog Lights, Seats Split Rear, Front Electric Windows, Deadlocks, Audio
+                        Steering Wheel
+                        Mounted Controls, Front/Rear Head Restraints, Bluetooth Interface Telephone Equipment,
+                        Centre Rear Seat
+                        Belt.
+                    </p>
                 </div>
 
-                <div class="dealtifife">
-                    <div class="dealtisex">
-                        <ul class="DATANTIME">
+                <div class="profile-list">
+                    <ul>
+                        <li class="complete"><i class="fa-regular fa-circle-check"></i>Name and email</li>
+                        <li class="complete"><i class="fa-regular fa-circle-check"></i>Profile picture</li>
+                        <li class="incomplete"><i class="fa fa-ban"></i>Training</li>
+                        <li class="incomplete"><i class="fa fa-ban"></i>Profession</li>
+                        <li class="incomplete"><i class="fa fa-ban"></i>Complete address</li>
+                        <li class="incomplete"><i class="fa fa-ban"></i>About me</li>
+                    </ul>
+                </div>
 
-                            <li>
-                                <input id="party" type="datetime-local" name="partydate" min="2000-06-01T08:30"
-                                    max="2050-06-30T16:30" required />
+                <div class="Characteristics">
+                    <h5 class="little-title">Characteristics:</h5>
+                    <ul class="featurez">
+                        <li class="list-this-page"><i>Model</i>
+                            <p class="pppm">Citroen C5 2.0 HDI 110 EXCLUSIVE 5dr</p>
+                        </li>
+                        <li class="list-this-page"><i>year</i>
+                            <p class="pppm">2012</p>
+                        </li>
+                        <li class="list-this-page"> <i>Fuel</i>
+                            <p class="pppm">Diesel</p>
+                        </li>
+                        <li class="list-this-page"><i>km</i>
+                            <p class="pppm">100.000 - 125.000</p>
+                        </li>
+                        <li class="list-this-page"><i>Fuel</i>
+                            <p class="pppm">Diesel</p>
+                        </li>
+                        <li class="list-this-page"><i>Registration number</i>
+                            <p class="pppm">5678FCD</p>
+                        </li>
+                        <li class="list-this-page"><i>Seats</i>
+                            <p class="pppm">5</p>
+                        </li>
+                        <li class="list-this-page"><i>Insurance</i>
+                            <p class="pppm">Best Boy Insurance</p>
+                        </li>
+                    </ul>
+                </div>
 
-                                <span class="validity"></span>
-                            </li>
+                <div class="features-list">
+                    <h5 class="little-title">Features:</h5>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-circle-check"></i>abs</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Cruise control</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Audio remote control</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Alarm</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Electric door mirrors</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Bluetooth connection</li>
+                    </ul>
+                </div>
 
-                            <li>
-                                <input id="party" type="datetime-local" name="partydate" min="2000-06-01T08:30"
-                                    max="2050-06-30T16:30" required />
+                <div class="reviewers">
 
-                                <span class="validity"></span>
-                            </li>
-                        </ul>
+                    <h5 class="little-title">reviews</h5>
 
-                        <p class="pp21"> <span class="span21">$21 </span> Price Per Day</p>
+                    <ul class="reviewer">
 
-                        <a href="#" title="" class="theme">+ rent this car today</a>
+                        <li>
+                            <figure>
+                                <img src="img/reviewer-1.jpg" alt="" style="border-radius: 100%;">
+                            </figure>
+                            <div class="activity-meta">
+                                <p class="star-cars"> <a class="stars-cars" href="#" title="">Derrick H.</a> 02 Oct
+                                    2017</p>
+                                <p>Very cozy and welcoming in Jessica’s car!</p>
+                                <ul class="star-rating">
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                </ul>
 
-                        <p class="pp12">
-                            Have a great ride with our 100km / day. In case you need more you can always ask for extra.
-                            <i class="fa fa-info-circle"></i>
-                        </p>
+                            </div>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/reviewer-2.jpg" alt="" style="border-radius: 100%;">
+                            </figure>
+                            <div class="activity-meta">
+                                <p class="star-cars"><a class="stars-cars" href="#" title="">Mia J.</a> 28 Sept 2017
+                                </p>
+                                <p>Jessica is very outgoing and peaceful. I had such a great time on the
+                                    full ride with
+                                    here.
+                                    100% recommended!</p>
+                                <ul class="star-rating">
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/reviewer-3.jpg" alt="" style="border-radius: 100%;">
+                            </figure>
+                            <div class="activity-meta">
+                                <p class="star-cars"><a class="stars-cars" href="#" title="">Janet Y.</a> 24 Sept
+                                    2017</p>
+                                <p>Jessica is punctual, which I really appreciate at someone, especially
+                                    when they are
+                                    getting
+                                    picked up. </p>
+                                <ul class="star-rating">
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                    <li><i class="fa fa-star checked"></i></li>
+                                </ul>
+                            </div>
+                        </li>
 
-                    </div>
-
-                    <div class="point-promo">
-                        <p class="em-p">
-                            Rent this car and get <i class="em">100</i> Car East points. Use your points for promos
-                            &amp; discounts.
-                        </p>
-                    </div>
-
-                    <div class="owner-sec">
-                        <div class="owner-pic">
-                            <img class="img-s" src="img/owner.jpg" alt="">
-                            <i class="i-img"><img src="img/icon-1.png" alt=""></i>
-                            <span class="span-em">
-                                <em>Andrew</em>
-                                <i>Owner</i>
-                            </span>
-                        </div>
-                        <ul class="icons-fonte">
-                            <li class="icon-fonte">
-                                <i class="far fa-handshake"></i>
-                                <div class="owner-info">
-                                    <span>89%</span>
-                                    <p>acceptance rate</p>
-                                </div>
-                            </li>
-                            <li class="icon-fonte">
-                                <i class="fas fa-clock"></i>
-                                <div class="owner-info">
-                                    <span>60mins</span>
-                                    <p>replies within 1hr</p>
-                                </div>
-                            </li>
-                            <li class="icon-fonte">
-                                <i class="fas fa-calendar"></i>
-                                <div class="owner-info">
-                                    <span>1 day ago</span>
-                                    <p>updated the calendar</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="owner-detail">
-                        <ul class="verificatio">
-                            <li><i class="fas fa-globe-europe"></i>Online on 4 Oct 2017 at 08:36</li>
-                            <li><i class="far fa-check-circle"></i>Account connected on Facebook</li>
-                            <li><i class="far fa-check-circle"></i>Phone number verified</li>
-                        </ul>
-                        <p>
-                            You will be able to see the phone number of the owner of the car, in the moment he accepts
-                            your request.
-                        </p>
-                        <a href="#" title="" class="theme-btn-long">send message</a>
-                    </div>
-
-                    <div class="owner-sec1">
-                        <div class="owner-pic">
-                            <img class="img-s" src="img/owner.jpg" alt="">
-                            <i class="i-img"><img src="img/icon-1.png" alt=""></i>
-                            <span class="span-em">
-                                <em>Andrew</em>
-                                <i>Owner</i>
-                            </span>
-                        </div>
-                        <ul class="icons-fonte">
-                            <li class="icon-fonte">
-                                <i class="far fa-handshake"></i>
-                                <div class="owner-info">
-                                    <span>89%</span>
-                                    <p>acceptance rate</p>
-                                </div>
-                            </li>
-                            <li class="icon-fonte">
-                                <i class="fas fa-clock"></i>
-                                <div class="owner-info">
-                                    <span>60mins</span>
-                                    <p>replies within 1hr</p>
-                                </div>
-                            </li>
-                            <li class="icon-fonte">
-                                <i class="fas fa-calendar"></i>
-                                <div class="owner-info">
-                                    <span>1 day ago</span>
-                                    <p>updated the calendar</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="owner-detail">
-                        <ul class="verificatio">
-                            <li><i class="fas fa-globe-europe"></i>Online on 4 Oct 2017 at 08:36</li>
-                            <li><i class="far fa-check-circle"></i>Account connected on Facebook</li>
-                            <li><i class="far fa-check-circle"></i>Phone number verified</li>
-                        </ul>
-                        <p>
-                            You will be able to see the phone number of the owner of the car, in the moment he accepts
-                            your request.
-                        </p>
-                        <a href="#" title="" class="theme-btn-long">send message</a>
-                    </div>
+                    </ul>
 
                 </div>
 
             </div>
+
+            <div class="col-lg-6 col-md-12">
+
+                <div class="dealtisex">
+
+                    <ul class="DATANTIME">
+
+                        <li>
+                            <input id="party" type="datetime-local" name="partydate" min="2000-06-01T08:30"
+                                max="2050-06-30T16:30" required />
+
+                            <span class="validity"></span>
+                        </li>
+
+                        <li>
+                            <input id="party" type="datetime-local" name="partydate" min="2000-06-01T08:30"
+                                max="2050-06-30T16:30" required />
+
+                            <span class="validity"></span>
+                        </li>
+                    </ul>
+
+                    <p class="pp21"> <span class="span21">$21 </span> Price Per Day</p>
+
+                    <a href="#" title="" class="theme">+ rent this car today</a>
+
+                    <p class="pp12">
+                        Have a great ride with our 100km / day. In case you need more you can always ask for extra.
+                        <i class="fa fa-info-circle"></i>
+                    </p>
+
+                </div>
+
+                <div class="point-promo">
+                    <p class="em-p">
+                        Rent this car and get <i class="em">100</i> Car East points. Use your points for promos
+                        &amp; discounts.
+                    </p>
+                </div>
+
+                <div class="owner-sec">
+
+                    <div class="owner-pic">
+                        <img class="img-s" src="img/owner.jpg" alt="">
+                        <i class="i-img"><img src="img/icon-1.png" alt=""></i>
+                        <span class="span-em">
+                            <em>Andrew</em>
+                            <i>Owner</i>
+                        </span>
+                    </div>
+
+                    <ul class="icons-fonte">
+                        <li class="icon-fonte">
+                            <i class="far fa-handshake"></i>
+                            <div class="owner-info">
+                                <span>89%</span>
+                                <p>acceptance rate</p>
+                            </div>
+                        </li>
+                        <li class="icon-fonte">
+                            <i class="fas fa-clock"></i>
+                            <div class="owner-info">
+                                <span>60mins</span>
+                                <p>replies within 1hr</p>
+                            </div>
+                        </li>
+                        <li class="icon-fonte">
+                            <i class="fas fa-calendar"></i>
+                            <div class="owner-info">
+                                <span>1 day ago</span>
+                                <p>updated the calendar</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="owner-detail">
+                    <ul class="verificatio">
+                        <li><i class="fas fa-globe-europe"></i>Online on 4 Oct 2017 at 08:36</li>
+                        <li><i class="far fa-check-circle"></i>Account connected on Facebook</li>
+                        <li><i class="far fa-check-circle"></i>Phone number verified</li>
+                    </ul>
+
+                    <p>
+                        You will be able to see the phone number of the owner of the car, in the moment he accepts
+                        your request.
+                    </p>
+
+                    <a href="#" title="" class="theme-btn-long">send message</a>
+
+                </div>
+
+                <div class="owner-sec1">
+
+                    <div class="owner-pic">
+                        <img class="img-s" src="img/owner.jpg" alt="">
+                        <i class="i-img"><img src="img/icon-1.png" alt=""></i>
+                        <span class="span-em">
+                            <em>Andrew</em>
+                            <i>Owner</i>
+                        </span>
+                    </div>
+
+                    <ul class="icons-fonte">
+                        <li class="icon-fonte">
+                            <i class="far fa-handshake"></i>
+                            <div class="owner-info">
+                                <span>89%</span>
+                                <p>acceptance rate</p>
+                            </div>
+                        </li>
+                        <li class="icon-fonte">
+                            <i class="fas fa-clock"></i>
+                            <div class="owner-info">
+                                <span>60mins</span>
+                                <p>replies within 1hr</p>
+                            </div>
+                        </li>
+                        <li class="icon-fonte">
+                            <i class="fas fa-calendar"></i>
+                            <div class="owner-info">
+                                <span>1 day ago</span>
+                                <p>updated the calendar</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="owner-detail">
+
+                    <ul class="verificatio">
+                        <li><i class="fas fa-globe-europe"></i>Online on 4 Oct 2017 at 08:36</li>
+                        <li><i class="far fa-check-circle"></i>Account connected on Facebook</li>
+                        <li><i class="far fa-check-circle"></i>Phone number verified</li>
+                    </ul>
+                    <p>
+                        You will be able to see the phone number of the owner of the car, in the moment he accepts
+                        your request.
+                    </p>
+                    <a href="#" title="" class="theme-btn-long">send message</a>
+
+                </div>
+
+            </div>
+
         </div>
+
         </div>
+
         </div>
     </section>
 
