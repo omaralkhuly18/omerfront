@@ -2,11 +2,13 @@
     height: auto;*/
 
 @media screen and (max-width: 540px) and (min-width: 280px) {
-      .Words-slider-top {display: none !important;}
-    }
+  .Words-slider-top {
+    display: none !important;
+  }
+}
 
 @media screen and (max-width:375px) and (min-width:280px) {
-  
+
   li.width-driver {
     width: 60%;
   }
@@ -18,12 +20,12 @@
 
   ul.dirction-new {
     width: 200px;
-    transform: translate(-20px , 47px) !important;
+    transform: translate(-20px, 47px) !important;
   }
- 
+
   svg.svg-inline--fa.fa-key,
   svg.svg-inline--fa.fa-handshake,
-  svg.svg-inline--fa.fa-star{
+  svg.svg-inline--fa.fa-star {
     font-size: 14px;
   }
 
@@ -46,11 +48,15 @@
   }
 
   .imgcar1 {
-    width: 20%;
+    width: 30%;
   }
 
-  img.img2-car{
-    width: 80%;
+  .slider-top-luxury {
+    padding: 15%;
+  }
+
+  .slider-top-luxury {
+    padding: 15%;
   }
 
   .passenger3,
@@ -765,7 +771,7 @@
     display: flex;
   }
 
-  .filter-meta p{
+  .filter-meta p {
     width: 85%;
   }
 
@@ -1390,7 +1396,7 @@
     display: none;
   }
 
-  #link-click-go-to{
+  #link-click-go-to {
     width: 70%;
     margin-top: 1%;
   }
@@ -1401,7 +1407,7 @@
 
   a.goto-like-page {
     width: 100%;
-}
+  }
 
 }
 
@@ -1418,9 +1424,9 @@
 
   ul.dirction-new {
     width: 200px;
-    transform: translate(-20px , 47px) !important;
+    transform: translate(-20px, 47px) !important;
   }
- 
+
   .car1-carry {
     text-align: center;
     margin-bottom: 5%;
@@ -1631,7 +1637,7 @@
     align-items: center;
   }
 
-  svg.svg-inline--fa.fa-star{
+  svg.svg-inline--fa.fa-star {
     font-size: 14px;
   }
 
@@ -2601,7 +2607,7 @@
     display: none;
   }
 
-  #link-click-go-to{
+  #link-click-go-to {
     width: 60%;
     margin-top: 1%;
   }
@@ -2625,9 +2631,9 @@
 
   ul.dirction-new {
     width: 200px;
-    transform: translate(-20px , 47px) !important;
+    transform: translate(-20px, 47px) !important;
   }
- 
+
   .d1-block {
     display: none;
   }
@@ -2870,10 +2876,10 @@
 
   .imgcar1 {
     width: 18%;
-    bottom: 10px;
-    display: inline-block;
-    left: 6px;
-    position: absolute;
+  }
+
+  .slider-top-luxury {
+    padding: 15%;
   }
 
   img.img2-car {
@@ -3630,7 +3636,7 @@
     width: 95%;
   }
 
-  .cars-lists img  {
+  .cars-lists img {
     width: 99%;
   }
 
@@ -4068,7 +4074,7 @@
     display: none;
   }
 
-  #link-click-go-to{
+  #link-click-go-to {
     width: 60%;
     margin-top: 1%;
   }
@@ -4133,7 +4139,7 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
@@ -4145,15 +4151,17 @@
     left: 15% !important;
   }
 
-  .words-sliders-top{
+  .words-sliders-top {
     padding: 0.5% 2%;
   }
 
-  #link-click-slider-top{
+  #link-click-slider-top {
     width: 60%;
   }
 
-  .p-slider-top{width: 100%;}
+  .p-slider-top {
+    width: 100%;
+  }
 
   li.width-driver {
     width: 55%;
@@ -4166,7 +4174,7 @@
 
   ul.dirction-new {
     width: 200px;
-    transform: translate(-20px , 47px) !important;
+    transform: translate(-20px, 47px) !important;
   }
 
   .d1-none {
@@ -4417,16 +4425,11 @@
   }
 
   .imgcar1 {
-    bottom: 10px;
-    display: inline-block;
-    left: 6px;
-    position: absolute;
+    width: 15%;
   }
 
-  img.img2-car {
-    border-radius: 50%;
-    border: 2px solid wheat;
-    width: 20%;
+  .slider-top-luxury {
+    padding: 15%;
   }
 
   .rentals-car2 {
@@ -5126,7 +5129,7 @@
     width: 95%;
   }
 
-  .cars-lists img  {
+  .cars-lists img {
     width: 275px;
     height: 250px;
   }
@@ -5686,7 +5689,7 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
@@ -5709,7 +5712,7 @@
 
   ul.dirction-new {
     width: 200px;
-    transform: translate(-20px , 47px) !important;
+    transform: translate(-20px, 47px) !important;
   }
 
   .CarCarry {
@@ -6026,16 +6029,11 @@
   }
 
   .imgcar1 {
-    width: 20%;
-    bottom: 10px;
-    display: inline-block;
-    left: 6px;
-    position: absolute;
+    width: 15%;
   }
 
-  img.img2-car {
-    border-radius: 50%;
-    border: 2px solid wheat;
+  .slider-top-luxury {
+    padding: 15%;
   }
 
   .rentals-car2 {
@@ -6575,7 +6573,7 @@
     width: 95%;
   }
 
-  .cars-lists img  {
+  .cars-lists img {
     width: 275px;
     height: 250px;
   }
@@ -6997,7 +6995,7 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
@@ -7009,7 +7007,7 @@
 
   ul.dirction-new {
     width: 195px;
-    transform: translate(-13px , 47px) !important;
+    transform: translate(-13px, 47px) !important;
   }
 
   .CarCarry {
@@ -7216,7 +7214,7 @@
     border-radius: 2.5rem;
   }
 
-  .rides  .priveat-new {
+  .rides .priveat-new {
     width: 24% !important;
   }
 
@@ -7321,7 +7319,7 @@
   }
 
   .imgcar1 {
-    width: 20%;
+    width: 10%;
   }
 
   .rentals-car2 {
@@ -7524,7 +7522,9 @@
     line-height: 25px;
   }
 
-  .d1-block{display: n;}
+  .d1-block {
+    display: n;
+  }
 
   a.themee-btn {
     background-color: #7ba8f9;
@@ -8280,13 +8280,13 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
   }
 
- 
+
   .overlay {
     height: 100%;
     width: 0;
@@ -8612,9 +8612,8 @@
     width: 20%;
   }
 
-  img.img2-car {
-    border-radius: 50%;
-    border: 2px solid wheat;
+  .slider-top-luxury {
+    padding: 15%;
   }
 
   .rentals-car2 {
@@ -9270,7 +9269,7 @@
 
 @media screen and (max-width:1495px) and (min-width:1280px) {
 
-  .button-move-RightAndLeft{
+  .button-move-RightAndLeft {
     width: 97% !important;
   }
 
@@ -9322,7 +9321,7 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
@@ -9570,16 +9569,11 @@
   }
 
   .imgcar1 {
-    bottom: 10px;
-    display: inline-block;
-    left: 6px;
-    position: absolute;
     width: 20%;
   }
 
-  img.img2-car {
-    border-radius: 50%;
-    border: 2px solid wheat;
+  .slider-top-luxury {
+    padding: 15%;
   }
 
   .rentals-car2 {
@@ -9647,7 +9641,7 @@
 
   .space.no-top {
     width: 100%;
-    margin-left:0;
+    margin-left: 0;
     background-color: #c5fdf3;
     border-radius: 2.5rem;
     padding: 3% 0;
@@ -10094,7 +10088,7 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
@@ -10201,7 +10195,14 @@
     width: 100%;
     margin-left: 0;
   }
-/* 
+
+  
+  .slider-top-luxury {
+    padding: 15%;
+  }
+
+
+  /* 
   .prevcients,
   .nextcients {
     margin-top: -20%;
@@ -10370,7 +10371,7 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
@@ -10433,7 +10434,7 @@
 }
 
 @media screen and (max-width:1866px) and (min-width: 1760px) {
-  
+
   div#displayourCLIENTS,
   .cell-responciv,
   .cell-responciv-bike .section-CarRental-rental1,
@@ -10482,7 +10483,7 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
@@ -10567,6 +10568,10 @@
 
   .imgcar1 {
     width: 18%;
+  }
+
+  .slider-top-luxury {
+    padding: 15%;
   }
 
   .rider-avatar {
@@ -10666,7 +10671,7 @@
   }
 
   .Prevourcients,
-  .Nextourcients{
+  .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
@@ -12065,7 +12070,7 @@
     left: 15% !important;
   }
 
-  #link-click-slider-top{
+  #link-click-slider-top {
     width: 60%;
   }
 
@@ -12294,7 +12299,7 @@
     height: 740px;
   }
 
-  #link-click-slider-top{
+  #link-click-slider-top {
     width: 40%;
   }
 
@@ -12537,7 +12542,7 @@
     background-color: #000000b8;
   }
 
-  #link-click-slider-top{
+  #link-click-slider-top {
     width: 40%;
   }
 
@@ -14747,90 +14752,88 @@
 
 @media screen and (max-width: 990px) and (min-width: 280px) {
   .whatsapp {
-      display: none;
+    display: none;
   }
 }
 
 @media screen and (max-width: 890px) and (min-width:280px) {
   button#gototop {
-      width: 9%;
+    width: 9%;
   }
 }
 
 @media screen and (max-width: 600px) and (min-width:280px) {
   button#gototop {
-      width: 16%;
+    width: 16%;
   }
 }
 
 @media screen and (max-width:950px) and (min-width:280px) {
   .button-post {
-      width: 70%;
+    width: 70%;
   }
 
   form#d-flex {
-      width: 60%;
-      padding: 0% 3% 0% 0%;
+    width: 60%;
+    padding: 0% 3% 0% 0%;
   }
 }
 
 @media screen and (max-width:460px) and (min-width:280px) {
   div#navbarSupported {
-      justify-content: space-between;
+    justify-content: space-between;
   }
 
   .nav-link {
-      font-size: 12px;
+    font-size: 12px;
   }
 
   #link-click-slider-top {
-      width: 50%;
+    width: 50%;
   }
 
   svg#icon-lock,
   svg#icon-check,
   .button-post {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   .svg-inline--fa.fa-bars {
-      font-size: 35px;
+    font-size: 35px;
   }
 
   img.vector-img-logo {
-      width: 70%;
+    width: 70%;
   }
 
   h1.h1-slider-top,
   .p-slider-top {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   h2.h22-slider-top,
   h3.h33-slider-top,
   h3.h333-slider-top {
-      font-size: 15px;
+    font-size: 15px;
   }
 }
 
 @media screen and (max-width: 767px) and (min-width: 280px) {
   #sectionClickSlider {
-      right: 2%;
+    right: 2%;
   }
 
   .d-grid {
-      width: 150px;
-      height: 150px;
+    width: 150px;
+    height: 150px;
   }
 }
 
 @media screen and (max-width: 500px) and (min-width: 280px) {
   .words-sliders-top {
-      left: 0.5%;
+    left: 0.5%;
   }
 
 }
 
-@media screen and (max-width: 763px) {
-  
-}
+@media screen and (max-width: 763px) {}

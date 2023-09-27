@@ -1132,13 +1132,16 @@ span.day-car::before {
   display: inline-block;
   left: 6px;
   position: absolute;
-  width: 40%;
+  width: 20%;
 }
 
-img.img2-car {
+.slider-top-luxury {
+  font-size: 50px !important;
+  color: rgb(25, 10, 245);
   border-radius: 50%;
-  border: 2px solid wheat;
-  width: 60%;
+  border: 2px solid blueviolet;
+  padding: 15%;
+
 }
 
 .rentals-car2 {
