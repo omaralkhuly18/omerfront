@@ -9,6 +9,16 @@
 
 @media screen and (max-width:375px) and (min-width:280px) {
 
+  .clickorstop{
+    margin-top: 20%;
+    width: 75%;
+  }
+
+  .tooltip-slider-hover{
+    min-width: 315px;
+    padding: 15px 15px;
+  }
+
   li.width-driver {
     width: 60%;
   }
@@ -1413,6 +1423,10 @@
 
 @media screen and (max-width:414px) and (min-width:375px) {
 
+  .clickorstop{
+    margin-top: 14%;
+  }
+
   li.width-driver {
     width: 55%;
   }
@@ -2623,6 +2637,10 @@
 }
 
 @media screen and (max-width:540px) and (min-width:414px) {
+  
+  .clickorstop{
+    margin-top: 14%;
+  }
 
   .cover-new {
     width: 70%;
@@ -4143,6 +4161,10 @@
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
+  }
+
+  .clickorstop{
+    margin-top: 12%;
   }
 
   .Words-slider-top {
@@ -5701,6 +5723,10 @@
     left: 15% !important;
   }
 
+  .clickorstop{
+    margin-top: 10%;
+  }
+
   .d1-none {
     display: none;
   }
@@ -7001,6 +7027,10 @@
     font-size: 32px !important;
   }
 
+  .clickorstop{
+    margin-top: 9%;
+  }
+
   .cover-new {
     width: 70%;
   }
@@ -8286,6 +8316,9 @@
     font-size: 32px !important;
   }
 
+  .clickorstop{
+    margin-top: 8%;
+  }
 
   .overlay {
     height: 100%;
@@ -14075,7 +14108,6 @@
 
   /* folder-profile-driver css /*/
 }
-
 
 
 

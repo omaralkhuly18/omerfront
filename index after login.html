@@ -94,12 +94,12 @@
 
     </div>
 
-    <nav class="navbar bg-info text-dark navbar-expand-lg  sticky-top">
+    <nav class="navbar text-dark navbar-expand-lg  sticky-top">
 
         <div class="container-floid container-fluid">
 
-            <a class="navbar-brand" href="index.html"><img src="img/Vector.png" class="vector-img-logo"
-                    alt="Vector"></a>
+            <a class="navbar-brand link-logo-new" href="index.html"><img src="img/us logn-new.PNG" class="vector-img-logo"
+                alt="Vector"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -214,7 +214,7 @@
 
     <section class="section-image-top-position mt-3">
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active width-height-img-slider-top">
                     <img src="img/featured-avatar.jpeg" class="img-fluid" alt="...">
@@ -288,13 +288,13 @@
 
                 </div>
             </div>
-            <button class="carousel-control-prev prev-slider" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev bg-dark text-white prev-slider " type="button" 
+            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next next-slider" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
+            <button class="carousel-control-next bg-dark text-white next-slider " type="button" 
+            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -418,28 +418,9 @@
 
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
-                <div class="carousel-indicators priveat-new">
-
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
-
-                </div>
-
                 <div class="carousel-inner">
 
-                    <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="carousel-item active" >
 
                         <i class="fa-regular fa-user slider-top "></i>
 
@@ -472,7 +453,7 @@
 
                     </div>
 
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" >
 
                         <i class="fa-regular fa-user slider-top " style="color: #99dbf5;"></i>
 
@@ -606,14 +587,14 @@
 
                 </div>
 
-                <button class="carousel-control-prev priveat-enmatain-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev priveat-enmatain-prev" type="button" 
+                data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
 
-                <button class="carousel-control-next priveat-enmatain-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
+                <button class="carousel-control-next priveat-enmatain-next" type="button" 
+                data-bs-target="#carouselExampleDark" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -1075,8 +1056,8 @@
     </section>
     <!-- section Looking-for-ride -->
 
-    <!-- section this-brand-car-web -->
-    <div id="carouselExampleIndicators" class="carousel slide responsive-new mt-5" data-bs-ride="carousel">
+    <!-- section this-brand-car-web carousel-->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
 
         <div class="carousel-indicators">
 
@@ -1104,26 +1085,55 @@
         </div>
 
         <div class="carousel-inner">
+
             <div class="carousel-item active text-center ">
-                <img src="img/brand-1.jpeg" class="img-fluid" style="height: 200px;" alt="...">
+                <a href="#" class="clickorstop" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="tooltip-slider-hover">models cars one: This brand is available with us</span>
+                <img src="img/brand-1.jpeg" class="img-fluid clickForHover">
+            </a>
             </div>
             <div class="carousel-item text-center  ">
-                <img src="img/brand-2.png" class="img-fluid" style="height: 200px;" alt="...">
+                <a href="?" class="clickorstop" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="tooltip-slider-hover">models cars tow: This brand is available with us</span>
+                <img src="img/brand-2.png" class="img-fluid clickForHover">
+                </a>
             </div>
             <div class="carousel-item text-center  ">
-                <img src="img/brand-3.jpeg" class="img-fluid" style="height: 200px;" alt="...">
+                <a href="?" class="clickorstop" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="tooltip-slider-hover">models cars three: This brand is available with us</span>
+                <img src="img/brand-3.jpeg" class="img-fluid clickForHover">
+                </a>
             </div>
             <div class="carousel-item text-center  ">
-                <img src="img/brand-5.jpeg" class="img-fluid" style="height: 200px;" alt="...">
+                <a href="?" class="clickorstop" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="tooltip-slider-hover">models cars four: This brand is available with us</span>
+                <img src="img/brand-5.jpeg" class="img-fluid clickForHover">
+                </a>
             </div>
             <div class="carousel-item text-center  ">
-                <img src="img/brand-6.jpeg" class="img-fluid" style="height: 200px;" alt="...">
+                <a href="?" class="clickorstop" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="tooltip-slider-hover">models cars five: This brand is available with us</span>
+                <img src="img/brand-6.jpeg" class="img-fluid clickForHover">
+                </a>
             </div>
             <div class="carousel-item text-center  ">
-                <img src="img/brand-7.jpeg"class="img-fluid" style="height: 200px;" alt="...">
+                <a href="?" class="clickorstop" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="tooltip-slider-hover">models cars sex: This brand is available with us</span>
+                <img src="img/brand-7.jpeg"class="img-fluid clickForHover">
+                </a>
             </div>
             <div class="carousel-item text-center  ">
-                <img src="img/brand-8.jpeg" class="img-fluid" style="height: 200px;" alt="...">
+                <a href="?" class="clickorstop" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="tooltip-slider-hover">models cars seven: This brand is available with us</span>
+                <img src="img/brand-8.jpeg" class="img-fluid clickForHover">
+                </a>
             </div>
         </div>
 
