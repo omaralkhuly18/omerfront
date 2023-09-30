@@ -6,95 +6,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Text Effect | CodingNepal</title>
-    <style>
-        /* Importing Google font - Inter */
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Inter", sans-serif;
-        }
-
-        body {
-            display: flex;
-            height: 100vh;
-            align-items: center;
-            justify-content: center;
-            background: #1D1E23;
-        }
-
-        h1 {
-            color: #fff;
-            font-size: 2rem;
-            font-weight: 600;
-        }
-
-        h1 span {
-            color: #BD53ED;
-            position: relative;
-        }
-
-        h1 span::before {
-            content: "";
-            height: 30px;
-            width: 2px;
-            position: absolute;
-            top: 50%;
-            right: -8px;
-            background: #BD53ED;
-            transform: translateY(-45%);
-            animation: blink 0.7s infinite;
-        }
-
-        h1 span.stop-blinking::before {
-            animation: none;
-        }
-
-        @keyframes blink {
-            50% {
-                opacity: 0
-            }
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Coding is <span></span></h1>
+
+    <h1 id="typeOne">Coding is </h1>
+    <img src="../img/brand-1.jpeg" id="buttonOne" alt="">
+
+    <h1 id="typeTow">Coding is </h1>
+    <img src="img/brand-2.png" id="buttonTow" alt="">
+
+    <h1 id="typeThree">Coding is </h1>
+    <img src="img/brand-3.jpeg" id="buttonThree" alt="">
+
+    <h1 id="typeFour">Coding is </h1>
+    <img src="img/brand-5.jpeg" id="buttonFour" alt="">
+
+    <h1 id="typeFive">Coding is </h1>
+    <img src="img/brand-6.jpeg" id="buttonFive" alt="">
+
+    <h1 id="typeSex">Coding is </h1>
+    <img src=img/brand-7.jpeg" id="buttonSex" alt="">
+
+    <h1 id="typeEight">Coding is </h1>
+    <img src="img/brand-8.jpeg" id="buttonEight" alt="">
+
+
+    <div style="height: 1000px;"></div>
+
     <script>
-        const dynamicText = document.querySelector("h1 span");
-        const words = ["Love like Art the Future Everything"];
+        // قم بتعريف مصفوفة من النصوص والمتغيرات المرتبطة بها
+        var data = [
+            { text: 'Hello from Elzero Web School This is models cars one', variable: 'text', id: 'typeOne' },
+            { text: 'Hello from Elzero Web School This is models cars tow', variable: 'textOne', id: 'typeTow' },
+            { text: 'Hello from Elzero Web School This is models cars three', variable: 'textTow', id: 'typeThree' },
+            { text: 'Hello from Elzero Web School This is models cars four', variable: 'textThree', id: 'typeFour' },
+            { text: 'Hello from Elzero Web School This is models cars five', variable: 'textFour', id: 'typeFive' },
+            { text: 'Hello from Elzero Web School This is models cars sex', variable: 'textFive', id: 'typeSex' },
+            { text: 'Hello from Elzero Web School This is models cars seven', variable: 'textSex', id: 'typeEight' },
+        ];
 
-        // Variables to track the position and deletion status of the word
-        let wordIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
+        // قم بتعريف دالة لتنفيذ الكتابة
+        function startTypewriter(button, text, variable, id) {
+            var buttonElement = document.getElementById(button);
 
-        const typeEffect = () => {
-            const currentWord = words[wordIndex];
-            const currentChar = currentWord.substring(0, charIndex);
-            dynamicText.textContent = currentChar;
-            dynamicText.classList.add("stop-blinking");
+            buttonElement.onmouseover = function () {
+                'use strict';
+                var textIndex = 0;
+                var typeWriter = setInterval(function () {
+                    document.getElementById(id).textContent += text[textIndex];
+                    textIndex = textIndex + 1;
 
-            if (!isDeleting && charIndex < currentWord.length) {
-                // If condition is true, type the next character
-                charIndex++;
-                setTimeout(typeEffect, 200);
-            } else if (isDeleting && charIndex > 0) {
-                // If condition is true, remove the previous character
-                charIndex--;
-                setTimeout(typeEffect, 100);
-            } else {
-                // If word is deleted then switch to the next word
-                isDeleting = !isDeleting;
-                dynamicText.classList.remove("stop-blinking");
-                wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
-                setTimeout(typeEffect, 1200);
+                    if (textIndex > text.length - 1) {
+                        clearInterval(typeWriter);
+                        // إضافة تأخير قبل مسح النص
+                        setTimeout(function () {
+                            document.getElementById(id).textContent = ''; // مسح النص بعد انتهاء الكتابة
+                        }, 1000); // قم بتعيين الوقت الذي تريده هنا بالمللي ثانية
+                    }
+
+                }, 100);
+            };
+            function haltFunction() {
+                clearInterval(typeWriter);
             }
         }
 
-        typeEffect();
+
+        // استدعاء الدالة لكل زر
+        startTypewriter('buttonOne', data[0].text, data[0].variable, data[0].id);
+        startTypewriter('buttonTow', data[1].text, data[1].variable, data[1].id);
+        startTypewriter('buttonThree', data[2].text, data[2].variable, data[2].id);
+        startTypewriter('buttonFour', data[3].text, data[3].variable, data[3].id);
+        startTypewriter('buttonFive', data[4].text, data[4].variable, data[4].id);
+        startTypewriter('buttonSex', data[5].text, data[5].variable, data[5].id);
+        startTypewriter('buttonEight', data[6].text, data[6].variable, data[6].id);
     </script>
 </body>
 
