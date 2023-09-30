@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Driver</title>
+    <title>Form-Driver</title>
 </head>
 
 <body>
@@ -58,12 +58,12 @@
 
     </div>
 
-    <nav class="navbar bg-info text-dark navbar-expand-lg  sticky-top">
+    <nav class="navbar text-dark navbar-expand-lg  sticky-top">
 
         <div class="container-floid container-fluid">
 
-            <a class="navbar-brand" href="index.html"><img src="img/Vector.png" class="vector-img-logo"
-                    alt="Vector"></a>
+            <a class="navbar-brand link-logo-new" href="index.html"><img src="img/us logn-new.PNG"
+                    class="vector-img-logo" alt="Vector"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -80,7 +80,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="?" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             home
                         </a>
@@ -186,7 +186,7 @@
                 <div class="img-background">
                     <img src="img/man-driving-car.avif" alt="img-background" class="img-me">
 
-                    <section id="Your-Words">
+                    <div id="Your-Words">
 
                         <div class="Your-word">
 
@@ -223,7 +223,7 @@
 
                         </div>
 
-                    </section>
+                    </div>
 
                     <section id="abutus">
 
@@ -268,6 +268,66 @@
         </div>
 
     </section>
+
+    <div id="formPrivateData" class="mb-5 mt-5">
+
+        <form action="Models-Cars.html" method="post" id="formPrivateDataOne">
+
+            <ul id="listFormPrivratDataDriver">
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" 
+                        for="inputGroupFile02">A photo of the ID card from the front</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" for="inputGroupFile02" 
+                        for="inputGroupFile02">A photo of the ID card from the back</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" 
+                        for="inputGroupFile02">A photo of the Driving card from the front</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" 
+                        for="inputGroupFile02">A photo of the Driving card from the back</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" 
+                        for="inputGroupFile02">A photo of the Criminal record </label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="d-flex align-items-center responsiveDatPriveat">
+                        <label class="phone" for="phone">Enter a personal number:</label>
+                        <input type="tel"class="form-control" id="inputGroupFile02" 
+                        name="personal" placeholder="123-456789-101112" pattern="[0-9]{3}-[0-9]{5}-[0-9]{3}" required>
+                    </div>
+                </li>
+
+            </ul>
+
+        </form>
+
+    </div>
 
     <footer class=" footer-bootstrap-v5">
 

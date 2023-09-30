@@ -5,8 +5,6 @@ html {
 
 .row,
 section,
-#container-fluid,
-nav,
 footer,
 .rightandleft-slider,
 .responsive-new,
@@ -15,6 +13,10 @@ footer,
 .sub-head {
   width: 98% !important;
   margin-left: 1% !important;
+}
+
+a#navbarDropdown {
+  color: white;
 }
 
 .row,
@@ -135,6 +137,10 @@ a {
   text-decoration: none;
 }
 
+ .stickyTop{
+  background-color: #5c81ff !important;
+}
+
 .active,
 .clicks:hover {
   background: none !important;
@@ -193,11 +199,18 @@ ul.show {
 
 .link-logo-new {
   width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.background-img-logo{
+  width: 55%;
 }
 
 .vector-img-logo {
-  width: 90%;
-  height: 80px;
+  width: 30%;
+  height: 105px;
 }
 
 #container-fluid {
@@ -2861,7 +2874,7 @@ img.img-me {
   position: relative;
 }
 
-section#Your-Words {
+#Your-Words {
   position: absolute;
   top: 12%;
   left: 6%;
@@ -2949,14 +2962,14 @@ section#abutus {
 
 .img-aboutus {
   width: 45%;
-  background-color: #edebe5;
+  background-color: #dcdfff;
   border-radius: 2.5rem;
 }
 
 img.growth {
   width: 100%;
-  border: solid 2px yellowgreen;
-  box-shadow: 4px 3px 35px 1px rgb(167 233 46);
+  border: solid 2px #7532cd52;
+  box-shadow: 4px 5px 15px 4px rgb(151 138 213);
   border-radius: 2.5rem;
 }
 
@@ -2986,6 +2999,53 @@ p#towwords {
 
 p#threewords {
   color: #c98d3e;
+}
+
+#formPrivateData {
+  width: 99%;
+  display: flex;
+  margin-left: 0.9%;
+  justify-content: center;
+}
+
+#formPrivateDataOne {
+  width: 70%;
+  border-radius: 2.5rem;
+  border: 1px solid #ced4da;
+  box-shadow: 0px 0px 10px 1px #0000ff4f;
+  padding: 25px;
+}
+
+#listFormPrivratDataDriver {
+  width: 100%;
+}
+
+li#inputUrlTypeImage {
+  margin: 4% 0;
+}
+
+.form-control:focus {
+  color: #7733f7 !important;
+  background-color: #d8e5f7 !important;
+  border-color: #3687fb !important;
+  box-shadow: 0 0 0 0.25rem rgb(36 72 126 / 25%) !important;
+  font-size: 18px !important;
+}
+
+label.phone {
+  border: 1px solid #ced4da;
+  background-color: #e9ecef;
+  width: 30%;
+  height: 37px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+label.phone:hover{
+  background-color: #dedfe3;
 }
 
 section#CLIENTS {

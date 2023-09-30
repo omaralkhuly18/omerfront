@@ -1419,6 +1419,35 @@
     width: 100%;
   }
 
+  #formPrivateData {
+    justify-content: space-evenly;
+  }
+  
+  #formPrivateDataOne {
+    width: 100%;
+    padding: 1%;
+  }
+
+  label.phone,
+  .input-group>.form-control{
+    width: 70%;
+    margin-bottom: 3% !important;
+    box-shadow: 0px 0px 9px 2px rgba(137, 43, 226, 0.39);
+  }
+
+  .responsiveDatPriveat{
+    display: block !important;
+  }
+
+  .input-group>.form-control{
+    width: 90%;
+  }
+
+  .input-group-text{
+    font-size: 14px !important;
+    padding: 2% 2% !important;
+  }
+
 }
 
 @media screen and (max-width:414px) and (min-width:375px) {
@@ -2632,6 +2661,29 @@
 
   a.goto-like-page {
     width: 100%;
+  }
+
+  #formPrivateData {
+    justify-content: space-evenly;
+  }
+  
+  #formPrivateDataOne {
+    width: 100%;
+  }
+
+  label.phone,
+  .input-group>.form-control{
+    width: 55%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 9px 2px rgba(137, 43, 226, 0.39);
+  }
+
+  .responsiveDatPriveat{
+    display: block !important;
+  }
+
+  .input-group>.form-control{
+    width: 70%;
   }
 
 }
@@ -4103,6 +4155,29 @@
 
   a.goto-like-page {
     width: 100%;
+  }
+
+  #formPrivateData {
+    justify-content: space-evenly;
+  }
+
+  #formPrivateDataOne {
+    width: 100%;
+  }
+
+  label.phone,
+  .input-group>.form-control{
+    width: 45%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 9px 2px rgba(137, 43, 226, 0.39);
+  }
+
+  .responsiveDatPriveat{
+    display: block !important;
+  }
+
+  .input-group>.form-control{
+    width: 60%;
   }
 
 }
@@ -5659,6 +5734,24 @@
     width: 100%;
   }
 
+  #formPrivateData {
+    justify-content: space-evenly;
+  }
+  #formPrivateDataOne {
+    width: 100%;
+  }
+
+  label.phone,
+  .input-group>.form-control{
+    width: 45%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 9px 2px rgba(137, 43, 226, 0.39);
+  }
+
+  .responsiveDatPriveat{
+    display: block !important;
+  }
+
 }
 
 @media screen and (max-width:912px) and (min-width:820px) {
@@ -6963,6 +7056,17 @@
     font-size: 15px;
   }
 
+  #formPrivateData {
+    justify-content: space-evenly;
+  }
+  #formPrivateDataOne {
+    width: 90%;
+  }
+
+  label.phone{
+    width: 40%;
+  }
+
 }
 
 @media SCREEN and (max-width:1024px) and (min-width:912px) {
@@ -8258,6 +8362,13 @@
     width: 70% !important;
   }
 
+  #formPrivateData {
+    justify-content: space-evenly;
+  }
+  #formPrivateDataOne {
+    width: 90%;
+  }
+
 }
 
 @media screen and (max-width:1280px) and (min-width:1024px) {
@@ -9298,6 +9409,13 @@
     width: 70% !important;
   }
 
+  #formPrivateData {
+    justify-content: space-evenly;
+  }
+  #formPrivateDataOne {
+    width: 90%;
+  }
+
 }
 
 @media screen and (max-width:1495px) and (min-width:1280px) {
@@ -10068,6 +10186,13 @@
   .link1-section span,
   a.link-section-three {
     width: 70% !important;
+  }
+
+  #formPrivateData {
+    justify-content: space-evenly;
+  }
+  #formPrivateDataOne {
+    width: 80%;
   }
 }
 
@@ -10869,7 +10994,7 @@
     height: 340px;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 0.5%;
     left: 6%;
@@ -11270,7 +11395,7 @@
     height: 320px;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 0.5%;
     left: 6%;
@@ -11630,7 +11755,7 @@
     height: 35px;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 0.5%;
     left: 6%;
@@ -11946,7 +12071,7 @@
     height: 40px;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 0.5%;
     left: 6%;
@@ -12199,7 +12324,7 @@
     height: 40px;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 1.5%;
     left: 6%;
@@ -12381,7 +12506,7 @@
     font-size: 20px;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 7.5%;
     left: 6%;
@@ -12562,7 +12687,7 @@
     font-size: 20px;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 7.5%;
     left: 6%;
@@ -12740,7 +12865,7 @@
     font-size: 20px;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 8%;
     left: 6%;
@@ -12944,7 +13069,7 @@
     position: relative;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 12%;
     left: 6%;
@@ -13038,15 +13163,10 @@
 
   .img-aboutus {
     width: 45%;
-    background-color: #edebe5;
-    border-radius: 2.5rem;
   }
 
   img.growth {
     width: 100%;
-    border: solid 2px yellowgreen;
-    box-shadow: 4px 3px 35px 1px rgb(167 233 46);
-    border-radius: 2.5rem;
   }
 
   .words-about {
@@ -13372,6 +13492,19 @@
 }
 
 @media screen and (max-width: 1660px) and (min-width: 1560px) {
+  .link-logo-new {
+    width: 25%;
+  }
+
+  .background-img-logo{
+    width: 60%;
+  }
+  
+  .vector-img-logo {
+    width: 25%;
+    height: 105px;
+  }
+
   /* folder-profile-driver css */
 
   section#about-me,
@@ -13407,7 +13540,7 @@
     position: relative;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 15%;
     left: 6%;
@@ -13494,15 +13627,10 @@
 
   .img-aboutus {
     width: 45%;
-    background-color: #edebe5;
-    border-radius: 2.5rem;
   }
 
   img.growth {
     width: 100%;
-    border: solid 2px yellowgreen;
-    box-shadow: 4px 3px 35px 1px rgb(167 233 46);
-    border-radius: 2.5rem;
   }
 
   .words-about {
@@ -13612,7 +13740,7 @@
     position: relative;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 15%;
     left: 6%;
@@ -13699,15 +13827,10 @@
 
   .img-aboutus {
     width: 45%;
-    background-color: #edebe5;
-    border-radius: 2.5rem;
   }
 
   img.growth {
     width: 100%;
-    border: solid 2px yellowgreen;
-    box-shadow: 4px 3px 35px 1px rgb(167 233 46);
-    border-radius: 2.5rem;
   }
 
   .words-about {
@@ -13855,7 +13978,7 @@
     position: relative;
   }
 
-  section#Your-Words {
+  #Your-Words {
     position: absolute;
     top: 15%;
     left: 6%;
@@ -13942,15 +14065,10 @@
 
   .img-aboutus {
     width: 45%;
-    background-color: #edebe5;
-    border-radius: 2.5rem;
   }
 
   img.growth {
     width: 100%;
-    border: solid 2px yellowgreen;
-    box-shadow: 4px 3px 35px 1px rgb(167 233 46);
-    border-radius: 2.5rem;
   }
 
   .words-about {
@@ -14834,8 +14952,19 @@
     font-size: 35px;
   }
 
+  .link-logo-new {
+    width: 45%;
+  }
+
   img.vector-img-logo {
     width: 70%;
+  }
+
+  .background-img-logo {
+    width: 55%;
+    display: inherit;
+    margin-left: 7%;
+    margin-top: 3%;
   }
 
   h1.h1-slider-top,
@@ -14868,4 +14997,3 @@
 
 }
 
-@media screen and (max-width: 763px) {}
