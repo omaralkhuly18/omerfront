@@ -147,7 +147,7 @@ a {
   background: none !important;
 }
 
-#buttonSex{
+#buttonSex {
   object-fit: contain !important;
   width: 100%;
 }
@@ -235,8 +235,8 @@ ul.show {
   flex-direction: inherit;
 }
 
-li.width {
-  width: 40%;
+.width {
+  width: 30%;
   display: flex;
   justify-content: center;
 }
@@ -529,6 +529,25 @@ li.width-driver {
   width: 33%;
   display: flex;
   justify-content: center;
+}
+
+.width-Click {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.width-Click button {
+  width: 60%;
+  border: none;
+  background-color: turquoise;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.width-Click button:hover{
+  background-color: #2197e2;
 }
 
 .cover-new {
@@ -3026,11 +3045,11 @@ p#threewords {
   padding: 25px;
 }
 
-.card{
+.card {
   display: none;
 }
 
-.card.active{
+.card.active {
   display: block;
 }
 
@@ -3090,7 +3109,7 @@ div#displayCLIENTS {
   height: 100% !important;
 }
 
-.carousel-item{
+.carousel-item {
   height: 100% !important;
 }
 
@@ -3100,7 +3119,7 @@ div#displayCLIENTS {
   margin-bottom: 5%;
 }
 
-.carousel-caption{
+.carousel-caption {
   bottom: 0 !important;
   padding: 0 !important;
 }
