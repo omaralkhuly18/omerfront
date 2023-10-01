@@ -133,12 +133,14 @@
 
     </div>
 
-    <nav class="navbar bg-info text-dark navbar-expand-lg  sticky-top">
+    <nav class="navbar text-dark navbar-expand-lg  sticky-top">
 
         <div class="container-floid container-fluid">
 
-            <a class="navbar-brand" href="index.html"><img src="img/Vector.png" class="vector-img-logo"
-                    alt="Vector"></a>
+            <a class="navbar-brand link-logo-new" href="index.html">
+                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo" >
+                <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -155,7 +157,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="?" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             home
                         </a>
@@ -368,7 +370,7 @@
         </div>
     </section><!-- points section -->
 
-    <footer class=" footer-bootstrap-v5">
+    <footer class=" footer-bootstrap-v5 mt-5">
 
         <div class="row ms-0 me-0">
 
@@ -403,8 +405,6 @@
                 <div class="phone-whatsapp mt-3 mb-3">
 
                     <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
                     <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
 
                 </div>
@@ -492,6 +492,15 @@
             document.documentElement.scrollTop = 0;
             myButton.style.transition = '3s';
         }
+
+        document.addEventListener('scroll', () => {
+            const header = document.querySelector('.navbar');
+            if (window.scrollY > 0) {
+                header.classList.add('stickyTop');
+            } else {
+                header.classList.remove('stickyTop');
+            }
+        });
     </script>
 
 

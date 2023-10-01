@@ -62,8 +62,10 @@
 
         <div class="container-floid container-fluid">
 
-            <a class="navbar-brand link-logo-new" href="index.html"><img src="img/us logn-new.PNG"
-                    class="vector-img-logo" alt="Vector"></a>
+            <a class="navbar-brand link-logo-new" href="index.html">
+                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo" >
+                <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -176,7 +178,6 @@
         </div>
     </nav>
 
-
     <section id="about-me">
 
         <div class="about-me">
@@ -269,58 +270,195 @@
 
     </section>
 
-    <div id="formPrivateData" class="mb-5 mt-5">
+    <div  id="formPrivateData" class="mb-5 mt-5 multi-Step-From">
 
-        <form action="Models-Cars.html" method="post" id="formPrivateDataOne">
+        <form method="post" id="formPrivateDataOne" data-multi-step>
 
-            <ul id="listFormPrivratDataDriver">
+            <ul class="card " id="listFormPrivratDataDriver" data-step>
 
                 <li id="inputUrlTypeImage">
                     <div class="input-group responsiveDatPriveat mb-3">
-                        <input type="file" class="form-control" id="inputGroupFile02">
-                        <label class="input-group-text" 
-                        for="inputGroupFile02">A photo of the ID card from the front</label>
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the ID card from the
+                            front</label>
                     </div>
                 </li>
 
                 <li id="inputUrlTypeImage">
                     <div class="input-group responsiveDatPriveat mb-3">
-                        <input type="file" class="form-control" id="inputGroupFile02">
-                        <label class="input-group-text" for="inputGroupFile02" 
-                        for="inputGroupFile02">A photo of the ID card from the back</label>
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02" for="inputGroupFile02">A photo of the ID
+                            card from the back</label>
                     </div>
                 </li>
 
                 <li id="inputUrlTypeImage">
                     <div class="input-group responsiveDatPriveat mb-3">
-                        <input type="file" class="form-control" id="inputGroupFile02">
-                        <label class="input-group-text" 
-                        for="inputGroupFile02">A photo of the Driving card from the front</label>
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Driving card from the
+                            front</label>
                     </div>
                 </li>
 
                 <li id="inputUrlTypeImage">
                     <div class="input-group responsiveDatPriveat mb-3">
-                        <input type="file" class="form-control" id="inputGroupFile02">
-                        <label class="input-group-text" 
-                        for="inputGroupFile02">A photo of the Driving card from the back</label>
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Driving card from the
+                            back</label>
                     </div>
                 </li>
 
                 <li id="inputUrlTypeImage">
                     <div class="input-group responsiveDatPriveat mb-3">
-                        <input type="file" class="form-control" id="inputGroupFile02">
-                        <label class="input-group-text" 
-                        for="inputGroupFile02">A photo of the Criminal record </label>
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Criminal record </label>
                     </div>
                 </li>
 
                 <li id="inputUrlTypeImage">
                     <div class="d-flex align-items-center responsiveDatPriveat">
                         <label class="phone" for="phone">Enter a personal number:</label>
-                        <input type="tel"class="form-control" id="inputGroupFile02" 
-                        name="personal" placeholder="123-456789-101112" pattern="[0-9]{3}-[0-9]{5}-[0-9]{3}" required>
+                        <input type="tel" class="form-control" id="inputGroupFile02" name="personal"
+                            placeholder="123-456789-101112" pattern="[0-9]{3}-[0-9]{5}-[0-9]{3}" required>
                     </div>
+                </li>
+
+                <button class="mt-3" style="max-width: 90px; width: 70px; float: right;
+                border: none; outline: none; font-size: 20px; background-color: rgba(175, 106, 240, 0.466);
+                color: blue;" data-next>next</button>
+
+            </ul>
+
+            <ul class="card" id="listFormPrivratDataDriver" data-step>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the ID card from the
+                            front</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02" for="inputGroupFile02">A photo of the ID
+                            card from the back</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Driving card from the
+                            front</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Driving card from the
+                            back</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Criminal record </label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="d-flex align-items-center responsiveDatPriveat">
+                        <label class="phone" for="phone">Enter a personal number:</label>
+                        <input type="tel" class="form-control" id="inputGroupFile02" name="personal"
+                            placeholder="123-456789-101112" pattern="[0-9]{3}-[0-9]{5}-[0-9]{3}" required>
+                    </div>
+                </li>
+
+                <li style="width: 100%; display: flex; justify-content: space-between;">
+
+                    <button class="mt-3" style="width: 140px; height: 40px; border: none; 
+                    outline: none; font-size: 20px; background-color: rgba(175, 106, 240, 0.466);
+                    color: blue;" data-Previous>Previous</button>
+
+                    <button class="mt-3" style="width: 100px; height: 40px; border: none;
+                    outline: none; font-size: 20px; background-color: rgba(175, 106, 240, 0.466);
+                    color: blue;" data-next>next</button>
+
+
+                </li>
+
+
+            </ul>
+
+            <ul class="card" id="listFormPrivratDataDriver" data-step>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the ID card from the
+                            front</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02" for="inputGroupFile02">A photo of the ID
+                            card from the back</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Driving card from the
+                            front</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Driving card from the
+                            back</label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="input-group responsiveDatPriveat mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                        <label class="input-group-text" for="inputGroupFile02">A photo of the Criminal record </label>
+                    </div>
+                </li>
+
+                <li id="inputUrlTypeImage">
+                    <div class="d-flex align-items-center responsiveDatPriveat">
+                        <label class="phone" for="phone">Enter a personal number:</label>
+                        <input type="tel" class="form-control" id="inputGroupFile02" name="personal"
+                            placeholder="123-456789-101112" pattern="[0-9]{3}-[0-9]{5}-[0-9]{3}" required>
+                    </div>
+                </li>
+
+                <li class="mt-3" style="width: 100%; display: flex; justify-content: space-between;">
+
+                    <a href="form-driver.html">
+                        <button style="width: 140px; height: 40px; border: none; 
+                            outline: none; font-size: 20px; background-color: rgba(175, 106, 240, 0.466);
+                            color: blue;" data-Previous>Previous</button>
+                    </a>
+
+                    <a href="Models-Cars.html"
+                    class="mt-3" style="width: 100px; height: 40px; border: none;
+                        outline: none; font-size: 20px; background-color: rgba(175, 106, 240, 0.466);
+                        color: blue; display: flex; justify-content: center; align-items: center;">
+                       submit
+                    </a>
+
+
                 </li>
 
             </ul>
@@ -329,7 +467,7 @@
 
     </div>
 
-    <footer class=" footer-bootstrap-v5">
+    <footer class=" footer-bootstrap-v5 mt-5">
 
         <div class="row ms-0 me-0">
 
@@ -364,8 +502,6 @@
                 <div class="phone-whatsapp mt-3 mb-3">
 
                     <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
                     <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
 
                 </div>
@@ -453,6 +589,56 @@
             document.documentElement.scrollTop = 0;
             myButton.style.transition = '3s';
         }
+
+        document.addEventListener('scroll', () => {
+            const header = document.querySelector('.navbar');
+            if (window.scrollY > 0) {
+                header.classList.add('stickyTop');
+            } else {
+                header.classList.remove('stickyTop');
+            }
+        });
+    </script>
+
+    <script>
+        const multiStepFrom = document.querySelector("[data-multi-step]");
+        const formSteps = [...multiStepFrom.querySelectorAll("[data-step]")];
+
+        let NextStep = formSteps.findIndex(step => {
+            return step.classList.contains("active")
+        })
+
+        if (NextStep < 0) {
+            NextStep = 0;
+            showNextStep();
+        }
+
+        multiStepFrom.addEventListener("click", go => {
+            let checkValio;
+            if (go.target.matches("[data-next]")) {
+                checkValio = 1;
+            } else if (go.target.matches("[data-Previous]")) {
+                checkValio = -1;
+            }
+
+            if (checkValio == null) return
+
+            const inputs = [...formSteps[NextStep].querySelectorAll("input")];
+            console.log("her")
+            const allValio = inputs.every(input => input.checkValidity());
+            if (allValio) {
+                NextStep += checkValio;
+                showNextStep();
+            }
+        })
+
+        function showNextStep() {
+            formSteps.forEach((step, index) => {
+                step.classList.toggle("active", index === NextStep)
+            })
+        }
+
+        console.log(NextStep);
     </script>
 
     <script src="js/date-picker.js"></script>

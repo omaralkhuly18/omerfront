@@ -98,8 +98,10 @@
 
         <div class="container-floid container-fluid">
 
-            <a class="navbar-brand link-logo-new" href="index.html"><img src="img/us logn-new.PNG"
-                    class="vector-img-logo" alt="Vector"></a>
+            <a class="navbar-brand link-logo-new" href="index.html">
+                <img src="img/Vector.png" alt="" class="vector-img-logo" >
+                <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -1214,7 +1216,7 @@
     </section>
     <!-- ICONS-PLACEHOLDER /-->
 
-    <footer class=" footer-bootstrap-v5">
+    <footer class=" footer-bootstrap-v5 mt-5">
 
         <div class="row ms-0 me-0">
 
@@ -1249,8 +1251,6 @@
                 <div class="phone-whatsapp mt-3 mb-3">
 
                     <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
                     <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
 
                 </div>
@@ -1338,6 +1338,15 @@
             document.documentElement.scrollTop = 0;
             myButton.style.transition = '3s';
         }
+
+        document.addEventListener('scroll', () => {
+            const header = document.querySelector('.navbar');
+            if (window.scrollY > 0) {
+                header.classList.add('stickyTop');
+            } else {
+                header.classList.remove('stickyTop');
+            }
+        });
     </script>
 
     <script>

@@ -574,7 +574,7 @@
             }
         }
 
-        .carousel-inner{
+        .carousel-inner {
             width: 52% !important;
         }
 
@@ -583,6 +583,31 @@
             right: 0 !important;
             bottom: 0 !important;
             left: 0 !important;
+        }
+
+        .sliderdriverprev,
+        .sliderdrivernext {
+            top: 30% !important;
+            bottom: 1% !important;
+            opacity: inherit !important;
+            background-color: #00000047;
+            height: 49px;
+            width: 11% !important;
+            transition: 1s !important;
+            border-radius: 2.5rem;
+        }
+
+        .desiginlogo {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        .steeringwheel {
+            border-radius: 50%;
+            border: 10px solid blueviolet;
+            width: 10%;
+            height: 100%;
         }
     </style>
 </head>
@@ -630,11 +655,14 @@
 
     </div>
 
-    <nav class="navbar bg-info text-dark navbar-expand-lg  sticky-top">
+    <nav class="navbar text-dark navbar-expand-lg  sticky-top">
 
         <div class="container-floid container-fluid">
 
-            <a class="navbar-brand" href="#"><img src="img/Vector.png" class="vector-img-logo" alt="Vector"></a>
+            <a class="navbar-brand link-logo-new" href="index.html">
+                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo" >
+                <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -651,14 +679,14 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="?" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             home
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                            <li><a class="dropdown-item" href="#">index after login</a></li>
+                            <li><a class="dropdown-item" href="index after login.html">index after login</a></li>
 
                         </ul>
 
@@ -671,12 +699,13 @@
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                            <li><a class="dropdown-item" href="#">Models-Cars</a></li>
-                            <li><a class="dropdown-item" href="#">Car Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Cars Detail</a></li>
-                            <li><a class="dropdown-item" href="#">Route Notification</a></li>
-                            <li><a class="dropdown-item" href="#">Submit Car Introduction</a></li>
-                            <li><a class="dropdown-item" href="#">Submit Car For Rent</a></li>
+                            <li><a class="dropdown-item" href="Models-Cars.html">Models-Cars</a></li>
+                            <li><a class="dropdown-item" href="car-profile.html">Car Profile</a></li>
+                            <li><a class="dropdown-item" href="car-detail.html">Cars Detail</a></li>
+                            <li><a class="dropdown-item" href="create-route-notification.html">Route Notification</a>
+                            </li>
+                            <li><a class="dropdown-item" href="submit-car-intro.html">Submit Car Introduction</a></li>
+                            <li><a class="dropdown-item" href="submit-car-for-rent.html">Submit Car For Rent</a></li>
 
                         </ul>
 
@@ -689,11 +718,11 @@
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Rides</a></li>
-                            <li><a class="dropdown-item" href="#">Taxi</a></li>
-                            <li><a class="dropdown-item" href="#">motor-bike</a></li>
-                            <li><a class="dropdown-item" href="#">Car-Rental</a></li>
-                            <li><a class="dropdown-item" href="#">School-Rides</a></li>
+                            <li><a class="dropdown-item" href="Rides.html">Rides</a></li>
+                            <li><a class="dropdown-item" href="Taxi.html">Taxi</a></li>
+                            <li><a class="dropdown-item" href="motor-bike.html">motor-bike</a></li>
+                            <li><a class="dropdown-item" href="Car-Rental.html">Car-Rental</a></li>
+                            <li><a class="dropdown-item" href="School-Rides.html">School-Rides</a></li>
                         </ul>
 
                     </li>
@@ -705,8 +734,8 @@
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"> profile-driver</a></li>
-                            <li><a class="dropdown-item" href="#">profile-user</a></li>
+                            <li><a class="dropdown-item" href="profile-driver.html"> profile-driver</a></li>
+                            <li><a class="dropdown-item" href="profile-user.html">profile-user</a></li>
                         </ul>
 
                     </li>
@@ -718,12 +747,12 @@
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Services</a></li>
-                            <li><a class="dropdown-item" href="#">About-Us</a></li>
-                            <li><a class="dropdown-item" href="#">Contact-Us</a></li>
-                            <li><a class="dropdown-item" href="#">Blog</a></li>
-                            <li><a class="dropdown-item" href="#">Our-Values</a></li>
-                            <li><a class="dropdown-item" href="#">Our-Effect</a></li>
+                            <li><a class="dropdown-item" href="Services.html">Services</a></li>
+                            <li><a class="dropdown-item" href="About-Us.html">About-Us</a></li>
+                            <li><a class="dropdown-item" href="Contact-Us.html">Contact-Us</a></li>
+                            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="Our-Values.html">Our-Values</a></li>
+                            <li><a class="dropdown-item" href="Our-Effect.html">Our-Effect</a></li>
                         </ul>
 
                     </li>
@@ -1127,107 +1156,24 @@
         </div>
     </div>
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
-        <div class="carousel-indicators mb-0">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-
-        </div>
-
-        <div class="carousel-inner ">
-
-            <div class="carousel-item active">
-                <img src="img/detailcaro-1.jpg" alt="...">
-                <div class="carousel-caption  position-priveat">
-                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/detailcaro-2.jpg" alt="...">
-                <div class="carousel-caption   position-priveat">
-                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/detailcaro-3.jpg" alt="...">
-                <div class="carousel-caption   position-priveat">
-                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/detailcaro-2.jpg" alt="...">
-                <div class="carousel-caption   position-priveat">
-                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/detailcaro-1.jpg" alt="...">
-                <div class="carousel-caption   position-priveat">
-                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/detailcaro-3.jpg" alt="...">
-                <div class="carousel-caption   position-priveat">
-                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
-
-                </div>
-            </div>
-
-        </div>
-
-        <button class="carousel-control-prev priveat-enmatain-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-
-        <button class="carousel-control-next priveat-enmatain-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-
-    </div>
-
     <select class="form-select bg-primary bg-gradient bg-opacity-25" aria-label="Default select example">
         <option selected>Open this select menu</option>
         <option>london</option>
         <option>galaxco</option>
         <option>local city</option>
-      </select>
+    </select>
 
-    <footer class=" footer-bootstrap-v5 mt-10">
+    <div id="desiginlogo" class="mb-5" style="height: 100px;">
+
+        <img src="img/steering-wheel.png" alt="">
+
+        </div>
+
+    </div>
+
+    <footer class=" footer-bootstrap-v5 mt-5">
 
         <div class="row ms-0 me-0">
-
-
 
             <div class="col-lg-4 col-md-6 col-sm-12">
 
@@ -1260,8 +1206,6 @@
                 <div class="phone-whatsapp mt-3 mb-3">
 
                     <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
                     <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
 
                 </div>
@@ -1372,6 +1316,15 @@
             slides[slideIndex - 1].style.display = "block";
             clickHer[slideIndex - 1].className += " active";
         }
+
+        document.addEventListener('scroll', () => {
+            const header = document.querySelector('.navbar');
+            if (window.scrollY > 0) {
+                header.classList.add('stickyTop');
+            } else {
+                header.classList.remove('stickyTop');
+            }
+        });
 
     </script>
 

@@ -146,13 +146,13 @@
             display: block;
         }
 
-        picture.img-picture-taxi2{
+        picture.img-picture-taxi2 {
             width: 95%;
             margin-left: 2.5%;
             display: block;
         }
 
-        picture.img-picture-taxi3{
+        picture.img-picture-taxi3 {
             width: 95%;
             margin-left: 2.5%;
             display: block;
@@ -162,13 +162,13 @@
             width: 100%;
             border-radius: 2.5rem;
         }
-        
+
         .img-picture-taxi2 img {
             width: 100%;
             border-radius: 5%;
         }
 
-        .img-picture-taxi3 img{
+        .img-picture-taxi3 img {
             width: 100%;
             border-radius: 5%;
         }
@@ -382,12 +382,14 @@
 
     </div>
 
-    <nav class="navbar bg-info text-dark navbar-expand-lg  sticky-top">
+    <nav class="navbar text-dark navbar-expand-lg  sticky-top">
 
         <div class="container-floid container-fluid">
 
-            <a class="navbar-brand" href="index.html"><img src="img/Vector.png" class="vector-img-logo"
-                    alt="Vector"></a>
+            <a class="navbar-brand link-logo-new" href="index.html">
+                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo">
+                <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -404,7 +406,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="?" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             home
                         </a>
@@ -517,20 +519,20 @@
 
                             <picture class="img-picture-taxi2">
                                 <img src="img/taxi-uslong-responive-1.png" alt="picture">
-                              </picture>
+                            </picture>
 
-                              <picture class="img-picture-taxi3">
+                            <picture class="img-picture-taxi3">
                                 <img src="img/taxi-uslong-responive-2.png" alt="picture">
-                              </picture>
+                            </picture>
 
                             <div class="servies-words-taxi">
 
                                 <div class="words-servies-taxi">
 
-                                        <p class="slogan">
-                                            <span class="emspicail">'</span>
-                                            S-Logan.
-                                        </p>
+                                    <p class="slogan">
+                                        <span class="emspicail">'</span>
+                                        S-Logan.
+                                    </p>
 
                                 </div>
 
@@ -669,8 +671,8 @@
         </div>
     </section>
 
-    <!-- subhead -->
-    <footer class=" footer-bootstrap-v5">
+    <!-- footer -->
+    <footer class=" footer-bootstrap-v5 mt-5">
 
         <div class="row ms-0 me-0">
 
@@ -705,8 +707,6 @@
                 <div class="phone-whatsapp mt-3 mb-3">
 
                     <h2 class="h2ourpage"><a href="#">+20 100 885 4383</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 101 555 8628</a></h2>
-                    <h2 class="h2ourpage"><a href="#">+20 111 128 9180⁩</a></h2>
                     <h2 class="h2ourpage"><a href="#">+20 0115 214 8220</a></h2>
 
                 </div>
@@ -794,6 +794,15 @@
             document.documentElement.scrollTop = 0;
             myButton.style.transition = '3s';
         }
+
+        document.addEventListener('scroll', () => {
+            const header = document.querySelector('.navbar');
+            if (window.scrollY > 0) {
+                header.classList.add('stickyTop');
+            } else {
+                header.classList.remove('stickyTop');
+            }
+        });
     </script>
 
     <script src="js/date-picker.js"></script>
