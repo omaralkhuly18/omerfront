@@ -104,7 +104,7 @@
 
         <ul class="navbar-nav me-auto mb-2 flex-new">
 
-            <div class=" navbar-collapse" id="navbarSupported">
+            <div class=" navbar-collapse width" id="navbarSupported">
 
                 <li class="nav-item  width">
 
@@ -136,6 +136,12 @@
             <form class="d-flex d-lg d-flex justify-content-end" id="d-flex">
                 <button class="btn  button-post" type="submit">+post</button>
             </form>
+
+            <li class="nav-item dropdown width-Click">
+                <button onclick="myFunction()">
+                    Click here
+                </button>
+            </li>
 
         </ul>
 
@@ -390,71 +396,10 @@
     <button onclick="topFunction()" id="gototop"><i class="fa-solid fa-chevron-up"></i></button>
     <!-- button go to top /-->
 
+    <script src="js/java.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js.map"></script>
-
-    <script>
-
-        var myButton = document.getElementById("gototop");
-        window.onscroll = function () { scrollFunction(); };
-        function scrollFunction() {
-            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 20) {
-                myButton.style.display = "block";
-            } else {
-                myButton.style.display = "none";
-            }
-        }
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-            myButton.style.transition = '3s';
-        }
-
-        document.addEventListener('scroll', () => {
-            const header = document.querySelector('.navbar');
-            if (window.scrollY > 0) {
-                header.classList.add('stickyTop');
-            } else {
-                header.classList.remove('stickyTop');
-            }
-        });
-    </script>
-
-    <script>
-
-        function validateForm() {
-            var name = document.forms["contactForm"]["name"].value;
-            var email = document.forms["contactForm"]["email"].value;
-            var message = document.forms["contactForm"]["message"].value;
-            var error = "";
-
-            if (name == "") {
-                error += "Please enter your name.\n";
-            }
-
-            if (email == "") {
-                error += "Please enter your email address.\n";
-            } else if (!validateEmail(email)) {
-                error += "Please enter a valid email address.\n";
-            }
-
-            if (message == "") {
-                error += "Please enter a message.\n";
-            }
-
-            if (error != "") {
-                alert(error);
-                return false;
-            }
-        }
-
-        function validateEmail(email) {
-            var re = /\S+@\S+\.\S+/;
-            return re.test(email);
-        }
-
-    </script>
 
 </body>
 

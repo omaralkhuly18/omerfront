@@ -18,7 +18,7 @@
     <title>Index-After-Login</title>
 </head>
 
-<body id="GFG">
+<body>
 
     <div class="container-fluid" id="container-fluid">
 
@@ -91,7 +91,7 @@
             </li>
 
             <li class="nav-item dropdown width-Click">
-                <button onclick="myFunc()">
+                <button onclick="myFunction()">
                     Click here
                 </button>
             </li>
@@ -1098,7 +1098,7 @@
 
         <div class="carousel-inner">
             <!--  class="img-fluid clickForHover"-->
-            <div class="carousel-item active text-center" data-bs-interval="10000">
+            <div class="carousel-item active text-center" data-bs-interval="20000">
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     <h1 id="typeOne">Coding is </h1>
@@ -1106,7 +1106,7 @@
                 </a>
             </div>
 
-            <div class="carousel-item text-center " data-bs-interval="2000">
+            <div class="carousel-item text-center " data-bs-interval="3000">
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     <h1 id="typeTow">Coding is </h1>
@@ -1142,7 +1142,7 @@
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     <h1 id="typeSex">Coding is </h1>
-                    <img src=img/brand-7.jpeg" id="buttonSex" alt="" class="img-fluid clickForHover">
+                    <img src="img/brand-7.jpeg" id="buttonSex" alt="" class="img-fluid clickForHover">
                 </a>
             </div>
 
@@ -1324,98 +1324,10 @@
     <button onclick="topFunction()" id="gototop"><i class="fa-solid fa-chevron-up"></i></button>
     <!-- button go to top /-->
 
+    <script src="js/java.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js.map"></script>
-
-    <script>
-
-        var myButton = document.getElementById("gototop");
-        window.onscroll = function () { scrollFunction(); };
-        function scrollFunction() {
-            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 20) {
-                myButton.style.display = "block";
-            } else {
-                myButton.style.display = "none";
-            }
-        }
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-            myButton.style.transition = '3s';
-        }
-
-        document.addEventListener('scroll', () => {
-            const header = document.querySelector('.navbar');
-            if (window.scrollY > 0) {
-                header.classList.add('stickyTop');
-            } else {
-                header.classList.remove('stickyTop');
-            }
-        });
-
-        let result = document.getElementById("GFG");
-
-        function changeColor(color) {
-            document.body.style.background = color;
-        }
-
-        function myFunc() {
-            changeColor('black');
-        }
-    </script>
-
-    <script>
-        // قم بتعريف مصفوفة من النصوص والمتغيرات المرتبطة بها
-        var data = [
-            { text: 'Hello from Elzero Web School This is models cars one', variable: 'text', id: 'typeOne' },
-            { text: 'Hello from Elzero Web School This is models cars tow', variable: 'textOne', id: 'typeTow' },
-            { text: 'Hello from Elzero Web School This is models cars three', variable: 'textTow', id: 'typeThree' },
-            { text: 'Hello from Elzero Web School This is models cars four', variable: 'textThree', id: 'typeFour' },
-            { text: 'Hello from Elzero Web School This is models cars five', variable: 'textFour', id: 'typeFive' },
-            { text: 'Hello from Elzero Web School This is models cars sex', variable: 'textFive', id: 'typeSex' },
-            { text: 'Hello from Elzero Web School This is models cars seven', variable: 'textSex', id: 'typeEight' },
-        ];
-
-        // قم بتعريف دالة لتنفيذ الكتابة
-        function startTypewriter(button, text, variable, id) {
-            var buttonElement = document.getElementById(button);
-
-            buttonElement.onmouseover = function () {
-                'use strict';
-                var textIndex = 0;
-                var typeWriter = setInterval(function () {
-                    document.getElementById(id).textContent += text[textIndex];
-                    textIndex = textIndex + 1;
-
-                    if (textIndex > text.length - 1) {
-                        clearInterval(typeWriter);
-                        // إضافة تأخير قبل مسح النص
-                        setTimeout(function () {
-                            document.getElementById(id).textContent = ''; // مسح النص بعد انتهاء الكتابة
-                        }, 1000); // قم بتعيين الوقت الذي تريده هنا بالمللي ثانية
-                    }
-
-                }, 100);
-            };
-            function haltFunction() {
-                clearInterval(typeWriter);
-            }
-        }
-
-
-        // استدعاء الدالة لكل زر
-        startTypewriter('buttonOne', data[0].text, data[0].variable, data[0].id);
-        startTypewriter('buttonTow', data[1].text, data[1].variable, data[1].id);
-        startTypewriter('buttonThree', data[2].text, data[2].variable, data[2].id);
-        startTypewriter('buttonFour', data[3].text, data[3].variable, data[3].id);
-        startTypewriter('buttonFive', data[4].text, data[4].variable, data[4].id);
-        startTypewriter('buttonSex', data[5].text, data[5].variable, data[5].id);
-        startTypewriter('buttonEight', data[6].text, data[6].variable, data[6].id);
-    </script>
-
-    <script src="js/java.js"></script>
-
 
 </body>
 
