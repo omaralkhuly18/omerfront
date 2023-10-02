@@ -1,70 +1,72 @@
-/* simple max-width: 100%;
-    height: auto;*/
-
+/* simple */
 @media screen and (max-width: 540px) and (min-width: 280px) {
-  .Words-slider-top {
+
+  .Words-slider-top,
+  svg#icon-lock,
+  svg#icon-check {
     display: none !important;
   }
 }
 
 @media screen and (max-width:375px) and (min-width:280px) {
-  div#navbarSupported{
+  div#navbarSupported {
     justify-content: space-between;
   }
 
-  .width{
+  .width {
     width: 45%;
   }
 
   form#d-flex {
-    width: 60% !important;
+    width: 55% !important;
     padding: 0 !important;
   }
 
-  .justify-content-end{
+  .justify-content-end {
     justify-content: center !important;
   }
 
-  .button-post{
-    width: 70% !important;
+  .button-post {
+    width: 90% !important;
   }
 
-  .width-Click{
+  .width-Click {
     width: 55%;
+    font-size: 13px;
   }
 
-  .width-Click button{
+  .width-Click button {
     width: 90%;
-    font-size: 15px;
+    font-size: 13px;
   }
 
-  .link-logo-new{
+  .link-logo-new {
     display: block;
     width: 45%;
   }
 
-  .vector-img-logo{
+  .vector-img-logo {
     width: 45px;
     height: auto;
   }
 
-  .clickorstop{
+  .clickorstop {
     margin-top: 20%;
     width: 100%;
   }
 
-  .tooltip-slider-hover{
+  .tooltip-slider-hover {
     min-width: 315px;
     padding: 15px 15px;
   }
 
   li.width-driver {
-    width: 60%;
+    width: 55%;
   }
 
   .cover-new {
     width: 90%;
-    font-size: 14px;
+    font-size: 11px !important;
   }
 
   ul.dirction-new {
@@ -1461,28 +1463,28 @@
   #formPrivateData {
     justify-content: space-evenly;
   }
-  
+
   #formPrivateDataOne {
     width: 100%;
     padding: 1%;
   }
 
   label.phone,
-  .input-group>.form-control{
+  .input-group>.form-control {
     width: 70%;
     margin-bottom: 3% !important;
     box-shadow: 0px 0px 9px 2px rgba(137, 43, 226, 0.39);
   }
 
-  .responsiveDatPriveat{
+  .responsiveDatPriveat {
     display: block !important;
   }
 
-  .input-group>.form-control{
+  .input-group>.form-control {
     width: 90%;
   }
 
-  .input-group-text{
+  .input-group-text {
     font-size: 14px !important;
     padding: 2% 2% !important;
   }
@@ -1495,34 +1497,34 @@
     padding: 0 !important;
   }
 
-  .justify-content-end{
+  .justify-content-end {
     justify-content: center !important;
   }
 
-  .button-post{
+  .button-post {
     width: 70% !important;
   }
 
-  .width-Click{
+  .width-Click {
     width: 55%;
   }
 
-  .width-Click button{
+  .width-Click button {
     width: 90%;
     font-size: 15px;
   }
 
-  .link-logo-new{
+  .link-logo-new {
     display: block;
     width: 45%;
   }
 
-  .vector-img-logo{
+  .vector-img-logo {
     width: 45px;
     height: auto;
   }
 
-  .clickorstop{
+  .clickorstop {
     margin-top: 14%;
     width: 100%;
   }
@@ -2737,23 +2739,23 @@
   #formPrivateData {
     justify-content: space-evenly;
   }
-  
+
   #formPrivateDataOne {
     width: 100%;
   }
 
   label.phone,
-  .input-group>.form-control{
+  .input-group>.form-control {
     width: 55%;
     margin-bottom: 2%;
     box-shadow: 0px 0px 9px 2px rgba(137, 43, 226, 0.39);
   }
 
-  .responsiveDatPriveat{
+  .responsiveDatPriveat {
     display: block !important;
   }
 
-  .input-group>.form-control{
+  .input-group>.form-control {
     width: 70%;
   }
 
@@ -2769,29 +2771,29 @@
     padding: 0 !important;
   }
 
-  .justify-content-end{
+  .justify-content-end {
     justify-content: center !important;
   }
 
-  .button-post{
+  .button-post {
     width: 70% !important;
   }
 
-  .width-Click{
+  .width-Click {
     width: 55%;
   }
 
-  .width-Click button{
+  .width-Click button {
     width: 90%;
     font-size: 15px;
   }
 
-  .link-logo-new{
+  .link-logo-new {
     display: block;
     width: 45%;
   }
 
-  .vector-img-logo{
+  .vector-img-logo {
     width: 65px;
     height: auto;
   }
@@ -2800,7 +2802,7 @@
     width: 39%;
   }
 
-  .clickorstop{
+  .clickorstop {
     margin-top: 14%;
     width: 100%;
   }
@@ -4277,17 +4279,17 @@
   }
 
   label.phone,
-  .input-group>.form-control{
+  .input-group>.form-control {
     width: 45%;
     margin-bottom: 2%;
     box-shadow: 0px 0px 9px 2px rgba(137, 43, 226, 0.39);
   }
 
-  .responsiveDatPriveat{
+  .responsiveDatPriveat {
     display: block !important;
   }
 
-  .input-group>.form-control{
+  .input-group>.form-control {
     width: 60%;
   }
 
@@ -4297,36 +4299,36 @@
   .width {
     width: 50%;
   }
-  
+
   form#d-flex {
     width: 60% !important;
     padding: 0 !important;
   }
 
-  .justify-content-end{
+  .justify-content-end {
     justify-content: center !important;
   }
 
-  .button-post{
+  .button-post {
     width: 70% !important;
   }
 
-  .width-Click{
+  .width-Click {
     width: 55%;
   }
 
-  .width-Click button{
+  .width-Click button {
     width: 90%;
     font-size: 15px;
   }
 
 
-  .link-logo-new{
+  .link-logo-new {
     display: block;
     width: 45%;
   }
 
-  .vector-img-logo{
+  .vector-img-logo {
     width: 65px;
     height: auto;
   }
@@ -4389,7 +4391,7 @@
     font-size: 32px !important;
   }
 
-  .clickorstop{
+  .clickorstop {
     margin-top: 12%;
     width: 100%;
   }
@@ -5889,18 +5891,19 @@
   #formPrivateData {
     justify-content: space-evenly;
   }
+
   #formPrivateDataOne {
     width: 100%;
   }
 
   label.phone,
-  .input-group>.form-control{
+  .input-group>.form-control {
     width: 45%;
     margin-bottom: 2%;
     box-shadow: 0px 0px 9px 2px rgba(137, 43, 226, 0.39);
   }
 
-  .responsiveDatPriveat{
+  .responsiveDatPriveat {
     display: block !important;
   }
 
@@ -5908,12 +5911,12 @@
 
 @media screen and (max-width:912px) and (min-width:820px) {
 
-  .link-logo-new{
+  .link-logo-new {
     width: 30%;
     justify-content: center;
   }
 
-  .vector-img-logo{
+  .vector-img-logo {
     width: 65px;
     height: auto;
   }
@@ -5978,7 +5981,7 @@
     left: 15% !important;
   }
 
-  .clickorstop{
+  .clickorstop {
     margin-top: 10%;
     width: 100%;
   }
@@ -7222,11 +7225,12 @@
   #formPrivateData {
     justify-content: space-evenly;
   }
+
   #formPrivateDataOne {
     width: 90%;
   }
 
-  label.phone{
+  label.phone {
     width: 40%;
   }
 
@@ -7234,7 +7238,7 @@
 
 @media SCREEN and (max-width:1024px) and (min-width:912px) {
 
-  .button-post{
+  .button-post {
     width: 55%;
   }
 
@@ -7298,7 +7302,7 @@
     font-size: 32px !important;
   }
 
-  .clickorstop{
+  .clickorstop {
     margin-top: 9%;
     width: 100%;
   }
@@ -8533,6 +8537,7 @@
   #formPrivateData {
     justify-content: space-evenly;
   }
+
   #formPrivateDataOne {
     width: 90%;
   }
@@ -8541,7 +8546,7 @@
 
 @media screen and (max-width:1280px) and (min-width:1024px) {
 
-  .button-post{
+  .button-post {
     width: 60%;
   }
 
@@ -8599,7 +8604,7 @@
     font-size: 32px !important;
   }
 
-  .clickorstop{
+  .clickorstop {
     margin-top: 8%;
     width: 100%;
   }
@@ -9585,6 +9590,7 @@
   #formPrivateData {
     justify-content: space-evenly;
   }
+
   #formPrivateDataOne {
     width: 90%;
   }
@@ -9593,7 +9599,7 @@
 
 @media screen and (max-width:1495px) and (min-width:1280px) {
 
-  .button-post{
+  .button-post {
     width: 60%;
   }
 
@@ -10368,6 +10374,7 @@
   #formPrivateData {
     justify-content: space-evenly;
   }
+
   #formPrivateDataOne {
     width: 80%;
   }
@@ -10375,7 +10382,7 @@
 
 @media screen and (max-width:1555px) and (min-width:1496px) {
 
-  .button-post{
+  .button-post {
     width: 60%;
   }
 
@@ -10535,7 +10542,7 @@
     margin-left: 0;
   }
 
-  
+
   .slider-top-luxury {
     padding: 15%;
   }
@@ -10662,7 +10669,7 @@
 
 @media screen and (max-width:1760px) and (min-width: 1555px) {
 
-  .button-post{
+  .button-post {
     width: 60%;
   }
 
@@ -10778,7 +10785,7 @@
 
 @media screen and (max-width:1866px) and (min-width: 1760px) {
 
-  .button-post{
+  .button-post {
     width: 60%;
   }
 
@@ -11051,7 +11058,6 @@
 }
 
 /* simple/ */
-
 @media screen and (max-width: 350px) and (min-width: 280px) {
 
   .slider {
@@ -11276,12 +11282,12 @@
     width: 11%;
     margin-top: -59%;
   }
-  
-  .image-client-profile{
+
+  .image-client-profile {
     margin-bottom: 28%;
   }
 
-  .img-profile{
+  .img-profile {
     width: 35%;
     font-size: 15px;
     padding: 5%;
@@ -11289,7 +11295,7 @@
 
   .shows {
     display: block !important;
-    left: 0!important;
+    left: 0 !important;
     right: 0 !important;
     width: 100% !important;
   }
@@ -11698,19 +11704,19 @@
     width: 11%;
     margin-top: -59%;
   }
-  
-  .image-client-profile{
+
+  .image-client-profile {
     margin-bottom: 20%;
   }
 
-  .img-profile{
+  .img-profile {
     width: 50%;
     font-size: 30px;
   }
 
   .shows {
     display: block !important;
-    left: 0!important;
+    left: 0 !important;
     right: 0 !important;
     width: 100% !important;
   }
@@ -12071,18 +12077,18 @@
     margin-top: -59%;
   }
 
-  .image-client-profile{
+  .image-client-profile {
     margin-bottom: 17%;
   }
 
-  .img-profile{
+  .img-profile {
     width: 40%;
     font-size: 50px;
   }
 
   .shows {
     display: block !important;
-    left: 0!important;
+    left: 0 !important;
     right: 0 !important;
     width: 100% !important;
   }
@@ -12383,11 +12389,11 @@
     line-height: 20px;
   }
 
-  .image-client-profile{
+  .image-client-profile {
     margin-bottom: 13%;
   }
 
-  .img-profile{
+  .img-profile {
     width: 30%;
   }
 
@@ -12643,11 +12649,11 @@
     line-height: 20px;
   }
 
-  .image-client-profile{
+  .image-client-profile {
     margin-bottom: 13%;
   }
 
-  .img-profile{
+  .img-profile {
     width: 30%;
   }
 
@@ -12831,7 +12837,8 @@
 
   .image-client-profile {
     margin-bottom: 10%;
-}
+  }
+
   .Prevcients,
   .Nextcients {
     width: 10%;
@@ -13561,8 +13568,6 @@
     color: #55ebbd;
     transform: translateY(-6px);
   }
-
-
 
   /* folder-profile-driver css /*/
 }
@@ -15151,7 +15156,8 @@
   svg#icon-lock,
   svg#icon-check,
   .button-post {
-    font-size: 13px;
+    font-size: 11px;
+    margin-right: 5%;
   }
 
   .svg-inline--fa.fa-bars {
@@ -15188,4 +15194,3 @@
   }
 
 }
-
