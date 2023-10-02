@@ -8,6 +8,36 @@
 }
 
 @media screen and (max-width:375px) and (min-width:280px) {
+  div#navbarSupported{
+    justify-content: space-between;
+  }
+
+  .width{
+    width: 45%;
+  }
+
+  form#d-flex {
+    width: 60% !important;
+    padding: 0 !important;
+  }
+
+  .justify-content-end{
+    justify-content: center !important;
+  }
+
+  .button-post{
+    width: 70% !important;
+  }
+
+  .width-Click{
+    width: 55%;
+  }
+
+  .width-Click button{
+    width: 90%;
+    font-size: 15px;
+  }
+
   .link-logo-new{
     display: block;
     width: 45%;
@@ -33,7 +63,7 @@
   }
 
   .cover-new {
-    width: 70%;
+    width: 90%;
     font-size: 14px;
   }
 
@@ -1460,6 +1490,27 @@
 }
 
 @media screen and (max-width:414px) and (min-width:375px) {
+  form#d-flex {
+    width: 60% !important;
+    padding: 0 !important;
+  }
+
+  .justify-content-end{
+    justify-content: center !important;
+  }
+
+  .button-post{
+    width: 70% !important;
+  }
+
+  .width-Click{
+    width: 55%;
+  }
+
+  .width-Click button{
+    width: 90%;
+    font-size: 15px;
+  }
 
   .link-logo-new{
     display: block;
@@ -1481,7 +1532,7 @@
   }
 
   .cover-new {
-    width: 70%;
+    width: 90%;
     font-size: 16px;
   }
 
@@ -2709,6 +2760,31 @@
 }
 
 @media screen and (max-width:540px) and (min-width:414px) {
+  .width {
+    width: 50%;
+  }
+
+  form#d-flex {
+    width: 60% !important;
+    padding: 0 !important;
+  }
+
+  .justify-content-end{
+    justify-content: center !important;
+  }
+
+  .button-post{
+    width: 70% !important;
+  }
+
+  .width-Click{
+    width: 55%;
+  }
+
+  .width-Click button{
+    width: 90%;
+    font-size: 15px;
+  }
 
   .link-logo-new{
     display: block;
@@ -2730,7 +2806,7 @@
   }
 
   .cover-new {
-    width: 70%;
+    width: 90%;
     font-size: 16px;
   }
 
@@ -4218,6 +4294,32 @@
 }
 
 @media screen and (max-width:820px) and (min-width:540px) {
+  .width {
+    width: 50%;
+  }
+  
+  form#d-flex {
+    width: 60% !important;
+    padding: 0 !important;
+  }
+
+  .justify-content-end{
+    justify-content: center !important;
+  }
+
+  .button-post{
+    width: 70% !important;
+  }
+
+  .width-Click{
+    width: 55%;
+  }
+
+  .width-Click button{
+    width: 90%;
+    font-size: 15px;
+  }
+
 
   .link-logo-new{
     display: block;
@@ -4315,7 +4417,7 @@
   }
 
   .cover-new {
-    width: 70%;
+    width: 90%;
     font-size: 16px;
   }
 
@@ -5886,7 +5988,7 @@
   }
 
   .cover-new {
-    width: 70%;
+    width: 90%;
     font-size: 16px;
   }
 
@@ -7132,6 +7234,10 @@
 
 @media SCREEN and (max-width:1024px) and (min-width:912px) {
 
+  .button-post{
+    width: 55%;
+  }
+
   div#displayourCLIENTS,
   .cell-responciv,
   .cell-responciv-bike .section-CarRental-rental1,
@@ -7198,7 +7304,7 @@
   }
 
   .cover-new {
-    width: 70%;
+    width: 90%;
   }
 
   ul.dirction-new {
@@ -8435,6 +8541,10 @@
 
 @media screen and (max-width:1280px) and (min-width:1024px) {
 
+  .button-post{
+    width: 60%;
+  }
+
   div#displayourCLIENTS,
   .cell-responciv,
   .cell-responciv-bike .section-CarRental-rental1,
@@ -9483,6 +9593,10 @@
 
 @media screen and (max-width:1495px) and (min-width:1280px) {
 
+  .button-post{
+    width: 60%;
+  }
+
   .button-move-RightAndLeft {
     width: 97% !important;
   }
@@ -10261,6 +10375,10 @@
 
 @media screen and (max-width:1555px) and (min-width:1496px) {
 
+  .button-post{
+    width: 60%;
+  }
+
   div#displayourCLIENTS,
   .cell-responciv,
   .cell-responciv-bike .section-CarRental-rental1,
@@ -10544,6 +10662,10 @@
 
 @media screen and (max-width:1760px) and (min-width: 1555px) {
 
+  .button-post{
+    width: 60%;
+  }
+
   div#displayourCLIENTS,
   .cell-responciv,
   .cell-responciv-bike .section-CarRental-rental1,
@@ -10655,6 +10777,10 @@
 }
 
 @media screen and (max-width:1866px) and (min-width: 1760px) {
+
+  .button-post{
+    width: 60%;
+  }
 
   div#displayourCLIENTS,
   .cell-responciv,
