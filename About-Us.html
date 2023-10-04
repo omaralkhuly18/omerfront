@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/Arabic.css">
     <title>About-Us</title>
     <style>
         .about-us-our {
@@ -23,8 +24,7 @@
 
         #aboutusour,
         .aboutcarcarry {
-            width: 95%;
-            margin-left: 2.5%;
+            width: 100%;
         }
 
         .contener-about,
@@ -73,13 +73,15 @@
 
         h2.h2about,
         .h2-about {
-            color: #E9B384;
+            color: black;
+            font-weight: 700;
             font-size: 50px;
+            text-align: center;
         }
 
         p.pabout,
         .p-about {
-            color: #071952;
+            color: white;
             margin-top: 4%;
         }
 
@@ -132,28 +134,30 @@
         }
 
         .wordes-about-img {
-            background-color: white;
+            background-color: rgb(247, 205, 205);
             border-radius: 2.5rem;
             padding: 2.5%;
             margin-top: 2%;
         }
 
         h1.h1worde-aboutimg {
-            color: blueviolet;
+            color: black;
             font-size: 25px;
+            font-weight: 800;
+            text-decoration-line: underline;
         }
 
         p.pworde-aboutimg {
             line-height: 25px;
             margin-top: 2%;
             font-size: 17px;
-            color: #18b0dc;
-            font-weight: 800;
+            color: black;
         }
     </style>
 </head>
 
-<body>
+<body style="background-color: #5c81ff;">
+
     <div class="container-fluid" id="container-fluid">
 
         <ul class="navbar-nav me-auto mb-2 flex-new">
@@ -206,7 +210,7 @@
         <div class="container-floid container-fluid">
 
             <a class="navbar-brand link-logo-new" href="index.html">
-                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo" >
+                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo">
                 <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
             </a>
 
@@ -309,7 +313,7 @@
             <div class="whatsapp">
                 <div class="Whatsapp1">
                     <span class="whatsapp2">
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
                     </span>
                     <div id="what-sapp">
                         <p class="whatsapp3">Whatsapp now</p>
@@ -329,12 +333,12 @@
                     <div class="imgaboutus"><img src="img/work-us.jpg" alt="work" class="aboutuus"></div>
                     <div class="words-ABOUTUS">
                         <div class="padding-aboutus">
-                            <h2 class="h2about">A documentary about Careem</h2>
+                            <h2 class="h2about">A documentary about El-Trip</h2>
 
-                            <p class="pabout">In 2012 Careem’s co-founders left their jobs to build something big and
+                            <p class="pabout">In 2012 El-Trip’s co-founders left their jobs to build something big and
                                 meaningful in a region with huge potential. Their purpose was clear: to simplify
                                 lives,and
-                                build an awesome organisation that inspires. This is the story of Careem’s first decade,
+                                build an awesome organisation that inspires. This is the story of El-Trip’s first decade,
                                 spotlighting the passion and hustle behind the region’s first tech unicorn.</p>
                         </div>
                     </div>
@@ -349,7 +353,7 @@
                             <p class="p-about">As we continue to deliver on our purpose, we are looking for ambitious
                                 people who share our values to join us on our journey. We want our future Careemers to
                                 learn and grow, create impact, and be part of an inspiring community while building the
-                                region’s every day Super App.
+                                region’s every day Super App(El-Trip).
                             </p>
 
                             <button class="links-about-to-page">
@@ -370,7 +374,7 @@
                                 <div class="flexbaddingabout">
 
                                     <div class="imaegabouttus">
-                                        <img src="img/flex-aboutus1.png" alt="" class="aboouutuus">
+                                        <img src="img/flex-aboutus3.jpg" alt="" class="aboouutuus">
 
                                         <div class="wordes-about-img">
                                             <h1 class="h1worde-aboutimg">Curry, Spice and everything Nice.</h1>
@@ -402,7 +406,7 @@
                                     </div>
 
                                     <div class="imaegabouttus">
-                                        <img src="img/flex-aboutus3.jpg" alt="" class="aboouutuus">
+                                        <img src="img/flex-aboutus1.png" alt="" class="aboouutuus">
 
                                         <div class="wordes-about-img">
                                             <h1 class="h1worde-aboutimg">
@@ -412,7 +416,7 @@
                                             <p class="pworde-aboutimg">
                                                 Our Captains and colleagues are in this with you and we’re in it with
                                                 them
-                                                Careem serves millions and employs over a million Captains. We are all
+                                                El-Trip serves millions and employs over a million Captains. We are all
                                                 in this together. We are your neighbours, friends and family.
                                             </p>
                                         </div>
@@ -430,7 +434,7 @@
         </div>
     </section>
 
-    <footer class=" footer-bootstrap-v5 mt-5">
+    <footer class=" footer-bootstrap-v5 ">
 
         <div class="row ms-0 me-0">
 
@@ -438,7 +442,7 @@
 
                 <div class="logo-footer mt-3 mb-3">
 
-                    <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+                    <img src="img/steering-wheel-icon.svg" alt="Vector-footer">
 
                 </div>
 
@@ -531,9 +535,9 @@
     <button onclick="topFunction()" id="gototop"><i class="fa-solid fa-chevron-up"></i></button>
     
     <script src="js/java.js"></script>
-    <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/all.min.js"></script>
 
 </body>
 

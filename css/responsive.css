@@ -9,18 +9,6 @@
 }
 
 @media screen and (max-width:375px) and (min-width:280px) {
-  .eltripLogo{
-    width: 90%;
-    left: 5% !important;
-    height: 55px;
-    display: block;
-    top: 34%;
-  }
-
-  h1.h1yellowpriveat{
-    font-size: 30px;
-  }
-
   div#navbarSupported {
     justify-content: space-between;
   }
@@ -33,7 +21,7 @@
     font-size: 16px !important;
   }
 
-  #d-flex {
+  form#d-flex {
     width: 55% !important;
     padding: 0 !important;
   }
@@ -53,7 +41,7 @@
 
   .width-Click button {
     width: 90%;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .link-logo-new {
@@ -82,7 +70,7 @@
 
   .cover-new {
     width: 90%;
-    font-size: 15px !important;
+    font-size: 11px !important;
   }
 
   ul.dirction-new {
@@ -1493,21 +1481,11 @@
 }
 
 @media screen and (max-width:414px) and (min-width:375px) {
-  .eltripLogo{
-    width: 70%;
-    left: 15% !important;
-    top: 34%;
-  }
-
-  h1.h1yellowpriveat{
-    font-size: 40px;
-  }
-
   .nav-link {
     font-size: 16px !important;
   }
 
-  #d-flex {
+  form#d-flex {
     width: 60% !important;
     padding: 0 !important;
   }
@@ -2762,16 +2740,6 @@
 }
 
 @media screen and (max-width:540px) and (min-width:414px) {
-  .eltripLogo{
-    width: 60%;
-    left: 20% !important;
-    top: 28%;
-  }
-
-  h1.h1yellowpriveat{
-    font-size: 40px;
-  }
-
   .width {
     width: 50%;
   }
@@ -2780,7 +2748,7 @@
     font-size: 16px !important;
   }
 
-  #d-flex {
+  form#d-flex {
     width: 60% !important;
     padding: 0 !important;
   }
@@ -4253,7 +4221,7 @@
     font-size: 16px !important;
   }
 
-  #d-flex {
+  form#d-flex {
     width: 60% !important;
     padding: 0 !important;
   }
@@ -4353,16 +4321,6 @@
   svg#icon-lock,
   svg#icon-check {
     display: none !important;
-  }
-
-  .eltripLogo{
-    width: 50%;
-    left: 25% !important;
-    top: 40%;
-  }
-
-  h1.h1yellowpriveat{
-    font-size: 45px;
   }
 
   .words-sliders-top {
@@ -5862,21 +5820,10 @@
     font-size: 32px !important;
   }
 
-  
   .Words-slider-top {
-    top: 0% !important;
+    top: 8% !important;
     height: auto !important;
     left: 15% !important;
-  }
-
-  .eltripLogo{
-    width: 40%;
-    left: 30% !important;
-    top: 90%;
-  }
-
-  .prev-slider, .next-slider{
-    top: 85% !important;
   }
 
   .clickorstop {
@@ -7122,28 +7069,18 @@
     width: 100% !important;
     margin-left: 0 !important;
   }
- 
+
+  .Words-slider-top {
+    top: 8% !important;
+    height: auto !important;
+    left: 15% !important;
+  }
+
   .Prevourcients,
   .Nextourcients {
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
-  }
-
-  .Words-slider-top {
-    top: 0% !important;
-    height: auto !important;
-    left: 15% !important;
-  }
-
-  .eltripLogo{
-    width: 40%;
-    left: 30% !important;
-    top: 90%;
-  }
-
-  .prev-slider, .next-slider{
-    top: 85% !important;
   }
 
   .clickorstop {
@@ -8375,11 +8312,6 @@
     height: 42px !important;
     font-size: 32px !important;
   }
-  
-  .eltripLogo{
-    width: 30%;
-    left: 35% !important;
-  }
 
   .clickorstop {
     margin-top: 8%;
@@ -9377,10 +9309,6 @@
     font-size: 32px !important;
   }
 
-  .eltripLogo{
-    width: 30%;
-    left: 35% !important;
-  }
 
   .overlay .closebtn {
     position: absolute;
@@ -12323,10 +12251,6 @@
     margin: 2% 0% !important;
   }
 
-  h2.h2about,
-  .h2-about {
-    font-size: 20px !important;
-  }
 
   .wordes-about-img {
     padding: 5% !important;
@@ -14185,7 +14109,7 @@
 
   .link4section {
     font-size: 25px;
-    margin: 4% 5%;
+    margin: 4% 0;
   }
 
   .aboutdriver {
@@ -14773,7 +14697,7 @@
     width: 70%;
   }
 
-  #d-flex {
+  form#d-flex {
     width: 60%;
     padding: 0% 3% 0% 0%;
   }
@@ -14791,7 +14715,7 @@
   svg#icon-lock,
   svg#icon-check,
   .button-post {
-    font-size: 15px;
+    font-size: 11px;
     margin-right: 5%;
   }
 

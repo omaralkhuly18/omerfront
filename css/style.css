@@ -89,6 +89,7 @@ footer,
   cursor: pointer;
 }
 
+
 .clickorstop h1 {
   background-color: #333;
   color: #fff;
@@ -145,23 +146,6 @@ h4,
 h5,
 h6 {
   margin: 0;
-}
-
-.eltripLogo {
-  width: 20%;
-  display: inline-block;
-  margin-bottom: 0.5%;
-  left: 40% !important;
-  top: 60%;
-}
-
-h1.h1yellowpriveat {
-  background-color: #00000063;
-  letter-spacing: 6px;
-  font-size: 54px;
-  font-weight: bolder;
-  color: #9f9a9a;
-  font-family: 'FontAwesome';
 }
 
 svg.svg-inline--fa.fa-key,
@@ -253,7 +237,7 @@ ul.show {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-right: 0;
+  margin-right: 0 !important;
 }
 
 .background-img-logo {
@@ -290,7 +274,7 @@ div#navbarSupported {
   display: flex;
 }
 
-#d-flex {
+form#d-flex {
   width: 33%;
   padding: 0% 3% 0% 0%;
 }
@@ -352,13 +336,19 @@ span.whatsapp2 {
   align-items: center;
 }
 
-svg.svg-inline--fa.fa-whatsapp.fa-2xl{
+i.fa-brands.fa-whatsapp{
   font-size: 65px;
   margin: 0px;
   padding: 0px;
+  color: #2ccf2c;
 }
 
-
+svg.svg-inline--fa.fa-whatsapp{
+  font-size: 65px;
+  margin: 0px;
+  padding: 0px;
+  color: #2ccf2c;
+}
 
 div#what-sapp {
   width: 75%;
@@ -415,7 +405,7 @@ button#gototop:hover {
 
 .Words-slider-top {
   width: 65%;
-  height: 35%;
+  height: 60px;
   position: absolute;
   top: 12%;
   right: 0 !important;
@@ -483,7 +473,7 @@ button#gototop:hover {
 
 .prev-slider,
 .next-slider {
-  top: 60% !important;
+  top: 65% !important;
   bottom: 1% !important;
   opacity: inherit !important;
   background-color: #00000047;
@@ -767,11 +757,11 @@ input#to {
 
 .link4section {
   font-size: 17px;
-  color: white;
+  color: cornflowerblue;
 }
 
 .link4section a {
-  color: yellow;
+  color: red;
   text-decoration-line: revert;
 }
 
