@@ -35,19 +35,19 @@ function myFunction() {
 
 // hover and click on image to show box data
 var data = [
-  { text: 'Hello from Elzero Web School This is models cars one', variable: 'text', id: 'typeOne' },
-  { text: 'Hello from Elzero Web School This is models cars tow', variable: 'textOne', id: 'typeTow' },
-  { text: 'Hello from Elzero Web School This is models cars three', variable: 'textTow', id: 'typeThree' },
-  { text: 'Hello from Elzero Web School This is models cars four', variable: 'textThree', id: 'typeFour' },
-  { text: 'Hello from Elzero Web School This is models cars five', variable: 'textFour', id: 'typeFive' },
-  { text: 'Hello from Elzero Web School This is models cars sex', variable: 'textFive', id: 'typeSex' },
-  { text: 'Hello from Elzero Web School This is models cars seven', variable: 'textSex', id: 'typeEight' },
+  { text: 'Model-Car: Hello from El-Trip ,This is models cars one', variable: 'text', id: 'typeOne' },
+  { text: 'Model-Car: Hello from El-Trip This is models cars tow', variable: 'textOne', id: 'typeTow' },
+  { text: 'Model-Car: Hello from El-Trip This is models cars three', variable: 'textTow', id: 'typeThree' },
+  { text: 'Model-Car: Hello from El-Trip This is models cars four', variable: 'textThree', id: 'typeFour' },
+  { text: 'Model-Car: Hello from El-Trip This is models cars five', variable: 'textFour', id: 'typeFive' },
+  { text: 'Model-Car: Hello from El-Trip This is models cars sex', variable: 'textFive', id: 'typeSex' },
+  { text: 'Model-Car: Hello from El-Trip This is models cars seven', variable: 'textSex', id: 'typeEight' },
 ];
-
+// mouseover
 function startTypewriter(button, text, variable, id) {
   var buttonElement = document.getElementById(button);
   if (buttonElement) {
-    buttonElement.addEventListener('mouseover', function () {
+    buttonElement.addEventListener('click', function () {
       'use strict';
       var textIndex = 0;
       var typeWriter = setInterval(function () {
@@ -57,11 +57,11 @@ function startTypewriter(button, text, variable, id) {
         if (textIndex > text.length - 1) {
           clearInterval(typeWriter);
           setTimeout(function () {
-            document.getElementById(id).textContent = '';
-          }, 1000);
+            document.getElementById(id).textContent = 'El-Trip ';
+          }, 10000);
         }
 
-      }, 100);
+      }, 50);
     })
   };
   function haltFunction() {
@@ -233,3 +233,27 @@ function closeAllSelect(elmnt) {
 
 document.addEventListener("click", closeAllSelect);
 // select especially downlist
+
+$(document).ready(function(){
+  $("#carouselExampleControlsNoTouching").carousel();
+
+  $(".ccarousel-control-next").click(function(){
+    $("#carouselExampleControlsNoTouching").carousel("next");
+  });
+
+  $(".carousel-control-prev").click(function(){
+    $("#carouselExampleControlsNoTouching").carousel("prev");
+  });
+
+});
+
+// var myModal = document.getElementById('carouselExampleControlsNoTouching')
+// for (i = 0; i < myModal.length; i++) {
+
+//   myModal[i].addEventListener('slide.bs.carousel', function (event) {
+
+//     if (!data) {
+//       return event.preventDefault() // stops modal from being shown
+//     }
+//   })
+// }

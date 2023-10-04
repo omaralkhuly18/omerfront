@@ -1,0 +1,287 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css ") ; */
+/* top bar header */
+.row,
+section,
+footer,
+.rightandleft-slider,
+.responsive-new,
+.width-height-img-slider-top,
+.width-priveat,
+.sub-head {
+    width: 100% !important;
+    margin-right: 0% !important;
+}
+
+.section-three,
+.width,
+.button-post,
+div#navbarSupportedContent,
+.whatsapp,
+.carousel-inner,
+.carousel-item,
+.space.no-top,
+section.icons-placeholder,
+.col-sm-12 {
+    direction: ltr !important;
+}
+
+.Whatsapp1 {
+    justify-content: flex-end;
+}
+
+span.whatsapp2 {
+    margin-right: 5%;
+}
+
+div#what-sapp {
+    width: 54%;
+}
+
+.ms-auto {
+    margin-right: auto !important;
+}
+
+/* top bar header */
+
+/* slider */
+.Words-slider-top {
+    top: 15%;
+    left: 0 !important;
+    right: 19% !important;
+}
+
+section.section-image-top-position {
+    margin-top: 0rem !important;
+    margin-left: 0 !important;
+    margin-right: 0% !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    border: 20px solid gray;
+}
+
+div#carouselExampleControlsNoTouching {
+    width: 100%;
+}
+
+.section-image-top-position .carousel-inner {
+    padding: 0 !important;
+}
+
+.width-height-img-slider-top {
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+}
+
+/* .carousel-inner{
+    transform: translateX(-50%);
+} */
+
+.carousel-item {
+    float: none !important;
+}
+
+.width-height-img-slider-top .active {
+    margin: 0 3px;
+}
+
+.width-height-img-slider-top img {
+    height: 600px;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* slider */
+
+/* section page home after login */
+.section-three{
+    margin-right: 3.5%;
+}
+/* section page home after login */
+
+/* section Grid one page home and page home after login */
+.car-carry {
+    margin-right: 5%;
+    width: 90%;
+}
+
+/* section Grid one page home and page home after login */
+
+/* section Grid tow page home and page home after login */
+.condition-passenger {
+    margin-right: 0%;
+}
+
+.condition1 {
+    margin-right: 9%;
+    direction: ltr;
+}
+
+.condition2 {
+    margin-right: 5%;
+}
+
+/* section Grid tow page home and page home after login */
+
+/* section Grid three page home and page home after login */
+.rides {
+    margin-right: 0%;
+    direction: ltr;
+}
+
+/* section Grid three page home and page home after login */
+
+/* section Grid four page home and page home after login */
+/* section Grid four page home and page home after login */
+
+/* section Grid five page home and page home after login */
+.rentalscar {
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+/* section Grid five page home and page home after login */
+
+@media screen and (max-width: 1190px) and (min-width: 991px) {
+
+    /* top bar header */
+    .sticky-top .navbar-nav {
+        width: 95%;
+    }
+
+    a#navbarDropdown {
+        padding: 5% 20%;
+    }
+
+    .whatsapp {
+        width: 25%;
+    }
+
+    div#what-sapp {
+        width: 65%;
+    }
+
+    /* top bar header */
+}
+
+@media screen and (max-width: 1866px) and (min-width: 1760px) {
+    .car-carry {
+        width: 90%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:1866px) and (min-width: 991px) {
+
+    /* top bar header */
+    .sticky-top .navbar-nav {
+        width: 85%;
+    }
+
+    .sticky-top .nav-item {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* top bar header */
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+
+    /* section Grid five page home and page home after login */
+    .rentalscar {
+        margin-right: 0;
+    }
+
+    /* section Grid five page home and page home after login */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 912px) {
+
+    .condition1,
+    .condition2 {
+        width: 95%;
+        margin-right: 2.5%;
+    }
+
+    /* section Grid five page home and page home after login */
+    .rentalscar {
+        margin-right: 3%;
+    }
+
+    /* section Grid five page home and page home after login */
+}
+
+@media screen and (max-width:912px) and (min-width:820px) {
+    .condition1 {
+        margin-right: 2.5%;
+    }
+
+    /* section Grid five page home and page home after login */
+    .rentalscar {
+        margin-right: 2.5%;
+    }
+
+    /* section Grid five page home and page home after login */
+}
+
+@media screen and (max-width: 820px) and (min-width: 540px) {
+
+    /* section Grid one page home and page home after login */
+    .condition1 {
+        margin-right: 0;
+    }
+
+    /* section Grid one page home and page home after login */
+
+    /* section Grid fouer page home and page home after login */
+    .rentalscar {
+        margin-right: 2.9%;
+        margin-left: 0;
+        width: 95%;
+    }
+
+    /* section Grid fouer page home and page home after login */
+}
+
+@media screen and (max-width: 540px) and (min-width: 414px) {
+
+    /* section Grid one page home and page home after login */
+    .condition1 {
+        margin-right: 0;
+    }
+
+    /* section Grid one page home and page home after login */
+
+    /* section Grid five page home and page home after login */
+    .rentalscar {
+        margin-right: 0%;
+    }
+
+    /* section Grid five page home and page home after login */
+}
+
+@media screen and (max-width:414px) and (min-width:375px) {
+    .condition1 {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 375px) and (min-width: 280px) {
+
+    /* section Grid one page home and page home after login */
+    .condition1 {
+        margin-right: 0;
+    }
+
+    /* section Grid one page home and page home after login */
+}
+
+
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+    filter: none !important;
+}

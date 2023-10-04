@@ -11,12 +11,39 @@ footer,
 .width-height-img-slider-top,
 .width-priveat,
 .sub-head {
-  width: 98% !important;
-  margin-left: 1% !important;
+  width: 100% !important;
+  margin-left: 0% !important;
+}
+
+.sticky-top .navbar-toggler {
+  padding: 1% 2%;
+  transition: 0.5s;
+  border-radius: 2.5rem;
+}
+
+.sticky-top .navbar-toggler:hover {
+  border: 3px solid #b6b8f7;
+}
+
+.sticky-top .navbar-toggler:hover i.fa-solid.fa-bars {
+  color: rgb(198, 194, 247);
+}
+
+i.fa-solid.fa-bars {
+  color: white;
+  font-size: 30px;
+  transition: 0.5s;
+
 }
 
 a#navbarDropdown {
   color: white;
+  transition: 2s;
+}
+
+a.hover-hovering:hover {
+  background-color: skyblue;
+  border-radius: 9%;
 }
 
 .row,
@@ -61,7 +88,6 @@ footer,
   overflow: hidden;
   cursor: pointer;
 }
-
 
 .clickorstop h1 {
   background-color: #333;
@@ -119,6 +145,23 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+.eltripLogo {
+  width: 20%;
+  display: inline-block;
+  margin-bottom: 0.5%;
+  left: 40% !important;
+  top: 60%;
+}
+
+h1.h1yellowpriveat {
+  background-color: #00000063;
+  letter-spacing: 6px;
+  font-size: 54px;
+  font-weight: bolder;
+  color: #9f9a9a;
+  font-family: 'FontAwesome';
 }
 
 svg.svg-inline--fa.fa-key,
@@ -202,7 +245,7 @@ ul.show {
 }
 
 .navbar {
-  background-color: #0ea9c8;
+  background-color: #4f4ed7;
 }
 
 .link-logo-new {
@@ -210,6 +253,7 @@ ul.show {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-right: 0;
 }
 
 .background-img-logo {
@@ -225,7 +269,7 @@ ul.show {
 
 #container-fluid {
   position: relative;
-  background-color: #6c18f97d;
+  background-color: #4f4ed7;
   border-top: 2px solid #b680e7;
   padding: 0;
   z-index: 99999999999;
@@ -246,7 +290,7 @@ div#navbarSupported {
   display: flex;
 }
 
-form#d-flex {
+#d-flex {
   width: 33%;
   padding: 0% 3% 0% 0%;
 }
@@ -263,10 +307,10 @@ svg#icon-check {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blueviolet;
+  background-color: yellow;
   border-radius: 5%;
   border: 1px solid burlywood;
-  color: white;
+  color: #5756d7;
   font-size: 18px;
   transition: 1s;
 }
@@ -301,9 +345,6 @@ div#navbarSupportedContent {
 }
 
 span.whatsapp2 {
-  border-radius: 50%;
-  border: 2px solid #343464;
-  background-color: turquoise;
   width: 20%;
   height: 40px;
   display: flex;
@@ -311,10 +352,13 @@ span.whatsapp2 {
   align-items: center;
 }
 
-svg.svg-inline--fa.fa-phone {
-  font-size: 20px;
-  color: revert;
+svg.svg-inline--fa.fa-whatsapp.fa-2xl{
+  font-size: 65px;
+  margin: 0px;
+  padding: 0px;
 }
+
+
 
 div#what-sapp {
   width: 75%;
@@ -323,6 +367,14 @@ div#what-sapp {
 p.whatsapp3,
 span.span-phone {
   font-size: 19px;
+}
+
+p.whatsapp3 {
+  color: wheat;
+}
+
+span.span-phone {
+  color: white;
 }
 
 .display-flex-aney-top,
@@ -408,8 +460,8 @@ button#gototop:hover {
 #link-click-slider {
   width: 100%;
   height: 100%;
-  background-color: #0dcaf0;
-  color: black;
+  background-color: #5c81ff;
+  color: yellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -431,7 +483,7 @@ button#gototop:hover {
 
 .prev-slider,
 .next-slider {
-  top: 50% !important;
+  top: 60% !important;
   bottom: 1% !important;
   opacity: inherit !important;
   background-color: #00000047;
@@ -450,7 +502,7 @@ button#gototop:hover {
 
 .footer-bootstrap-v5 {
   width: 100%;
-  background-color: rgb(13, 202, 240);
+  background-color: #5c81ff;
 }
 
 .textcenter>div {
@@ -459,12 +511,14 @@ button#gototop:hover {
   align-items: center;
 }
 
-.logo-footer.mt-3.mb-3 {
-  width: 50%;
+.logo-footer {
+  width: 95%;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-footer img {
-  width: 40%;
+  width: 25%;
 }
 
 .image-link-one>img {
@@ -474,6 +528,11 @@ button#gototop:hover {
 
 .h2ourpage {
   font-size: 26px;
+}
+
+.h2ourpage a{
+  color: white;
+
 }
 
 .word-footermb-3,
@@ -488,8 +547,8 @@ button#gototop:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
-  color: white;
+  background-color: #4f4ed7;
+  color: yellow;
   border-radius: 2.5rem;
   transition: 2s;
 }
@@ -506,7 +565,7 @@ button#gototop:hover {
 .goto-like-page {
   width: 40%;
   height: 55px;
-  background-color: #8a2be247;
+  background-color: yellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -522,7 +581,7 @@ svg.svg-inline--fa.fa-facebook-f,
 svg.svg-inline--fa.fa-twitter,
 svg.svg-inline--fa.fa-instagram {
   font-size: 35px !important;
-  color: black !important;
+  color: #7a3e3e !important;
 }
 
 li.width-driver {
@@ -540,18 +599,18 @@ li.width-driver {
 .width-Click button {
   width: 60%;
   border: none;
-  background-color: turquoise;
-  color: white;
+  background-color: yellow;
+  color: #5756d7;
   font-size: 19px;
   font-weight: 700;
 }
 
-.width-Click button:hover{
+.width-Click button:hover {
   background-color: #2197e2;
 }
 
 .dark-mode {
-  background-color: rgba(0, 0, 0, 0.397);
+  background-color: #4f4ed7;
   color: #6b68ef !important;
 }
 
@@ -615,10 +674,8 @@ a.points-out {
 
 section.navsection {
   position: relative;
-  background-color: #06f5c93b;
-  border-radius: 1.5rem;
-  width: 93%;
-  margin: 2% 3.5%;
+  background-color: #5c81ff;
+  border: 7px solid slategrey;
 }
 
 .section-three,
@@ -638,12 +695,9 @@ a.link-section-three,
 }
 
 .sections-three {
-  width: 93%;
-  border: 2px blue solid;
+  width: 95%;
   line-height: 30px;
   padding: 1% 1%;
-  background-color: #99DBF5;
-  border-radius: 1.5rem;
 }
 
 .nav1-section {
@@ -665,17 +719,15 @@ a.link-section-three,
 a.link-section-three {
   width: 100%;
   height: 50px;
-  color: grey;
+  color: white;
   font-size: 40px;
   font-weight: 900;
-  /* background-color: #0553d0; */
   border-radius: 5%;
-  /* /* transition: 2s; */
+   transition: 1s;
 }
 
 a.link-section-three:hover {
-  color: #efd2d2;
-  background-color: #f75f62;
+  background-color: #675ff7;
 }
 
 .nav2-section {
@@ -715,11 +767,11 @@ input#to {
 
 .link4section {
   font-size: 17px;
-  color: cornflowerblue;
+  color: white;
 }
 
 .link4section a {
-  color: red;
+  color: yellow;
   text-decoration-line: revert;
 }
 
@@ -727,11 +779,8 @@ input#to {
 
 section.CarCarry {
   width: 100%;
-  background-color: #99DBF5;
-}
-
-.index-margin {
-  margin-top: 3%;
+  background-color: #5c81ff;
+  border: 7px solid grey;
 }
 
 .display {
@@ -748,17 +797,17 @@ section.CarCarry {
 h1.aboutofcar {
   display: inline-block;
   width: 100%;
-  font-size: 32px;
-  color: #303747;
+  font-size: 42px;
+  color: white;
 }
 
 h5.aboutofcar {
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 10px;
   text-transform: uppercase;
   width: 100%;
-  color: #999;
+  color: white;
 }
 
 .car-carry {
@@ -782,8 +831,8 @@ h5.aboutofcar {
   width: 47%;
   height: 150px;
   padding: 0;
-  background-color: #DDE6ED;
-  border: 1px solid #ede7e79c;
+  background-color: #fbfb06a1;
+  border: 2px solid #4f4ed7;
   border-radius: 2.5rem;
 }
 
@@ -808,36 +857,32 @@ i.fa-solid.fa-handshake,
 i.fa-solid.fa-person-chalkboard,
 i.fa-regular.fa-star {
   font-size: 40px;
-  color: #146C94;
+  color: #4f4ed7;
 }
 
 p.control1-car,
 p.control2-car {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: bolder;
-  color: blueviolet;
+  color: #6060fb;
 }
 
 p.free1-car,
 p.free2-car {
-  color: cornflowerblue;
+  color: white;
   font-weight: bold;
+  font-size: 17px;
 }
 
 /* section CarCarry /*/
 
 /* section CLIENTS */
 
-.CLIENTS {
-  width: 100%;
-  margin-top: 3%;
-}
-
 .displayCLIENTS {
   width: 100%;
   margin-left: 0%;
-  background-color: #06f5c93b;
-  border-radius: 2.5rem;
+  background-color: #5c81ff;
+  border: 7px solid grey;
   padding: 0% 1%;
   position: relative;
 }
@@ -848,17 +893,17 @@ p.free2-car {
 }
 
 h1.saysaboutus {
-  font-size: 32px;
-  color: #303747;
+  font-size: 42px;
+  color: wheat;
 }
 
 h5.sayaboutus {
   display: inline-block;
-  font-size: 14px;
+  font-size: 17px;
   padding-top: 10px;
   text-transform: uppercase;
   width: 100%;
-  color: #999;
+  color: white;
 }
 
 .power-slider {
@@ -873,11 +918,14 @@ h5.sayaboutus {
   display: block !important;
 }
 
-svg.slider-top {
+.slider-top {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  font-size: 55px;
+  margin-bottom: 2%;
+  color: white;
 }
 
 .carousel-indicators {
@@ -949,6 +997,7 @@ li.starclient {
 
 .starclient img {
   width: 60%;
+  filter: drop-shadow(2px 4px 6px rgba(188, 181, 255, 0.404));
 }
 
 .clicks {
@@ -1000,17 +1049,12 @@ li.starclient {
 
 /* section condition-of-the-passenger */
 
-section.condition-of-the-passenger {
-  width: 100%;
-  margin-top: 4%;
-}
-
 .condition-passenger {
-  width: 90%;
-  margin-left: 4.5%;
-  background-color: #99dbf5;
+  width: 100%;
+  margin-left: 0%;
+  background-color: #5c81ff;
+  border: 7px solid grey;
   padding: 2% 1%;
-  border-radius: 2.5rem;
 }
 
 .condition1 {
@@ -1026,7 +1070,7 @@ p.passenger1 {
   font-weight: 700;
   color: #1322a5;
   line-height: 27px;
-  background-color: cadetblue;
+  background-color: #c0ce62;
   border-radius: 2.5rem;
   padding: 2%;
   width: 35%;
@@ -1034,7 +1078,7 @@ p.passenger1 {
 
 div#links-condition {
   width: 18%;
-  background-color: cadetblue;
+  background-color: #c0ce62;
   border-radius: 2.5rem;
   padding: 1%;
 }
@@ -1086,7 +1130,7 @@ i.fa-solid.fa-right-long {
 }
 
 .bottomdiv:hover {
-  box-shadow: 0px 1px 14px 12px #4551d585;
+  box-shadow: 0px 1px 14px 12px #0311aa85;
 }
 
 .condition3 {
@@ -1103,11 +1147,11 @@ i.fa-solid.fa-right-long {
 
 p.ofthe {
   font-size: 21px;
-  color: #2900ff;
+  color: white;
 }
 
 .color {
-  color: #793fdf !important;
+  color: #bbbbed !important;
   font-size: 25px !important;
   text-decoration-line: underline;
 }
@@ -1116,17 +1160,20 @@ p.ofthe {
 
 /* section rides-register-daily */
 
-section.rides-register-daily {
+.rides {
   width: 100%;
-  margin-top: 5%;
+  margin-left: 0%;
+  background-color: #5c81ff;
+  border: 7px solid grey;
+  padding: 2% 0;
+  color: white;
 }
 
-.rides {
-  width: 93%;
-  margin-left: 3.5%;
-  background-color: #c5fdf3;
-  padding: 2% 0;
-  border-radius: 2.5rem;
+i.fa-regular.fa-heart,
+i.fa-solid.fa-road,
+.change {
+  font-size: 35px !important;
+  color: white !important;
 }
 
 .register {
@@ -1171,8 +1218,8 @@ section.rides-register-daily {
 .carlatest {
   width: 100%;
   margin-left: 0%;
-  background-color: #99dbf5;
-  border-radius: 2.5rem;
+  background-color: #5c81ff;
+  border: 7px solid grey;
   padding: 2% 0;
 }
 
@@ -1185,7 +1232,7 @@ section.rides-register-daily {
 
 h3.address {
   font-size: 32px;
-  color: #303747;
+  color: white;
 }
 
 .rentalscar {
@@ -1246,11 +1293,14 @@ span.day-car::before {
 .slider-top-luxury {
   font-size: 50px !important;
   color: rgb(25, 10, 245);
-  border-radius: 50%;
-  border: 2px solid blueviolet;
   padding: 15%;
 
 }
+
+i.fa-solid.fa-arrow-up {
+  color: whitesmoke !important;
+}
+
 
 .rentals-car2 {
   margin-top: 4%;
@@ -1280,7 +1330,7 @@ img.svgcar {
 }
 
 a.linklaster {
-  color: inherit;
+  color: wheat;
   transition: 2s;
 }
 
@@ -1289,14 +1339,13 @@ a.width {
 }
 
 a.linklaster:hover {
-  color: #f75f62;
+  color: black;
 }
 
 span.icon-car {
   width: 37%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-top: 0%;
   margin-bottom: 3%;
 }
@@ -1316,11 +1365,15 @@ span.svg-car {
   transform: rotateZ(37deg);
 }
 
+.space {
+  width: 100%;
+}
+
 .space.no-top {
   width: 100%;
   margin-left: 0%;
-  background-color: #c5fdf3;
-  border-radius: 2.5rem;
+  background-color: #5c81ff;
+  border: 7px solid grey;
   padding: 3% 0;
 }
 
@@ -1330,7 +1383,7 @@ span.svg-car {
 }
 
 .row {
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   width: 100%;
 }
@@ -1344,6 +1397,11 @@ span.svg-car {
   margin-bottom: 7%;
   font-size: 20px;
   color: #303747;
+}
+
+h2.plooking,
+h2.margin-top-30 {
+  color: white;
 }
 
 ul.rider1,
@@ -1361,8 +1419,8 @@ li.spareseat {
   justify-content: space-around;
   padding: 1%;
   margin-bottom: 2%;
-  background: #e9edf3 none repeat scroll 0 0;
-  border: 1px solid #e7dcdc73;
+  background-color: #c0ce62;
+  border: 2px solid #4f4ed7;
   border-radius: 5px;
   transition: 1s;
 }
@@ -1390,12 +1448,15 @@ li.spareseat:hover {
 }
 
 .rider-meta a {
-  color: #9196a0;
+  color: blue;
+  font-size: 18px;
 }
 
 p.list-link {
   margin-top: 3%;
   display: inline-block;
+  color: blueviolet;
+  font-size: 17px;
 }
 
 .link-list {
@@ -1408,9 +1469,10 @@ p.list-link {
 
 ins.price {
   text-decoration: none;
-  color: #f75f62;
+  color: darkblue;
   position: absolute;
   right: 0;
+  font-size: 20px;
 }
 
 .width-height-img img {
@@ -1876,11 +1938,6 @@ i.fa.fa-share-alt {
 .info-links a {
   color: white;
   margin-right: 5%;
-}
-
-.space {
-  width: 100%;
-  margin-top: 5%;
 }
 
 .conteainer {
@@ -3108,13 +3165,17 @@ div#displayCLIENTS {
   text-align: center;
 }
 
-.carousel-inner {
-  padding: 1% 0 !important;
-  height: 100% !important;
+.backgrond-slider {
+  background-color: #5c81ff;
+  border: 7px solid grey;
 }
 
-.carousel-item {
-  height: 100% !important;
+.height-slider {
+  height: 340px !important;
+}
+
+.carousel-inner {
+  padding: 1% 0 !important;
 }
 
 .image-client-profile {
@@ -3276,17 +3337,13 @@ a.link-tow-words-driver:hover {
 
 
 /* brofile driver / */
-
-
-section.icons-placeholder {
-  width: 100%;
-  margin-top: 5%;
+section.icons-placeholder{
+  border: 7px solid grey;
 }
 
 .ICONS-PLACEHOLDER {
   width: 100%;
-  background-color: #99dbf5;
-  border-radius: 2.5rem;
+  background-color: #5c81ff;
   padding: 2% 0;
   margin-left: 0%;
 }
@@ -3311,10 +3368,8 @@ div#ICONS-placeholder {
 
 .img-icon-svg {
   width: 17%;
-}
-
-img.icon1-img-svg {
-  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .Tucson-Canada {
@@ -3323,12 +3378,12 @@ img.icon1-img-svg {
 
 p.p-footer {
   line-height: 25px !important;
-  font-size: 19px;
-  color: #000f81;
+  font-size: 21px;
+  color: yellow;
 }
 
 p.p-place {
   line-height: 25px !important;
   font-size: 20px;
-  color: #9278dd;
+  color: wheat;
 }

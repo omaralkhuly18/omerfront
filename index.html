@@ -1,10 +1,11 @@
 <!-- Sunday, September 3, 2023-2:47:08 PM -->
-<!DOCTYPE html>
-<html lang="en-US">
+<!DOCTYPE html data-backgrond>
+<html lang="en-US" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap" rel="stylesheet">
@@ -15,21 +16,23 @@
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/Arabic.css">
     <title>Index</title>
+    <script src="js/jquery.js"></script>
 </head>
 
 <body>
 
-    <div class="container-fluid" id="container-fluid">
+    <div class="container-fluid" id="container-fluid" data>
 
-        <ul class="navbar-nav me-auto mb-2 flex-new">
+        <ul class="navbar-nav me-auto flex-new">
 
             <div class=" navbar-collapse width" id="navbarSupported">
 
                 <li class="nav-item  width">
 
-                    <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href="#" class="nav-link dropdown-toggle hover-hovering" href="#" id="navbarDropdown"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-lock" id="icon-lock"></i> Login</a>
 
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,8 +44,8 @@
 
                 <li class="nav-item  width">
 
-                    <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href="#" class="nav-link dropdown-toggle hover-hovering" href="#" id="navbarDropdown"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-circle-check" id="icon-check"></i>Register</a>
 
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -53,9 +56,9 @@
                 </li>
             </div>
 
-            <form class="d-flex d-lg d-flex justify-content-end" id="d-flex">
+            <li class="d-flex d-lg d-flex justify-content-end" id="d-flex">
                 <button class="btn  button-post" type="submit">+post</button>
-            </form>
+            </li>
 
             <li class="nav-item dropdown width-Click">
                 <button onclick="myFunction()">
@@ -72,17 +75,14 @@
         <div class="container-floid container-fluid">
 
             <a class="navbar-brand link-logo-new" href="index.html">
-                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo" >
+                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo">
                 <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-
                 <i class="fa-solid fa-bars"></i>
-
-                <!-- <span class="navbar-toggler-icon"></span> -->
 
             </button>
 
@@ -91,7 +91,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="?" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle hover-hovering" href="?" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             home
                         </a>
@@ -105,7 +105,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle hover-hovering" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Cars </a>
 
@@ -124,7 +124,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle hover-hovering" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Our-Business
                         </a>
@@ -140,7 +140,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle hover-hovering" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Profiles
                         </a>
@@ -153,7 +153,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle hover-hovering" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             More Pages
                         </a>
@@ -175,7 +175,7 @@
             <div class="whatsapp">
                 <div class="Whatsapp1">
                     <span class="whatsapp2">
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-brands fa-whatsapp fa-2xl" style="color: #a9a94e; "></i>
                     </span>
                     <div id="what-sapp">
                         <p class="whatsapp3">Whatsapp now</p>
@@ -188,11 +188,12 @@
     </nav>
 
     <section class="section-image-top-position mt-3">
-
-        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+        <!--carousel slider  -->
+        <div id="carouselExampleControlsNoTouching" class="carousel slide-fade" data-bs-touch="false"
             data-bs-interval="false">
             <div class="carousel-inner">
-                <div class="carousel-item active width-height-img-slider-top">
+
+                <div class="carousel-item active width-height-img-slider-top right">
                     <img src="img/featured-avatar.jpeg" class="img-fluid" alt="...">
 
                     <div class="Words-slider-top  carousel-caption d-none d-md-block">
@@ -202,7 +203,7 @@
                             <h1 class="h1-slider-top text-white"> Our slogan</h1>
                             <h2 class="h22-slider-top text-white-50"> el-trip</h2>
                             <h3 class="h33-slider-top text-muted"> Make</h3>
-                            <h3 class="h333-slider-top text-info"> customers</h3>
+                            <h3 class="h333-slider-top " style="color: #fe8d4e !important;"> customers</h3>
                             <p class="p-slider-top text-white"> We've been established 13 years, giving us plenty
                                 of time to perfect
                                 our service In that time we've grown from 115 sales to over 7000 with full
@@ -215,8 +216,13 @@
 
                     </div>
 
+                    <div class="eltripLogo carousel-caption">
+                        <h1 class="h1yellowpriveat">El-Trip</h1>
+                    </div>
+
                 </div>
-                <div class="carousel-item width-height-img-slider-top">
+
+                <div class="carousel-item width-height-img-slider-top right">
                     <img src="img/featured-avatar-click.jpg" class="img-fluid" alt="...">
 
                     <div class="Words-slider-top  carousel-caption d-none d-md-block">
@@ -226,7 +232,7 @@
                             <h1 class="h1-slider-top text-white"> Our slogan</h1>
                             <h2 class="h22-slider-top text-white-50"> el-trip</h2>
                             <h3 class="h33-slider-top text-muted"> Make</h3>
-                            <h3 class="h333-slider-top text-info"> customers</h3>
+                            <h3 class="h333-slider-top  " style="color: #fe8d4e !important;"> customers</h3>
                             <p class="p-slider-top text-white"> Don't just take our word for it. We're rated at 9.7/10
                                 on
                                 independent,
@@ -239,8 +245,13 @@
 
                     </div>
 
+                    <div class="eltripLogo carousel-caption">
+                        <h1 class="h1yellowpriveat">El-Trip</h1>
+                    </div>
+
                 </div>
-                <div class="carousel-item width-height-img-slider-top">
+
+                <div class="carousel-item width-height-img-slider-top right">
                     <img src="img/featured-avatar5.jpeg" class="img-fluid width-priveat" a lt="...">
 
                     <div class="Words-slider-top  carousel-caption d-none d-md-block">
@@ -250,7 +261,7 @@
                             <h1 class="h1-slider-top text-white"> Our slogan</h1>
                             <h2 class="h22-slider-top text-white-50"> el-trip</h2>
                             <h3 class="h33-slider-top text-muted"> Make</h3>
-                            <h3 class="h333-slider-top text-info"> customers</h3>
+                            <h3 class="h333-slider-top  " style="color: #fe8d4e !important;"> customers</h3>
                             <p class="p-slider-top text-white"> Make an Impression Cars for every budget
                                 We have a dedicated procurement team working around the clock to make sure you always
                                 get the best deals......
@@ -262,14 +273,20 @@
 
                     </div>
 
+                    <div class="eltripLogo carousel-caption">
+                        <h1 class="h1yellowpriveat">El-Trip</h1>
+                    </div>
+
                 </div>
+
             </div>
-            <button class="carousel-control-prev bg-dark text-white prev-slider " type="button"
+
+            <button class="left carousel-control-prev bg-dark text-white prev-slider " type="button"
                 data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next bg-dark text-white next-slider " type="button"
+            <button class="right carousel-control-next bg-dark text-white next-slider " type="button"
                 data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -283,7 +300,7 @@
         <div class="display">
             <div class="car1-carry">
                 <h1 class="aboutofcar">Things you’ll love about Car Carry</h1>
-                <h5 class="aboutofcar">SAY NO TO EMPTY SEATS.</h5>
+                <h5 class="aboutofcar">SAY NO TO EMPTY SEATS</h5>
             </div>
             <div class="car-carry">
                 <div class="car2-carry">
@@ -354,7 +371,7 @@
                 <h5 class="sayaboutus">OUR HAPPY CLIENTS</h5>
             </div>
 
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="carouselExampleDark" class="carousel slider-fade" data-bs-ride="carousel">
 
                 <div class="carousel-inner">
 
@@ -362,7 +379,7 @@
 
                         <i class="fa-regular fa-user slider-top "></i>
 
-                        <div class="carousel-caption d-none d-md-block power-priveat  mt-3">
+                        <div class="carousel-caption d-none d-md-block power-priveat mt-3">
 
                             <ul class="clientstar mb-3">
                                 <li class="starclient">
@@ -380,10 +397,12 @@
                                 <li class="starclient">
                                     <img src="img/star-svgrepo-com.svg" alt="">
                                 </li>
+
                             </ul>
 
-                            <h5 class=" mb-3">person one</h5>
-                            <p class=" mb-3">person is very outgoing and peaceful. I had such a great time on the full
+                            <h5 class=" mb-3 text-white-50">person one</h5>
+                            <p class=" mb-3 text-white-50">person is very outgoing and peaceful. I had such a great time
+                                on the full
                                 ride with here.
                                 100% recommended!, especially when they are getting picked up.</p>
 
@@ -409,14 +428,11 @@
                                 <li class="starclient">
                                     <img src="img/star-svgrepo-com.svg" alt="">
                                 </li>
-
-                                <li class="starclient">
-                                    <img src="img/star-svgrepo-com.svg" alt="">
-                                </li>
                             </ul>
 
-                            <h5 class=" mb-3">person tow</h5>
-                            <p class=" mb-3">person is very outgoing and peaceful. I had such a great time on the full
+                            <h5 class=" mb-3 text-white-50">person two</h5>
+                            <p class=" mb-3 text-white-50">person is very outgoing and peaceful. I had such a great time
+                                on the full
                                 ride with here.
                                 100% recommended!, especially when they are getting picked up.</p>
 
@@ -438,18 +454,11 @@
                                 <li class="starclient">
                                     <img src="img/star-svgrepo-com.svg" alt="">
                                 </li>
-
-                                <li class="starclient">
-                                    <img src="img/star-svgrepo-com.svg" alt="">
-                                </li>
-
-                                <li class="starclient">
-                                    <img src="img/star-svgrepo-com.svg" alt="">
-                                </li>
                             </ul>
 
-                            <h5 class=" mb-3">person three</h5>
-                            <p class=" mb-3">person is very outgoing and peaceful. I had such a great time on the full
+                            <h5 class=" mb-3 text-white-50">person three</h5>
+                            <p class=" mb-3 text-white-50">person is very outgoing and peaceful. I had such a great time
+                                on the full
                                 ride with here.
                                 100% recommended!, especially when they are getting picked up.</p>
 
@@ -477,12 +486,13 @@
                                 </li>
 
                                 <li class="starclient">
-                                    <img src="img/star-svgrepo-com.svg" alt="">
+                                    <p style="color: moccasin;">good</p>
                                 </li>
                             </ul>
 
-                            <h5 class=" mb-3">person four</h5>
-                            <p class=" mb-3">person is very outgoing and peaceful. I had such a great time on the full
+                            <h5 class=" mb-3 text-white-50">person four</h5>
+                            <p class=" mb-3 text-white-50">person is very outgoing and peaceful. I had such a great time
+                                on the full
                                 ride with here.
                                 100% recommended!, especially when they are getting picked up.</p>
 
@@ -510,12 +520,13 @@
                                 </li>
 
                                 <li class="starclient">
-                                    <img src="img/star-svgrepo-com.svg" alt="">
+                                    <p style="color: moccasin;">good</p>
                                 </li>
                             </ul>
 
-                            <h5 class=" mb-3">person five</h5>
-                            <p class=" mb-3">person is very outgoing and peaceful. I had such a great time on the full
+                            <h5 class=" mb-3 text-white-50">person five</h5>
+                            <p class=" mb-3 text-white-50">person is very outgoing and peaceful. I had such a great time
+                                on the full
                                 ride with here.
                                 100% recommended!, especially when they are getting picked up.</p>
 
@@ -527,13 +538,13 @@
 
                 <button class="carousel-control-prev priveat-enmatain-prev" type="button"
                     data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon text-light" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
 
                 <button class="carousel-control-next priveat-enmatain-next" type="button"
                     data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon text-light" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
 
@@ -725,7 +736,7 @@
     <!-- section rides-register-daily /-->
 
     <!-- section Latest-rentals -->
-    <section class="Latest-rentals mt-5">
+    <section class="Latest-rentals">
         <div class="carlatest">
             <div class="lastercar1">
                 <h3 class="address">Latest rentals</h3>
@@ -776,7 +787,7 @@
 
                         <div class="rentals-car2">
                             <div class="linkletest">
-                                <h4 class="link-letest"><a href="#" class="linklaster width">Citroen Grand C4
+                                <h4 class="link-letest"><a href="#" class="linklaster ">Citroen Grand C4
                                         Picasso</a></h4>
                                 <ul class="starcar">
                                     <li class="star-car"><img src="img/star-svgrepo-com.svg" alt="" class="svgcar"></li>
@@ -841,7 +852,7 @@
     <!-- section Latest-rentals /-->
 
     <!-- section Looking-for-ride-->
-    <section class="Looking-for-ride mb-5">
+    <section class="Looking-for-ride ">
 
         <div class="space no-top">
 
@@ -995,47 +1006,23 @@
     <!-- section Looking-for-ride -->
 
     <!-- section this-brand-car-web carousel slide-->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slider-fade backgrond-slider" data-bs-ride="carousel">
 
-        <div class="carousel-indicators">
-
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                aria-label="Slide 7"></button>
-
-        </div>
-
-        <div class="carousel-inner">
+        <div class="carousel-inner height-slider">
             <!--  class="img-fluid clickForHover"-->
-            <div class="carousel-item active text-center" data-bs-interval="10000">
+            <div class="carousel-item active text-center" data-bs-interval="20000">
+
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <h1 id="typeOne">Coding is </h1>
+                    <h1 id="typeOne">El-Trip </h1>
                     <img src="img/brand-1.jpeg" id="buttonOne" alt="" class="img-fluid clickForHover">
                 </a>
             </div>
 
-            <div class="carousel-item text-center " data-bs-interval="2000">
+            <div class="carousel-item text-center " data-bs-interval="10000">
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <h1 id="typeTow">Coding is </h1>
+                    <h1 id="typeTow"> El-Trip </h1>
                     <img src="img/brand-2.png" id="buttonTow" alt="" class="img-fluid clickForHover">
                 </a>
             </div>
@@ -1043,7 +1030,7 @@
             <div class="carousel-item text-center  ">
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <h1 id="typeThree">Coding is </h1>
+                    <h1 id="typeThree"> El-Trip </h1>
                     <img src="img/brand-3.jpeg" id="buttonThree" alt="" class="img-fluid clickForHover">
                 </a>
             </div>
@@ -1051,7 +1038,7 @@
             <div class="carousel-item text-center  ">
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <h1 id="typeFour">Coding is </h1>
+                    <h1 id="typeFour"> El-Trip </h1>
                     <img src="img/brand-5.jpeg" id="buttonFour" alt="" class="img-fluid clickForHover">
                 </a>
             </div>
@@ -1059,7 +1046,7 @@
             <div class="carousel-item text-center  ">
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <h1 id="typeFive">Coding is </h1>
+                    <h1 id="typeFive"> El-Trip </h1>
                     <img src="img/brand-6.jpeg" id="buttonFive" alt="" class="img-fluid clickForHover">
                 </a>
             </div>
@@ -1067,7 +1054,7 @@
             <div class="carousel-item text-center  ">
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <h1 id="typeSex">Coding is </h1>
+                    <h1 id="typeSex"> El-Trip </h1>
                     <img src="img/brand-7.jpeg" id="buttonSex" alt="" class="img-fluid clickForHover">
                 </a>
             </div>
@@ -1075,7 +1062,7 @@
             <div class="carousel-item text-center  ">
                 <a class="clickorstop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <h1 id="typeEight">Coding is </h1>
+                    <h1 id="typeEight"> El-Trip </h1>
                     <img src="img/brand-8.jpeg" id="buttonEight" alt="" class="img-fluid clickForHover">
                 </a>
             </div>
@@ -1098,7 +1085,7 @@
     <!-- section this-brand-car-web /-->
 
     <!-- ICONS-PLACEHOLDER -->
-    <section class="icons-placeholder mb-5">
+    <section class="icons-placeholder ">
 
         <div class="ICONS-PLACEHOLDER">
 
@@ -1108,7 +1095,7 @@
 
                     <div class="number-one">
                         <div class="img-icon-svg">
-                            <img src="img/placeholder-pin-svgrepo-com.svg" alt="placeholder" class="icon1-img-svg">
+                            <i class="fa-solid fa-location-dot" style="color: #040cf1; font-size: 60px;"></i>
                         </div>
 
                         <div class="Tucson-Canada">
@@ -1119,7 +1106,7 @@
 
                     <div class="number-one">
                         <div class="img-icon-svg">
-                            <img src="img/placeholder-pin-svgrepo-com.svg" alt="placeholder" class="icon1-img-svg">
+                            <i class="fa-solid fa-location-dot" style="color: #040cf1; font-size: 60px;"></i>
                         </div>
 
                         <div class="Tucson-Canada">
@@ -1130,7 +1117,7 @@
 
                     <div class="number-one">
                         <div class="img-icon-svg">
-                            <img src="img/placeholder-pin-svgrepo-com.svg" alt="placeholder" class="icon1-img-svg">
+                            <i class="fa-solid fa-location-dot" style="color: #040cf1; font-size: 60px;"></i>
                         </div>
 
                         <div class="Tucson-Canada">
@@ -1156,7 +1143,7 @@
 
                 <div class="logo-footer mt-3 mb-3">
 
-                    <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+                    <img src="img/steering-wheel-icon.svg" alt="Vector-footer">
 
                 </div>
 
@@ -1250,11 +1237,10 @@
     <button onclick="topFunction()" id="gototop"><i class="fa-solid fa-chevron-up"></i></button>
     <!-- button go to top /-->
 
-    <script src="js/java.js"></script>
-    <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js.map"></script>
-
+    <script src="js/java.js"></script>
+    <script src="js/all.min.js"></script>
 
 </body>
 

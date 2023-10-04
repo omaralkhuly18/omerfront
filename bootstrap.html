@@ -655,125 +655,6 @@
 
     </div>
 
-    <nav class="navbar text-dark navbar-expand-lg  sticky-top">
-
-        <div class="container-floid container-fluid">
-
-            <a class="navbar-brand link-logo-new" href="index.html">
-                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo" >
-                <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-
-                <i class="fa-solid fa-bars"></i>
-
-                <!-- <span class="navbar-toggler-icon"></span> -->
-
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="?" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            home
-                        </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                            <li><a class="dropdown-item" href="index after login.html">index after login</a></li>
-
-                        </ul>
-
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Cars </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                            <li><a class="dropdown-item" href="Models-Cars.html">Models-Cars</a></li>
-                            <li><a class="dropdown-item" href="car-profile.html">Car Profile</a></li>
-                            <li><a class="dropdown-item" href="car-detail.html">Cars Detail</a></li>
-                            <li><a class="dropdown-item" href="create-route-notification.html">Route Notification</a>
-                            </li>
-                            <li><a class="dropdown-item" href="submit-car-intro.html">Submit Car Introduction</a></li>
-                            <li><a class="dropdown-item" href="submit-car-for-rent.html">Submit Car For Rent</a></li>
-
-                        </ul>
-
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Our-Business
-                        </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="Rides.html">Rides</a></li>
-                            <li><a class="dropdown-item" href="Taxi.html">Taxi</a></li>
-                            <li><a class="dropdown-item" href="motor-bike.html">motor-bike</a></li>
-                            <li><a class="dropdown-item" href="Car-Rental.html">Car-Rental</a></li>
-                            <li><a class="dropdown-item" href="School-Rides.html">School-Rides</a></li>
-                        </ul>
-
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Profiles
-                        </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="profile-driver.html"> profile-driver</a></li>
-                            <li><a class="dropdown-item" href="profile-user.html">profile-user</a></li>
-                        </ul>
-
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            More Pages
-                        </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="Services.html">Services</a></li>
-                            <li><a class="dropdown-item" href="About-Us.html">About-Us</a></li>
-                            <li><a class="dropdown-item" href="Contact-Us.html">Contact-Us</a></li>
-                            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
-                            <li><a class="dropdown-item" href="Our-Values.html">Our-Values</a></li>
-                            <li><a class="dropdown-item" href="Our-Effect.html">Our-Effect</a></li>
-                        </ul>
-
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="whatsapp">
-                <div class="Whatsapp1">
-                    <span class="whatsapp2">
-                        <i class="fa-solid fa-phone"></i>
-                    </span>
-                    <div id="what-sapp">
-                        <p class="whatsapp3">Whatsapp now</p>
-                        <span class="span-phone">01152148220</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </nav>
 
     <section class="section-image-top-position mt-3 ">
 
@@ -1163,12 +1044,30 @@
         <option>local city</option>
     </select>
 
-    <div id="desiginlogo" class="mb-5" style="height: 100px;">
-
-        <img src="img/steering-wheel.png" alt="">
-
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/car-1.jpg" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="img/car-2.jpg" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="img/car-3.jpg" alt="Third slide">
+            </div>
         </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span
+                class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span
+                class="sr-only">Previous</span></a>
 
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span
+                class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span
+                class="sr-only">Next</span></a>
     </div>
 
     <footer class=" footer-bootstrap-v5 mt-5">
