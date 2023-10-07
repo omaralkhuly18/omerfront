@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/date-picker.css">
     <link rel="stylesheet" href="css/timepicker.min.css">
+    <link rel="stylesheet" href="css/Arabic.css">
+    <script src="js/jquery.js" type="text/javascript"></script>
     <title>Models-Cars</title>
 </head>
 
-<body>
+<body style="background-color: #5c81ff;">
+
     <div class="container-fluid" id="container-fluid">
 
         <ul class="navbar-nav me-auto mb-2 flex-new">
@@ -50,14 +53,12 @@
                 </li>
             </div>
 
-            <form class="d-flex d-lg d-flex justify-content-end" id="d-flex">
-                <button class="btn  button-post" type="submit">+post</button>
-            </form>
+            <li class="d-flex d-lg d-flex justify-content-end" id="d-flex">
+                <button class="btn  button-post" type="submit"> <a href="your-comment.html">+post</a></button>
+            </li>
 
             <li class="nav-item dropdown width-Click">
-                <button onclick="myFunction()">
-                    Click here
-                </button>
+                <button onclick="myFunction()">Click here</button>
             </li>
 
         </ul>
@@ -69,7 +70,7 @@
         <div class="container-floid container-fluid">
 
             <a class="navbar-brand link-logo-new" href="index.html">
-                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo" >
+                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo">
                 <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
             </a>
 
@@ -172,7 +173,7 @@
             <div class="whatsapp">
                 <div class="Whatsapp1">
                     <span class="whatsapp2">
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
                     </span>
                     <div id="what-sapp">
                         <p class="whatsapp3">Whatsapp now</p>
@@ -188,9 +189,12 @@
 
         <div class="row">
 
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 col-sm-12 borderNew">
+
                 <div class="col-lg-7">
+
                     <div class="pickup-time">
+
                         <span class="find">
                             <p class="FINDD">
                                 <i class="fa fa-location-arrow"></i>
@@ -200,6 +204,7 @@
                                 <i class="fa fa-map-marker"></i>
                                 use my location</a>
                         </span>
+
                         <div class="date-n-time">
                             <div class="DATA_N_TIME">
 
@@ -218,9 +223,11 @@
                                 </p>
 
                             </div>
+
                             <div class="datantime">
                                 <span><i class="fa fa-search"></i>Filter by model or brand ...</span>
                             </div>
+
                             <!-- range slider -->
                             <div class="filter-meta">
 
@@ -228,66 +235,66 @@
 
                                 <ul class="row">
 
-                                    <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 text-center">
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-1.png" alt="">
-                                                <p>micro</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-1.png" alt="">
+                                                <p class="stylep">micro</p>
                                             </a></li>
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-2.png" alt="">
-                                                <p>Hatchback</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-2.png" alt="">
+                                                <p class="stylep">Hatchback</p>
                                             </a></li>
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-3.png" alt="">
-                                                <p>Coupe</p>
-                                            </a></li>
-
-                                    </div>
-
-                                    <div class="col-lg-2 col-md-4 col-sm-6 text-center">
-
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-4.png" alt="">
-                                                <p>CUV</p>
-                                            </a></li>
-
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-5.png" alt="">
-                                                <p>SUV</p>
-                                            </a></li>
-
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-6.png" alt="">
-                                                <p>Cabriolet</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-3.png" alt="">
+                                                <p class="stylep">Coupe</p>
                                             </a></li>
 
                                     </div>
 
-                                    <div class="col-lg-2 col-md-4 col-sm-6  text-center">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 text-center">
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-7.png" alt="">
-                                                <p>Super Car</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-4.png" alt="">
+                                                <p class="stylep">CUV</p>
                                             </a></li>
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-8.png" alt="">
-                                                <p>Pickup</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-5.png" alt="">
+                                                <p class="stylep">SUV</p>
                                             </a></li>
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-9.png" alt="">
-                                                <p>Van</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-6.png" alt="">
+                                                <p class="stylep">Cabriolet</p>
                                             </a></li>
 
                                     </div>
 
-                                    <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+                                    <div class="col-lg-4 col-md-4 col-sm-6  text-center">
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-10.png" alt="">
-                                                <p>Caravan</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-7.png" alt="">
+                                                <p class="stylep">Super Car</p>
                                             </a></li>
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-8.png" alt="">
-                                                <p>Pickup</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-8.png" alt="">
+                                                <p class="stylep">Pickup</p>
                                             </a></li>
 
-                                        <li><a href="#" title=""><img calss="img-fluid" src="img/mockup-9.png" alt="">
-                                                <p>Van</p>
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-9.png" alt="">
+                                                <p class="stylep">Van</p>
+                                            </a></li>
+
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-10.png" alt="">
+                                                <p class="stylep">Caravan</p>
+                                            </a></li>
+
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-8.png" alt="">
+                                                <p class="stylep">Pickup</p>
+                                            </a></li>
+
+                                        <li class="newstyle"><a href="#" title=""><img calss="img-fluid" src="img/mockup-9.png" alt="">
+                                                <p class="stylep">Van</p>
                                             </a></li>
 
                                     </div>
@@ -295,6 +302,7 @@
                                 </ul>
                                 
                             </div>
+
                             <!-- car mockup -->
                             <div class="filter-meta meta">
                                 <span class="this-span">fule type:</span>
@@ -322,6 +330,7 @@
                                     </label>
                                 </form>
                             </div>
+
                             <!-- enging select -->
                             <div class="filterr-meta">
                                 <span class="this-span">Seats:</span>
@@ -333,6 +342,7 @@
                                     </select>
                                 </div>
                             </div>
+
                             <!-- seats -->
                             <div class="filtermeta block-flex">
 
@@ -340,7 +350,7 @@
 
                                 <form method="post" class="row">
 
-                                    <div class="col-lg-4 col-md-6 col-sm-9">
+                                    <div class="col-lg-5 col-md-6 col-sm-9">
                                         <label class="checkboxses">ABS
                                             <input type="checkbox" checked="checked">
                                             <span class="checkmark1"></span>
@@ -363,7 +373,7 @@
                                         </label>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6 col-sm-9">
+                                    <div class="col-lg-5 col-md-6 col-sm-9">
                                         <label class="checkboxses"> Heated door mirrors
                                             <input type="checkbox" checked="checked">
                                             <span class="checkmark1"></span>
@@ -386,7 +396,7 @@
                                         </label>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6 col-sm-9">
+                                    <div class="col-lg-5 col-md-6 col-sm-9">
                                         <label class="checkboxses"> Folding rear seats
                                             <input type="checkbox" checked="checked">
                                             <span class="checkmark1"></span>
@@ -412,6 +422,7 @@
 
 
                             </div>
+
                             <!-- additional info -->
                             <div class="filter-metaa">
                                 <span class="this-span">Preferences:</span>
@@ -431,6 +442,7 @@
 
                                 </form>
                             </div>
+
                             <!-- preferences -->
                             <div class="filterrbtns">
                                 <a href="#" title="" class="del-filter"><i class="fas fa-trash"></i>Delete Filters</a>
@@ -441,8 +453,11 @@
                                         search</a>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
 
                 <span class="span-my">40 of 765 cars available for renting</span>
@@ -467,7 +482,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>01000 New York</span>
                         <div class="car-owner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -481,7 +496,6 @@
                                 <span>89% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="tag">$25/day</span>
                     </div>
                 </div>
 
@@ -495,7 +509,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>01000 New York</span>
                         <div class="car-owner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -509,7 +523,6 @@
                                 <span>89% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="tag">$20/day</span>
                     </div>
                 </div>
 
@@ -523,7 +536,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>09345 Belfast</span>
                         <div class="car-owner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -537,7 +550,6 @@
                                 <span>89% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="tag">$30/day</span>
                     </div>
                 </div>
 
@@ -552,7 +564,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>08667 Bradford</span>
                         <div class="car-owner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -566,7 +578,6 @@
                                 <span>89% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="tag">$35/day</span>
                     </div>
                 </div>
 
@@ -580,7 +591,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>09345 Belfast</span>
                         <div class="car-owner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -594,7 +605,6 @@
                                 <span>90% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="tag">$35/day</span>
                     </div>
                 </div>
                 
@@ -608,7 +618,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>08667 Bradford</span>
                         <div class="car-owner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -622,7 +632,6 @@
                                 <span>95% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="tag">$15/day</span>
                     </div>
                 </div>
 
@@ -630,7 +639,8 @@
                     <div class="kola-invite">
                         <p><span>Didn´t find the car you are looking for?</span> Invite your friends to rent
                             their cars.</p>
-                        <a href="#" title="" class="n facebook"><i class="fa fa-facebook"></i>Share Car
+                        <a href="#" title="" class="n facebook"><i class="fa-brands fa-facebook" 
+                            style="color: #4f4ed7; font-size: 42px;"></i>Share Car
                             East with your Friends</a>
                     </div>
 
@@ -638,7 +648,7 @@
 
             </div>
 
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 col-sm-12 borderNew">
 
                 <span class="spanmy">40 of 765 cars available for renting</span>
                 <div class="morefind">
@@ -661,7 +671,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>01000 New York</span>
                         <div class="carowner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -675,9 +685,9 @@
                                 <span>89% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="bottom">$25/day</span>
                     </div>
                 </div>
+
                 <div class="cars-lists">
 
                     <img alt="" calss="img-fluid" src="img/car-2.jpg">
@@ -688,7 +698,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>01000 New York</span>
                         <div class="carowner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -702,9 +712,9 @@
                                 <span>89% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="bottom">$20/day</span>
                     </div>
                 </div>
+
                 <div class="cars-lists">
 
                     <img alt="" calss="img-fluid" src="img/car-3.jpg">
@@ -715,7 +725,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>09345 Belfast</span>
                         <div class="carowner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -729,9 +739,9 @@
                                 <span>89% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="bottom">$30/day</span>
                     </div>
                 </div>
+
                 <div class="cars-lists">
 
                     <img alt="" calss="img-fluid" src="img/car-4.jpg">
@@ -742,7 +752,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>08667 Bradford</span>
                         <div class="carowner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -753,12 +763,11 @@
                                     <li><i class="fa fa-star checked"></i></li>
                                     <li><i class="fa fa-star checked"></i></li>
                                 </ul>
-                                <span>89% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="bottom">$35/day</span>
                     </div>
                 </div>
+
                 <div class="cars-lists">
 
                     <img alt="" calss="img-fluid" src="img/car-5.jpg">
@@ -769,7 +778,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>09345 Belfast</span>
                         <div class="carowner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -783,9 +792,9 @@
                                 <span>90% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="bottom">$35/day</span>
                     </div>
                 </div>
+
                 <div class="cars-lists">
 
                     <img alt="" calss="img-fluid" src="img/car-6.jpg">
@@ -796,7 +805,7 @@
                         <span class="locatio"><i class="fa fa-location-arrow"></i>08667 Bradford</span>
                         <div class="carowner">
                             <div class="owner-thmb">
-                                <i class="fa-solid fa-user-tie"></i>
+                                <i class="fa-solid fa-user-tie class-color"></i>
                             </div>
                             <div class="car-meta">
 
@@ -810,7 +819,6 @@
                                 <span>95% acceptance rate /<i class="befor-i">replies within 1hr</i></span>
                             </div>
                         </div>
-                        <span class="bottom">$15/day</span>
                     </div>
                 </div>
 
@@ -818,7 +826,8 @@
                     <div class="kola-invite">
                         <p><span>Didn´t find the car you are looking for?</span> Invite your friends to rent
                             their cars.</p>
-                        <a href="#" title="" class="n facebook"><i class="fa fa-facebook"></i>Share Car
+                        <a href="#" title="" class="n facebook"><i class="fa-brands fa-facebook" 
+                            style="color: #4f4ed7; font-size: 42px;"></i>Share Car
                             East with your Friends</a>
                     </div>
 
@@ -838,7 +847,7 @@
 
                 <div class="logo-footer mt-3 mb-3">
 
-                    <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+                    <img src="img/steering-wheel-icon.svg" alt="Vector-footer">
 
                 </div>
 

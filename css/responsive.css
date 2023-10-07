@@ -911,7 +911,6 @@
   }
 
   a.del-filter {
-    color: #f75f62;
     width: 65%;
     display: inline-block;
     margin-bottom: 5%;
@@ -2273,7 +2272,6 @@
   }
 
   a.del-filter {
-    color: #f75f62;
     width: 65%;
     display: inline-block;
     margin-bottom: 5%;
@@ -3688,10 +3686,9 @@
   }
 
   form.fule-types {
-    display: flex;
+    display: block;
     width: 100%;
-    justify-content: space-between;
-  }
+    }
 
   .filterrbtns {
     width: 100%;
@@ -3702,14 +3699,7 @@
 
   .flexses123 {
     display: flex;
-    width: 40%;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .flexses123 {
-    display: flex;
-    width: 40%;
+    width: 45%;
     justify-content: space-between;
     align-items: center;
   }
@@ -3745,15 +3735,12 @@
   }
 
   a.del-filter {
-    color: #f75f62;
     width: 45%;
   }
 
   .more-find {
-    display: flex;
-    align-items: center;
+    display: block;
     width: 100%;
-    justify-content: space-between;
     margin-bottom: 5%;
     padding-left: 8px;
   }
@@ -3763,7 +3750,7 @@
   }
 
   .kola-met>span {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   a.slim {
@@ -3791,6 +3778,7 @@
     position: relative;
     width: 95%;
     line-height: 30px;
+    margin-top: 3%;
   }
 
   .cars-listing {
@@ -3829,6 +3817,10 @@
     border-radius: 5px;
     font-size: 14px;
     transition: 0.8s;
+  }
+
+  span.locatio{
+    font-size: 20px;
   }
 
   .cars-lists {
@@ -5228,6 +5220,14 @@
     display: flex;
     align-items: center;
     margin-right: 0%;
+  }
+
+  li.newstyle {
+    margin-bottom: 4%;
+  }
+
+  .stylep {
+    width: 49%;
   }
 
   div#grid-flex-1,
@@ -6725,11 +6725,19 @@
     margin-top: 4%;
   }
 
-  .date-n-time p {
+  .DATA_N_TIME p {
     width: 75%;
     display: flex;
     margin-right: 12%;
     margin-bottom: 5%;
+  }
+
+  .stylep{
+    width: 75%;
+    display: flex;
+    margin-right: 12%;
+    margin-bottom: 5%;
+    justify-content: center;
   }
 
   .datantime span {
@@ -8001,11 +8009,20 @@
     margin-top: 4%;
   }
 
-  .date-n-time p {
-    width: 65%;
+  .DATA_N_TIME p {
+    width: 75%;
     display: flex;
     margin-right: 12%;
     margin-bottom: 5%;
+    justify-content: center;
+  }
+
+  .stylep{
+    width:  65%;
+    display: flex;
+    margin-right: 12%;
+    margin-bottom: 5%;
+    justify-content: center;
   }
 
   .datantime {
@@ -8019,11 +8036,20 @@
     width: 70%;
   }
 
+  .newstyle img {
+    width: 45%;
+  }
+
+  .filter-meta{
+    display: block;
+  }
+
   .this-span {
     height: 55px;
     display: flex;
     align-items: center;
     margin-right: 1%;
+    width: 20%;
   }
 
   div#grid-flex-1,
@@ -8050,7 +8076,19 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 2%;
-    width: 86%;
+    width: 95%;
+  }
+
+  .containers{
+    font-size: 16px;
+  }
+
+  .checkboxses{
+    font-size: 14px;
+  }
+
+  .filter-metaa{
+    display: block;
   }
 
   .filtermeta {
@@ -8076,8 +8114,20 @@
 
   form.fule-types {
     display: flex;
-    width: 82%;
+    width: 100%;
     justify-content: space-between;
+  }
+
+  .filterrbtns{
+    width: 99%;
+  }
+
+  a.del-filter{
+    width: 35%;
+  }
+
+  .flexses123{
+    width: 40%;
   }
 
   .more-find {
@@ -8115,7 +8165,7 @@
   .cars-list img {
     margin: 0;
     padding: 1%;
-    width: 49%;
+    width: 75%;
     margin-left: 2%;
   }
 
@@ -8171,7 +8221,7 @@
   .cars-lists img {
     margin: 0;
     margin-right: 4%;
-    width: 57%;
+    width: 75%;
   }
 
   .carinf {
@@ -9258,11 +9308,21 @@
     margin-top: 4%;
   }
 
-  .date-n-time p {
-    width: 60%;
+  .DATA_N_TIME p {
+    width: 80%;
     display: flex;
     margin-right: 12%;
     margin-bottom: 5%;
+  }
+
+  .datantime span{
+    width: 60%;
+  }
+
+  .filter-meta,
+  .filter-metaa,
+  .filterr-meta{
+    display: block;
   }
 
   .this-span {
@@ -9270,6 +9330,16 @@
     display: flex;
     align-items: center;
     margin-right: 1%;
+    width: 50%;
+  }
+
+  .stylep{
+    width:  98%;
+    font-size: 15px;
+    display: flex;
+    margin-right: 12%;
+    margin-bottom: 5%;
+    justify-content: center;
   }
 
   div#grid-flex-1,
@@ -9281,23 +9351,22 @@
     display: flex;
   }
 
-  .filter-meta ul {
-    width: 90%;
-    display: flex;
-  }
-
   .fule-type1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 2%;
-    width: 85%;
+    width: 99%;
+  }
+
+  .containers{
+    font-size: 17px;
   }
 
   .custom-select {
     position: relative;
     font-family: Arial;
-    width: 50%;
+    width: 90%;
   }
 
   .none {
@@ -9315,13 +9384,17 @@
 
   form.fule-types {
     display: flex;
-    width: 85%;
+    width: 99%;
     justify-content: space-between;
+  }
+
+  .checkboxses{
+    font-size: 14px;
   }
 
   .flexses123 {
     display: flex;
-    width: 35%;
+    width: 45%;
     justify-content: space-between;
     align-items: center;
   }
@@ -9329,10 +9402,25 @@
   .more-find {
     display: flex;
     align-items: center;
-    width: 98%;
+    width: 99%;
     justify-content: space-between;
     margin-bottom: 5%;
     padding-left: 5px;
+  }
+
+  .kola-met>span{
+    font-size: 14px;
+  }
+
+  a.slim{
+    font-size: 15px;
+  }
+
+  svg.svg-inline--fa.fa-key, 
+  svg.svg-inline--fa.fa-handshake, 
+  svg.svg-inline--fa.fa-star, 
+  svg.svg-inline--fa.fa-person-chalkboard{
+    font-size: 25px;
   }
 
   .tag {
@@ -9345,6 +9433,26 @@
     right: 2px;
     top: -32px;
     background: #f75f62;
+  }
+
+  a.del-filter{
+    width: 35%;
+  }
+
+  .cars-list,
+  .cars-lists{
+    display: block;
+  }
+
+  .cars-list img,
+  .cars-lists img{
+    width: 99%;
+  }
+
+  .car-inf,
+  .carinf{
+    width: 99%;
+    margin: 3% 0;
   }
 
   .slider-timers-word {

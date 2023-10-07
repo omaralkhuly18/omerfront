@@ -353,7 +353,7 @@ svg.svg-inline--fa.fa-whatsapp {
   padding: 0px;
 }
 
-i.fa-brands.fa-whatsapp{
+i.fa-brands.fa-whatsapp {
   font-size: 65px;
   color: yellow;
   margin: 0px;
@@ -1500,6 +1500,11 @@ section.sectionpage {
   margin-bottom: 5%;
 }
 
+.borderNew {
+  border: solid 7px grey;
+  padding: 1% 0.5%;
+}
+
 .pickup-time {
   width: 100%;
   padding: 1% 0% 2% 0%;
@@ -1534,7 +1539,7 @@ i.fa.fa-map-marker {
 }
 
 a.themebtn:hover {
-  background-color: red;
+  background-color: yellow;
   color: white;
 }
 
@@ -1572,6 +1577,8 @@ input:valid+span::after {
 
 .datantime span {
   width: 30%;
+  color: white;
+  font-size: 20px;
 }
 
 i.fa.fa-search {
@@ -1590,6 +1597,8 @@ i.fa.fa-search {
   display: flex;
   align-items: center;
   margin-right: 5%;
+  color: yellow;
+  font-size: 20px;
 }
 
 .filter-meta ul {
@@ -1622,9 +1631,16 @@ div#gridflex-1 {
   display: inline-block;
 }
 
-.filter-meta p {
+.newstyle img {
+  width: 35%;
+}
+
+.stylep {
   width: 53%;
   display: inline-block;
+  color: yellow;
+  margin-bottom: 3%;
+  font-size: 20px;
 }
 
 .meta p {
@@ -1647,7 +1663,8 @@ div#gridflex-1 {
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 19px;
+  color: white;
   user-select: none;
 }
 
@@ -1688,15 +1705,15 @@ div#gridflex-1 {
 }
 
 .containers .checkmark:after {
-  left: 9px;
+  left: 7px;
   top: 5px;
-  width: 5px;
+  width: 8px;
   height: 10px;
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
   padding-left: 0px;
-  FONT-SIZE: 3px;
+  FONT-SIZE: 0px;
 }
 
 .filterr-meta {
@@ -1718,7 +1735,7 @@ div#gridflex-1 {
 }
 
 .select-selected {
-  background-color: DodgerBlue;
+  background-color: cyan;
 }
 
 .select-selected:after {
@@ -1741,7 +1758,8 @@ div#gridflex-1 {
 
 .select-items div,
 .select-selected {
-  color: #ffffff;
+  color: blue;
+  font-size: 18px;
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
@@ -1752,7 +1770,7 @@ div#gridflex-1 {
 
 .select-items {
   position: absolute;
-  background-color: DodgerBlue;
+  background-color: cyan;
   top: 100%;
   left: 0;
   right: 0;
@@ -1796,7 +1814,8 @@ div#gridflex-1 {
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 17px;
+  color: white;
   user-select: none;
 }
 
@@ -1876,8 +1895,9 @@ form.fule-types {
 }
 
 a.del-filter {
-  color: #f75f62;
+  color: white;
   width: 25%;
+  font-size: 18px;
 }
 
 .flexses123 {
@@ -1885,6 +1905,11 @@ a.del-filter {
   width: 25%;
   justify-content: space-between;
   align-items: center;
+}
+
+a.cancel {
+  color: yellow;
+  font-size: 17px;
 }
 
 a.theme-btn-slim {
@@ -1900,7 +1925,8 @@ a.theme-btn-slim {
 }
 
 a.theme-btn-slim:hover {
-  background: #f75f62;
+  background: yellow;
+  color: white;
 }
 
 i.fa.fa-refresh,
@@ -2555,9 +2581,9 @@ input#party {
   border: 2px solid pink;
   height: 55px;
   width: 85%;
-  background-color: rgba(137, 43, 226, 0.445);
-  color: blue;
-  font-size: 18px;
+  background-color: yellowgreen;
+  color: white;
+  font-size: 20px;
   padding: 0% 2%;
 }
 
@@ -2583,10 +2609,11 @@ span.validity {
   border: 3px solid pink;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 15%;
   height: 55px;
-  font-size: 20px;
-  background-color: rgba(137, 43, 226, 0.445);
+  font-size: 25px;
+  background-color: yellow;
   color: blue;
 }
 
@@ -2751,6 +2778,7 @@ i.far.fa-check-circle {
   font-size: 18px;
   margin-bottom: 5%;
   display: inline-block;
+  color: wheat;
 }
 
 .more-find {
@@ -2817,18 +2845,23 @@ a.slimm:hover {
   background: #f75f62;
 }
 
+svg.svg-inline--fa.fa-star.fa-beat-fade.fa-sm{
+  color: yellow;
+}
+
 i.fa-regular.fa-star.fa-beat-fade.fa-sm {
   font-size: 30px;
   color: #f75f62;
 }
 
 .kola-met>h4 {
-  color: #f76265;
+  color: yellow;
   font-size: 18px;
 }
 
 .kola-met>span {
   font-size: 15px;
+  color: white;
 }
 
 a.slim {
@@ -2845,18 +2878,14 @@ a.slim {
 }
 
 a.slim:hover {
-  background: #f76265;
+  background-color: yellow;
+  color: white;
 }
 
 .cars-lists {
   display: flex;
   align-items: center;
   margin-bottom: 3%;
-}
-
-.cars-lists img {
-  width: 210px;
-  height: 250px;
 }
 
 .cars-list {
@@ -2866,9 +2895,11 @@ a.slim:hover {
   margin-bottom: 3%;
 }
 
-.cars-list img {
+.cars-list img,
+.cars-lists img{
   width: 210px;
   height: 250px;
+  object-fit: fill !important;
 }
 
 .car-inf {
@@ -2880,28 +2911,35 @@ h5.h55my {
   font-size: 16px;
 }
 
-.h55my span {
-  font-size: 12px;
-  color: #9196a0;
+h5.h55my a,
+.carinf a{
+  color: yellow;
 }
 
-.car-inf>p {
-  color: #9196a0;
+.h55my span {
+  font-size: 12px;
+  color: wheat;
+}
+
+.car-inf>p,
+.carinf>p{
+  color: white;
   margin-bottom: 2%;
 }
 
 span.locatio {
   margin-bottom: 3%;
   display: inline-block;
+  color: yellow;
 }
 
 .owner-thmb {
   margin-right: 4%;
 }
 
-svg.svg-inline--fa.fa-user-tie {
-  border-radius: 100%;
-  font-size: 50px;
+.class-color {
+  color: #4f4ed7;
+  font-size: 55px;
 }
 
 .car-meta {
@@ -2910,7 +2948,7 @@ svg.svg-inline--fa.fa-user-tie {
 }
 
 .car-meta span {
-  color: #9196a0;
+  color: white;
   position: relative;
 }
 
@@ -2929,6 +2967,20 @@ svg.svg-inline--fa.fa-user-tie {
   right: -30px;
   top: -6px;
   background: #f75f62;
+}
+
+.kola-invite p {
+  color: wheat;
+  font-size: 18px;
+}
+
+a.facebook {
+  color: yellow;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
 }
 
 /* brofile driver */

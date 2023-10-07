@@ -213,6 +213,10 @@ div#carouselExampleControlsNoTouching {
     }
 
     /* section Grid five page home and page home after login */
+
+    .stylep {
+        margin-left: 16%;
+    }
 }
 
 @media screen and (max-width:912px) and (min-width:820px) {

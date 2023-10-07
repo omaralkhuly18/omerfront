@@ -234,15 +234,16 @@ function closeAllSelect(elmnt) {
 document.addEventListener("click", closeAllSelect);
 // select especially downlist
 
-$(document).ready(function(){
-  $("#carouselExampleControlsNoTouching").carousel();
+var $ = jQuery;
+jQuery(document).ready(function($){
+  jQuery("#carouselExampleControlsNoTouching").carousel();
 
-  $(".ccarousel-control-next").click(function(){
-    $("#carouselExampleControlsNoTouching").carousel("next");
+  jQuery(".ccarousel-control-next").click(function(){
+    jQuery("#carouselExampleControlsNoTouching").carousel("next");
   });
 
-  $(".carousel-control-prev").click(function(){
-    $("#carouselExampleControlsNoTouching").carousel("prev");
+  jQuery(".carousel-control-prev").click(function(){
+    jQuery("#carouselExampleControlsNoTouching").carousel("prev");
   });
 
 });
