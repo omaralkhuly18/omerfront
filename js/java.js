@@ -234,6 +234,7 @@ function closeAllSelect(elmnt) {
 document.addEventListener("click", closeAllSelect);
 // select especially downlist
 
+// jquery a wasted
 var $ = jQuery;
 jQuery(document).ready(function ($) {
   jQuery("#carouselExampleControlsNoTouching").carousel();
@@ -247,17 +248,8 @@ jQuery(document).ready(function ($) {
   });
 
 });
+// jquery a wasted
 
-// var myModal = document.getElementById('carouselExampleControlsNoTouching')
-// for (i = 0; i < myModal.length; i++) {
-
-//   myModal[i].addEventListener('slide.bs.carousel', function (event) {
-
-//     if (!data) {
-//       return event.preventDefault() // stops modal from being shown
-//     }
-//   })
-// }
 // search from hayper cars 
 function myFunction() {
   var inputSerch, filterOfHeberCars, ulOfHeberCars, liOfHeberCars, aOfHeberCars, anItem, textValue;
