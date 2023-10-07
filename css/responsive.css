@@ -799,11 +799,6 @@
     display: block;
   }
 
-  span.find {
-    display: block;
-    width: 100%;
-  }
-
   a.themebtn {
     background-color: #7ba8f9;
     color: white;
@@ -828,7 +823,7 @@
     margin-bottom: 5%;
   }
 
-  .datantime span {
+  .datantime input {
     width: 85%;
   }
 
@@ -2160,11 +2155,6 @@
     display: block;
   }
 
-  span.find {
-    display: block;
-    width: 100%;
-  }
-
   a.themebtn {
     background-color: #7ba8f9;
     color: white;
@@ -2189,7 +2179,7 @@
     margin-bottom: 5%;
   }
 
-  .datantime span {
+  .datantime input {
     width: 85%;
   }
 
@@ -3722,7 +3712,7 @@
     line-height: 30px;
   }
 
-  .datantime span {
+  .datantime input {
     width: 50%;
   }
 
@@ -3736,13 +3726,6 @@
 
   a.del-filter {
     width: 45%;
-  }
-
-  .more-find {
-    display: block;
-    width: 100%;
-    margin-bottom: 5%;
-    padding-left: 8px;
   }
 
   .cars-list img {
@@ -5285,7 +5268,7 @@
     width: 90%;
   }
 
-  .datantime span {
+  .datantime input {
     width: 50%;
   }
 
@@ -6740,7 +6723,7 @@
     justify-content: center;
   }
 
-  .datantime span {
+  .datantime input {
     width: 55%;
   }
 
@@ -8032,7 +8015,7 @@
     margin-top: 4%;
   }
 
-  .datantime span {
+  .datantime input {
     width: 70%;
   }
 
@@ -9315,7 +9298,7 @@
     margin-bottom: 5%;
   }
 
-  .datantime span{
+  .datantime input{
     width: 60%;
   }
 
@@ -9735,7 +9718,7 @@
     margin-bottom: 3%;
   }
 
-  .datantime span{
+  .datantime input{
     width: 60%;
   }
 
@@ -10521,7 +10504,7 @@
     margin-bottom: 3%;
   }
 
-  .datantime span{
+  .datantime input{
     width: 60%;
   }
 
@@ -10871,7 +10854,7 @@
     margin-bottom: 3%;
   }
 
-  .datantime span{
+  .datantime input{
     width: 60%;
   }
 
@@ -11084,8 +11067,8 @@
     margin-bottom: 3%;
   }
 
-  .datantime span{
-    width: 60%;
+  .datantime input{
+    width: 70%;
   }
 
   .this-span{

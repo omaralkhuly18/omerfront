@@ -235,14 +235,14 @@ document.addEventListener("click", closeAllSelect);
 // select especially downlist
 
 var $ = jQuery;
-jQuery(document).ready(function($){
+jQuery(document).ready(function ($) {
   jQuery("#carouselExampleControlsNoTouching").carousel();
 
-  jQuery(".ccarousel-control-next").click(function(){
+  jQuery(".ccarousel-control-next").click(function () {
     jQuery("#carouselExampleControlsNoTouching").carousel("next");
   });
 
-  jQuery(".carousel-control-prev").click(function(){
+  jQuery(".carousel-control-prev").click(function () {
     jQuery("#carouselExampleControlsNoTouching").carousel("prev");
   });
 
@@ -258,3 +258,33 @@ jQuery(document).ready(function($){
 //     }
 //   })
 // }
+// search from hayper cars 
+function myFunction() {
+  var inputSerch, filterOfHeberCars, ulOfHeberCars, liOfHeberCars, aOfHeberCars, anItem, textValue;
+
+  inputSerch = document.getElementById("myInput");
+
+  filterOfHeberCars = inputSerch.value.toUpperCase();
+
+  ulOfHeberCars = document.getElementById("myUL");
+
+  liOfHeberCars = ulOfHeberCars.getElementsByTagName("li");
+
+  for (anItem = 0; anItem < liOfHeberCars.length; anItem++) {
+
+    aOfHeberCars = liOfHeberCars[anItem].getElementsByTagName("a")[0];
+
+    textValue = aOfHeberCars.textContent || aOfHeberCars.innerText;
+
+    if (textValue.toUpperCase().indexOf(filterOfHeberCars) > -1) {
+
+      liOfHeberCars[anItem].style.display = "";
+
+    } else {
+
+      liOfHeberCars[anItem].style.display = "none";
+    }
+  }
+
+}
+// search from hayper cars 

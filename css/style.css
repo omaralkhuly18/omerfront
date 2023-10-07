@@ -3,6 +3,10 @@ html {
   /* overflow-x: hidden; */
 }
 
+#map {
+  height: 100%;
+}
+
 a:hover {
   color: blue !important;
 }
@@ -1511,11 +1515,9 @@ section.sectionpage {
 }
 
 span.find {
-  background: #fff none repeat scroll 0 0;
-  border-radius: 5px;
   display: flex;
   margin-bottom: 10px;
-  width: 96%;
+  width: 99%;
   justify-content: space-between;
 }
 
@@ -1529,9 +1531,12 @@ a.themebtn {
   color: white;
   border-radius: 5px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   padding: 1% 1% 1% 1%;
   transition: 0.5s;
+  font-size: 20px;
+  width: 25%;
 }
 
 i.fa.fa-map-marker {
@@ -1570,15 +1575,34 @@ input:valid+span::after {
 
 .datantime {
   display: flex;
+  align-items: center;
   width: 96%;
-  justify-content: space-between;
   margin-top: 4%;
 }
 
 .datantime span {
+  background-color: yellow;
+  width: 5%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg.svg-inline--fa.fa-magnifying-glass {
+  font-size: 20px;
+  color: blue;
+}
+
+.datantime input {
   width: 30%;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: yellowgreen;
+  padding-left: 1%;
 }
 
 i.fa.fa-search {
@@ -2845,7 +2869,7 @@ a.slimm:hover {
   background: #f75f62;
 }
 
-svg.svg-inline--fa.fa-star.fa-beat-fade.fa-sm{
+svg.svg-inline--fa.fa-star.fa-beat-fade.fa-sm {
   color: yellow;
 }
 
@@ -2883,9 +2907,9 @@ a.slim:hover {
 }
 
 .cars-lists {
-  display: flex;
-  align-items: center;
+  display: block;
   margin-bottom: 3%;
+  border-bottom: 5px solid grey;
 }
 
 .cars-list {
@@ -2896,7 +2920,7 @@ a.slim:hover {
 }
 
 .cars-list img,
-.cars-lists img{
+.cars-lists img {
   width: 210px;
   height: 250px;
   object-fit: fill !important;
@@ -2912,7 +2936,7 @@ h5.h55my {
 }
 
 h5.h55my a,
-.carinf a{
+.carinf a {
   color: yellow;
 }
 
@@ -2922,7 +2946,7 @@ h5.h55my a,
 }
 
 .car-inf>p,
-.carinf>p{
+.carinf>p {
   color: white;
   margin-bottom: 2%;
 }
