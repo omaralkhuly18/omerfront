@@ -142,6 +142,62 @@ div#carouselExampleControlsNoTouching {
 }
 
 /* section Grid five page home and page home after login */
+@media screen and (max-width:1866px) and (min-width: 1760px){
+    .cars-list,
+    .cars-lists{
+        padding-right: 4%;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .more-find{
+        padding-left: 0;
+        padding-right: 30px;
+        width: 99%;
+    }
+}
+
+@media screen and (max-width:1760px) and (min-width: 1555px){
+    .cars-list,
+    .cars-lists{
+        padding-right: 4%;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .more-find{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width:1555px) and (min-width:1496px) {
+    .cars-list,
+    .cars-lists{
+        padding-right: 4%;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .more-find{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width:1495px) and (min-width:1280px) {
+    .cars-list,
+    .cars-lists{
+        padding-right: 4%;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .more-find{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+}
 
 @media screen and (max-width: 1190px) and (min-width: 991px) {
 

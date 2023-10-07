@@ -9709,7 +9709,6 @@
     font-size: 32px !important;
   }
 
-
   .overlay .closebtn {
     position: absolute;
     top: 20px;
@@ -9726,6 +9725,46 @@
     margin-left: 5%;
   }
 
+  .DATA_N_TIME,
+  .filter-metaa{
+    display: block;
+  }
+
+  .DATA_N_TIME p{
+    width: 95%;
+    margin-bottom: 3%;
+  }
+
+  .datantime span{
+    width: 60%;
+  }
+
+  .this-span{
+    width: 13%;
+    margin-right: 2%;
+  }
+
+  .newstyle{
+    margin-bottom: 3%;
+  }
+
+  form.fule-types{
+    width: 90%;
+  }
+
+  .flexses123{
+    width: 40%;
+  }
+
+  .car-inf,
+  .carinf{
+    width: 65%;
+  }
+
+  a.facebook{
+    justify-content: space-between;
+    width: 60%;
+  }
 
   .display {
     width: 100%;
@@ -10472,6 +10511,54 @@
     font-size: 32px !important;
   }
 
+  .DATA_N_TIME,
+  .filter-metaa{
+    display: block;
+  }
+
+  .DATA_N_TIME p{
+    width: 95%;
+    margin-bottom: 3%;
+  }
+
+  .datantime span{
+    width: 60%;
+  }
+
+  .this-span{
+    width: 13%;
+    margin-right: 2%;
+  }
+
+  .newstyle{
+    margin-bottom: 3%;
+  }
+
+  form.fule-types{
+    width: 90%;
+  }
+
+  .flexses123{
+    width: 40%;
+  }
+
+  .car-inf,
+  .carinf{
+    width: 65%;
+  }
+
+  a.facebook{
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .cars-list img,
+  .cars-lists img{
+      width: 235px;
+      object-position: 60% 100% !important;
+      object-fit: cover !important;
+  }
+
   .display {
     width: 100%;
     margin-left: 0;
@@ -10774,7 +10861,53 @@
     font-size: 32px !important;
   }
 
+  .DATA_N_TIME,
+  .filter-metaa{
+    display: block;
+  }
 
+  .DATA_N_TIME p{
+    width: 95%;
+    margin-bottom: 3%;
+  }
+
+  .datantime span{
+    width: 60%;
+  }
+
+  .this-span{
+    width: 13%;
+    margin-right: 2%;
+  }
+
+  .newstyle{
+    margin-bottom: 3%;
+  }
+
+  form.fule-types{
+    width: 90%;
+  }
+
+  .flexses123{
+    width: 40%;
+  }
+
+  .car-inf,
+  .carinf{
+    width: 65%;
+  }
+
+  a.facebook{
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .cars-list img,
+  .cars-lists img{
+      width: 235px;
+      object-position: 60% 100% !important;
+      object-fit: cover !important;
+  }
 
   .link1-section {
     width: 75% !important;
@@ -10917,6 +11050,105 @@
     width: 8% !important;
     height: 42px !important;
     font-size: 32px !important;
+  }
+
+  svg.svg-inline--fa.fa-star.fa-beat-fade.fa-sm{
+    font-size: 50px;
+  }
+
+  .kola-met{
+    width: 55%;
+  }
+
+  .morefind>.kola-met>span {
+    font-size: 15px;
+  }
+
+  a.slimm{
+    width: 35%;
+    font-size: 20px;
+  }
+
+  a.slim{
+    width: 30%;
+    font-size: 20px;
+  }
+
+  .DATA_N_TIME,
+  .filter-metaa{
+    display: block;
+  }
+
+  .DATA_N_TIME p{
+    width: 95%;
+    margin-bottom: 3%;
+  }
+
+  .datantime span{
+    width: 60%;
+  }
+
+  .this-span{
+    width: 13%;
+    margin-right: 2%;
+    font-size: 25px;
+  }
+
+  .newstyle{
+    margin-bottom: 8%;
+  }
+
+  form.fule-types{
+    width: 90%;
+  }
+
+  a.del-filter{
+    font-size: 25px;
+  }
+
+  .flexses123{
+    width: 40%;
+  }
+
+  a.cancel,
+  a.theme-btn-slim{
+    font-size: 20px;
+  }
+
+  .car-inf,
+  .carinf{
+    width: 73%;
+  }
+
+  h5.h55my a,
+  .carinf a{
+    font-size: 20px;
+  }
+
+  .car-inf>p,
+  .carinf>p,
+  .car-meta span{
+    font-size: 20px;
+  }
+
+  span.locatio{
+    font-size: 20px;
+  }
+
+  .class-color{
+    font-size: 65px;
+  }
+
+  a.facebook{
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .cars-list img,
+  .cars-lists img{
+      width: 25%;
+      object-position: 60% 100% !important;
+      object-fit: cover !important;
   }
 
   .MEDIA {
