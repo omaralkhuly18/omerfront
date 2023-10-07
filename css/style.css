@@ -3,6 +3,15 @@ html {
   /* overflow-x: hidden; */
 }
 
+a:hover {
+  color: blue !important;
+}
+
+.button-post:hover {
+  background-color: rgb(92 129 255) !important;
+  color: white !important;
+}
+
 .row,
 section,
 footer,
@@ -163,6 +172,7 @@ svg.change {
 
 a {
   text-decoration: none;
+  color: blueviolet;
 }
 
 .stickyTop {
@@ -274,7 +284,7 @@ div#navbarSupported {
   display: flex;
 }
 
-form#d-flex {
+#d-flex {
   width: 33%;
   padding: 0% 3% 0% 0%;
 }
@@ -336,18 +346,18 @@ span.whatsapp2 {
   align-items: center;
 }
 
-i.fa-brands.fa-whatsapp{
+svg.svg-inline--fa.fa-whatsapp {
   font-size: 65px;
+  color: yellow;
   margin: 0px;
   padding: 0px;
-  color: #2ccf2c;
 }
 
-svg.svg-inline--fa.fa-whatsapp{
+i.fa-brands.fa-whatsapp{
   font-size: 65px;
+  color: yellow;
   margin: 0px;
   padding: 0px;
-  color: #2ccf2c;
 }
 
 div#what-sapp {
@@ -405,7 +415,7 @@ button#gototop:hover {
 
 .Words-slider-top {
   width: 65%;
-  height: 60px;
+  height: 35%;
   position: absolute;
   top: 12%;
   right: 0 !important;
@@ -473,7 +483,7 @@ button#gototop:hover {
 
 .prev-slider,
 .next-slider {
-  top: 65% !important;
+  top: 60% !important;
   bottom: 1% !important;
   opacity: inherit !important;
   background-color: #00000047;
@@ -520,7 +530,7 @@ button#gototop:hover {
   font-size: 26px;
 }
 
-.h2ourpage a{
+.h2ourpage a {
   color: white;
 
 }
@@ -713,7 +723,7 @@ a.link-section-three {
   font-size: 40px;
   font-weight: 900;
   border-radius: 5%;
-   transition: 1s;
+  transition: 1s;
 }
 
 a.link-section-three:hover {
@@ -3327,7 +3337,7 @@ a.link-tow-words-driver:hover {
 
 
 /* brofile driver / */
-section.icons-placeholder{
+section.icons-placeholder {
   border: 7px solid grey;
 }
 

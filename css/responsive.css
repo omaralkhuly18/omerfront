@@ -9,6 +9,40 @@
 }
 
 @media screen and (max-width:375px) and (min-width:280px) {
+  i#icon-lock,
+  i#icon-check{
+    display: none;
+  }
+
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    top: 27%;
+    left: 10%;
+  }
+
+  .captionresponsive1{
+    top: 15%;
+    left: 15%;
+  }
+
+  .captionresponsive2{
+    top: 32%;
+    left: 11%;
+  }
+
+  .yellow{
+    color: yellow;
+  }
+
+  .h1yellowpriveat{
+    font-size: 25px;
+  }
+
   div#navbarSupported {
     justify-content: space-between;
   }
@@ -1481,6 +1515,40 @@
 }
 
 @media screen and (max-width:414px) and (min-width:375px) {
+   i#icon-lock,
+  i#icon-check{
+    display: none;
+  }
+  
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    top: 27%;
+    left: 10%;
+  }
+
+  .captionresponsive1{
+    top: 15%;
+    left: 15%;
+  }
+
+  .captionresponsive2{
+    top: 32%;
+    left: 11%;
+  }
+
+  .yellow{
+    color: yellow;
+  }
+
+  .h1yellowpriveat{
+    font-size: 25px;
+  }
+
   .nav-link {
     font-size: 16px !important;
   }
@@ -2740,6 +2808,40 @@
 }
 
 @media screen and (max-width:540px) and (min-width:414px) {
+  i#icon-lock,
+  i#icon-check{
+    display: none;
+  }
+  
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    top: 27%;
+    left: 16%;
+  }
+
+  .captionresponsive1{
+    top: 15%;
+    left: 27%;
+  }
+
+  .captionresponsive2{
+    top: 32%;
+    left: 19%;
+  }
+
+  .yellow{
+    color: yellow;
+  }
+
+  .h1yellowpriveat{
+    font-size: 25px;
+  }
+
   .width {
     width: 50%;
   }
@@ -4213,6 +4315,42 @@
 }
 
 @media screen and (max-width:820px) and (min-width:540px) {
+  i#icon-lock,
+  i#icon-check{
+    display: none;
+  }
+  
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    top: 27%;
+    left: 21%;
+  }
+
+  .captionresponsive1{
+    top: 15%;
+    left: 36%;
+    width: 40%;
+  }
+
+  .captionresponsive2{
+    top: 41%;
+    left: 30%;
+    width: 40%;
+  }
+
+  .yellow{
+    color: yellow;
+  }
+
+  .h1yellowpriveat{
+    font-size: 25px;
+  }
+
   .width {
     width: 50%;
   }
@@ -5755,6 +5893,42 @@
 }
 
 @media screen and (max-width:912px) and (min-width:820px) {
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    top: 10%;
+    left: 35%;
+  }
+
+  .captionresponsive1{
+    top: 6%;
+    left: 45%;
+    width: 25%;
+  }
+
+  .captionresponsive2{
+    top: 5%;
+    left: 61%;
+    width: 30%;
+  }
+
+  .yellow{
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .h1yellowpriveat{
+    font-size: 25px;
+  }
+
+  .prev-slider,
+  .next-slider{
+    top: 90% !important;
+  }
 
   .link-logo-new {
     width: 30%;
@@ -7018,6 +7192,42 @@
 }
 
 @media SCREEN and (max-width:1024px) and (min-width:912px) {
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    top: 10%;
+    left: 35%;
+  }
+
+  .captionresponsive1{
+    top: 4%;
+    left: 45%;
+    width: 25%;
+  }
+
+  .captionresponsive2{
+    top: 5%;
+    left: 61%;
+    width: 30%;
+  }
+
+  .yellow{
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .h1yellowpriveat{
+    font-size: 25px;
+  }
+
+  .prev-slider,
+  .next-slider{
+    top: 85% !important;
+  }
 
   .button-post {
     width: 55%;
@@ -7071,7 +7281,7 @@
   }
 
   .Words-slider-top {
-    top: 8% !important;
+    top: 3% !important;
     height: auto !important;
     left: 15% !important;
   }
@@ -8254,6 +8464,47 @@
 }
 
 @media screen and (max-width:1280px) and (min-width:1024px) {
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    top: 10%;
+    left: 35%;
+  }
+
+  .captionresponsive1{
+    top: 8%;
+    left: 45%;
+    width: 25%;
+  }
+
+  .captionresponsive2{
+    top: 5%;
+    left: 61%;
+    width: 30%;
+  }
+
+  .yellow,
+  .yellow-el{
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .h1yellowpriveat{
+    font-size: 25px;
+  }
+
+  .prev-slider,
+  .next-slider{
+    top: 85% !important;
+  }
+
+  .Words-slider-top{
+    top: 30% !important;
+  }
 
   .button-post {
     width: 60%;
@@ -9246,6 +9497,47 @@
 }
 
 @media screen and (max-width:1495px) and (min-width:1280px) {
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    top: 8%;
+    left: 35%;
+  }
+
+  .captionresponsive1{
+    top: 8%;
+    left: 45%;
+    width: 25%;
+  }
+
+  .captionresponsive2{
+    top: 5%;
+    left: 61%;
+    width: 25%;
+  }
+
+  .yellow,
+  .yellow-el{
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .h1yellowpriveat{
+    font-size: 30px;
+  }
+
+  .prev-slider,
+  .next-slider{
+    top: 85% !important;
+  }
+
+  .Words-slider-top{
+    top: 30% !important;
+  }
 
   .button-post {
     width: 60%;
@@ -9972,6 +10264,47 @@
 }
 
 @media screen and (max-width:1555px) and (min-width:1496px) {
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    top: 5%;
+    left: 35%;
+  }
+
+  .captionresponsive1{
+    top: 8%;
+    left: 45%;
+    width: 25%;
+  }
+
+  .captionresponsive2{
+    top: 6%;
+    left: 5%;
+    width: 20%;
+  }
+
+  .yellow,
+  .yellow-el{
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .h1yellowpriveat{
+    font-size: 35px;
+  }
+
+  .prev-slider,
+  .next-slider{
+    top: 85% !important;
+  }
+
+  .Words-slider-top{
+    top: 30% !important;
+  }
 
   .button-post {
     width: 60%;
@@ -10233,6 +10566,47 @@
 }
 
 @media screen and (max-width:1760px) and (min-width: 1555px) {
+  .eltripLogo {
+    background-color: #00000042;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    top: 5%;
+    left: 35%;
+  }
+
+  .captionresponsive1{
+    top: 8%;
+    left: 45%;
+    width: 25%;
+  }
+
+  .captionresponsive2{
+    top: 6%;
+    left: 4%;
+    width: 25%;
+  }
+
+  .yellow,
+  .yellow-el{
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .h1yellowpriveat{
+    font-size: 45px;
+  }
+
+  .prev-slider,
+  .next-slider{
+    top: 85% !important;
+  }
+
+  .Words-slider-top{
+    top: 30% !important;
+  }
 
   .button-post {
     width: 60%;
@@ -10349,6 +10723,35 @@
 }
 
 @media screen and (max-width:1866px) and (min-width: 1760px) {
+  .eltripLogo {
+    background-color: #00000042;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    bottom: 2% !important;
+    left: 35%;
+  }
+
+  .yellow,
+  .yellow-el{
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .h1yellowpriveat{
+    font-size: 55px;
+  }
+
+  .prev-slider,
+  .next-slider{
+    top: 85% !important;
+  }
+
+  .Words-slider-top{
+    top: 30% !important;
+  }
 
   .button-post {
     width: 60%;
@@ -12251,6 +12654,10 @@
     margin: 2% 0% !important;
   }
 
+  h2.h2about,
+  .h2-about {
+    font-size: 20px !important;
+  }
 
   .wordes-about-img {
     padding: 5% !important;

@@ -7,7 +7,7 @@ footer,
 .responsive-new,
 .width-height-img-slider-top,
 .width-priveat,
-.sub-head{
+.sub-head {
     width: 100% !important;
     margin-right: 0% !important;
 }
@@ -21,8 +21,7 @@ div#navbarSupportedContent,
 .carousel-item,
 .space.no-top,
 section.icons-placeholder,
-.col-sm-12,
-.about-us-our{
+.col-sm-12 {
     direction: ltr !important;
 }
 
