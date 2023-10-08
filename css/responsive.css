@@ -867,8 +867,7 @@
   .filtermeta,
   .filter-metaa,
   .filterrbtns,
-  .cars-list,
-  .cars-lists {
+  .cars-list{
     display: block;
   }
 
@@ -949,10 +948,6 @@
     border-radius: 5px;
     font-size: 17px;
     transition: 0.8s;
-  }
-
-  .cars-list img {
-    width: 97%;
   }
 
   .cars-lists img {
@@ -2223,7 +2218,6 @@
   .filtermeta,
   .filter-metaa,
   .filterrbtns,
-  .cars-list,
   .cars-lists {
     display: block;
   }
@@ -2305,10 +2299,6 @@
     border-radius: 5px;
     font-size: 17px;
     transition: 0.8s;
-  }
-
-  .cars-list img {
-    width: 99%;
   }
 
   .cars-lists img {
@@ -3728,10 +3718,6 @@
     width: 45%;
   }
 
-  .cars-list img {
-    width: 99%;
-  }
-
   .kola-met>span {
     font-size: 13px;
   }
@@ -3804,13 +3790,6 @@
 
   span.locatio{
     font-size: 20px;
-  }
-
-  .cars-lists {
-    display: block;
-    margin-bottom: 3%;
-    margin-left: 3%;
-    width: 95%;
   }
 
   .cars-lists img {
@@ -5338,14 +5317,6 @@
     transition: 0.8s;
   }
 
-  .cars-lists {
-    display: flex;
-    align-items: center;
-    margin-bottom: 3%;
-    margin-left: 3%;
-    width: 95%;
-  }
-
   .cars-lists img {
     width: 275px;
     height: 250px;
@@ -6796,17 +6767,9 @@
     transition: 0.8s;
   }
 
-  .cars-lists {
-    display: flex;
-    align-items: center;
-    margin-bottom: 3%;
-    margin-left: 3%;
-    width: 95%;
-  }
-
   .cars-lists img {
-    width: 275px;
-    height: 250px;
+    width: 99%;
+    height: auto;
   }
 
   .carinf {
@@ -8145,17 +8108,6 @@
     margin-bottom: 3%;
   }
 
-  .cars-list img {
-    margin: 0;
-    padding: 1%;
-    width: 75%;
-    margin-left: 2%;
-  }
-
-  .topwidth {
-    width: 895px !important;
-  }
-
   .car-inf {
     position: relative;
     width: 95%;
@@ -8194,11 +8146,6 @@
     border-radius: 5px;
     font-size: 14px;
     transition: 0.8s;
-  }
-
-  .cars-lists {
-    display: block;
-    margin-bottom: 3%;
   }
 
   .cars-lists img {
@@ -9422,12 +9369,6 @@
     width: 35%;
   }
 
-  .cars-list,
-  .cars-lists{
-    display: block;
-  }
-
-  .cars-list img,
   .cars-lists img{
     width: 99%;
   }
@@ -10535,7 +10476,6 @@
     width: 60%;
   }
 
-  .cars-list img,
   .cars-lists img{
       width: 235px;
       object-position: 60% 100% !important;
@@ -10885,7 +10825,6 @@
     width: 60%;
   }
 
-  .cars-list img,
   .cars-lists img{
       width: 235px;
       object-position: 60% 100% !important;
@@ -11127,10 +11066,8 @@
     width: 60%;
   }
 
-  .cars-list img,
   .cars-lists img{
-      width: 25%;
-      object-position: 60% 100% !important;
+      width: 99%;
       object-fit: cover !important;
   }
 

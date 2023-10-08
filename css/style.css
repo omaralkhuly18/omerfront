@@ -2913,14 +2913,6 @@ a.slim:hover {
   border-bottom: 5px solid grey;
 }
 
-.cars-list {
-  display: flex;
-  align-items: center;
-  padding-left: 4%;
-  margin-bottom: 3%;
-}
-
-.cars-list img,
 .cars-lists img {
   width: 210px;
   height: 250px;
