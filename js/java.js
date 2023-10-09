@@ -267,7 +267,7 @@ function myFunction() {
 }
 // search from hayper cars 
 
-// Image Comparison Slider
+// image comparison slider
 const slider = document.querySelector(".slider input");
 
 const img = document.querySelector(".images .img-2");
@@ -328,4 +328,4 @@ slider4.oninput = () => {
   img4.style.width = sliderVal4 + "%";
 }
 
-// Image Comparison Slider
+// image comparison slider

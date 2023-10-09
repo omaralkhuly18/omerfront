@@ -9580,7 +9580,8 @@
 
 }
 
-@media screen and (max-width:1495px) and (min-width:1280px) {
+/* from width 1495 to width 1280 this Dimensions Responsive simpel (large)*/
+@media screen and (max-width:1495px) and (min-width:1280px) { 
   .eltripLogo {
     background-color: #00000042;
     height: 50px;

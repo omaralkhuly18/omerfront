@@ -18,10 +18,169 @@
     <script src="js/jquery.js" type="text/javascript"></script>
     <title>Models-Cars</title>
     <style>
+        .c-compare-1,
+        .c-compare-2,
+        .c-compare-3,
+        .c-compare-4,
+        .c-compare-5 {
+            --h: 9;
+            --m: 1rem 0;
+            --w: 16;
+            --thumb-bgc: rgb(0, 153, 255);
+            --thumb-bgc-focus: hsla(226, 70%, 70%, 0.7);
+            --thumb-w: 1rem;
+            margin: var(--m);
+            position: relative;
+        }
+
+        .c-compare-1::after,
+        .c-compare-2::after,
+        .c-compare-3::after,
+        .c-compare-4::after,
+        .c-compare-5::after {
+            content: "";
+            display: block;
+            padding-bottom: calc((var(--h) / var(--w)) * 100%);
+        }
+
+        .c-compare__left-1,
+        .c-compare__right-1,
+        .c-compare__left-2,
+        .c-compare__right-2,
+        .c-compare__left-3,
+        .c-compare__right-3,
+        .c-compare__left-4,
+        .c-compare__right-4,
+        .c-compare__left-5,
+        .c-compare__right-5 {
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            width: 100%;
+        }
+
+        .c-compare__left-1,
+        .c-compare__left-2,
+        .c-compare__left-3,
+        .c-compare__left-4,
+        .c-compare__left-5 {
+            clip-path: polygon(0% 0%, var(--value) 0%, var(--value) 100%, 0% 100%);
+        }
+
+        .c-compare__right-1,
+        .c-compare__right-2,
+        .c-compare__right-3,
+        .c-compare__right-4,
+        .c-compare__right-5 {
+            clip-path: polygon(100% 0%, var(--value) 0%, var(--value) 100%, 100% 100%);
+        }
+
+        .c-compare__range-1,
+        .c-compare__range-2,
+        .c-compare__range-3,
+        .c-compare__range-4,
+        .c-compare__range-5 {
+            background-color: transparent;
+            box-sizing: border-box;
+            font-family: inherit;
+            height: 100%;
+            margin: 0;
+            outline: none;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .c-compare__range-1::-moz-range-thumb,
+        .c-compare__range-2::-moz-range-thumb,
+        .c-compare__range-3::-moz-range-thumb,
+        .c-compare__range-4::-moz-range-thumb,
+        .c-compare__range-5::-moz-range-thumb {
+            background-color: var(--thumb-bgc);
+            cursor: ew-resize;
+            height: 100%;
+            width: var(--thumb-w);
+        }
+
+        .c-compare__range-1::-webkit-slider-thumb,
+        .c-compare__range-2::-webkit-slider-thumb,
+        .c-compare__range-3::-webkit-slider-thumb,
+        .c-compare__range-4::-webkit-slider-thumb,
+        .c-compare__range-5::-webkit-slider-thumb {
+            background-color: var(--thumb-bgc);
+            cursor: ew-resize;
+            height: 100%;
+            width: var(--thumb-w);
+        }
+
+        .c-compare__range-1:focus::-webkit-slider-thumb,
+        .c-compare__range-2:focus::-webkit-slider-thumb,
+        .c-compare__range-3:focus::-webkit-slider-thumb,
+        .c-compare__range-4:focus::-webkit-slider-thumb,
+        .c-compare__range-5:focus::-webkit-slider-thumb {
+            background-color: var(--thumb-bgc-focus);
+            box-shadow: 0 0 0 3px var(--thumb-bgc);
+        }
+
+        .c-compare__range-1:focus::-moz-range-thumb,
+        .c-compare__range-2:focus::-moz-range-thumb,
+        .c-compare__range-3:focus::-moz-range-thumb,
+        .c-compare__range-4:focus::-moz-range-thumb,
+        .c-compare__range-5:focus::-moz-range-thumb {
+            background-color: var(--thumb-bgc-focus);
+            box-shadow: 0 0 0 3px var(--thumb-bgc);
+        }
+
+        .c-compare__range-1::-moz-range-track,
+        .c-compare__range-2::-moz-range-track,
+        .c-compare__range-3::-moz-range-track,
+        .c-compare__range-4::-moz-range-track,
+        .c-compare__range-5::-moz-range-track {
+            background: transparent;
+            background-size: 100%;
+            box-sizing: border-box;
+        }
+
+        .c-compare__range-1::-webkit-slider-runnable-track,
+        .c-compare__range-2::-webkit-slider-runnable-track,
+        .c-compare__range-3::-webkit-slider-runnable-track,
+        .c-compare__range-4::-webkit-slider-runnable-track,
+        .c-compare__range-5::-webkit-slider-runnable-track {
+            background: transparent;
+            background-size: 100%;
+            box-sizing: border-box;
+            height: 100%;
+        }
+
+        .c-compare__range-1,
+        .c-compare__range-1::-webkit-slider-runnable-track,
+        .c-compare__range-1::-webkit-slider-thumb,
+        .c-compare__range-2,
+        .c-compare__range-2::-webkit-slider-runnable-track,
+        .c-compare__range-2::-webkit-slider-thumb,
+        .c-compare__range-3,
+        .c-compare__range-3::-webkit-slider-runnable-track,
+        .c-compare__range-3::-webkit-slider-thumb,
+        .c-compare__range-4,
+        .c-compare__range-4::-webkit-slider-runnable-track,
+        .c-compare__range-4::-webkit-slider-thumb,
+        .c-compare__range-5,
+        .c-compare__range-5::-webkit-slider-runnable-track,
+        .c-compare__range-5::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .amendment {
+            height: 50px;
+            top: 50% !important;
+            background-color: black;
+        }
+
         .wrapper {
             position: relative;
             height: 400px;
-            width: 650px;
+            width: 750px;
             overflow: hidden;
             background: #fff;
             border: 7px solid #fff;
@@ -238,12 +397,6 @@
         .slider-4 .drag-line-4 span::after {
             left: 60%;
             border-top-color: #fff;
-        }
-
-        .amendment {
-            height: 50px;
-            top: 50% !important;
-            background-color: black;
         }
     </style>
 </head>
@@ -617,11 +770,87 @@
                     <a class=" slim" title="" href="#">find out more</a>
                 </div>
 
-                <div id="carouselExampleControlsNoTouching" class="carousel slide-fade parent" data-bs-touch="false"
+                <div id="carouselExampleControlsNoTouching" class="carousel slide-fade" data-bs-touch="false"
                     data-bs-interval="false">
 
                     <div class="carousel-inner">
 
+                        <div class="c-compare-1 carousel-item active" style="--value:50%;">
+
+                            <img class="c-compare__left-1" src="img/slider-images-1.jpg" alt="Color" />
+
+                            <img class="c-compare__right-1" src="img/slider-images-2.avif" alt="B/W" />
+
+                            <input type="range" class="c-rng-2 c-compare__range-1" min="0" max="100" value="50"
+                                oninput="this.parentNode.style.setProperty('--value', `${this.value}%`)" />
+
+                        </div>
+
+                        <div class="c-compare-2 carousel-item" style="--value:50%;">
+
+                            <img class="c-compare__left-2" src="img/slider-images-33.jpg" alt="Color" />
+
+                            <img class="c-compare__right-2" src="img/slider-images-4.jpg" alt="B/W" />
+
+                            <input type="range" class="c-rng-2 c-compare__range-2" min="0" max="100" value="50"
+                                oninput="this.parentNode.style.setProperty('--value', `${this.value}%`)" />
+
+                        </div>
+
+                        <div class="c-compare-3 carousel-item" style="--value:50%;">
+
+                            <img class="c-compare__left-3" src="img/slider-images-5.jpeg" alt="Color" />
+
+                            <img class="c-compare__right-3" src="img/slider-images-6.jpeg" alt="B/W" />
+
+                            <input type="range" class="c-rng-3 c-compare__range-3" min="0" max="100" value="50"
+                                oninput="this.parentNode.style.setProperty('--value', `${this.value}%`)" />
+
+                        </div>
+
+                        <div class="c-compare-4 carousel-item" style="--value:50%;">
+
+                            <img class="c-compare__left-4" src="img/slider-images-7.jpeg" alt="Color" />
+
+                            <img class="c-compare__right-4" src="img/slider-images-8.jpeg" alt="B/W" />
+
+                            <input type="range" class="c-rng-4 c-compare__range-4" min="0" max="100" value="50"
+                                oninput="this.parentNode.style.setProperty('--value', `${this.value}%`)" />
+
+                        </div>
+
+                        <div class="c-compare-5 carousel-item" style="--value:50%;">
+
+                            <img class="c-compare__left-5" src="img/slider-images-9.jpg" alt="Color" />
+
+                            <img class="c-compare__right-5" src="img/slider-images-10.jpg" alt="B/W" />
+
+                            <input type="range" class="c-rng-5 c-compare__range-5" min="0" max="100" value="50"
+                                oninput="this.parentNode.style.setProperty('--value', `${this.value}%`)" />
+
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev amendment" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next amendment" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+<!-- carousel slide-fade -->
+                <div id="carouselExampleInterval" style="position: relative;" 
+                class="carousel slide-fade" data-bs-ride="carousel">
+    
+                    <div class="carousel-inner">
+    
                         <div class="wrapper carousel-item active data-bs-toggle=" tooltip">
                             <div class="images">
                                 <div class="img-1"></div>
@@ -634,11 +863,12 @@
                                 <input type="range" min="0" max="100" value="50">
                             </div>
                         </div>
-
+    
                         <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
                             <div class="images-1">
                                 <div class="img-3"><img src="img/slider-images-33.jpg" alt="" class="amendmentImage"
-                                        width="600"></div>
+                                        width="600">
+                                </div>
                                 <div class="img-4"></div>
                             </div>
                             <div class="slider-1">
@@ -648,7 +878,7 @@
                                 <input type="range" min="0" max="100" value="50">
                             </div>
                         </div>
-
+    
                         <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
                             <div class="images-2">
                                 <div class="img-5"></div>
@@ -661,7 +891,7 @@
                                 <input type="range" min="0" max="100" value="50">
                             </div>
                         </div>
-
+    
                         <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
                             <div class="images-3">
                                 <div class="img-7">
@@ -676,7 +906,7 @@
                                 <input type="range" min="0" max="100" value="50">
                             </div>
                         </div>
-
+    
                         <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
                             <div class="images-4">
                                 <div class="img-9">
@@ -691,26 +921,26 @@
                                 <input type="range" min="0" max="100" value="50">
                             </div>
                         </div>
-
+    
                     </div>
-
+    
                     <button class="carousel-control-prev amendment" type="button"
-                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" style="color: black;" aria-hidden="true"></span>
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-
+    
                     <button class="carousel-control-next amendment" type="button"
-                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" style="color: black;" aria-hidden="true"></span>
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
-
-
+    
+    
                 </div>
 
-
             </div>
+
 
             <div class="col-lg-6 col-sm-12 borderNew">
 
@@ -1353,8 +1583,8 @@
 
                 </div>
 
-                </div>
             </div>
+        </div>
 
         </div>
         </div>

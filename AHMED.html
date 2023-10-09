@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="./img/steering-wheel-icon.svg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Image Comparison Slider | CodingNepal</title>
+    <style>
+        /* Your existing styles */
+
+        /* Add your improvements here */
+
+    </style>
+</head>
+
+<body>
+
+    <div id="carouselExampleControlsNoTouching" class="carousel slide parent" data-bs-touch="false" data-bs-interval="false">
+        <div class="carousel-inner">
+
+            <!-- Wrapper 1 -->
+            <div class="wrapper carousel-item active" data-bs-toggle="tooltip">
+                <div class="images">
+                    <div class="img-1"></div>
+                    <div class="img-2"></div>
+                </div>
+                <div class="slider">
+                    <div class="drag-line">
+                        <span></span>
+                    </div>
+                    <input type="range" min="0" max="100" value="50">
+                </div>
+            </div>
+
+            <!-- Wrapper 2 -->
+            <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                <div class="images-1">
+                    <div class="img-3"><img src="img/slider-images-33.jpg" alt="" class="amendmentImage" width="600">
+                    </div>
+                    <div class="img-4"></div>
+                </div>
+                <div class="slider-1">
+                    <div class="drag-line-1">
+                        <span></span>
+                    </div>
+                    <input type="range" min="0" max="100" value="50">
+                </div>
+            </div>
+
+            <!-- Wrapper 3 -->
+            <!-- Add similar wrappers for the rest -->
+
+        </div>
+
+        <button class="carousel-control-prev amendment" type="button" 
+        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next amendment" type="button" 
+        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <script>
+        function handleSliderInput(slider, img, dragLine) {
+            slider.oninput = () => {
+                let sliderVal = slider.value;
+                dragLine.style.left = sliderVal + "%";
+                img.style.width = sliderVal + "%";
+            };
+        }
+
+        const sliders = document.querySelectorAll(".slider input");
+        const images = document.querySelectorAll(".images .img");
+        const dragLines = document.querySelectorAll(".slider .drag-line");
+
+        sliders.forEach((slider, index) => {
+            handleSliderInput(slider, images[index], dragLines[index]);
+        });
+    </script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+</body>
+
+</html>
