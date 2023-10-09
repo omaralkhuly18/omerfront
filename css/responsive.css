@@ -9,8 +9,9 @@
 }
 
 @media screen and (max-width:375px) and (min-width:280px) {
+
   i#icon-lock,
-  i#icon-check{
+  i#icon-check {
     display: none;
   }
 
@@ -25,21 +26,21 @@
     left: 10%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 15%;
     left: 15%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 32%;
     left: 11%;
   }
 
-  .yellow{
+  .yellow {
     color: yellow;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 25px;
   }
 
@@ -823,8 +824,13 @@
     margin-bottom: 5%;
   }
 
+  .datantime span{
+    width: 15%;
+  }
+
   .datantime input {
-    width: 85%;
+    width: 95%;
+    font-size: 17px;
   }
 
   .all-cuntenar {
@@ -867,7 +873,7 @@
   .filtermeta,
   .filter-metaa,
   .filterrbtns,
-  .cars-list{
+  .cars-list {
     display: block;
   }
 
@@ -951,8 +957,14 @@
   }
 
   .cars-lists img {
-    width: 97%;
+    width: 99%;
+    object-position: 41% 61% !important;
+    object-fit: cover !important;
   }
+
+  .wrapper {
+    width: 96% !important;
+ }
 
   .car-inf,
   .carinf {
@@ -1504,11 +1516,12 @@
 }
 
 @media screen and (max-width:414px) and (min-width:375px) {
-   i#icon-lock,
-  i#icon-check{
+
+  i#icon-lock,
+  i#icon-check {
     display: none;
   }
-  
+
   .eltripLogo {
     background-color: #00000042;
     height: 50px;
@@ -1520,21 +1533,21 @@
     left: 10%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 15%;
     left: 15%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 32%;
     left: 11%;
   }
 
-  .yellow{
+  .yellow {
     color: yellow;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 25px;
   }
 
@@ -2174,8 +2187,13 @@
     margin-bottom: 5%;
   }
 
+  .datantime span{
+    width: 8%;
+  }
+
   .datantime input {
-    width: 85%;
+    width: 90%;
+    font-size: 18px;
   }
 
   .all-cuntenar {
@@ -2303,7 +2321,13 @@
 
   .cars-lists img {
     width: 99%;
+    object-position: 1% 61% !important;
+    object-fit: cover !important;
   }
+
+  .wrapper {
+    width: 96% !important;
+ }
 
   .car-inf,
   .carinf {
@@ -2786,11 +2810,12 @@
 }
 
 @media screen and (max-width:540px) and (min-width:414px) {
+
   i#icon-lock,
-  i#icon-check{
+  i#icon-check {
     display: none;
   }
-  
+
   .eltripLogo {
     background-color: #00000042;
     height: 50px;
@@ -2802,21 +2827,21 @@
     left: 16%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 15%;
     left: 27%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 32%;
     left: 19%;
   }
 
-  .yellow{
+  .yellow {
     color: yellow;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 25px;
   }
 
@@ -3668,7 +3693,7 @@
   form.fule-types {
     display: block;
     width: 100%;
-    }
+  }
 
   .filterrbtns {
     width: 100%;
@@ -3702,8 +3727,13 @@
     line-height: 30px;
   }
 
+  .datantime span{
+    width: 7%;
+  }
+
   .datantime input {
-    width: 50%;
+    width: 80%;
+    font-size: 18px;
   }
 
   .filter-metaa {
@@ -3788,12 +3818,18 @@
     transition: 0.8s;
   }
 
-  span.locatio{
+  span.locatio {
     font-size: 20px;
   }
 
   .cars-lists img {
-    width: 99%;
+    width: 100%;
+    object-position: 1% 61% !important;
+    object-fit: cover !important;
+  }
+
+  .wrapper {
+    width: 96% !important;
   }
 
   .bottom {
@@ -4269,11 +4305,12 @@
 }
 
 @media screen and (max-width:820px) and (min-width:540px) {
+
   i#icon-lock,
-  i#icon-check{
+  i#icon-check {
     display: none;
   }
-  
+
   .eltripLogo {
     background-color: #00000042;
     height: 50px;
@@ -4285,23 +4322,23 @@
     left: 21%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 15%;
     left: 36%;
     width: 40%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 41%;
     left: 30%;
     width: 40%;
   }
 
-  .yellow{
+  .yellow {
     color: yellow;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 25px;
   }
 
@@ -5248,7 +5285,8 @@
   }
 
   .datantime input {
-    width: 50%;
+    width: 80%;
+    font-size: 18px;
   }
 
   .more-find {
@@ -5318,8 +5356,13 @@
   }
 
   .cars-lists img {
-    width: 275px;
-    height: 250px;
+    width: 100%;
+    object-position: 1% 61% !important;
+    object-fit: cover !important;
+  }
+
+  .wrapper {
+    width: 96% !important;
   }
 
   .carinf {
@@ -5858,29 +5901,29 @@
     left: 35%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 6%;
     left: 45%;
     width: 25%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 5%;
     left: 61%;
     width: 30%;
   }
 
-  .yellow{
+  .yellow {
     color: yellow;
     font-weight: 900;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 25px;
   }
 
   .prev-slider,
-  .next-slider{
+  .next-slider {
     top: 90% !important;
   }
 
@@ -6686,7 +6729,7 @@
     margin-bottom: 5%;
   }
 
-  .stylep{
+  .stylep {
     width: 75%;
     display: flex;
     margin-right: 12%;
@@ -6768,8 +6811,13 @@
   }
 
   .cars-lists img {
-    width: 99%;
-    height: auto;
+    width: 100%;
+    object-position: 1% 61% !important;
+    object-fit: cover !important;
+  }
+
+  .wrapper {
+    width: 96% !important;
   }
 
   .carinf {
@@ -7157,29 +7205,29 @@
     left: 35%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 4%;
     left: 45%;
     width: 25%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 5%;
     left: 61%;
     width: 30%;
   }
 
-  .yellow{
+  .yellow {
     color: yellow;
     font-weight: 900;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 25px;
   }
 
   .prev-slider,
-  .next-slider{
+  .next-slider {
     top: 85% !important;
   }
 
@@ -7963,8 +8011,8 @@
     justify-content: center;
   }
 
-  .stylep{
-    width:  65%;
+  .stylep {
+    width: 65%;
     display: flex;
     margin-right: 12%;
     margin-bottom: 5%;
@@ -7986,7 +8034,7 @@
     width: 45%;
   }
 
-  .filter-meta{
+  .filter-meta {
     display: block;
   }
 
@@ -8025,15 +8073,15 @@
     width: 95%;
   }
 
-  .containers{
+  .containers {
     font-size: 16px;
   }
 
-  .checkboxses{
+  .checkboxses {
     font-size: 14px;
   }
 
-  .filter-metaa{
+  .filter-metaa {
     display: block;
   }
 
@@ -8064,15 +8112,15 @@
     justify-content: space-between;
   }
 
-  .filterrbtns{
+  .filterrbtns {
     width: 99%;
   }
 
-  a.del-filter{
+  a.del-filter {
     width: 35%;
   }
 
-  .flexses123{
+  .flexses123 {
     width: 40%;
   }
 
@@ -8148,10 +8196,8 @@
     transition: 0.8s;
   }
 
-  .cars-lists img {
-    margin: 0;
-    margin-right: 4%;
-    width: 75%;
+  .wrapper {
+    width: 96% !important;
   }
 
   .carinf {
@@ -8455,34 +8501,34 @@
     left: 35%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 8%;
     left: 45%;
     width: 25%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 5%;
     left: 61%;
     width: 30%;
   }
 
   .yellow,
-  .yellow-el{
+  .yellow-el {
     color: yellow;
     font-weight: 900;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 25px;
   }
 
   .prev-slider,
-  .next-slider{
+  .next-slider {
     top: 85% !important;
   }
 
-  .Words-slider-top{
+  .Words-slider-top {
     top: 30% !important;
   }
 
@@ -9245,13 +9291,13 @@
     margin-bottom: 5%;
   }
 
-  .datantime input{
+  .datantime input {
     width: 60%;
   }
 
   .filter-meta,
   .filter-metaa,
-  .filterr-meta{
+  .filterr-meta {
     display: block;
   }
 
@@ -9263,8 +9309,8 @@
     width: 50%;
   }
 
-  .stylep{
-    width:  98%;
+  .stylep {
+    width: 98%;
     font-size: 15px;
     display: flex;
     margin-right: 12%;
@@ -9289,7 +9335,7 @@
     width: 99%;
   }
 
-  .containers{
+  .containers {
     font-size: 17px;
   }
 
@@ -9318,7 +9364,7 @@
     justify-content: space-between;
   }
 
-  .checkboxses{
+  .checkboxses {
     font-size: 14px;
   }
 
@@ -9338,18 +9384,18 @@
     padding-left: 5px;
   }
 
-  .kola-met>span{
+  .kola-met>span {
     font-size: 14px;
   }
 
-  a.slim{
+  a.slim {
     font-size: 15px;
   }
 
-  svg.svg-inline--fa.fa-key, 
-  svg.svg-inline--fa.fa-handshake, 
-  svg.svg-inline--fa.fa-star, 
-  svg.svg-inline--fa.fa-person-chalkboard{
+  svg.svg-inline--fa.fa-key,
+  svg.svg-inline--fa.fa-handshake,
+  svg.svg-inline--fa.fa-star,
+  svg.svg-inline--fa.fa-person-chalkboard {
     font-size: 25px;
   }
 
@@ -9365,16 +9411,22 @@
     background: #f75f62;
   }
 
-  a.del-filter{
+  a.del-filter {
     width: 35%;
   }
 
-  .cars-lists img{
-    width: 99%;
+  .cars-lists img {
+    width: 100%;
+    object-position: 60% 100% !important;
+    object-fit: cover !important;
+  }
+
+  .wrapper {
+    width: 96% !important;
   }
 
   .car-inf,
-  .carinf{
+  .carinf {
     width: 99%;
     margin: 3% 0;
   }
@@ -9540,34 +9592,34 @@
     left: 35%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 8%;
     left: 45%;
     width: 25%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 5%;
     left: 61%;
     width: 25%;
   }
 
   .yellow,
-  .yellow-el{
+  .yellow-el {
     color: yellow;
     font-weight: 900;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 30px;
   }
 
   .prev-slider,
-  .next-slider{
+  .next-slider {
     top: 85% !important;
   }
 
-  .Words-slider-top{
+  .Words-slider-top {
     top: 30% !important;
   }
 
@@ -9633,6 +9685,16 @@
     font-size: 32px !important;
   }
 
+  .cars-lists img {
+    width: 100%;
+    object-position: 60% 100% !important;
+    object-fit: cover !important;
+  }
+
+  .wrapper {
+    width: 96% !important;
+  }
+
   .overlay .closebtn {
     position: absolute;
     top: 20px;
@@ -9650,42 +9712,42 @@
   }
 
   .DATA_N_TIME,
-  .filter-metaa{
+  .filter-metaa {
     display: block;
   }
 
-  .DATA_N_TIME p{
+  .DATA_N_TIME p {
     width: 95%;
     margin-bottom: 3%;
   }
 
-  .datantime input{
+  .datantime input {
     width: 60%;
   }
 
-  .this-span{
+  .this-span {
     width: 13%;
     margin-right: 2%;
   }
 
-  .newstyle{
+  .newstyle {
     margin-bottom: 3%;
   }
 
-  form.fule-types{
+  form.fule-types {
     width: 90%;
   }
 
-  .flexses123{
+  .flexses123 {
     width: 40%;
   }
 
   .car-inf,
-  .carinf{
+  .carinf {
     width: 65%;
   }
 
-  a.facebook{
+  a.facebook {
     justify-content: space-between;
     width: 60%;
   }
@@ -10346,34 +10408,34 @@
     left: 35%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 8%;
     left: 45%;
     width: 25%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 6%;
     left: 5%;
     width: 20%;
   }
 
   .yellow,
-  .yellow-el{
+  .yellow-el {
     color: yellow;
     font-weight: 900;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 35px;
   }
 
   .prev-slider,
-  .next-slider{
+  .next-slider {
     top: 85% !important;
   }
 
-  .Words-slider-top{
+  .Words-slider-top {
     top: 30% !important;
   }
 
@@ -10436,50 +10498,54 @@
   }
 
   .DATA_N_TIME,
-  .filter-metaa{
+  .filter-metaa {
     display: block;
   }
 
-  .DATA_N_TIME p{
+  .DATA_N_TIME p {
     width: 95%;
     margin-bottom: 3%;
   }
 
-  .datantime input{
+  .datantime input {
     width: 60%;
   }
 
-  .this-span{
+  .this-span {
     width: 13%;
     margin-right: 2%;
   }
 
-  .newstyle{
+  .newstyle {
     margin-bottom: 3%;
   }
 
-  form.fule-types{
+  form.fule-types {
     width: 90%;
   }
 
-  .flexses123{
+  .flexses123 {
     width: 40%;
   }
 
   .car-inf,
-  .carinf{
+  .carinf {
     width: 65%;
   }
 
-  a.facebook{
+  a.facebook {
     justify-content: space-between;
     width: 60%;
   }
 
-  .cars-lists img{
-      width: 235px;
-      object-position: 60% 100% !important;
-      object-fit: cover !important;
+  .cars-lists img {
+    width: 100%;
+    object-position: 60% 100% !important;
+    object-fit: cover !important;
+  }
+
+  .wrapper {
+    width: 96% !important;
   }
 
   .display {
@@ -10695,34 +10761,34 @@
     left: 35%;
   }
 
-  .captionresponsive1{
+  .captionresponsive1 {
     top: 8%;
     left: 45%;
     width: 25%;
   }
 
-  .captionresponsive2{
+  .captionresponsive2 {
     top: 6%;
     left: 4%;
     width: 25%;
   }
 
   .yellow,
-  .yellow-el{
+  .yellow-el {
     color: yellow;
     font-weight: 900;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 45px;
   }
 
   .prev-slider,
-  .next-slider{
+  .next-slider {
     top: 85% !important;
   }
 
-  .Words-slider-top{
+  .Words-slider-top {
     top: 30% !important;
   }
 
@@ -10785,50 +10851,54 @@
   }
 
   .DATA_N_TIME,
-  .filter-metaa{
+  .filter-metaa {
     display: block;
   }
 
-  .DATA_N_TIME p{
+  .DATA_N_TIME p {
     width: 95%;
     margin-bottom: 3%;
   }
 
-  .datantime input{
+  .datantime input {
     width: 60%;
   }
 
-  .this-span{
+  .this-span {
     width: 13%;
     margin-right: 2%;
   }
 
-  .newstyle{
+  .newstyle {
     margin-bottom: 3%;
   }
 
-  form.fule-types{
+  form.fule-types {
     width: 90%;
   }
 
-  .flexses123{
+  .flexses123 {
     width: 40%;
   }
 
   .car-inf,
-  .carinf{
+  .carinf {
     width: 65%;
   }
 
-  a.facebook{
+  a.facebook {
     justify-content: space-between;
     width: 60%;
   }
 
-  .cars-lists img{
-      width: 235px;
-      object-position: 60% 100% !important;
-      object-fit: cover !important;
+  .cars-lists img {
+    width: 100%;
+    object-position: 60% 100% !important;
+    object-fit: cover !important;
+  }
+
+  .wrapper {
+    width: 96% !important;
   }
 
   .link1-section {
@@ -10898,21 +10968,21 @@
   }
 
   .yellow,
-  .yellow-el{
+  .yellow-el {
     color: yellow;
     font-weight: 900;
   }
 
-  .h1yellowpriveat{
+  .h1yellowpriveat {
     font-size: 55px;
   }
 
   .prev-slider,
-  .next-slider{
+  .next-slider {
     top: 85% !important;
   }
 
-  .Words-slider-top{
+  .Words-slider-top {
     top: 30% !important;
   }
 
@@ -10974,11 +11044,11 @@
     font-size: 32px !important;
   }
 
-  svg.svg-inline--fa.fa-star.fa-beat-fade.fa-sm{
+  svg.svg-inline--fa.fa-star.fa-beat-fade.fa-sm {
     font-size: 50px;
   }
 
-  .kola-met{
+  .kola-met {
     width: 55%;
   }
 
@@ -10986,89 +11056,93 @@
     font-size: 15px;
   }
 
-  a.slimm{
+  a.slimm {
     width: 35%;
     font-size: 20px;
   }
 
-  a.slim{
+  a.slim {
     width: 30%;
     font-size: 20px;
   }
 
   .DATA_N_TIME,
-  .filter-metaa{
+  .filter-metaa {
     display: block;
   }
 
-  .DATA_N_TIME p{
+  .DATA_N_TIME p {
     width: 95%;
     margin-bottom: 3%;
   }
 
-  .datantime input{
+  .datantime input {
     width: 70%;
   }
 
-  .this-span{
+  .this-span {
     width: 13%;
     margin-right: 2%;
     font-size: 25px;
   }
 
-  .newstyle{
+  .newstyle {
     margin-bottom: 8%;
   }
 
-  form.fule-types{
+  form.fule-types {
     width: 90%;
   }
 
-  a.del-filter{
+  a.del-filter {
     font-size: 25px;
   }
 
-  .flexses123{
+  .flexses123 {
     width: 40%;
   }
 
   a.cancel,
-  a.theme-btn-slim{
+  a.theme-btn-slim {
     font-size: 20px;
   }
 
   .car-inf,
-  .carinf{
+  .carinf {
     width: 73%;
   }
 
   h5.h55my a,
-  .carinf a{
+  .carinf a {
     font-size: 20px;
   }
 
   .car-inf>p,
   .carinf>p,
-  .car-meta span{
+  .car-meta span {
     font-size: 20px;
   }
 
-  span.locatio{
+  span.locatio {
     font-size: 20px;
   }
 
-  .class-color{
+  .class-color {
     font-size: 65px;
   }
 
-  a.facebook{
+  a.facebook {
     justify-content: space-between;
     width: 60%;
   }
 
-  .cars-lists img{
-      width: 99%;
-      object-fit: cover !important;
+  .cars-lists img {
+    width: 99%;
+    object-fit: cover !important;
+  }
+
+  .wrapper {
+    width: 96% !important;
   }
 
   .MEDIA {

@@ -1,146 +1,388 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="./img/steering-wheel-icon.svg">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <title>Image Comparison Slider | CodingNepal</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
 
-        .slider-new {
-            display: flex;
-            width: 100%;
-            overflow: hidden;
-        }
-
-        .img-comp-container {
+        .wrapper {
             position: relative;
             height: 400px;
-            width: 20%;
-        }
-
-        .img-comp-img,
-        .img-comp-img-tow{
-            position: absolute;
-            width: auto;
-            height: auto;
+            width: 750px;
             overflow: hidden;
+            background: #fff;
+            border: 7px solid #fff;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+            transform: translate(45% , 0);
         }
 
-        .img-comp-slider {
-            position: absolute;
-            z-index: 9;
-            cursor: pointer;
-            width: 40px;
-            height: 40px;
-            background-color: #0a1e2e;
-            opacity: 0.7;
-            border-radius: 50%;
+        .images,
+        .images-1,
+        .images-2,
+        .images-3,
+        .images-4 {
+            height: 100%;
+            width: 100%;
+            display: flex;
         }
 
-        .img-comp-slider-tow {
+        .images .img-1 {
+            height: 100%;
+            width: 100%;
+            background: url("./img/slider-images-1.jpg") no-repeat;
+        }
+
+        .images .img-2 {
             position: absolute;
-            z-index: 9;
-            cursor: pointer;
-            width: 40px;
-            height: 40px;
-            background-color: #0a1e2e;
-            opacity: 0.7;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-2.avif") no-repeat;
+        }
+
+        .images-1 .img-3 {
+            height: 100%;
+            width: 100%;
+            background: url("./img/slider-images-33.jpg") no-repeat;
+        }
+
+        .images-1 .img-4 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-4.jpg") no-repeat;
+        }
+
+        .images-2 .img-5 {
+            height: 100%;
+            width: 100%;
+            background: url("./img/slider-images-5.jpeg") no-repeat;
+        }
+
+        .images-2 .img-6 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-6.jpeg") no-repeat;
+        }
+
+        .images-3 .img-7 {
+            height: 100%;
+            width: 100%;
+            background: url("./img/slider-images-7.jpeg") no-repeat;
+        }
+
+        .images-3 .img-8 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-8.jpeg") no-repeat;
+        }
+
+        .images-4 .img-9 {
+            height: 100%;
+            width: 100%;
+            background: url("./img/slider-images-9.jpg") no-repeat;
+        }
+
+        .images-4 .img-10 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-10.jpg") no-repeat;
+        }
+
+        .slider,
+        .slider-1,
+        .slider-2,
+        .slider-3,
+        .slider-4 {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 99;
+        }
+
+        .slider input,
+        .slider-1 input,
+        .slider-2 input,
+        .slider-3 input,
+        .slider-4 input {
+            width: 100%;
+            outline: none;
+            background: none;
+            appearance: none;
+        }
+
+        .slider input::-webkit-slider-thumb,
+        .slider-1 input::-webkit-slider-thumb,
+        .slider-2 input::-webkit-slider-thumb,
+        .slider-3 input::-webkit-slider-thumb,
+        .slider-4 input::-webkit-slider-thumb {
+            height: 486px;
+            width: 3px;
+            background: none;
+            -webkit-appearance: none;
+            cursor: col-resize;
+        }
+
+        .slider .drag-line,
+        .slider-1 .drag-line-1,
+        .slider-2 .drag-line-2,
+        .slider-3 .drag-line-3,
+        .slider-4 .drag-line-4 {
+            width: 3px;
+            height: 486px;
+            position: absolute;
+            left: 49.85%;
+            pointer-events: none;
+        }
+
+        .slider .drag-line::before,
+        .slider .drag-line::after,
+        .slider-1 .drag-line-1::before,
+        .slider-1 .drag-line-1::after,
+        .slider-2 .drag-line-2::before,
+        .slider-2 .drag-line-2::after,
+        .slider-3 .drag-line-3::before,
+        .slider-3 .drag-line-3::after,
+        .slider-4 .drag-line-4::before,
+        .slider-4 .drag-line-4::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 222px;
+            background: #fff;
+        }
+
+        .slider .drag-line::before,
+        .slider-1 .drag-line-1::before,
+        .slider-2 .drag-line-2::before,
+        .slider-4 .drag-line-4::before,
+        .slider-4 .drag-line-4::before {
+            top: 0;
+        }
+
+        .slider .drag-line::after,
+        .slider-1 .drag-line-1::after,
+        .slider-2 .drag-line-2::after,
+        .slider-3 .drag-line-3::after,
+        .slider-4 .drag-line-4::after {
+            bottom: 0;
+        }
+
+        .slider .drag-line span,
+        .slider-1 .drag-line-1 span,
+        .slider-2 .drag-line-2 span,
+        .slider-3 .drag-line-3 span,
+        .slider-4 .drag-line-4 span {
+            height: 42px;
+            width: 42px;
+            border: 3px solid #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
             border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .slider .drag-line span::before,
+        .slider .drag-line span::after,
+        .slider-1 .drag-line-1 span::before,
+        .slider-1 .drag-line-1 span::after,
+        .slider-2 .drag-line-2 span::before,
+        .slider-2 .drag-line-2 span::after,
+        .slider-3 .drag-line-3 span::before,
+        .slider-3 .drag-line-3 span::after,
+        .slider-4 .drag-line-4 span::before,
+        .slider-4 .drag-line-4 span::after {
+            position: absolute;
+            content: "";
+            top: 50%;
+            border: 10px solid transparent;
+            border-bottom-width: 0px;
+            border-right-width: 0px;
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        .slider .drag-line span::before,
+        .slider-1 .drag-line-1 span::before,
+        .slider-2 .drag-line-2 span::before,
+        .slider-3 .drag-line-3 span::before,
+        .slider-4 .drag-line-4 span::before {
+            left: 40%;
+            border-left-color: #fff;
+        }
+
+        .slider .drag-line span::after,
+        .slider-1 .drag-line-1 span::after,
+        .slider-2 .drag-line-2 span::after,
+        .slider-3 .drag-line-3 span::after,
+        .slider-4 .drag-line-4 span::after {
+            left: 60%;
+            border-top-color: #fff;
         }
     </style>
-
-    <script>
-
-
-    </script>
-
 </head>
 
 <body>
 
-   
+    <div id="carouselExampleControlsNoTouching" class="carousel slide parent" data-bs-touch="false" data-bs-interval="false">
 
-        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
-            data-bs-interval="false" style="background-color: rgba(0, 0, 0, 0.39);">
+        <div class="carousel-inner">
 
-            <div class="carousel-inner" style="display: flex; justify-content: space-around;">
-
-                <div class="img-comp-container carousel-item active">
-                    <div class="img-comp-img">
-                        <img src="img/slider-images-1.jpg" width="200" height="200">
-                    </div>
-
-                    <div class="img-comp-img img-comp-overlay">
-                        <img src="img/slider-images-2.avif" width="200" height="200">
-                    </div>
+            <div class="wrapper carousel-item active data-bs-toggle=" tooltip">
+                <div class="images">
+                    <div class="img-1"></div>
+                    <div class="img-2"></div>
                 </div>
-
-                <div class="img-comp-container carousel-item ">
-                    <div class="img-comp-img-tow">
-                        <img src="img/slider-images-3.avif" width="200" height="200">
+                <div class="slider">
+                    <div class="drag-line">
+                        <span></span>
                     </div>
-
-                    <div class="img-comp-img-tow img-comp-overlay-tow">
-                        <img src="img/slider-images-4.jpg" width="300" height="200">
-                    </div>
+                    <input type="range" min="0" max="100" value="50">
                 </div>
-
-                <div class="img-comp-container carousel-item ">
-                    <div class="img-comp-img">
-                        <img src="img/slider-images-5.jpeg" width="200" height="200">
-                    </div>
-
-                    <div class="img-comp-img img-comp-overlay">
-                        <img src="img/slider-images-6.jpeg" width="200" height="200">
-                    </div>
-                </div>
-
-                <div class="img-comp-container carousel-item ">
-                    <div class="img-comp-img">
-                        <img src="img/slider-images-7.jpeg" width="200" height="200">
-                    </div>
-
-                    <div class="img-comp-img img-comp-overlay">
-                        <img src="img/slider-images-8.jpeg" width="200" height="200">
-                    </div>
-                </div>
-
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
+            <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                <div class="images-1">
+                    <div class="img-3"></div>
+                    <div class="img-4"></div>
+                </div>
+                <div class="slider-1">
+                    <div class="drag-line-1">
+                        <span></span>
+                    </div>
+                    <input type="range" min="0" max="100" value="50">
+                </div>
+            </div>
 
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                <div class="images-2">
+                    <div class="img-5"></div>
+                    <div class="img-6"></div>
+                </div>
+                <div class="slider-2">
+                    <div class="drag-line-2">
+                        <span></span>
+                    </div>
+                    <input type="range" min="0" max="100" value="50">
+                </div>
+            </div>
+
+            <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                <div class="images-3">
+                    <div class="img-7"></div>
+                    <div class="img-8"></div>
+                </div>
+                <div class="slider-3">
+                    <div class="drag-line-3">
+                        <span></span>
+                    </div>
+                    <input type="range" min="0" max="100" value="50">
+                </div>
+            </div>
+
+            <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                <div class="images-4">
+                    <div class="img-9"></div>
+                    <div class="img-10"></div>
+                </div>
+                <div class="slider-4">
+                    <div class="drag-line-4">
+                        <span></span>
+                    </div>
+                    <input type="range" min="0" max="100" value="50">
+                </div>
+            </div>
 
         </div>
 
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev" style="background-color: rgba(0, 0, 0, 0.274); ">
+            <span class="carousel-control-prev-icon" style="color: black;" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
 
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next" style="background-color: rgba(0, 0, 0, 0.274);">
+            <span class="carousel-control-next-icon" style="color: black;" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+
+    </div>
+
+    <script>
+        const slider = document.querySelector(".slider input");
+
+        const img = document.querySelector(".images .img-2");
+
+        const dragLine = document.querySelector(".slider .drag-line");
+
+        slider.oninput = () => {
+            let sliderVal = slider.value;
+            dragLine.style.left = sliderVal + "%";
+            img.style.width = sliderVal + "%";
+        };
+
+        const slider1 = document.querySelector(".slider-1 input");
+
+        const img1 = document.querySelector(".images-1 .img-4");
+
+        const dragLine1 = document.querySelector(".slider-1 .drag-line-1");
+
+        slider1.oninput = () => {
+            let sliderVal1 = slider1.value;
+            dragLine1.style.left = sliderVal1 + "%";
+            img1.style.width = sliderVal1 + "%";
+        };
+
+        const slider2 = document.querySelector(".slider-2 input");
+
+        const img2 = document.querySelector(".images-2 .img-6");
+
+        const dragLine2 = document.querySelector(".slider-2 .drag-line-2");
+
+        slider2.oninput = () => {
+            let sliderVal2 = slider2.value;
+            dragLine2.style.left = sliderVal2 + "%";
+            img2.style.width = sliderVal2 + "%";
+        }
+
+        const slider3 = document.querySelector(".slider-3 input");
+
+        const img3 = document.querySelector(".images-3 .img-8");
+
+        const dragLine3 = document.querySelector(".slider-3 .drag-line-3");
+
+        slider3.oninput = () => {
+            let sliderVal3 = slider3.value;
+            dragLine3.style.left = sliderVal3 + "%";
+            img3.style.width = sliderVal3 + "%";
+        };
+
+        const slider4 = document.querySelector(".slider-4 input");
+
+        const img4 = document.querySelector(".images-4 .img-10");
+
+        const dragLine4 = document.querySelector(".slider-4 .drag-line-4");
+
+        slider4.oninput = () => {
+            let sliderVal4 = slider4.value;
+            dragLine4.style.left = sliderVal4 + "%";
+            img4.style.width = sliderVal4 + "%";
+        }
+
+    </script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js.map"></script>
     <script src="js/all.min.js"></script>
-    <script src="js/java.js"></script>
-
-    <script>
-        initComparisons();
-    </script>
-
-<script>
-    initComparisonsTow();
-</script>
 
 </body>
 

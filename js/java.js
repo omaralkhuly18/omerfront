@@ -268,139 +268,64 @@ function myFunction() {
 // search from hayper cars 
 
 // Image Comparison Slider
-function initComparisons() {
-  var imageTow, movent;
-  imageTow = document.getElementsByClassName("img-comp-overlay");
-  for (movent = 0; movent < imageTow.length; movent++) {
+const slider = document.querySelector(".slider input");
 
-    compareImages(imageTow[movent]);
-  }
+const img = document.querySelector(".images .img-2");
 
-  function compareImages(img) {
+const dragLine = document.querySelector(".slider .drag-line");
 
-    var slider, img, clicked = 0, moventFirst, moventSecond;
+slider.oninput = () => {
+  let sliderVal = slider.value;
+  dragLine.style.left = sliderVal + "%";
+  img.style.width = sliderVal + "%";
+};
 
-    moventFirst = img.offsetWidth;
-    moventSecond = img.offsetHeight;
-    img.style.width = (moventFirst / 2) + "px";
+const slider1 = document.querySelector(".slider-1 input");
 
-    slider = document.createElement("DIV");
+const img1 = document.querySelector(".images-1 .img-4");
 
-    slider.setAttribute("class", "img-comp-slider");
+const dragLine1 = document.querySelector(".slider-1 .drag-line-1");
 
-    img.parentElement.insertBefore(slider, img);
+slider1.oninput = () => {
+  let sliderVal1 = slider1.value;
+  dragLine1.style.left = sliderVal1 + "%";
+  img1.style.width = sliderVal1 + "%";
+};
 
-    slider.style.top = (moventSecond / 2) - (slider.offsetHeight / 2) + "px";
-    slider.style.left = (moventFirst / 2) - (slider.offsetWidth / 2) + "px";
+const slider2 = document.querySelector(".slider-2 input");
 
-    slider.addEventListener("mousedown", slideReady);
-    window.addEventListener("mouseup", slideFinish);
-    slider.addEventListener("touchstart", slideReady);
-    window.addEventListener("touchend", slideFinish);
+const img2 = document.querySelector(".images-2 .img-6");
 
-    function slideReady(aMovent) {
-      aMovent.preventDefault();
-      clicked = 1;
-      window.addEventListener("mousemove", slideMove);
-      window.addEventListener("touchmove", slideMove);
-    }
+const dragLine2 = document.querySelector(".slider-2 .drag-line-2");
 
-    function slideFinish() {
-      clicked = 0;
-    }
-
-    function slideMove(aMovent) {
-      var positionMovent;
-      if (clicked == 0) return false;
-
-      positionMovent = getCursorPos(aMovent)
-
-      if (positionMovent < 0) positionMovent = 0;
-      if (positionMovent > moventFirst) positionMovent = moventFirst;
-      slide(positionMovent);
-    }
-
-    function getCursorPos(aMovent) {
-      var after, before = 0;
-      aMovent = (aMovent.changedTouches) ? aMovent.changedTouches[0] : aMovent;
-      after = img.getBoundingClientRect();
-      before = aMovent.pageX - after.left;
-      before = before - window.pageXOffset;
-      return before;
-    }
-
-    function slide(before) {
-      img.style.width = before + "px";
-      slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
-    }
-  }
+slider2.oninput = () => {
+  let sliderVal2 = slider2.value;
+  dragLine2.style.left = sliderVal2 + "%";
+  img2.style.width = sliderVal2 + "%";
 }
+
+const slider3 = document.querySelector(".slider-3 input");
+
+const img3 = document.querySelector(".images-3 .img-8");
+
+const dragLine3 = document.querySelector(".slider-3 .drag-line-3");
+
+slider3.oninput = () => {
+  let sliderVal3 = slider3.value;
+  dragLine3.style.left = sliderVal3 + "%";
+  img3.style.width = sliderVal3 + "%";
+};
+
+const slider4 = document.querySelector(".slider-4 input");
+
+const img4 = document.querySelector(".images-4 .img-10");
+
+const dragLine4 = document.querySelector(".slider-4 .drag-line-4");
+
+slider4.oninput = () => {
+  let sliderVal4 = slider4.value;
+  dragLine4.style.left = sliderVal4 + "%";
+  img4.style.width = sliderVal4 + "%";
+}
+
 // Image Comparison Slider
-
-function initComparisonsTow() {
-  var imageTowSliderTow, moventTow;
-  imageTowSliderTow = document.getElementsByClassName("img-comp-overlay-tow");
-  for (moventTow = 0; moventTow < imageTowSliderTow.length; moventTow++) {
-
-    compareImagesTow(imageTowSliderTow[moventTow]);
-  }
-
-  function compareImagesTow(imgSliderTow) {
-
-    var sliderTow, imgSliderTow, clickedTow = 0, moventFirstSliderTow, moventSecondSliderTow;
-
-    moventFirstSliderTow = imgSliderTow.offsetWidth;
-    moventSecondSliderTow = imgSliderTow.offsetHeight;
-    imgSliderTow.style.width = (moventFirstSliderTow / 4) + "px";
-
-    sliderTow = document.createElement("DIV");
-
-    sliderTow.setAttribute("class", "img-comp-slider-tow");
-
-    imgSliderTow.parentElement.insertBefore(sliderTow, imgSliderTow);
-
-    sliderTow.style.top = (moventSecondSliderTow / 4) - (sliderTow.offsetHeight / 4) + "px";
-    sliderTow.style.left = (moventFirstSliderTow / 4) - (sliderTow.offsetWidth / 4) + "px";
-
-    sliderTow.addEventListener("mousedown", slideReadyTow);
-    window.addEventListener("mouseup", slideFinishTow);
-    sliderTow.addEventListener("touchstart", slideReadyTow);
-    window.addEventListener("touchend", slideFinishTow);
-
-    function slideReadyTow(aMoventTow) {
-      aMoventTow.preventDefault();
-      clickedTow = 1;
-      window.addEventListener("mousemove", slideMoveTow);
-      window.addEventListener("touchmove", slideMoveTow);
-    }
-
-    function slideFinishTow() {
-      clickedTow = 0;
-    }
-
-    function slideMoveTow(aMoventTow) {
-      var positionMovent;
-      if (clickedTow == 0) return false;
-
-      positionMovent = getCursorPosTow(aMoventTow)
-
-      if (positionMovent < 0) positionMovent = 0;
-      if (positionMovent > moventFirstSliderTow) positionMovent = moventFirstSliderTow;
-      slideTow(positionMovent);
-    }
-
-    function getCursorPosTow(aMoventTow) {
-      var afterTow, beforeTow = 0;
-      aMoventTow = (aMoventTow.changedTouchesTow) ? aMoventTow.changedTouchesTow[0] : aMoventTow;
-      afterTow = imgSliderTow.getBoundingClientRect();
-      beforeTow = aMoventTow.pageX - afterTow.left;
-      beforeTow = beforeTow - window.pageXOffset;
-      return beforeTow;
-    }
-
-    function slideTow(beforeTow) {
-      imgSliderTow.style.width = beforeTow + "px";
-      sliderTow.style.left = imgSliderTow.offsetWidth - (sliderTow.offsetWidth / 4) + "px";
-    }
-  }
-}
