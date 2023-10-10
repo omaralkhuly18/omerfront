@@ -76,7 +76,9 @@ startTypewriter('buttonFour', data[3].text, data[3].variable, data[3].id);
 startTypewriter('buttonFive', data[4].text, data[4].variable, data[4].id);
 startTypewriter('buttonSex', data[5].text, data[5].variable, data[5].id);
 startTypewriter('buttonEight', data[6].text, data[6].variable, data[6].id);
+
 // hover and click on image to show box data
+
 
 // multi steps form data
 let multiStepFrom = document.querySelector("[data-multi-step]");
@@ -106,6 +108,7 @@ if (multiStepFrom != null) {
     let inputs = [...formSteps[NextStep].querySelectorAll("input")];
     console.log("this-step")
     let allValio = inputs.every(input => input.checkValidity());
+
     if (allValio) {
       NextStep += checkValio;
       showNextStep();
@@ -274,10 +277,12 @@ const img = document.querySelector(".images .img-2");
 
 const dragLine = document.querySelector(".slider .drag-line");
 
-slider.oninput = () => {
-  let sliderVal = slider.value;
-  dragLine.style.left = sliderVal + "%";
-  img.style.width = sliderVal + "%";
+if (slider) {
+  slider.oninput = () => {
+    let sliderVal = slider.value;
+    dragLine.style.left = sliderVal + "%";
+    img.style.width = sliderVal + "%";
+  };
 };
 
 const slider1 = document.querySelector(".slider-1 input");
@@ -286,10 +291,12 @@ const img1 = document.querySelector(".images-1 .img-4");
 
 const dragLine1 = document.querySelector(".slider-1 .drag-line-1");
 
-slider1.oninput = () => {
-  let sliderVal1 = slider1.value;
-  dragLine1.style.left = sliderVal1 + "%";
-  img1.style.width = sliderVal1 + "%";
+if (slider1) {
+  slider1.oninput = () => {
+    let sliderVal1 = slider1.value;
+    dragLine1.style.left = sliderVal1 + "%";
+    img1.style.width = sliderVal1 + "%";
+  };
 };
 
 const slider2 = document.querySelector(".slider-2 input");
@@ -298,11 +305,14 @@ const img2 = document.querySelector(".images-2 .img-6");
 
 const dragLine2 = document.querySelector(".slider-2 .drag-line-2");
 
-slider2.oninput = () => {
-  let sliderVal2 = slider2.value;
-  dragLine2.style.left = sliderVal2 + "%";
-  img2.style.width = sliderVal2 + "%";
-}
+if (slider2) {
+
+  slider2.oninput = () => {
+    let sliderVal2 = slider2.value;
+    dragLine2.style.left = sliderVal2 + "%";
+    img2.style.width = sliderVal2 + "%";
+  };
+};
 
 const slider3 = document.querySelector(".slider-3 input");
 
@@ -310,10 +320,14 @@ const img3 = document.querySelector(".images-3 .img-8");
 
 const dragLine3 = document.querySelector(".slider-3 .drag-line-3");
 
-slider3.oninput = () => {
-  let sliderVal3 = slider3.value;
-  dragLine3.style.left = sliderVal3 + "%";
-  img3.style.width = sliderVal3 + "%";
+if (slider3) {
+
+  slider3.oninput = () => {
+    let sliderVal3 = slider3.value;
+    dragLine3.style.left = sliderVal3 + "%";
+    img3.style.width = sliderVal3 + "%";
+  };
+
 };
 
 const slider4 = document.querySelector(".slider-4 input");
@@ -322,10 +336,14 @@ const img4 = document.querySelector(".images-4 .img-10");
 
 const dragLine4 = document.querySelector(".slider-4 .drag-line-4");
 
-slider4.oninput = () => {
-  let sliderVal4 = slider4.value;
-  dragLine4.style.left = sliderVal4 + "%";
-  img4.style.width = sliderVal4 + "%";
-}
+if (slider4) {
+
+  slider4.oninput = () => {
+    let sliderVal4 = slider4.value;
+    dragLine4.style.left = sliderVal4 + "%";
+    img4.style.width = sliderVal4 + "%";
+  };
+
+};
 
 // image comparison slider

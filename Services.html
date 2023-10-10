@@ -42,7 +42,7 @@
         .contener-about {
             display: flex;
             width: 100%;
-            padding: 1% 0;
+            padding: 1%;
             align-items: center;
             justify-content: space-between;
             background: linear-gradient(90deg, rgb(119 115 197 / 72%) 0%, rgb(89 89 209) 16%, rgb(16 186 221) 95%);
@@ -51,7 +51,7 @@
         }
 
         .imgaboutus {
-            width: 45%;
+            width: 48%;
         }
 
         .aboutuus {
@@ -76,13 +76,14 @@
         }
 
         h2.h2about {
-            color: #E9B384;
+            color: white;
             font-size: 50px;
         }
 
         p.pabout {
-            color: #071952;
+            color: black;
             margin-top: 4%;
+            font-size: 20px;
         }
 
 
@@ -119,21 +120,6 @@
             z-index: 1;
         }
 
-        .fadeour {
-            animation-name: fadeour;
-            animation-duration: 1.5s;
-        }
-
-        @keyframes fadeour {
-            from {
-                opacity: .4
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
         .img-our-logo {
             display: flex;
             justify-content: center;
@@ -150,7 +136,7 @@
         span#our-logo-her {
             font-size: 46px;
             margin-left: 1%;
-            color: #D71313;
+            color: yellowgreen;
         }
 
         div#img-our-logo-inher {
@@ -158,13 +144,12 @@
         }
 
         span#our-spicals {
-            color: #ab9e95;
+            color: yellow;
             font-size: 50px;
             font-family: cursive;
         }
 
-        .image-our-client,
-        .button-move-RightAndLeft {
+        .image-our-client {
             width: 100%;
             position: relative;
             z-index: 1;
@@ -180,11 +165,19 @@
 
         .image-our-img {
             width: 25%;
-            height: auto;
+            font-size: 120px;
             z-index: -2;
             border-radius: 100%;
             position: relative;
         }
+
+        /* img.image-our-img {
+            width: 25%;
+            height: 340px;
+            z-index: -2;
+            border-radius: 100%;
+            position: relative;
+        } */
 
         .Prevourcients {
             left: 0;
@@ -194,27 +187,21 @@
             right: 0;
         }
 
-        .Prevourcients,
-        .Nextourcients {
-            cursor: pointer;
-            position: absolute;
-            width: 15%;
-            height: 35px;
-            display: flex;
-            color: yellowgreen;
-            font-weight: bold;
-            font-size: 20px;
-            transition: 0.6s ease;
-            background-color: blue;
-            border-radius: 50%;
-            align-items: center;
-            justify-content: center;
+        .iconMoventOfImage {
+            width: 10%;
+            height: 50px;
+            background-color: rgba(137, 43, 226, 0.692);
+            top: 40%;
+        }
+
+        .carousel-control-prev-icon{
+            font-size: 25px;
         }
 
         p.our-address {
             font-size: 45px;
             margin: 2% 0;
-            color: #6A1051;
+            color: white;
         }
 
         p.words-our-ride {
@@ -281,13 +268,15 @@
         h3.h3servies {
             color: black;
             font-size: 36px;
+            font-weight: 700;
             margin: 5% 0;
         }
 
         p.pservies {
-            color: blueviolet;
-            line-height: 25px;
-            font-size: 17px;
+            color: white;
+            line-height: 30px;
+            font-size: 20px;
+            font-weight: 800;
             margin: 5% 0;
         }
 
@@ -304,8 +293,8 @@
         a.LINKOFTHETHING {
             width: 100%;
             height: 100%;
-            background-color: rgb(105, 144, 228);
-            color: rgba(45, 46, 46);
+            background-color: blueviolet;
+            color: white;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -315,8 +304,8 @@
 
 
         a.LINKOFTHETHING:hover {
-            background-color: rgb(0 51 108);
-            color: rgb(179, 181, 211);
+            background-color: yellow;
+            color: blue;
             transform: translateY(-6px);
         }
 
@@ -389,13 +378,15 @@
 
         h4.h4cell {
             font-size: 30px;
-            color: #739ed1;
+            color: black;
+            font-weight: 700;
         }
 
         p.pcell {
             line-height: 25px;
-            font-size: 17px;
-            color: #fdfdfc;
+            font-size: 19px;
+            font-weight: 700;
+            color: yellow ;
             margin-top: 1%;
         }
 
@@ -452,7 +443,7 @@
             position: absolute;
             width: 45%;
             padding: 3%;
-            top: 25%;
+            top: 20%;
         }
 
         .words-servies-taxi {
@@ -652,13 +643,15 @@
 
         h4.h4celbike {
             font-size: 30px;
-            color: #739ed1;
+            color: black;
+            font-weight: 700;
         }
 
         p.pcelbike {
             line-height: 25px;
-            font-size: 17px;
-            color: #fdfdfc;
+            font-size: 19px;
+            font-weight: 700;
+            color: yellow;
             margin-top: 1%;
         }
 
@@ -667,7 +660,7 @@
         .section-bike-rental {
             width: 95%;
             margin-left: 2.5%;
-            background-color: #b7b7dd;
+            background-color: #7a91df;
             border-radius: 2.5rem;
         }
 
@@ -701,7 +694,8 @@
         }
 
         h3.h3serviesbike {
-            color: #0c3f9f;
+            color: black;
+            font-weight: 700;
             font-size: 35px;
             margin: 4% 0;
         }
@@ -709,9 +703,9 @@
         p.pserviesbike {
             margin: 4% 0;
             line-height: 25px !important;
-            font-size: 17px;
+            font-size: 19px;
             font-weight: 700;
-            color: #4516cf;
+            color: white;
         }
 
         button.buttonofthebike {
@@ -727,8 +721,9 @@
         a.LINKOFTHEBIKE {
             width: 100%;
             height: 100%;
-            background-color: rgb(105, 144, 228);
-            color: rgba(45, 46, 46);
+            background-color: yellow;
+            font-size: 18px;
+            color: blue;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -738,8 +733,8 @@
 
 
         a.LINKOFTHEBIKE:hover {
-            background-color: rgb(0 51 108);
-            color: rgb(179, 181, 211);
+            background-color: blueviolet;
+            color: white;
             transform: translateY(-6px);
         }
 
@@ -909,7 +904,7 @@
         .section-Tickets-rental2 {
             width: 95%;
             margin: 1% 2.5%;
-            background-color: #b7b7dd;
+            background-color: #7a91df;
             border-radius: 2.5rem;
         }
 
@@ -1062,7 +1057,11 @@
 
         /* page services / */
 
-        @media screen and (max-width:820px) and (min-width:740px) {}
+        @media screen and (max-width:1866px) and (min-width: 1760px) {
+            .words-ABOUTUS {
+                height: 558px;
+            }
+        }
 
         @media screen and (max-width:740px) and (min-width:540px) {}
     </style>
@@ -1263,141 +1262,148 @@
                                 </div>
                             </div>
                         </div>
+                          <!-- carousel slide-fade-->
+                        <div id="sliderFromFade" class="carousel " data-bs-ride="carousel">
+                            <div class="carousel-inner">
 
-                        <div class="marginto-clients">
+                                <div class="our-client carousel-item active">
+                                    <div class="image-our-client">
+                                        
+                                        <i class="fa-solid fa-car-rear image-our-img" style="color: #5c81ff;"></i>
+                                        <!-- <img src="img/ride.png" alt="client1" class=""> -->
+                                    </div>
 
-                            <div class="our-client fadeour" id="our-blayes">
-                                <div class="image-our-client">
-                                    <img src="img/ride.png" alt="client1" class="image-our-img">
+                                    <div class="pofclients">
+                                        <a href="#rides" class="go-to-contener">
+                                            <p class="our-address"> Choose your ride.</p>
+                                        </a>
+
+                                    </div>
                                 </div>
 
-                                <div class="pofclients">
-                                    <a href="#rides" class="go-to-contener">
-                                        <p class="our-address"> Choose your ride.</p>
-                                    </a>
+                                <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+
+                                <div class="our-client carousel-item">
+                                    <div class="image-our-client">
+                                        <i class="fas fa-taxi image-our-img" style="color: #5c81ff;"></i>
+                                        <!-- <img src="img/taxi.png" alt="client1" class=""> -->
+                                    </div>
+
+                                    <div class="pofclients">
+                                        <a href="#Taxi" class="go-to-contener">
+                                            <p class="our-address">Dubai’s most affordable taxi.</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+
+                                <div class="our-client carousel-item">
+                                    <div class="image-our-client">
+                                        <i class="fa-solid fa-person-biking image-our-img" style="color: #5c81ff;"></i>
+                                        <!-- <img src="img/pike.png" alt="client1"class=""> -->
+                                    </div>
+
+                                    <div class="pofclients">
+
+                                        <a href="#Bike" class="go-to-contener">
+                                            <p class="our-address">My-Slogans Bike.</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+
+                                <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+
+                                <div class="our-client carousel-item">
+                                    <div class="image-our-client">
+                                        <i class="fa-solid fa-car-side image-our-img" style="color: #5c81ff;"></i>
+                                        <!-- <img src="img/Car-Rental.webp" alt="client1" class=""> -->
+                                    </div>
+
+                                    <div class="pofclients">
+                                        <a href="#Daily-Monthly" class="go-to-contener">
+                                            <p class="our-address">Car Rental</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+
+                                <div class="our-client carousel-item">
+                                    <div class="image-our-client">
+                                        <i class="fa-solid fa-suitcase image-our-img" style="color: #5c81ff;"></i>
+                                        <!-- <img src="img/School-Rides.png" alt="client1" class=""> -->
+                                    </div>
+
+                                    <div class="pofclients">
+
+                                        <a href="#School-Rides" class="go-to-contener">
+
+                                            <p class="our-address">School-Rides</p>
+
+                                        </a>
+
+                                    </div>
 
                                 </div>
+
+                                <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+
+                                <div class="our-client carousel-item">
+                                    <div class="image-our-client">
+                                        <i class="fa-solid fa-share-from-square image-our-img" 
+                                        style="color: #5c81ff;"></i>
+                                        <!-- <img src="img/delivery.png" alt="client1" class=""> -->
+                                    </div>
+
+                                    <div class="pofclients">
+
+                                        <a href="#Delivery" class="go-to-contener">
+
+                                            <p class="our-address">Send anything. </p>
+
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+
+                                <div class="our-client carousel-item">
+                                    <div class="image-our-client">
+                                        <i class="fa-solid fa-ticket image-our-img" style="color: #5c81ff;"></i>
+                                        <!-- <img src="img/tickets.png" alt="client1" class="image-our-img"> -->
+                                    </div>
+
+                                    <div class="pofclients">
+
+                                        <a href="#Tickets" class="go-to-contener">
+
+                                            <p class="our-address">Museums and attractions.</p>
+
+                                        </a>
+
+
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
 
-                            <div class="our-client fadeour" style="display: none;">
-                                <div class="image-our-client">
-                                    <img src="img/taxi.png" alt="client1" class="image-our-img">
-                                </div>
-
-                                <div class="pofclients">
-                                    <a href="#Taxi" class="go-to-contener">
-                                        <p class="our-address">Dubai’s most affordable taxi.</p>
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <!-- ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ -->
-
-                            <div class="our-client fadeour" style="display: none;">
-                                <div class="image-our-client">
-                                    <img src="img/pike.png" alt="client1" class="image-our-img">
-                                </div>
-
-                                <div class="pofclients">
-
-                                    <a href="#Bike" class="go-to-contener">
-                                        <p class="our-address">My-Slogans Bike.</p>
-                                    </a>
-
-                                </div>
-                            </div>
-
-                            <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
-
-                            <div class="our-client fadeour" style="display: none;">
-                                <div class="image-our-client">
-                                    <img src="img/Car-Rental.webp" alt="client1" class="image-our-img">
-                                </div>
-
-                                <div class="pofclients">
-                                    <a href="#Daily-Monthly" class="go-to-contener">
-                                        <p class="our-address">Car Rental</p>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
-
-                            <div class="our-client fadeour" style="display: none;">
-                                <div class="image-our-client">
-                                    <img src="img/School-Rides.png" alt="client1" class="image-our-img">
-                                </div>
-
-                                <div class="pofclients">
-
-                                    <a href="#School-Rides" class="go-to-contener">
-
-                                        <p class="our-address">School-Rides</p>
-
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-                            <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
-
-                            <div class="our-client fadeour" style="display: none;">
-                                <div class="image-our-client">
-                                    <img src="img/delivery.png" alt="client1" class="image-our-img">
-                                </div>
-
-                                <div class="pofclients">
-
-                                    <a href="#Delivery" class="go-to-contener">
-
-                                        <p class="our-address">Send anything. </p>
-
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-                            <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــ -->
-
-                            <div class="our-client fadeour" style="display: none;">
-                                <div class="image-our-client">
-                                    <img src="img/tickets.png" alt="client1" class="image-our-img">
-                                </div>
-
-                                <div class="pofclients">
-
-                                    <a href="#Tickets" class="go-to-contener">
-
-                                        <p class="our-address">Museums and attractions.</p>
-
-                                    </a>
-
-
-                                </div>
-
-                            </div>
-
-                            <div class="button-move-RightAndLeft">
-                                <a class="Prevourcients" onclick="plUsOurClients(-1)">❮</a>
-                                <a class="Nextourcients" onclick="plUsOurClients(1)">❯</a>
-                            </div>
+                            <button class="carousel-control-prev iconMoventOfImage" type="button"
+                                data-bs-target="#sliderFromFade" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next iconMoventOfImage" type="button"
+                                data-bs-target="#sliderFromFade" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
 
                         </div>
-
-                        <div style="text-align:center">
-                            <span class="clickafterclinte" onclick="currentOurPlients(1)"></span>
-                            <span class="clickafterclinte" onclick="currentOurPlients(2)"></span>
-                            <span class="clickafterclinte" onclick="currentOurPlients(3)"></span>
-                            <span class="clickafterclinte" onclick="currentOurPlients(4)"></span>
-                            <span class="clickafterclinte" onclick="currentOurPlients(5)"></span>
-                            <span class="clickafterclinte" onclick="currentOurPlients(6)"></span>
-                            <span class="clickafterclinte" onclick="currentOurPlients(7)"></span>
-                        </div>
-
 
                 </section>
 
@@ -2106,7 +2112,7 @@
     <!-- button go to top -->
     <button onclick="topFunction()" id="gototop"><i class="fa-solid fa-chevron-up"></i></button>
     <!-- button go to top /-->
-    
+
     <script src="js/java.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
