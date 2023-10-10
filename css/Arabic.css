@@ -21,7 +21,9 @@ div#navbarSupportedContent,
 .carousel-item,
 .space.no-top,
 section.icons-placeholder,
-.col-sm-12 {
+.col-sm-12,
+.sub-head,
+.space{
     direction: ltr !important;
 }
 
@@ -197,6 +199,11 @@ div#carouselExampleControlsNoTouching {
         padding-left: 0;
         padding-right: 30px;
     }
+
+    .roww{
+        margin-right: 7%;
+    }
+    
 }
 
 @media screen and (max-width: 1190px) and (min-width: 991px) {
@@ -322,6 +329,11 @@ div#carouselExampleControlsNoTouching {
     }
 
     /* section Grid five page home and page home after login */
+
+    .conteainers {
+        margin-left: 0%;
+        margin-right: 0.5%;
+    }
 }
 
 @media screen and (max-width:414px) and (min-width:375px) {

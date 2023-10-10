@@ -1774,12 +1774,10 @@ div#gridflex-1 {
   border-color: #fff transparent transparent transparent;
 }
 
-
 .select-selected.select-arrow-active:after {
   border-color: transparent transparent #fff transparent;
   top: 7px;
 }
-
 
 .select-items div,
 .select-selected {
@@ -1792,7 +1790,6 @@ div#gridflex-1 {
   user-select: none;
 }
 
-
 .select-items {
   position: absolute;
   background-color: cyan;
@@ -1801,7 +1798,6 @@ div#gridflex-1 {
   right: 0;
   z-index: 99;
 }
-
 
 .select-hide {
   display: none;
@@ -1991,7 +1987,7 @@ i.fa.fa-share-alt {
   margin-right: 5%;
 }
 
-.conteainer {
+.conteainers {
   width: 90%;
 }
 
@@ -2008,10 +2004,10 @@ i.fa.fa-share-alt {
   display: flex;
 }
 
-.col-lg-3 {
-  width: 30%;
+span.profile-name {
+  font-size: 20px;
+  color: yellow;
 }
-
 
 .profile-dp img {
   border-radius: 50%;
@@ -2019,7 +2015,8 @@ i.fa.fa-share-alt {
 }
 
 .profile-info {
-  line-height: 25px;
+  line-height: 30px;
+  margin: 3% 0;
 }
 
 ul.stars-rating {
@@ -2028,28 +2025,52 @@ ul.stars-rating {
   margin: 0;
 }
 
+ul.stars-rating li {
+  width: 11%;
+}
+
+.profile-info ins {
+  color: yellow;
+  font-size: 18px;
+}
+
 ul.verification {
-  line-height: 25px;
+  line-height: 30px;
+  margin: 2% 0;
+}
+
+ul.verification li {
+  color: yellowgreen;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.setingNew {
+  color: #f1f1ad;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 a.themee-btn {
-  background-color: #7ba8f9;
-  color: white;
-  border-radius: 5px;
+  width: 35%;
+  height: 35px;
   display: flex;
   align-items: center;
-  padding: 4% 3% 4% 3%;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #7ba8f9;
+  color: white;
   transition: 0.5s;
-  width: 35%;
 }
 
 a.themee-btn:hover {
-  background-color: #cd1515;
-  color: white;
+  background-color: yellow;
+  color: blue;
 }
 
-.col-lg-9 {
-  width: 65%;
+.car-information {
+  width: 40%;
+  position: relative;
 }
 
 .note-box {
@@ -2058,43 +2079,64 @@ a.themee-btn:hover {
 
 .note-box p {
   display: inherit;
-  color: black;
+  color: white;
   font-weight: 800;
+  font-family: cursive;
 }
 
 .note-box span {
   display: inherit;
+  color: #23f100;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-select.car-models {
-  float: right;
-  border: 2px solid #e1c3c3;
-  width: 25%;
-  background-color: #f9baba5e;
-  font-size: 15px;
-  color: #241717;
-  outline: none;
-  margin-top: -7%;
-}
-
-.nice-select {
-  width: 60%;
+.thisSelect{
   position: relative;
+  width: 100%;
 }
 
-ul.list {
+.box {
+  position: relative;
+  left: 0%;
+  width: 50%;
+  top: 0px
+}
+
+.box select {
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box::before {
+  content: "";
+  border: 15px solid transparent;
+  border-color: #fff transparent transparent transparent;
   position: absolute;
-  line-height: 30px;
-  left: 13%;
-  color: #000000;
-  background-color: #dfb4b44a;
-  padding: 1% 1% 1% 3%;
+  top: 40%;
+  right: 0%;
+  width: 1%;
+  pointer-events: none;
+}
+
+option {
+  color: wheat;
+  margin: 50% 5%;
 }
 
 .car-list {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 9%;
 }
 
@@ -2106,67 +2148,54 @@ figure.qwer {
   width: 55%;
 }
 
-ins.delete-pro {
-  margin-top: -17%;
-  float: right;
-  font-size: 22px;
-  color: #9d2929;
-  border-radius: 50%;
-  border: 2px solid burlywood;
-  width: 16%;
-  height: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 div#asd {
   display: flex;
   align-items: center;
 }
 
 p.h4 {
-  font-size: 14px;
-  color: #722bbd;
+  color: yellow;
+  width: 85%;
+  font-size: 18px;
 }
 
 span.span-Citroen {
-  margin-top: 1%;
-  border-left: 5px solid #72373700;
+  border-left: 2px solid #f5f5f5d2;
+  padding: 0 0 0 3%;
+  font-size: 17px;
+  color: white;
 }
 
 h6.h6 {
-  color: #9196a0;
+  color: yellow;
   font-size: 16px;
-  margin-top: -2%;
-}
-
-a.a-link {
-  display: inline-block;
+  margin: 2% 0;
 }
 
 span.span-citroen {
-  color: #f75f62;
-  font-size: 15px;
+  color: wheat;
+  font-size: 17px;
   font-weight: 400;
-  margin-top: 5%;
+  margin: 4% 0;
   display: inline-block;
-  margin-bottom: 3%;
 }
 
 a.a-link {
-  display: inline-block;
-  background: #f75f62;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue !important;
+  background: yellowgreen;
   box-shadow: 4px 8px 10px 0 rgb(15 67 185 / 30%);
-  padding: 4% 9% 4% 9%;
-  border-radius: 8%;
-  color: white;
+  border-radius: 0.5rem;
   transition: 0.5s;
 }
 
 a.a-link:hover {
-  background: #664ab1;
-  color: white;
+  background: blueviolet;
+  color: white !important;
 }
 
 /* .d1-none{

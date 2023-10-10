@@ -19,15 +19,17 @@
     <title>Car-Profile</title>
 
     <style>
-        body{  overflow: visible;}
-        .sub-head{
+        body {
+            overflow: visible;
+        }
+
+        .sub-head {
             width: 99%;
             margin-left: 0.2%;
         }
 
         .width-99 {
-            width: 99%;
-            margin-left: 0.2%;
+            width: 100%;
             height: 200px;
         }
 
@@ -62,6 +64,10 @@
             margin: 2% 0;
         }
 
+        .form-select:focus {
+            border-color: #bfc5cd !important;
+        }
+
         @media screen and (max-width:1215px) and (min-width:980px) {
             a.text-white {
                 width: 60%;
@@ -93,7 +99,8 @@
 
 </head>
 
-<body>
+<body style="background-color: #5c81ff;">
+
     <div class="container-fluid" id="container-fluid">
 
         <ul class="navbar-nav me-auto mb-2 flex-new">
@@ -128,15 +135,11 @@
             </div>
 
             <li class="d-flex d-lg d-flex justify-content-end" id="d-flex">
-                <button class="btn  button-post" type="submit"> 
-                    <a href="your-comment.html">+post</a>
-                </button>
+                <button class="btn  button-post" type="submit"> <a href="your-comment.html">+post</a></button>
             </li>
 
             <li class="nav-item dropdown width-Click">
-                <button onclick="myFunction()">
-                    Click here
-                </button>
+                <button onclick="myFunction()">Click here</button>
             </li>
 
         </ul>
@@ -148,7 +151,7 @@
         <div class="container-floid container-fluid">
 
             <a class="navbar-brand link-logo-new" href="index.html">
-                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo" >
+                <img src="img/steering-wheel-icon.svg" alt="" class="vector-img-logo">
                 <img src="img/logo-nobackground.png" class="background-img-logo" alt="Vector">
             </a>
 
@@ -251,7 +254,7 @@
             <div class="whatsapp">
                 <div class="Whatsapp1">
                     <span class="whatsapp2">
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
                     </span>
                     <div id="what-sapp">
                         <p class="whatsapp3">Whatsapp now</p>
@@ -263,7 +266,7 @@
         </div>
     </nav>
 
-    <div class="sub-head blackish">
+    <div class="sub-head blackish" style="border: 7px solid grey;">
         <div class="bg-image position-relative">
             <img src="img/subhead-bg.jpg" class="img-fluid width-99">
 
@@ -295,17 +298,27 @@
 
     <section>
         <div class="space">
-            <div class="conteainer">
+            <div class="conteainers">
                 <div class="roww">
 
                     <div class="profile">
                         <div class="row">
-                            <div class="col-lg-3 col-sm-4">
+
+                            <div class="col-lg-3 col-md-5 col-sm-12" style="border: 7px solid grey; padding: 2%;">
+
                                 <div class="profile-dp">
+
                                     <div class="col-md12">
-                                        <img src="img/rider-2.jpg" alt="">
+
+                                        <i class="fa-solid fa-user-tie"
+                                            style="color: rgba(255, 255, 0, 0.575); font-size: 200px;"></i>
+
+                                        <!-- <img src="img/rider-2.jpg" alt=""> -->
+
                                         <div class="profile-info">
-                                            <span class="profile-name">Selena G.</span>
+
+                                            <span class="profile-name">driver.</span>
+
                                             <ul class="stars-rating">
                                                 <li><i class="fa fa-star checked"></i></li>
                                                 <li><i class="fa fa-star checked"></i></li>
@@ -313,74 +326,105 @@
                                                 <li><i class="fa fa-star checked"></i></li>
                                                 <li><i class="fa fa-star checked"></i></li>
                                             </ul>
+
                                             <ins>5 Reviews</ins>
+
                                         </div>
+
                                     </div>
+
                                     <ul class="verification d1-block">
-                                        <li><i class="flaticon-world"></i>Online on 4 Oct, 2017 at 08:36</li>
-                                        <li><i class="flaticon-tick"></i>Account connected on Facebook</li>
-                                        <li><i class="flaticon-tick"></i>Phone number verified</li>
+                                        <li><i class="fa-solid fa-earth-americas setingNew"></i>
+                                            Online on 4 Oct, 2017 at 08:36</li>
+                                        <li><i class="fa-solid fa-circle-nodes setingNew"></i>
+                                            Account connected on Facebook</li>
+                                        <li><i class="fa-regular fa-file-excel setingNew"></i>
+                                            Phone number verified</li>
                                     </ul>
+
                                     <a href="#" title="" class="themee-btn">send message</a>
+
                                 </div>
 
                                 <ul class="verification d1-none">
-                                    <li><i class="flaticon-world"></i>Online on 4 Oct, 2017 at 08:36</li>
-                                    <li><i class="flaticon-tick"></i>Account connected on Facebook</li>
-                                    <li><i class="flaticon-tick"></i>Phone number verified</li>
+                                    <li><i class="fa-solid fa-earth-americas setingNew"></i>
+                                        Online on 4 Oct, 2017 at 08:36</li>
+                                    <li><i class="fa-solid fa-circle-nodes setingNew"></i>
+                                        Account connected on Facebook</li>
+                                    <li><i class="fa-regular fa-file-excel setingNew"></i>
+                                        Phone number verified</li>
                                 </ul>
+
                             </div>
-                            <div class="col-lg-9 col-sm-8">
+
+                            <div class="col-lg-9 col-md-7 col-sm-12" style="border: 7px solid grey; padding: 2%;">
+
                                 <div class="note-box">
-                                    <span><i class="fa fa-calendar-check-o"></i>Update calendar</span>
+
+                                    <span><i class="fa-solid fa-calendar" style="color: #d5ff05; font-size: 25px;"></i>
+                                        Update calendar</span>
+
                                     <p>
                                         Remember to mark the calendar when the car is NOT available to be rented. That
-                                        way you avoid renting the car to others when you need it.</p>
+                                        way you avoid renting the car to others when you need it.
+                                    </p>
+
                                 </div>
-                                <div class="car-profile top-space50">
-                                    <select class="car-models">
-                                        <option>إضافة</option>
-                                        <option>BMW E8</option>
-                                        <option>Suzuki jeep</option>
-                                        <option>Toyota Hilux</option>
-                                        <option>Honda accord</option>
-                                    </select>
-                                    <div class="nice-select car-models">
-                                        <ul class="list">
-                                            <li data-value="BMW E8" class="option">BMW E8</li>
-                                            <li data-value="Suzuki jeep" class="option">Suzuki jeep</li>
-                                            <li data-value="Toyota Hilux" class="option">Toyota Hilux</li>
-                                            <li data-value="Honda accord" class="option">Honda accord</li>
-                                        </ul>
+
+                                <div class="car-list">
+
+                                    <div class="qwer">
+                                        <img src="img/car-profile.jpg" alt="" id="qwer">
                                     </div>
-                                    <div class="car-list">
-                                        <figure class="qwer">
-                                            <img src="img/car-profile.jpg" alt="" id="qwer">
-                                        </figure>
-                                        <div class="car-info">
-                                            <ins class="delete-pro"><i
-                                                    class="fa-solid fa-trash fa-beat fa-xs"></i></ins>
-                                            <div id="asd">
-                                                <p class="h4">Citroen C4 Picasso 1.6 e-HDi Airdream </p>
-                                                <span class="span-Citroen">2012</span>
-                                            </div>
-                                            <h6 class="h6">Car East.com/0329110</h6>
-                                            <span class="span-citroen"><i class="fa fa-location-arrow"></i>01000 New
-                                                York</span>
-                                            <a href="#" class="a-link">complete the profile of your car</a>
+
+                                    <div class="car-information">
+
+                                        <div id="asd">
+                                            <p class="h4">Citroen C4 Picasso 1.6 e-HDi Airdream </p>
+                                            <span class="span-Citroen">2012</span>
                                         </div>
+
+                                        <h6 class="h6">Car East.com/0329110</h6>
+
+                                        <span class="span-citroen"><i class="fa fa-location-arrow"></i>01000 New
+                                            York
+                                        </span>
+
+                                        <a href="#" class="a-link">complete the profile of your car</a>
+
                                     </div>
                                 </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-12 col-md-9 col-sm-12 thisSelect" style="border: 7px solid grey; padding: 2%;">
+                            <div class="box">
+                                <select>
+                                    <option>models</option>
+                                    <option>BMW E8</option>
+                                    <option>Suzuki jeep</option>
+                                    <option>Toyota Hilux</option>
+                                    <option>Honda accord</option>
+                                </select>
                             </div>
                         </div>
+
                     </div>
 
                 </div>
-            </div>
-        </div>
-    </section><!-- points section -->
 
-    <footer class=" footer-bootstrap-v5 mt-5">
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+    <!-- points section -->
+
+    <footer class=" footer-bootstrap-v5 ">
 
         <div class="row ms-0 me-0">
 
@@ -388,7 +432,7 @@
 
                 <div class="logo-footer mt-3 mb-3">
 
-                    <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+                    <img src="img/steering-wheel-icon.svg" alt="Vector-footer">
 
                 </div>
 
