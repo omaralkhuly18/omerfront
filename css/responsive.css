@@ -449,6 +449,14 @@
     margin-top: 9%;
   }
 
+  .box{
+    width: 100%;
+  }
+
+  .box::before{
+    border: 9px solid transparent;
+  }
+
   img#qwer {
     width: 100%;
   }
