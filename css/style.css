@@ -2202,6 +2202,17 @@ a.a-link:hover {
   display: none;
 } */
 
+section.sumbit-car-for,
+.row,
+.Filter-Meta,
+.filters-meta,
+.filters-metas,
+.filters-metaas,
+.filte-rmeta,
+.filters-metaas{
+  border: solid 7px grey;
+}
+
 div#googleMap {
   width: 44%;
   height: auto;
