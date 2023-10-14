@@ -2091,7 +2091,7 @@ a.themee-btn:hover {
   font-weight: 700;
 }
 
-.thisSelect{
+.thisSelect {
   position: relative;
   width: 100%;
 }
@@ -3088,25 +3088,26 @@ img.img-me {
 }
 
 h1.one-words {
-  color: #F2EAD3;
+  color: white;
   font-size: 25px;
 }
 
 p.tow-words,
 p.three-words {
-  color: #9BCDD2;
+  color: yellow;
   font-size: 17px;
 }
 
 a.link-one-words {
-  transition: 2s;
-  color: #176B87;
+  transition: 1s;
+  font-size: 17px;
+  color: blue !important;
 }
 
 a.link-one-words:hover {
   margin-left: 1%;
-  font-size: 17px;
-  color: #64CCC5;
+  font-size: 21px;
+  color: yellow !important;
 }
 
 button.sign-up-her {
@@ -3125,14 +3126,14 @@ a.link-tow-words {
   justify-content: center;
   align-items: center;
   border-radius: 2.5rem;
-  background-color: #DFD7BF;
-  color: #3F2305;
+  background-color: blue;
+  color: yellow;
   transition: 2s;
 }
 
 a.link-tow-words:hover {
-  background-color: aliceblue;
-  color: #3F2305;
+  background-color: yellow;
+  color: blue;
   transform: translateY(-6px);
 }
 
@@ -3175,7 +3176,7 @@ h1#onewords,
 p#towwords,
 p#threewords {
   font-size: 35px;
-  color: black;
+  color: white;
   margin: 3% 0;
 }
 
@@ -3186,7 +3187,7 @@ p#towwords {
 }
 
 p#threewords {
-  color: #c98d3e;
+  color: black;
 }
 
 #formPrivateData {
@@ -3276,6 +3277,15 @@ div#displayCLIENTS {
   padding: 1% 0 !important;
 }
 
+span#logo-her,
+span#spicals {
+  color: white;
+}
+
+span#spicals{
+  color: yellow;
+}
+
 .image-client-profile {
   display: flex;
   justify-content: center;
@@ -3283,13 +3293,12 @@ div#displayCLIENTS {
 }
 
 .carousel-caption {
-  bottom: 0 !important;
+  top: 90% !important;
   padding: 0 !important;
 }
 
 .img-profile {
   width: 25%;
-  height: 135px;
   font-size: 70px;
   padding: 2% 0;
   border: 2px solid blueviolet;
@@ -3387,17 +3396,17 @@ section#margine-top {
 
 h1#onewords-driver {
   font-size: 50px;
-  color: #090979;
+  color: wheat;
 }
 
 p#towwords-driver {
   font-size: 18px;
-  color: #004382;
+  color: black;
 }
 
 p#threewords-driver {
-  font-size: 17px;
-  color: #08b3ff;
+  font-size: 18px;
+  color: white;
 }
 
 h1#onewords-driver,
@@ -3410,7 +3419,7 @@ button.form-driver {
 button.form-driver {
   border: none;
   background: none;
-  width: 30%;
+  width: 35%;
   height: 40px;
   font-size: 18px;
 }
@@ -3422,14 +3431,15 @@ a.link-tow-words-driver {
   justify-content: center;
   align-items: center;
   border-radius: 2.5rem;
-  background-color: #03012a;
-  color: #1ca9a9;
+  font-size: 19px;
+  background-color: yellow;
+  color: blue;
   transition: 2s;
 }
 
 a.link-tow-words-driver:hover {
-  background-color: #01bef0;
-  color: #082e91;
+  background-color: blue;
+  color: yellow !important;
   transform: translateY(-6px);
 }
 

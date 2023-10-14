@@ -24,7 +24,12 @@ section.icons-placeholder,
 .col-sm-12,
 .sub-head,
 .space,
-.about-us-our{
+.about-us-our,
+section#about-me,
+section.section-LoginUser,
+section.section-logindriver,
+.section-registerdriver,
+.section-registeruser{
     direction: ltr !important;
 }
 
@@ -147,12 +152,22 @@ div#carouselExampleControlsNoTouching {
 /* section Grid five page home and page home after login */
 
 #aboutusour{
-    margin-right: 2.5%;
+    margin-right: 0%;
 }
 
 .section-clintes-servies-taxi{
     margin-right: 2.5%;
 }
+
+/* login */
+.section-driver{
+    margin-right: 2.5;
+}
+
+.section-login{
+    margin-right: 2.5;
+}
+/* login */
 @media screen and (max-width:1866px) and (min-width: 1760px){
     .cars-list,
     .cars-lists{

@@ -18,121 +18,114 @@
     <title>REGISTER-DRIVER</title>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-    
+
         * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
         }
-    
+
         section.section-registerdriver {
-          width: 100%;
-          margin-top: 5%;
+            width: 100%;
+            margin-top: 5%;
         }
-    
+
         .section-driver {
-          width: 90%;
-          display: flex;
-          justify-content: center;
+            width: 95%;
+            margin-left: 2.5%;
+            display: flex;
+            justify-content: center;
         }
-    
+
         .wrapper {
-          position: relative;
-          max-width: 430px;
-          width: 100%;
-          background: #fff;
-          padding: 34px;
-          border-radius: 6px;
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-          background: #4070f4;
+            position: relative;
+            width: 455px;
+            background: #fff;
+            padding: 34px;
+            border-radius: 6px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            background: #4070f4;
         }
-    
-        .wrapper h2 {
-          position: relative;
-          font-size: 22px;
-          font-weight: 600;
-          color: #333;
+
+        .wrapper .title {
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+            line-height: 100px;
+            color: #fff;
+            user-select: none;
+            border-radius: 15px 15px 0 0;
+            background: linear-gradient(-135deg, #c850c0, #4158d0);
         }
-    
-        .wrapper h2::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          height: 3px;
-          width: 28px;
-          border-radius: 12px;
-          background: #4070f4;
-        }
-    
+
         .wrapper form {
-          margin-top: 30px;
+            margin-top: 30px;
         }
-    
+
         .wrapper form .input-box {
-          height: 52px;
-          margin: 18px 0;
+            height: 52px;
+            margin: 18px 0;
         }
-    
+
         form .input-box input {
-          height: 100%;
-          width: 100%;
-          outline: none;
-          padding: 0 15px;
-          font-size: 17px;
-          font-weight: 400;
-          color: #333;
-          border: 1.5px solid #C7BEBE;
-          border-bottom-width: 2.5px;
-          border-radius: 6px;
-          transition: all 0.3s ease;
+            height: 100%;
+            width: 100%;
+            outline: none;
+            padding: 0 15px;
+            font-size: 17px;
+            font-weight: 400;
+            color: #333;
+            border: 1.5px solid #C7BEBE;
+            border-bottom-width: 2.5px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
         }
-    
+
         .input-box input:focus,
         .input-box input:valid {
-          border-color: #4070f4;
+            border-color: #4070f4;
         }
-    
+
         form .policy {
-          display: flex;
-          align-items: center;
+            display: flex;
+            align-items: center;
         }
-    
+
         form h3 {
-          color: white;
-          font-size: 14px;
-          font-weight: 500;
-          margin-left: 10px;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 10px;
         }
-    
+
         .input-box.buttoon input {
-          color: #e4c5c5;
-          letter-spacing: 1px;
-          border: none;
-          background: #496ac4;
-          cursor: pointer;
+            color: #e4c5c5;
+            letter-spacing: 1px;
+            border: none;
+            background: #496ac4;
+            cursor: pointer;
         }
-    
+
         .input-box.buttoon input:hover {
-          background: #bcbcbd;
+            background: #bcbcbd;
         }
-    
+
         form .text h3 {
-          color: #333;
-          width: 100%;
-          text-align: center;
+            color: #333;
+            width: 100%;
+            text-align: center;
         }
-    
+
         form .text h3 a {
-          color: #4070f4;
-          text-decoration: none;
+            color: #4070f4;
+            text-decoration: none;
         }
-    
+
         form .text h3 a:hover {
-          text-decoration: underline;
+            text-decoration: underline;
         }
-      </style>
+    </style>
 </head>
 
 <body style="background-color: #5c81ff;">
@@ -304,35 +297,35 @@
 
     <section class="section-registerdriver">
         <div class="section-driver">
-          <div class="wrapper">
-            <h2>Registration DRIVER</h2>
-            <form action="profile-user.html">
-              <div class="input-box">
-                <input type="text" placeholder="Enter your name" required>
-              </div>
-              <div class="input-box">
-                <input type="text" placeholder="Enter your email" required>
-              </div>
-              <div class="input-box">
-                <input type="password" placeholder="Create password" required>
-              </div>
-              <div class="input-box">
-                <input type="password" placeholder="Confirm password" required>
-              </div>
-              <div class="policy">
-                <input type="checkbox">
-                <h3>I accept all terms & condition</h3>
-              </div>
-              <div class="input-box buttoon">
-                <input type="Submit" value="Register Now">
-              </div>
-              <div class="text">
-                <h3>Already have an account? <a href="">Login now</a></h3>
-              </div>
-            </form>
-          </div>
+            <div class="wrapper">
+                <div class="title">Registration DRIVER</div>
+                <form action="profile-user.html">
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Create password" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Confirm password" required>
+                    </div>
+                    <div class="policy">
+                        <input type="checkbox">
+                        <h3>I accept all terms & condition</h3>
+                    </div>
+                    <div class="input-box buttoon">
+                        <input type="Submit" value="Register Now">
+                    </div>
+                    <div class="text">
+                        <h3>Already have an account? <a href="">Login now</a></h3>
+                    </div>
+                </form>
+            </div>
         </div>
-      </section>
+    </section>
 
     <!-- subhead -->
     <footer class=" footer-bootstrap-v5 mt-5">
@@ -343,7 +336,7 @@
 
                 <div class="logo-footer mt-3 mb-3">
 
-                    <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+                    <img src="img/steering-wheel-icon.svg" alt="Vector-footer">
 
                 </div>
 
