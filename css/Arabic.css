@@ -29,7 +29,10 @@ section#about-me,
 section.section-LoginUser,
 section.section-logindriver,
 .section-registerdriver,
-.section-registeruser{
+.section-registeruser,
+section.deatilone,
+section.create-route,
+section.sumbit-car-for{
     direction: ltr !important;
 }
 
@@ -159,6 +162,14 @@ div#carouselExampleControlsNoTouching {
     margin-right: 2.5%;
 }
 
+.notification{
+    margin-right: 5%;
+}
+
+.row-create{
+    margin-right: 9%;
+}
+
 /* login */
 .section-driver{
     margin-right: 2.5;
@@ -168,6 +179,13 @@ div#carouselExampleControlsNoTouching {
     margin-right: 2.5;
 }
 /* login */
+
+picture.Car-Rental-servies2,
+picture.school-rides-servies2,
+picture.school-rides-servies3{
+    margin-right: 0.2%;
+}
+
 @media screen and (max-width:1866px) and (min-width: 1760px){
     .cars-list,
     .cars-lists{
@@ -358,10 +376,18 @@ div#carouselExampleControlsNoTouching {
         margin-left: 0%;
         margin-right: 0.5%;
     }
+
+    .row-create{
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width:414px) and (min-width:375px) {
     .condition1 {
+        margin-right: 0;
+    }
+    
+    .row-create{
         margin-right: 0;
     }
 }
@@ -374,6 +400,10 @@ div#carouselExampleControlsNoTouching {
     }
 
     /* section Grid one page home and page home after login */
+    
+    .row-create{
+        margin-right: 0;
+    }
 }
 
 

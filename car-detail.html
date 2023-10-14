@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US"dir="rtl">
+<html lang="en-US" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -112,6 +112,7 @@
             right: 0 !important;
             bottom: 0 !important;
             left: 0 !important;
+            position: absolute;
         }
 
         .priveat-deatilone-carousel {
@@ -141,6 +142,230 @@
 
         .priveat-deatilone-next {
             right: 2% !important;
+        }
+
+
+        .wrapper {
+            position: relative;
+            height: 400px;
+            width: 750px;
+            overflow: hidden;
+            background: #fff;
+            border: 7px solid #fff;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+            transform: translate(3%, 0);
+            margin-top: 2%;
+        }
+
+        .images,
+        .images-1,
+        .images-2,
+        .images-3,
+        .images-4 {
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+
+        .amendmentImage {
+            width: 100%;
+            height: 100%;
+        }
+
+        .images .img-1 {
+            height: 100%;
+            width: 100%;
+            background: url("./img/slider-images-1.jpg") no-repeat;
+        }
+
+        .images .img-2 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-2.avif") no-repeat;
+        }
+
+        .images-1 .img-3 {
+            height: 100%;
+            width: 100%;
+            /* background: url("./img/slider-images-33.jpg") no-repeat; */
+        }
+
+        .images-1 .img-4 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-4.jpg") no-repeat;
+        }
+
+        .images-2 .img-5 {
+            height: 100%;
+            width: 100%;
+            background: url("./img/slider-images-5.jpeg") no-repeat;
+        }
+
+        .images-2 .img-6 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-6.jpeg") no-repeat;
+        }
+
+        .images-3 .img-7 {
+            height: 100%;
+            width: 100%;
+            /* background: url("./img/slider-images-7.jpeg") no-repeat; */
+        }
+
+        .images-3 .img-8 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-8.jpeg") no-repeat;
+        }
+
+        .images-4 .img-9 {
+            height: 100%;
+            width: 100%;
+            /* background: url("./img/slider-images-9.jpg") no-repeat; */
+        }
+
+        .images-4 .img-10 {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: url("./img/slider-images-10.jpg") no-repeat;
+        }
+
+        .slider,
+        .slider-1,
+        .slider-2,
+        .slider-3,
+        .slider-4 {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 99;
+        }
+
+        .slider input,
+        .slider-1 input,
+        .slider-2 input,
+        .slider-3 input,
+        .slider-4 input {
+            width: 100%;
+            outline: none;
+            background: none;
+            appearance: none;
+        }
+
+        .slider input::-webkit-slider-thumb,
+        .slider-1 input::-webkit-slider-thumb,
+        .slider-2 input::-webkit-slider-thumb,
+        .slider-3 input::-webkit-slider-thumb,
+        .slider-4 input::-webkit-slider-thumb {
+            height: 486px;
+            width: 3px;
+            background: none;
+            -webkit-appearance: none;
+            cursor: col-resize;
+        }
+
+        .slider .drag-line,
+        .slider-1 .drag-line-1,
+        .slider-2 .drag-line-2,
+        .slider-3 .drag-line-3,
+        .slider-4 .drag-line-4 {
+            width: 3px;
+            height: 486px;
+            position: absolute;
+            left: 49.85%;
+            pointer-events: none;
+        }
+
+        .slider .drag-line::before,
+        .slider .drag-line::after,
+        .slider-1 .drag-line-1::before,
+        .slider-1 .drag-line-1::after,
+        .slider-2 .drag-line-2::before,
+        .slider-2 .drag-line-2::after,
+        .slider-3 .drag-line-3::before,
+        .slider-3 .drag-line-3::after,
+        .slider-4 .drag-line-4::before,
+        .slider-4 .drag-line-4::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 222px;
+            background: #fff;
+        }
+
+        .slider .drag-line::before,
+        .slider-1 .drag-line-1::before,
+        .slider-2 .drag-line-2::before,
+        .slider-4 .drag-line-4::before,
+        .slider-4 .drag-line-4::before {
+            top: 0;
+        }
+
+        .slider .drag-line::after,
+        .slider-1 .drag-line-1::after,
+        .slider-2 .drag-line-2::after,
+        .slider-3 .drag-line-3::after,
+        .slider-4 .drag-line-4::after {
+            bottom: 0;
+        }
+
+        .slider .drag-line span,
+        .slider-1 .drag-line-1 span,
+        .slider-2 .drag-line-2 span,
+        .slider-3 .drag-line-3 span,
+        .slider-4 .drag-line-4 span {
+            height: 42px;
+            width: 42px;
+            border: 3px solid #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .slider .drag-line span::before,
+        .slider .drag-line span::after,
+        .slider-1 .drag-line-1 span::before,
+        .slider-1 .drag-line-1 span::after,
+        .slider-2 .drag-line-2 span::before,
+        .slider-2 .drag-line-2 span::after,
+        .slider-3 .drag-line-3 span::before,
+        .slider-3 .drag-line-3 span::after,
+        .slider-4 .drag-line-4 span::before,
+        .slider-4 .drag-line-4 span::after {
+            position: absolute;
+            content: "";
+            top: 50%;
+            border: 10px solid transparent;
+            border-bottom-width: 0px;
+            border-right-width: 0px;
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        .slider .drag-line span::before,
+        .slider-1 .drag-line-1 span::before,
+        .slider-2 .drag-line-2 span::before,
+        .slider-3 .drag-line-3 span::before,
+        .slider-4 .drag-line-4 span::before {
+            left: 40%;
+            border-left-color: #fff;
+        }
+
+        .slider .drag-line span::after,
+        .slider-1 .drag-line-1 span::after,
+        .slider-2 .drag-line-2 span::after,
+        .slider-3 .drag-line-3 span::after,
+        .slider-4 .drag-line-4 span::after {
+            left: 60%;
+            border-top-color: #fff;
         }
     </style>
 </head>
@@ -346,7 +571,7 @@
 
         <div class="row">
 
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12" style="border: solid 7px grey;">
 
                 <div class="detail-sec">
 
@@ -365,7 +590,8 @@
                                     <li><i class="fa fa-star checked"></i></li>
                                 </ul>
 
-                                <a href="#" title="" class="themee-bbtn"><i class="fa-regular fa-heart"></i>save</a>
+                                <a href="#" title="" class="themee-bbtn">
+                                    <i class="fa-solid fa-file-arrow-up"></i>save</a>
 
                                 <a href="#" title="" class="themee-bbtn"><i class="fa fa-share-alt"></i>share</a>
 
@@ -382,26 +608,28 @@
                         </div>
 
                     </div>
-<!-- -->
-                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
 
-                        <div class="carousel-indicators mb-0 bg-dark bg-opacity-50">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <div id="clickButtonInTop" class="carousel slide-fade" data-bs-touch="false"
+                        data-bs-interval="false">
 
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        <div class="carousel-indicators">
+
+                            <button type="button" data-bs-target="#clickButtonInTop" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+
+                            <button type="button" data-bs-target="#clickButtonInTop" data-bs-slide-to="1"
                                 aria-label="Slide 2"></button>
 
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            <button type="button" data-bs-target="#clickButtonInTop" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
 
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            <button type="button" data-bs-target="#clickButtonInTop" data-bs-slide-to="3"
                                 aria-label="Slide 4"></button>
 
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            <button type="button" data-bs-target="#clickButtonInTop" data-bs-slide-to="4"
                                 aria-label="Slide 5"></button>
 
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                            <button type="button" data-bs-target="#clickButtonInTop" data-bs-slide-to="5"
                                 aria-label="Slide 6"></button>
 
                         </div>
@@ -409,9 +637,10 @@
                         <div class="carousel-inner ">
 
                             <div class="carousel-item active">
-                                <img src="img/detailcaro-1.jpg"class="img-fluid w-100" alt="...">
+                                <img src="img/detailcaro-1.jpg" class="img-fluid w-100" alt="...">
                                 <div class="carousel-caption  position-priveat">
-                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>El-Trip:possibility to long term rental
+                                    </p>
 
                                 </div>
                             </div>
@@ -419,39 +648,44 @@
                             <div class="carousel-item">
                                 <img src="img/detailcaro-2.jpg" class="img-fluid w-100" alt="...">
                                 <div class="carousel-caption   position-priveat">
-                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>El-Trip:possibility to long term rental
+                                    </p>
 
                                 </div>
                             </div>
 
                             <div class="carousel-item">
-                                <img src="img/detailcaro-3.jpg"  class="img-fluid w-100" alt="...">
+                                <img src="img/detailcaro-3.jpg" class="img-fluid w-100" alt="...">
                                 <div class="carousel-caption   position-priveat">
-                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>El-Trip:possibility to long term rental
+                                    </p>
 
                                 </div>
                             </div>
 
                             <div class="carousel-item">
-                                <img src="img/detailcaro-2.jpg"  class="img-fluid w-100" alt="...">
+                                <img src="img/car-15.jpg" class="img-fluid w-100" alt="...">
                                 <div class="carousel-caption   position-priveat">
-                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>El-Trip:possibility to long term rental
+                                    </p>
 
                                 </div>
                             </div>
 
                             <div class="carousel-item">
-                                <img src="img/detailcaro-1.jpg"  class="img-fluid w-100" alt="...">
+                                <img src="img/car-16.jpeg" class="img-fluid w-100" alt="...">
                                 <div class="carousel-caption   position-priveat">
-                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>El-Trip:possibility to long term rental
+                                    </p>
 
                                 </div>
                             </div>
 
                             <div class="carousel-item">
-                                <img src="img/detailcaro-3.jpg"  class="img-fluid w-100" alt="...">
+                                <img src="img/car-17.jpg" class="img-fluid w-100" alt="...">
                                 <div class="carousel-caption   position-priveat">
-                                    <p class="ppp"><i class="fa fa-list-alt"></i>Posibility to long term rental</p>
+                                    <p class="ppp"><i class="fa fa-list-alt"></i>El-Trip:possibility to long term rental
+                                    </p>
 
                                 </div>
                             </div>
@@ -461,13 +695,13 @@
                         <div class="priveat-deatilone-carousel">
 
                             <button class="carousel-control-prev priveat-deatilone-prev" type="button"
-                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                data-bs-target="#clickButtonInTop" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
 
                             <button class="carousel-control-next priveat-deatilone-next" type="button"
-                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                data-bs-target="#clickButtonInTop" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -557,9 +791,10 @@
                     <ul class="reviewer">
 
                         <li>
-                            <figure>
-                                <img src="img/reviewer-1.jpg" alt="" style="border-radius: 100%;">
-                            </figure>
+                            <i class="fa-solid fa-user-check styleiconclass"></i>
+                            <!-- <figure>
+                                <img src="img/reviewer-1.jpg" alt="" >
+                            </figure> -->
                             <div class="activity-meta">
                                 <p class="star-cars"> <a class="stars-cars" href="#" title="">Derrick H.</a> 02 Oct
                                     2017</p>
@@ -575,9 +810,10 @@
                             </div>
                         </li>
                         <li>
-                            <figure>
-                                <img src="img/reviewer-2.jpg" alt="" style="border-radius: 100%;">
-                            </figure>
+                            <i class="fa-solid fa-user-check styleiconclass"></i>
+                            <!-- <figure>
+                                <img src="img/reviewer-2.jpg" alt="" >
+                            </figure> -->
                             <div class="activity-meta">
                                 <p class="star-cars"><a class="stars-cars" href="#" title="">Mia J.</a> 28 Sept 2017
                                 </p>
@@ -595,9 +831,10 @@
                             </div>
                         </li>
                         <li>
-                            <figure>
-                                <img src="img/reviewer-3.jpg" alt="" style="border-radius: 100%;">
-                            </figure>
+                            <i class="fa-solid fa-user-check styleiconclass"></i>
+                            <!-- <figure>
+                                <img src="img/reviewer-3.jpg" alt="" >
+                            </figure> -->
                             <div class="activity-meta">
                                 <p class="star-cars"><a class="stars-cars" href="#" title="">Janet Y.</a> 24 Sept
                                     2017</p>
@@ -621,7 +858,7 @@
 
             </div>
 
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12" style="border: solid 7px grey;">
 
                 <div class="dealtisex">
 
@@ -664,7 +901,7 @@
 
                     <div class="owner-pic">
                         <img class="img-s" src="img/owner.jpg" alt="">
-                        <i class="i-img"><img src="img/icon-1.png" alt=""></i>
+                        <i class="i-img"><i class="fa-solid fa-id-badge styleiconI"></i></i>
                         <span class="span-em">
                             <em>Andrew</em>
                             <i>Owner</i>
@@ -673,21 +910,33 @@
 
                     <ul class="icons-fonte">
                         <li class="icon-fonte">
-                            <i class="far fa-handshake"></i>
+                            <div id="widthDivIcon">
+
+                                <i class="fa-solid fa-handshake styleiconlist"></i>
+
+                            </div>
                             <div class="owner-info">
                                 <span>89%</span>
                                 <p>acceptance rate</p>
                             </div>
                         </li>
                         <li class="icon-fonte">
-                            <i class="fas fa-clock"></i>
+                            <div id="widthDivIcon">
+
+                                <i class="fas fa-clock styleiconlist"></i>
+
+                            </div>
                             <div class="owner-info">
                                 <span>60mins</span>
                                 <p>replies within 1hr</p>
                             </div>
                         </li>
                         <li class="icon-fonte">
-                            <i class="fas fa-calendar"></i>
+                            <div id="widthDivIcon">
+
+                                <i class="fas fa-calendar styleiconlist"></i>
+
+                            </div>
                             <div class="owner-info">
                                 <span>1 day ago</span>
                                 <p>updated the calendar</p>
@@ -699,9 +948,9 @@
 
                 <div class="owner-detail">
                     <ul class="verificatio">
-                        <li><i class="fas fa-globe-europe"></i>Online on 4 Oct 2017 at 08:36</li>
-                        <li><i class="far fa-check-circle"></i>Account connected on Facebook</li>
-                        <li><i class="far fa-check-circle"></i>Phone number verified</li>
+                        <li><i class="fas fa-globe-europe stylelisticon"></i>Online on 4 Oct 2017 at 08:36</li>
+                        <li><i class="far fa-check-circle stylelisticon"></i>Account connected on Facebook</li>
+                        <li><i class="far fa-check-circle stylelisticon"></i>Phone number verified</li>
                     </ul>
 
                     <p>
@@ -716,8 +965,8 @@
                 <div class="owner-sec1">
 
                     <div class="owner-pic">
-                        <img class="img-s" src="img/owner.jpg" alt="">
-                        <i class="i-img"><img src="img/icon-1.png" alt=""></i>
+                        <img class="img-s" src="img/owner1.jpg" alt="">
+                        <i class="i-img"><i class="fa-solid fa-id-badge styleiconI"></i></i>
                         <span class="span-em">
                             <em>Andrew</em>
                             <i>Owner</i>
@@ -726,21 +975,27 @@
 
                     <ul class="icons-fonte">
                         <li class="icon-fonte">
-                            <i class="far fa-handshake"></i>
+                            <div id="widthDivIcons">
+                                <i class="fa-solid fa-handshake styleiconlist"></i>
+                            </div>
                             <div class="owner-info">
-                                <span>89%</span>
+                                <span>90%</span>
                                 <p>acceptance rate</p>
                             </div>
                         </li>
                         <li class="icon-fonte">
-                            <i class="fas fa-clock"></i>
+                            <div id="widthDivIcons">
+                                <i class="fas fa-clock styleiconlist"></i>
+                            </div>
                             <div class="owner-info">
-                                <span>60mins</span>
+                                <span>50mins</span>
                                 <p>replies within 1hr</p>
                             </div>
                         </li>
                         <li class="icon-fonte">
-                            <i class="fas fa-calendar"></i>
+                            <div id="widthDivIcons">
+                                <i class="fas fa-calendar styleiconlist"></i>
+                            </div>
                             <div class="owner-info">
                                 <span>1 day ago</span>
                                 <p>updated the calendar</p>
@@ -753,15 +1008,108 @@
                 <div class="owner-detail">
 
                     <ul class="verificatio">
-                        <li><i class="fas fa-globe-europe"></i>Online on 4 Oct 2017 at 08:36</li>
-                        <li><i class="far fa-check-circle"></i>Account connected on Facebook</li>
-                        <li><i class="far fa-check-circle"></i>Phone number verified</li>
+                        <li><i class="fas fa-globe-europe stylelisticon"></i>Online on 4 Oct 2017 at 08:36</li>
+                        <li><i class="far fa-check-circle stylelisticon"></i>Account connected on Facebook</li>
+                        <li><i class="far fa-check-circle stylelisticon"></i>Phone number verified</li>
                     </ul>
                     <p>
                         You will be able to see the phone number of the owner of the car, in the moment he accepts
                         your request.
                     </p>
                     <a href="#" title="" class="theme-btn-long">send message</a>
+
+                </div>
+
+                <div id="carouselExampleInterval" style="position: relative;" class="carousel slide-fade"
+                    data-bs-touch="false" data-bs-interval="false">
+
+                    <div class="carousel-inner">
+
+                        <div class="wrapper carousel-item active data-bs-toggle=" tooltip">
+                            <div class="images">
+                                <div class="img-1"></div>
+                                <div class="img-2"></div>
+                            </div>
+                            <div class="slider">
+                                <div class="drag-line">
+                                    <span></span>
+                                </div>
+                                <input type="range" min="0" max="100" value="50">
+                            </div>
+                        </div>
+
+                        <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                            <div class="images-1">
+                                <div class="img-3"><img src="img/slider-images-33.jpg" alt="" class="amendmentImage"
+                                        width="600">
+                                </div>
+                                <div class="img-4"></div>
+                            </div>
+                            <div class="slider-1">
+                                <div class="drag-line-1">
+                                    <span></span>
+                                </div>
+                                <input type="range" min="0" max="100" value="50">
+                            </div>
+                        </div>
+
+                        <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                            <div class="images-2">
+                                <div class="img-5"></div>
+                                <div class="img-6"></div>
+                            </div>
+                            <div class="slider-2">
+                                <div class="drag-line-2">
+                                    <span></span>
+                                </div>
+                                <input type="range" min="0" max="100" value="50">
+                            </div>
+                        </div>
+
+                        <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                            <div class="images-3">
+                                <div class="img-7">
+                                    <img src="img/slider-images-7.jpeg" class="amendmentImage" width="600" alt="">
+                                </div>
+                                <div class="img-8"></div>
+                            </div>
+                            <div class="slider-3">
+                                <div class="drag-line-3">
+                                    <span></span>
+                                </div>
+                                <input type="range" min="0" max="100" value="50">
+                            </div>
+                        </div>
+
+                        <div class="wrapper carousel-item text-start" data-bs-toggle="tooltip">
+                            <div class="images-4">
+                                <div class="img-9">
+                                    <img src="img/slider-images-9.jpg" class="amendmentImage" width="600" alt="">
+                                </div>
+                                <div class="img-10"></div>
+                            </div>
+                            <div class="slider-4">
+                                <div class="drag-line-4">
+                                    <span></span>
+                                </div>
+                                <input type="range" min="0" max="100" value="50">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev amendment" type="button"
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next amendment" type="button"
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
 
                 </div>
 
@@ -774,7 +1122,7 @@
         </div>
     </section>
 
-    <footer class=" footer-bootstrap-v5 mt-5">
+    <footer class=" footer-bootstrap-v5">
 
         <div class="row ms-0 me-0">
 
@@ -782,7 +1130,7 @@
 
                 <div class="logo-footer mt-3 mb-3">
 
-                    <img src="img/‏‏Vector-footer.png" alt="Vector-footer">
+                    <img src="img/steering-wheel-icon.svg" alt="Vector-footer">
 
                 </div>
 

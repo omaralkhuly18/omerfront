@@ -474,11 +474,6 @@
     align-items: center;
   }
 
-  section.create-route {
-    width: 100%;
-    margin-top: 5%;
-  }
-
   .notification {
     width: 90%;
     margin-left: 5%;
@@ -495,8 +490,12 @@
 
   h4.h44 {
     font-size: 25px;
-    color: #8d6767;
     font-weight: 500;
+  }
+
+  .row-create{
+    width: 100%;
+    margin-left: 0;
   }
 
   form.cola-form,
@@ -517,13 +516,9 @@
   input.input-her1,
   input.input-her2,
   input#qwert {
-    outline: none;
-    border: 1px solid pink;
     width: 96%;
     height: 50px;
     font-size: 13px;
-    color: blue;
-    padding-left: 2%;
   }
 
   .dates-n-times {
@@ -547,20 +542,12 @@
   .selctions3,
   .selctions4 {
     height: 50px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffc0cb52;
-    padding-left: 3%;
-    color: #334faf;
     font-size: 16px;
   }
 
   .textarea {
     height: 70px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffebee;
-    color: blue;
+    font-size: 12px;
   }
 
   .notebox {
@@ -574,24 +561,11 @@
   }
 
   .long {
-    display: flex;
     width: 60%;
     height: 30px;
-    justify-content: center;
-    align-items: center;
-    background: #7ba8f9;
-    border: none;
-    color: white;
     font-size: 17px;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
   }
 
-  .long:hover {
-    background: #d32323;
-    color: white;
-  }
 
   .info-links a {
     color: white;
@@ -622,11 +596,32 @@
     font-size: 15px;
   }
 
+  ul.verificatio li{
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  li.icon-fonte{
+    display: block;
+  }
+
+  #widthDivIcon, #widthDivIcons,
+  .owner-info{
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    display: block;
+  }
+
+  .styleiconlist{
+    font-size: 50px;
+  }
+
   p.viewrz,
   p.ppp,
   .pppm,
   .activity-meta p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .sliderr-button {
@@ -634,7 +629,28 @@
     width: 45%;
   }
 
-  p.ppp,
+  input#party{
+    width: 100%;
+    font-size: 17px;
+  }
+  
+  .position-priveat{
+    top: 75% !important;
+  }
+
+  p.ppp {
+    width: 100%;
+    display: none;
+  }
+
+  svg.svg-inline--fa.fa-rectangle-list{
+    font-size: 19px;
+  }
+
+  a.theme{
+    font-size: 17px;
+  }
+
   .head-meta h4 {
     top: 74%;
     width: 86%;
@@ -670,8 +686,14 @@
     width: 50% !important;
   }
 
+  .owner-detail>a{
+    width: 75%;
+  }
+
   span.validity {
-    width: 12%;
+    width: 15%;
+    font-size: 18px;
+    justify-content: left;
   }
 
   .DATANTIME li,
@@ -1845,9 +1867,17 @@
     justify-content: flex-end;
   }
 
+  .position-priveat{
+    top: 83% !important;
+  }
+
   p.ppp {
-    width: 80%;
-    top: 80%;
+    width: 98%;
+    font-size: 15px;
+  }
+
+  .owner-detail>a{
+    width: 40%;
   }
 
   .list-this-page i {
@@ -1874,6 +1904,11 @@
     min-width: 90%;
   }
 
+  .row-create{
+    width: 100%;
+    margin-left: 0;
+  }
+
   form.cola-form,
   form.coola-form,
   .inline-calendar,
@@ -1892,13 +1927,9 @@
   input.input-her1,
   input.input-her2,
   input#qwert {
-    outline: none;
-    border: 1px solid pink;
     width: 96%;
     height: 50px;
     font-size: 13px;
-    color: blue;
-    padding-left: 2%;
   }
 
   .dates-n-times {
@@ -1922,20 +1953,12 @@
   .selctions3,
   .selctions4 {
     height: 50px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffc0cb52;
-    padding-left: 3%;
-    color: #334faf;
     font-size: 16px;
   }
 
   .textarea {
     height: 70px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffebee;
-    color: blue;
+    font-size: 15px;
   }
 
   .notebox {
@@ -1949,24 +1972,11 @@
   }
 
   .long {
-    display: flex;
     width: 60%;
     height: 30px;
-    justify-content: center;
-    align-items: center;
-    background: #7ba8f9;
-    border: none;
-    color: white;
     font-size: 17px;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
   }
 
-  .long:hover {
-    background: #d32323;
-    color: white;
-  }
 
   .divpage,
   .allpage {
@@ -3177,6 +3187,11 @@
     right: 3% !important;
   }
 
+  .row-create{
+    width: 100%;
+    margin-left: 0;
+  }
+
   form.cola-form,
   form.coola-form,
   .inline-calendar,
@@ -3195,13 +3210,9 @@
   input.input-her1,
   input.input-her2,
   input#qwert {
-    outline: none;
-    border: 1px solid pink;
     width: 96%;
     height: 50px;
     font-size: 13px;
-    color: blue;
-    padding-left: 2%;
   }
 
   .dates-n-times {
@@ -3225,20 +3236,11 @@
   .selctions3,
   .selctions4 {
     height: 50px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffc0cb52;
-    padding-left: 3%;
-    color: #334faf;
     font-size: 16px;
   }
 
   .textarea {
     height: 70px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffebee;
-    color: blue;
   }
 
   .notebox {
@@ -3252,24 +3254,11 @@
   }
 
   .long {
-    display: flex;
     width: 50%;
     height: 30px;
-    justify-content: center;
-    align-items: center;
-    background: #7ba8f9;
-    border: none;
-    color: white;
     font-size: 17px;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
   }
 
-  .long:hover {
-    background: #d32323;
-    color: white;
-  }
 
   .deatalithree,
   .deailn {
@@ -3299,9 +3288,13 @@
     justify-content: flex-end;
   }
 
+  .position-priveat{
+    top: 88% !important;
+  }
+
   p.ppp {
-    width: 80%;
-    top: 80%;
+    width: 98%;
+    font-size: 16px;
   }
 
   .list-this-page i {
@@ -4478,13 +4471,9 @@
   input.input-her1,
   input.input-her2,
   input#qwert {
-    outline: none;
-    border: 1px solid pink;
     width: 96%;
     height: 50px;
     font-size: 13px;
-    color: blue;
-    padding-left: 2%;
   }
 
   .dates-n-times {
@@ -4508,20 +4497,11 @@
   .selctions3,
   .selctions4 {
     height: 50px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffc0cb52;
-    padding-left: 3%;
-    color: #334faf;
     font-size: 16px;
   }
 
   .textarea {
     height: 70px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffebee;
-    color: blue;
   }
 
   .notebox {
@@ -4535,23 +4515,9 @@
   }
 
   .long {
-    display: flex;
     width: 40%;
     height: 30px;
-    justify-content: center;
-    align-items: center;
-    background: #7ba8f9;
-    border: none;
-    color: white;
     font-size: 17px;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-
-  .long:hover {
-    background: #d32323;
-    color: white;
   }
 
   .width-new {
@@ -4779,8 +4745,7 @@
   }
 
   p.ppp {
-    width: 45%;
-    top: 80%;
+    width: 69%;
   }
 
   .list-this-page i {
@@ -5738,13 +5703,9 @@
   input.input-her1,
   input.input-her2,
   input#qwert {
-    outline: none;
-    border: 1px solid pink;
     width: 96%;
     height: 50px;
     font-size: 13px;
-    color: blue;
-    padding-left: 2%;
   }
 
   .dates-n-times {
@@ -5763,20 +5724,11 @@
   .selctions3,
   .selctions4 {
     height: 50px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffc0cb52;
-    padding-left: 3%;
-    color: #334faf;
     font-size: 16px;
   }
 
   .textarea {
     height: 70px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffebee;
-    color: blue;
   }
 
   .notebox {
@@ -5790,23 +5742,9 @@
   }
 
   .long {
-    display: flex;
     width: 30%;
     height: 30px;
-    justify-content: center;
-    align-items: center;
-    background: #7ba8f9;
-    border: none;
-    color: white;
     font-size: 17px;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-
-  .long:hover {
-    background: #d32323;
-    color: white;
   }
 
   .register {
@@ -6935,13 +6873,9 @@
   input.input-her1,
   input.input-her2,
   input#qwert {
-    outline: none;
-    border: 1px solid pink;
     width: 96%;
     height: 50px;
     font-size: 13px;
-    color: blue;
-    padding-left: 2%;
   }
 
   .dates-n-times {
@@ -6960,20 +6894,11 @@
   .selctions3,
   .selctions4 {
     height: 50px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffc0cb52;
-    padding-left: 3%;
-    color: #334faf;
     font-size: 16px;
   }
 
   .textarea {
     height: 70px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffebee;
-    color: blue;
   }
 
   .notebox {
@@ -6987,23 +6912,9 @@
   }
 
   .long {
-    display: flex;
     width: 20%;
     height: 30px;
-    justify-content: center;
-    align-items: center;
-    background: #7ba8f9;
-    border: none;
-    color: white;
     font-size: 17px;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-
-  .long:hover {
-    background: #d32323;
-    color: white;
   }
 
   .rides .priveat-new {
@@ -8194,13 +8105,9 @@
   input.input-her1,
   input.input-her2,
   input#qwert {
-    outline: none;
-    border: 1px solid pink;
     width: 96%;
     height: 50px;
     font-size: 13px;
-    color: blue;
-    padding-left: 2%;
   }
 
   .dates-n-times {
@@ -8219,20 +8126,11 @@
   .selctions3,
   .selctions4 {
     height: 50px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffc0cb52;
-    padding-left: 3%;
-    color: #334faf;
     font-size: 16px;
   }
 
   .textarea {
     height: 70px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffebee;
-    color: blue;
   }
 
   .notebox {
@@ -8246,23 +8144,9 @@
   }
 
   .long {
-    display: flex;
     width: 20%;
     height: 30px;
-    justify-content: center;
-    align-items: center;
-    background: #7ba8f9;
-    border: none;
-    color: white;
     font-size: 17px;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-
-  .long:hover {
-    background: #d32323;
-    color: white;
   }
 
   .rides .priveat-new {
@@ -9165,13 +9049,9 @@
   input.input-her1,
   input.input-her2,
   input#qwert {
-    outline: none;
-    border: 1px solid pink;
     width: 96%;
     height: 50px;
-    font-size: 13px;
-    color: blue;
-    padding-left: 2%;
+    font-size: 20px;
   }
 
   .dates-n-times {
@@ -9190,20 +9070,11 @@
   .selctions3,
   .selctions4 {
     height: 50px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffc0cb52;
-    padding-left: 3%;
-    color: #334faf;
     font-size: 16px;
   }
 
   .textarea {
     height: 70px;
-    outline: none;
-    border: 2px solid pink;
-    background-color: #ffebee;
-    color: blue;
   }
 
   .notebox {
@@ -9217,23 +9088,9 @@
   }
 
   .long {
-    display: flex;
     width: 20%;
     height: 30px;
-    justify-content: center;
-    align-items: center;
-    background: #7ba8f9;
-    border: none;
-    color: white;
     font-size: 17px;
-    border-radius: 5%;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-
-  .long:hover {
-    background: #d32323;
-    color: white;
   }
 
   .carlatest {
